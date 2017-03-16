@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdb:MD_Metadata
+    xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0"
+    xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
+    xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+    xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+    xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+    xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0"
+    xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0"
+    xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+    xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mds/1.0 http://standards.iso.org/iso/19115/-3/mds/1.0/mds.xsd">
+  <mdb:metadataIdentifier>
+    <mcc:MD_Identifier>
+      <mcc:authority>
+        <cit:CI_Citation>
+          <cit:title><gco:CharacterString>NCAR Research Data Archive</gco:CharacterString></cit:title>
+        </cit:CI_Citation>
+      </mcc:authority>
+      <mcc:code><gco:CharacterString>edu.ucar.rda::090.2</gco:CharacterString></mcc:code>
+      <mcc:codeSpace><gco:CharacterString>edu.ucar.rda</gco:CharacterString></mcc:codeSpace>
+    </mcc:MD_Identifier>
+  </mdb:metadataIdentifier>
+  <mdb:contact>
+    <cit:CI_Responsibility>
+      <cit:role>
+        <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+      </cit:role>
+      <cit:party>
+        <cit:CI_Organisation>
+          <cit:name><gco:CharacterString>Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory</gco:CharacterString></cit:name>
+          <cit:contactInfo>
+            <cit:CI_Contact>
+              <cit:phone>
+                <cit:CI_Telephone>
+                  <cit:number><gco:CharacterString>303-497-1291</gco:CharacterString></cit:number>
+                  <cit:numberType><cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.html#CI_TelephoneTypeCode" codeListValue="fax">fax</cit:CI_TelephoneTypeCode></cit:numberType>
+                </cit:CI_Telephone>
+              </cit:phone>
+              <cit:address>
+                <cit:CI_Address>
+                  <cit:deliveryPoint><gco:CharacterString>National Center for Atmospheric Research</gco:CharacterString></cit:deliveryPoint>
+                  <cit:deliveryPoint><gco:CharacterString>CISL/DSS</gco:CharacterString></cit:deliveryPoint>
+                  <cit:deliveryPoint><gco:CharacterString>P.O. Box 3000</gco:CharacterString></cit:deliveryPoint>
+                  <cit:city><gco:CharacterString>Boulder</gco:CharacterString></cit:city>
+                  <cit:administrativeArea><gco:CharacterString>CO</gco:CharacterString></cit:administrativeArea>
+                  <cit:postalCode><gco:CharacterString>80307-3000</gco:CharacterString></cit:postalCode>
+                  <cit:country><gco:CharacterString>U.S.A.</gco:CharacterString></cit:country>
+                  <cit:electronicMailAddress><gco:CharacterString>rdahelp@ucar.edu</gco:CharacterString></cit:electronicMailAddress>
+                </cit:CI_Address>
+              </cit:address>
+              <cit:onlineResource>
+                <cit:CI_OnlineResource>
+                  <cit:linkage><gco:CharacterString>http://rda.ucar.edu/</gco:CharacterString></cit:linkage>
+                  <cit:protocol><gco:CharacterString>http</gco:CharacterString></cit:protocol>
+                  <cit:applicationProfile><gco:CharacterString>browser</gco:CharacterString></cit:applicationProfile>
+                  <cit:name><gco:CharacterString>NCAR Research Data Archive Home Page</gco:CharacterString></cit:name>
+                  <cit:function><cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_OnLineFunctionCode" codeListValue="browsing">browsing</cit:CI_OnLineFunctionCode></cit:function>
+                </cit:CI_OnlineResource>
+              </cit:onlineResource>
+            </cit:CI_Contact>
+          </cit:contactInfo>
+        </cit:CI_Organisation>
+      </cit:party>
+    </cit:CI_Responsibility>
+  </mdb:contact>
+  <mdb:dateInfo>
+    <cit:CI_Date>
+      <cit:date><gco:DateTime>2017-01-11T00:00:00-07:00</gco:DateTime></cit:date>
+      <cit:dateType><cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.html#CI_DateTypeCode" codeListValue="lastUpdated">lastUpdated</cit:CI_DateTypeCode></cit:dateType>
+    </cit:CI_Date>
+  </mdb:dateInfo>
+  <mdb:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title><gco:CharacterString>ISO 19115-1</gco:CharacterString></cit:title>
+      <cit:edition><gco:CharacterString>2014</gco:CharacterString></cit:edition>
+    </cit:CI_Citation>
+  </mdb:metadataStandard>
+  <mdb:alternativeMetadataReference>
+    <cit:CI_Citation>
+      <cit:title><gco:CharacterString>NCAR RDA OAI-PMH Server</gco:CharacterString></cit:title>
+      <cit:onlineResource>
+        <cit:CI_OnlineResource>
+          <cit:linkage><gco:CharacterString>http://rda.ucar.edu/cgi-bin/oai?verb=Identify</gco:CharacterString></cit:linkage>
+          <cit:protocol><gco:CharacterString>http</gco:CharacterString></cit:protocol>
+          <cit:applicationProfile><gco:CharacterString>OAI-PMH Harvester</gco:CharacterString></cit:applicationProfile>
+          <cit:name><gco:CharacterString>NCAR Research Data Archive OAI-PMH Metadata Server</gco:CharacterString></cit:name>
+          <cit:function><cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_OnLineFunctionCode" codeListValue="completeMetadata">completeMetadata</cit:CI_OnLineFunctionCode></cit:function>
+        </cit:CI_OnlineResource>
+      </cit:onlineResource>
+    </cit:CI_Citation>
+  </mdb:alternativeMetadataReference>
+  <mdb:metadataLinkage>
+    <cit:CI_OnlineResource>
+      <cit:linkage><gco:CharacterString>http://rda.ucar.edu/cgi-bin/oai?verb=GetRecord&amp;identifier=oai:edu.ucar.rda:ds090.2&amp;metadataPrefix=iso19115-3</gco:CharacterString></cit:linkage>
+      <cit:protocol><gco:CharacterString>http</gco:CharacterString></cit:protocol>
+      <cit:applicationProfile><gco:CharacterString>OAI-PMH Harvester</gco:CharacterString></cit:applicationProfile>
+      <cit:name><gco:CharacterString>ISO 19115-3 Metadata Record for ds090.2</gco:CharacterString></cit:name>
+      <cit:function><cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_OnLineFunctionCode" codeListValue="completeMetadata">completeMetadata</cit:CI_OnLineFunctionCode></cit:function>
+    </cit:CI_OnlineResource>
+  </mdb:metadataLinkage>
+  <mdb:identificationInfo>
+    <mri:MD_DataIdentification>
+      <mri:citation>
+        <cit:CI_Citation>
+          <cit:title><gco:CharacterString>NCEP/NCAR Reanalysis Monthly Mean Subsets (from DS090.0), 1948-continuing</gco:CharacterString></cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date><gco:DateTime>1996-02-07T00:00:00-07:00</gco:DateTime></cit:date>
+              <cit:dateType><cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.html#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode></cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString>National Centers for Environmental Prediction, National Weather Service, NOAA, U.S. Department of Commerce</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+        </cit:CI_Citation>
+      </mri:citation>
+      <mri:abstract>
+        <gco:CharacterString><![CDATA[<p>The monthly means of NCEP/NCAR Reanalysis (R1) products,
+    archived in <a href="http://rda.ucar.edu/datasets/ds090.0/">ds090.0</a> dataset,
+    are extracted and reorganized into subgroups in this dataset. The groupings try to combine like and/or commonly used parameter-level data together. There are also subgroups for each of the four diurnal monthly means (means of 00Z, 06Z, 12Z, and 18Z separately).
+    </p>
+    <p>The data files are in WMO GRIB format. Both the monthly means
+    and their variances are in the same file but in different GRIB
+    records. Examples of separating monthly means from variances
+    are shown in <a href="http://rda.ucar.edu/datasets/ds090.2/docs/how2use_grads.txt">this guide</a>.
+    </p>
+    <p>All subgroups will be available on line under <a href="http://rda.ucar.edu/datasets/ds090.2/#access">data</a>.
+    The ones that are not on line yet will be moved over upon
+    request.
+    </p>]]></gco:CharacterString>
+      </mri:abstract>
+      <mri:status>
+        <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</mcc:MD_ProgressCode>
+      </mri:status>
+      <mri:pointOfContact>
+        <cit:CI_Responsibility>
+          <cit:role>
+            <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+          </cit:role>
+          <cit:party>
+            <cit:CI_Individual>
+              <cit:name><gco:CharacterString>Chi-Fan Shih</gco:CharacterString></cit:name>
+              <cit:contactInfo>
+                <cit:CI_Contact>
+                  <cit:phone>
+                    <cit:CI_Telephone>
+                      <cit:number><gco:CharacterString>(303)-497-1833</gco:CharacterString></cit:number>
+                      <cit:numberType><cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.html#CI_TelephoneTypeCode" codeListValue="voice">voice</cit:CI_TelephoneTypeCode></cit:numberType>
+                    </cit:CI_Telephone>
+                  </cit:phone>
+                  <cit:address>
+                    <cit:CI_Address>
+                      <cit:deliveryPoint><gco:CharacterString>UCAR Shipping and Receiving</gco:CharacterString></cit:deliveryPoint>
+                      <cit:deliveryPoint><gco:CharacterString>Chi-Fan Shih / ML-288A</gco:CharacterString></cit:deliveryPoint>
+                      <cit:deliveryPoint><gco:CharacterString>3090 Center Green Drive</gco:CharacterString></cit:deliveryPoint>
+                      <cit:city><gco:CharacterString>Boulder</gco:CharacterString></cit:city>
+                      <cit:administrativeArea><gco:CharacterString>CO</gco:CharacterString></cit:administrativeArea>
+                      <cit:postalCode><gco:CharacterString>80301</gco:CharacterString></cit:postalCode>
+                      <cit:country><gco:CharacterString>U.S.A.</gco:CharacterString></cit:country>
+                      <cit:electronicMailAddress><gco:CharacterString>chifan@ucar.edu</gco:CharacterString></cit:electronicMailAddress>
+                    </cit:CI_Address>
+                  </cit:address>
+                </cit:CI_Contact>
+              </cit:contactInfo>
+            </cit:CI_Individual>
+          </cit:party>
+        </cit:CI_Responsibility>
+      </mri:pointOfContact>
+      <mri:spatialRepresentationType>
+        <mcc:MD_SpatialRepresentationTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="grid">grid</mcc:MD_SpatialRepresentationTypeCode>
+      </mri:spatialRepresentationType>
+      <mri:spatialResolution>
+        <mri:MD_Resolution>
+          <mri:distance><gco:Distance uom="degree">1.875</gco:Distance></mri:distance>
+        </mri:MD_Resolution>
+      </mri:spatialResolution>
+      <mri:spatialResolution>
+        <mri:MD_Resolution>
+          <mri:distance><gco:Distance uom="degree">1.875</gco:Distance></mri:distance>
+        </mri:MD_Resolution>
+      </mri:spatialResolution>
+      <mri:spatialResolution>
+        <mri:MD_Resolution>
+          <mri:distance><gco:Distance uom="degree">2.5</gco:Distance></mri:distance>
+        </mri:MD_Resolution>
+      </mri:spatialResolution>
+      <mri:spatialResolution>
+        <mri:MD_Resolution>
+          <mri:distance><gco:Distance uom="degree">2.5</gco:Distance></mri:distance>
+        </mri:MD_Resolution>
+      </mri:spatialResolution>
+      <mri:extent>
+        <gex:EX_Extent>
+          <gex:geographicElement>
+            <gex:EX_GeographicBoundingBox>
+              <gex:westBoundLongitude><gco:Decimal>-180</gco:Decimal></gex:westBoundLongitude>
+              <gex:eastBoundLongitude><gco:Decimal>180</gco:Decimal></gex:eastBoundLongitude>
+              <gex:southBoundLatitude><gco:Decimal>-90</gco:Decimal></gex:southBoundLatitude>
+              <gex:northBoundLatitude><gco:Decimal>90</gco:Decimal></gex:northBoundLatitude>
+            </gex:EX_GeographicBoundingBox>
+          </gex:geographicElement>
+          <gex:temporalElement>
+            <gex:EX_TemporalExtent>
+              <gex:extent>
+                <gml:TimePeriod gml:id="ds090.2_time_period">
+                  <gml:beginPosition>1948-01-01T00:00:00Z</gml:beginPosition>
+                  <gml:endPosition>2017-01-01T21:00:00Z</gml:endPosition>
+                </gml:TimePeriod>
+              </gex:extent>
+            </gex:EX_TemporalExtent>
+          </gex:temporalElement>
+        </gex:EX_Extent>
+      </mri:extent>
+      <mri:additionalDocumentation>
+        <cit:CI_Citation>
+          <cit:title><gco:CharacterString>The NCEP / NCAR 40-year reanalysis project</gco:CharacterString></cit:title>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date><gco:DateTime>1996-01-01T00:00:00+00:00</gco:DateTime></cit:date>
+              <cit:dateType><cit:CI_DateTypeCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.html" codeListValue="publication">publication</cit:CI_DateTypeCode></cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString>Kalnay,  E.</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> M. Kanamitsu</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> R. Kistler</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> W. Collins</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> D. Deaven</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> L. Gandin</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> M. Iredell</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> S. Saha</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> G. White</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> J. Woollen</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> Y. Zhu</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> M. Chelliah</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> W. Ebisuzaki</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> W. Higgins</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> J. Janowiak</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> K.C. Mo</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> C. Ropelewski</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> J. Wang</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> A. Leetmaa</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> R. Reynolds</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> R. Jenne</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:citedResponsibleParty>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="coAuthor">coAuthor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString> and D. Joseph</gco:CharacterString></cit:name>
+                </cit:CI_Individual>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </cit:citedResponsibleParty>
+          <cit:series>
+            <cit:CI_Series>
+              <cit:name><gco:CharacterString>Bull. Amer. Meteor. Soc.</gco:CharacterString></cit:name>
+              <cit:issueIdentification><gco:CharacterString>77</gco:CharacterString></cit:issueIdentification>
+              <cit:page><gco:CharacterString>437-471</gco:CharacterString></cit:page>
+            </cit:CI_Series>
+          </cit:series>
+        </cit:CI_Citation>
+      </mri:additionalDocumentation>
+      <mri:resourceMaintenance>
+        <mmi:MD_MaintenanceInformation>
+          <mmi:maintenanceAndUpdateFrequency>
+            <mmi:MD_MaintenanceFrequencyCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_MaintenanceFrequencyCode" codeListValue="monthly">monthly</mmi:MD_MaintenanceFrequencyCode>
+          </mmi:maintenanceAndUpdateFrequency>
+        </mmi:MD_MaintenanceInformation>
+      </mri:resourceMaintenance>
+      <mri:resourceFormat>
+        <mrd:MD_Format>
+          <mrd:formatSpecificationCitation>
+            <cit:CI_Citation>
+              <cit:title><gco:CharacterString>WMO GRIB1</gco:CharacterString></cit:title>
+            </cit:CI_Citation>
+          </mrd:formatSpecificationCitation>
+        </mrd:MD_Format>
+      </mri:resourceFormat>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword><gco:CharacterString>EARTH SCIENCE > Atmosphere > Altitude > Geopotential Height</gco:CharacterString></mri:keyword>
+          <mri:keyword><gco:CharacterString>EARTH SCIENCE > Atmosphere > Atmospheric Temperature > Air Temperature</gco:CharacterString></mri:keyword>
+          <mri:keyword><gco:CharacterString>EARTH SCIENCE > Atmosphere > Atmospheric Winds > Surface Winds</gco:CharacterString></mri:keyword>
+          <mri:keyword><gco:CharacterString>EARTH SCIENCE > Atmosphere > Atmospheric Winds > Boundary Layer Winds</gco:CharacterString></mri:keyword>
+          <mri:keyword><gco:CharacterString>EARTH SCIENCE > Atmosphere > Atmospheric Winds > Upper Level Winds</gco:CharacterString></mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+          </mri:type>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title><gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString></cit:title>
+              <cit:alternateTitle><gco:CharacterString>GCMD</gco:CharacterString></cit:alternateTitle>
+              <cit:edition><gco:CharacterString>8.1</gco:CharacterString></cit:edition>
+              <cit:otherCitationDetails><gco:CharacterString>Valids List: Science and Services Keywords</gco:CharacterString></cit:otherCitationDetails>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword><gco:CharacterString>MODELS</gco:CharacterString></mri:keyword>
+          <mri:keyword><gco:CharacterString>NCEP/NCAR-RM > NCEP/NCAR Reanalysis Model</gco:CharacterString></mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="platform">platform</mri:MD_KeywordTypeCode>
+          </mri:type>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title><gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString></cit:title>
+              <cit:alternateTitle><gco:CharacterString>GCMD</gco:CharacterString></cit:alternateTitle>
+              <cit:edition><gco:CharacterString>8.1</gco:CharacterString></cit:edition>
+              <cit:otherCitationDetails><gco:CharacterString>Valids List: Platforms</gco:CharacterString></cit:otherCitationDetails>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:descriptiveKeywords>
+        <mri:MD_Keywords>
+          <mri:keyword><gco:CharacterString>NNRP > NCEP/NCAR Reanalysis Project</gco:CharacterString></mri:keyword>
+          <mri:type>
+            <mri:MD_KeywordTypeCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_KeywordTypeCode" codeListValue="project">project</mri:MD_KeywordTypeCode>
+          </mri:type>
+          <mri:thesaurusName>
+            <cit:CI_Citation>
+              <cit:title><gco:CharacterString>U.S. National Aeronautics and Space Administration Global Change Master Directory</gco:CharacterString></cit:title>
+              <cit:alternateTitle><gco:CharacterString>GCMD</gco:CharacterString></cit:alternateTitle>
+              <cit:edition><gco:CharacterString>8.1</gco:CharacterString></cit:edition>
+              <cit:otherCitationDetails><gco:CharacterString>Valids List: Projects</gco:CharacterString></cit:otherCitationDetails>
+            </cit:CI_Citation>
+          </mri:thesaurusName>
+        </mri:MD_Keywords>
+      </mri:descriptiveKeywords>
+      <mri:resourceConstraints>
+        <mco:MD_LegalConstraints>
+          <mco:accessConstraints>
+            <mco:MD_RestrictionCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codelists.xml#MD_RestrictionCode" codeListValue="unrestricted">unrestricted</mco:MD_RestrictionCode>
+          </mco:accessConstraints>
+        </mco:MD_LegalConstraints>
+      </mri:resourceConstraints>
+    </mri:MD_DataIdentification>
+  </mdb:identificationInfo>
+  <mdb:distributionInfo>
+    <mrd:MD_Distribution>
+      <mrd:distributor>
+        <mrd:MD_Distributor>
+          <mrd:distributorContact>
+            <cit:CI_Responsibility>
+              <cit:role>
+                <cit:CI_RoleCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_RoleCode" codeListValue="distributor">distributor</cit:CI_RoleCode>
+              </cit:role>
+              <cit:party>
+                <cit:CI_Individual>
+                  <cit:name><gco:CharacterString>Chi-Fan Shih</gco:CharacterString></cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:phone>
+                        <cit:CI_Telephone>
+                          <cit:number><gco:CharacterString>(303)-497-1833</gco:CharacterString></cit:number>
+                          <cit:numberType><cit:CI_TelephoneTypeCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.html" codeListValue="voice">voice</cit:CI_TelephoneTypeCode></cit:numberType>
+                        </cit:CI_Telephone>
+                      </cit:phone>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:electronicMailAddress><gco:CharacterString>chifan@ucar.edu</gco:CharacterString></cit:electronicMailAddress>
+                        </cit:CI_Address>
+                      </cit:address>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                </cit:CI_Individual>
+              </cit:party>
+              <cit:party>
+                <cit:CI_Organisation>
+                  <cit:name><gco:CharacterString>Research Data Archive at the National Center for Atmospheric Research, Computational and Information Systems Laboratory</gco:CharacterString></cit:name>
+                  <cit:contactInfo>
+                    <cit:CI_Contact>
+                      <cit:address>
+                        <cit:CI_Address>
+                          <cit:deliveryPoint><gco:CharacterString>National Center for Atmospheric Research</gco:CharacterString></cit:deliveryPoint>
+                          <cit:deliveryPoint><gco:CharacterString>CISL/DSS</gco:CharacterString></cit:deliveryPoint>
+                          <cit:deliveryPoint><gco:CharacterString>P.O. Box 3000</gco:CharacterString></cit:deliveryPoint>
+                          <cit:city><gco:CharacterString>Boulder</gco:CharacterString></cit:city>
+                          <cit:administrativeArea><gco:CharacterString>CO</gco:CharacterString></cit:administrativeArea>
+                          <cit:postalCode><gco:CharacterString>80307-3000</gco:CharacterString></cit:postalCode>
+                          <cit:country><gco:CharacterString>U.S.A.</gco:CharacterString></cit:country>
+                        </cit:CI_Address>
+                      </cit:address>
+                    </cit:CI_Contact>
+                  </cit:contactInfo>
+                </cit:CI_Organisation>
+              </cit:party>
+            </cit:CI_Responsibility>
+          </mrd:distributorContact>
+        </mrd:MD_Distributor>
+      </mrd:distributor>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage><gco:CharacterString>http://rda.ucar.edu/datasets/ds090.2/#!access</gco:CharacterString></cit:linkage>
+              <cit:protocol><gco:CharacterString>http</gco:CharacterString></cit:protocol>
+              <cit:applicationProfile><gco:CharacterString>browser</gco:CharacterString></cit:applicationProfile>
+              <cit:name><gco:CharacterString>Data Access for ds090.2</gco:CharacterString></cit:name>
+              <cit:function><cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/iso/19115/-3/cit/1.0/codelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</cit:CI_OnLineFunctionCode></cit:function>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+    </mrd:MD_Distribution>
+  </mdb:distributionInfo>
+</mdb:MD_Metadata>
