@@ -186,19 +186,26 @@
             </mri:topicCategory>
 
             <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
-            <!--<mri:descriptiveKeywords>-->
-                <!--<mri:MD_Keywords>-->
-                    <!--<mri:keyword>-->
-                        <!--<gco:CharacterString>Resource Type</gco:CharacterString>-->
-                    <!--</mri:keyword>-->
-                    <!--<mri:type>-->
-                        <!--<mri:MD_KeywordTypeCode codeList="http://schema.datacite.org/meta/kernel-4/metadata.xsd"                                         codeListValue="Text">Text</mri:MD_KeywordTypeCode>-->
-                    <!--</mri:type>-->
-                <!--</mri:MD_Keywords>-->
-            <!--</mri:descriptiveKeywords>-->
+            <mri:descriptiveKeywords>
+                <mri:MD_Keywords>
+                    <mri:keyword>
+                        <gco:CharacterString>Text</gco:CharacterString>
+                    </mri:keyword>
+                    <mri:type>
+                        <!--<mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>-->
+                        <mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                    </mri:type>
+                    <mri:thesaurusName>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </cit:title>
+                        </cit:CI_Citation>
+                    </mri:thesaurusName>
+                </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
 
-            <!-- Keywords pulled from MODS/subject/topic. Keyword best practices TBD -->
-            <!-- defaultLocale is HARDCODED -->
+           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>
