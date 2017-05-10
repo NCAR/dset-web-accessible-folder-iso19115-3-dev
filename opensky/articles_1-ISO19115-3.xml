@@ -77,10 +77,10 @@
             </cit:party>
         </cit:CI_Responsibility>
     </mdb:contact>
-    <mdb:dateInfo> <!-- creation date -->
+    <mdb:dateInfo> <!-- timestamp for this record -->
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2015-10-07T01:45:48.134Z</gco:DateTime>
+                <gco:DateTime>2017-05-10T16:49:58.283035</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -108,7 +108,7 @@
                     <cit:date> <!-- date Published -->
                         <cit:CI_Date>
                             <cit:date>
-                                <gco:DateTime>1967-07-01T00:00:000Z</gco:DateTime>
+                                <gco:DateTime>1967-07-01T00:00:00Z</gco:DateTime>
                             </cit:date>
                             <cit:dateType>
                                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
@@ -116,14 +116,22 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <cit:identifier> <!-- ARK goes here -->
+                    <!-- ARK goes here along with other identifiers (doi, url)  -->
+                    <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
                                 <gco:CharacterString>ark:/85065/d7p84b9s</gco:CharacterString>
                             </mcc:code>
                         </mcc:MD_Identifier>
                     </cit:identifier>
-                    
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d7p84b9s</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
 
                     <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
@@ -195,6 +203,18 @@
                             <cit:title>
                                 <gco:CharacterString>Resource Type</gco:CharacterString>
                             </cit:title>
+
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <!--<gco:Date>2016</gco:Date>-->
+                                        <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
                         </cit:CI_Citation>
                     </mri:thesaurusName>
                 </mri:MD_Keywords>
