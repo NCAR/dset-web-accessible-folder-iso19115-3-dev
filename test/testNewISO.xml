@@ -225,7 +225,7 @@
    <mdb:dateInfo>
       <cit:CI_Date>
          <cit:date>
-            <gco:DateTime>2016-03-29T00:00:00</gco:DateTime>
+            <gco:DateTime>2016-03-30:00:00</gco:DateTime>
          </cit:date>
          <cit:dateType>
             <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -402,6 +402,9 @@
             <gco:CharacterString>This is a test record.   It is used to test the mappings from ISO 19115-3 to ISO 19139.   The goal is to find out how to describe all DSET Minimum Fields required for metadata records, when the original record was written using ISO 19115-3. 
 </gco:CharacterString>
          </mri:abstract>
+         <mri:status>
+            <mcc:MD_ProgressCode codeList="http://standards.iso.org/iso/19115/resources/Codelist/cat/codeLists.xml#MD_ProgressCode" codeListValue="ongoing"/>
+         </mri:status>
          <mri:pointOfContact>
             <cit:CI_Responsibility>
                <cit:role>
@@ -410,7 +413,7 @@
                <cit:party>
                   <cit:CI_Organisation>
                      <cit:name>
-                        <gco:CharacterString>5UCAR/NCAR - Earth Observing Laboratory</gco:CharacterString>
+                        <gco:CharacterString>UCAR/NCAR - CISL/SAGE</gco:CharacterString>
                      </cit:name>
                      <cit:contactInfo>
                         <cit:CI_Contact>
@@ -429,27 +432,17 @@
                                     <gco:CharacterString>80307-3000</gco:CharacterString>
                                  </cit:postalCode>
                                  <cit:electronicMailAddress>
-                                    <gco:CharacterString>3datahelp@eol.ucar.edu</gco:CharacterString>
+                                    <gco:CharacterString>sage@ucar.edu</gco:CharacterString>
                                  </cit:electronicMailAddress>
                               </cit:CI_Address>
                            </cit:address>
-                           <cit:onlineResource>
-                              <cit:CI_OnlineResource>
-                                 <cit:linkage>
-                                    <gco:CharacterString>http://data.eol.ucar.edu/7</gco:CharacterString>
-                                 </cit:linkage>
-                                 <cit:name>
-                                    <gco:CharacterString>homepage</gco:CharacterString>
-                                 </cit:name>
-                              </cit:CI_OnlineResource>
-                           </cit:onlineResource>
                         </cit:CI_Contact>
                      </cit:contactInfo>
                      <cit:individual>
                         <cit:CI_Individual>
-                           <cit:positionName>
-                              <gco:CharacterString>EOL Data Support</gco:CharacterString>
-                           </cit:positionName>
+                           <cit:individualName>
+                              <gco:CharacterString>SAGE Support</gco:CharacterString>
+                           </cit:individualName>
                         </cit:CI_Individual>
                      </cit:individual>
                   </cit:CI_Organisation>
