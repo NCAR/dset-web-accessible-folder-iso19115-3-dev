@@ -101,7 +101,7 @@
    <mdb:dateInfo>
       <cit:CI_Date>
          <cit:date>
-            <gco:DateTime>2016-03-30T00:00:10</gco:DateTime>
+            <gco:DateTime>2016-03-30T00:00:11</gco:DateTime>
          </cit:date>
          <cit:dateType>
             <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -423,9 +423,11 @@
            </mri:MD_Keywords>
          </mri:descriptiveKeywords>
          <mri:resourceConstraints>
-           <mco:MD_LegalConstraints>
-              <gco:CharacterString>CKAN-Harvested "Licence" text</gco:CharacterString>
-           </mco:MD_LegalConstraints>
+           <mco:MD_Constraints>
+              <mco:useLimitation>
+                 <gco:CharacterString>CKAN-Harvested "Licence" text</gco:CharacterString>
+              </mco:useLimitation>
+           </mco:MD_Constraints>
          </mri:resourceConstraints>
          <mri:defaultLocale>
             <lan:PT_Locale>
