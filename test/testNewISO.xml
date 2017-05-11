@@ -53,9 +53,6 @@
    </mdb:metadataScope>
    <mdb:contact>
       <cit:CI_Responsibility>
-         <cit:role>
-            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
-         </cit:role>
          <cit:party>
             <cit:CI_Organisation>
                <cit:name>
@@ -96,12 +93,15 @@
                </cit:individual>
             </cit:CI_Organisation>
          </cit:party>
+         <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</cit:CI_RoleCode>
+         </cit:role>
       </cit:CI_Responsibility>
    </mdb:contact>
    <mdb:dateInfo>
       <cit:CI_Date>
          <cit:date>
-            <gco:DateTime>2016-03-30T00:00:06</gco:DateTime>
+            <gco:DateTime>2016-03-30T00:00:07</gco:DateTime>
          </cit:date>
          <cit:dateType>
             <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
