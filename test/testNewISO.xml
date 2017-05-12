@@ -101,7 +101,7 @@
    <mdb:dateInfo>
       <cit:CI_Date>
          <cit:date>
-            <gco:DateTime>2016-03-30T00:00:13</gco:DateTime>
+            <gco:DateTime>2016-03-30T00:00:14</gco:DateTime>
          </cit:date>
          <cit:dateType>
             <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -425,21 +425,17 @@
          <mri:resourceConstraints>
            <mco:MD_Constraints>
               <mco:useLimitation>
-                 <gco:CharacterString>Description of how the resource should be used, such as the appropriate scientific usages for model output.  Non-legal constraints on usage.</gco:CharacterString>
+                 <gco:CharacterString>Optional description of how the resource should be used, such as the appropriate scientific usages for model output.  Non-legal constraints on usage.</gco:CharacterString>
               </mco:useLimitation>
            </mco:MD_Constraints>
          </mri:resourceConstraints>
          <mri:resourceConstraints>
            <mco:MD_LegalConstraints>
-              <mco:accessConstraints>
-                 <mco:MD_RestrictionCode codeList="007" codeListValue="restricted">Legal restrictions on accessing the resource.</mco:MD_RestrictionCode>
-              </mco:accessConstraints>
-              <mco:accessConstraints>Legal restrictions on using the resource.</mco:accessConstraints>
               <mco:useConstraints>
-                 <mco:MD_RestrictionCode codeList="005" codeListValue="license">License text.</mco:MD_RestrictionCode>
+                 <mco:MD_RestrictionCode codeList="005" codeListValue="license">Optional license text.</mco:MD_RestrictionCode>
               </mco:useConstraints>
               <mco:otherConstraints>
-                 <gco:CharacterString>Description of other legal constraint</gco:CharacterString>
+                 <gco:CharacterString>Optional description of other legal constraints.</gco:CharacterString>
               </mco:otherConstraints>
            </mco:MD_LegalConstraints>
          </mri:resourceConstraints>
