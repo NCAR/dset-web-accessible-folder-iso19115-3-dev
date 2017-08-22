@@ -101,7 +101,7 @@
    <mdb:dateInfo>
       <cit:CI_Date>
          <cit:date>
-            <gco:DateTime>2016-03-30T00:00:25</gco:DateTime>
+            <gco:DateTime>2016-03-30T00:00:26</gco:DateTime>
          </cit:date>
          <cit:dateType>
             <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -435,11 +435,13 @@
                  <mco:MD_RestrictionCode codeList="005" codeListValue="license"/>
               </mco:accessConstraints>
               <mco:useConstraints>
-                 <mco:MD_RestrictionCode>Mapped to "mco:useConstraints".
+                 <mco:MD_RestrictionCode codeList="005" codeListValue="license">
+                   "Legal Constraints" mapped to "mco:useConstraints".
                  </mco:MD_RestrictionCode>
               </mco:useConstraints>
               <mco:otherConstraints>
-                 <mco:MD_RestrictionCode>Mapped to "mco:otherConstraints".
+                 <mco:MD_RestrictionCode codeList="008" codeListValue="otherRestrictions">
+                   "Access Constraints" mapped to "mco:otherConstraints".
                  </mco:MD_RestrictionCode>
               </mco:otherConstraints>
            </mco:MD_LegalConstraints>
