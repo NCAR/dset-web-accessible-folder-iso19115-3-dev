@@ -2,7 +2,7 @@
                  xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0"
                  xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
                  xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0"
-                 xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+                 xmlns:gex="http://standxards.iso.org/iso/19115/-3/gex/1.0"
                  xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
                  xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0"
                  xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0"
@@ -101,7 +101,7 @@
    <mdb:dateInfo>
       <cit:CI_Date>
          <cit:date>
-            <gco:DateTime>2016-03-30T00:00:26</gco:DateTime>
+            <gco:DateTime>2016-03-30T00:00:27</gco:DateTime>
          </cit:date>
          <cit:dateType>
             <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="revision">revision</cit:CI_DateTypeCode>
@@ -431,18 +431,15 @@
          </mri:resourceConstraints>
          <mri:resourceConstraints>
            <mco:MD_LegalConstraints>
-              <mco:accessConstraints>
-                 <mco:MD_RestrictionCode codeList="005" codeListValue="license"/>
-              </mco:accessConstraints>
               <mco:useConstraints>
-                 <mco:MD_RestrictionCode codeList="005" codeListValue="license">
+                 <gco:CharacterString>
                    "Legal Constraints" mapped to "mco:useConstraints".
-                 </mco:MD_RestrictionCode>
+                 </gco:CharacterString>
               </mco:useConstraints>
               <mco:otherConstraints>
-                 <mco:MD_RestrictionCode codeList="008" codeListValue="otherRestrictions">
+                 <gco:CharacterString>
                    "Access Constraints" mapped to "mco:otherConstraints".
-                 </mco:MD_RestrictionCode>
+                 </gco:CharacterString>
               </mco:otherConstraints>
            </mco:MD_LegalConstraints>
          </mri:resourceConstraints>
