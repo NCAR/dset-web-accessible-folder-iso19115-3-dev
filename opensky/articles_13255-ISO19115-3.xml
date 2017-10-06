@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:13255</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:27.665526</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:38.878744</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Comparisons of snowfall measurements in complex terrain made during the 2010 winter Olympics in Vancouver</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2014-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d72r3skm</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s00024-012-0610-5</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Solid precipitation (SP) intensity ( Rs ) using four automatic gauges, Pluvio, PARSIVEL (PArticle, SIze and VELocity), FD12P and POSS, and radar reflectivity factor ( Z ) using the POSS and PARSIVEL were measured at a naturally sheltered station (VOA) located at high level (1,640 m) on the Whistler Mountain in British Colombia, Canada. The R s and other standard meteorological parameters were collected from March 2009, and from November 2009, to February 2010. The wind speed (ws) measured during this period ranged from 0 to 4.5 ms&#8315;&#185;, with a mean value of 0.5 ms&#8315;&#185;. The temperature varied from 4 to &#8722;17 &#176;C. The SP amount reported by the PARSIVEL was higher than that reported by the Pluvio by more than a factor of 2, while the FD12P and POSS measured relatively smaller amounts, but much closer to that reported by the Pluvio and manual measurements. The dependence of R s from the PARSIVEL on wind speed was examined, but no significant dependence was found. The PARSIVEL&#8217;s precipitation retrieval algorithm was modified and tested using three different snow density size relationships (&#961; s&#8211;D) reported in literature. It was found that after modification of the algorithm, the derived R s amounts using the raw data agreed reasonably well with the Pluvio. Statistical analysis shows that more than 95% of Zhposs data measured by POSS appears to correlates well with the reflectivity factors determined using the three &#961; s&#8211;D relationships. The automated Pluvio accumulation and manually determined daily SP amount (SPm) measured during five winter months were compared. The mean ratio (MR) and the mean difference (MD), and the correlation coefficient (r) calculated using the data collected using the two methods, were found to be 0.96, 0.4 and 0.6 respectively, indicating respectable agreement between these two methods, with only the Pluvio underestimating the amount by about 4%.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Solid precipitation (SP) intensity ( Rs ) using four automatic gauges, Pluvio, PARSIVEL (PArticle, SIze and VELocity), FD12P and POSS, and radar reflectivity factor ( Z ) using the POSS and PARSIVEL were measured at a naturally sheltered station (VOA) located at high level (1,640 m) on the Whistler Mountain in British Colombia, Canada. The R s and other standard meteorological parameters were collected from March 2009, and from November 2009, to February 2010. The wind speed (ws) measured during this period ranged from 0 to 4.5 ms&#8315;&#185;, with a mean value of 0.5 ms&#8315;&#185;. The temperature varied from 4 to &#8722;17 &#176;C. The SP amount reported by the PARSIVEL was higher than that reported by the Pluvio by more than a factor of 2, while the FD12P and POSS measured relatively smaller amounts, but much closer to that reported by the Pluvio and manual measurements. The dependence of R s from the PARSIVEL on wind speed was examined, but no significant dependence was found. The PARSIVEL&#8217;s precipitation retrieval algorithm was modified and tested using three different snow density size relationships (&#961; s&#8211;D) reported in literature. It was found that after modification of the algorithm, the derived R s amounts using the raw data agreed reasonably well with the Pluvio. Statistical analysis shows that more than 95% of Zhposs data measured by POSS appears to correlates well with the reflectivity factors determined using the three &#961; s&#8211;D relationships. The automated Pluvio accumulation and manually determined daily SP amount (SPm) measured during five winter months were compared. The mean ratio (MR) and the mean difference (MD), and the correlation coefficient (r) calculated using the data collected using the two methods, were found to be 0.96, 0.4 and 0.6 respectively, indicating respectable agreement between these two methods, with only the Pluvio underestimating the amount by about 4%.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -312,12 +308,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -359,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

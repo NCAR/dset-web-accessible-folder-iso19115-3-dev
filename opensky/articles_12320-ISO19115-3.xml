@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12320</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:03.959338</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:08.022748</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Sensitivity of wetland methane emissions to model assumptions: Application and model testing against site observations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2012-07-30T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -304,12 +302,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7w37x3d</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -317,12 +314,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/bgd-8-6095-2011</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -332,7 +328,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Methane emissions from natural wetlands and rice paddies constitute a large proportion of atmospheric methane, but the magnitude and year-to-year variation of these methane sources are still unpredictable. Here we describe and evaluate the integration of a methane biogeochemical model (CLM4Me; Riley et al., 2011) into the Community Land Model 4.0 (CLM4CN) in order to better explain spatial and temporal variations in methane emissions. We test new functions for soil pH and redox potential that impact microbial methane production in soils. We also constrain aerenchyma in plants in always-inundated areas in order to better represent wetland vegetation. Satellite inundated fraction is explicitly prescribed in the model, because there are large differences between simulated fractional inundation and satellite observations, and thus we do not use CLM4-simulated hydrology to predict inundated areas. A rice paddy module is also incorporated into the model, where the fraction of land used for rice production is explicitly prescribed. The model is evaluated at the site level with vegetation cover and water table prescribed from measurements. Explicit site level evaluations of simulated methane emissions are quite different than evaluating the grid-cell averaged emissions against available measurements. Using a baseline set of parameter values, our model-estimated average global wetland emissions for the period 1993-2004 were 256 Tg CH4 yr&#8315;&#185; (including the soil sink) and rice paddy emissions in the year 2000 were 42 Tg CH4 yr&#8315;&#185;. Tropical wetlands contributed 201 Tg CH4 yr&#8315;&#185;, or 78% of the global wetland flux. Northern latitude (&gt;50 N) systems contributed 12 Tg CH4 yr&#8315;&#185;. However, sensitivity studies show a large range (150-346 Tg CH4 yr&#8315;&#185;) in predicted global methane emissions (excluding emissions from rice paddies). The large range is sensitive to (1) the amount of methane transported through aerenchyma, (2) soil pH (&#177;100 Tg CH4 yr&#8315;&#185;), and (3) redox inhibition (&#177;45 Tg CH4 yr&#8315;&#185;). Results are sensitive to biases in the CLMCN and to errors in the satellite inundation fraction. In particular, the high latitude methane emission estimate may be biased low due to both underestimates in the high-latitude inundated area captured by satellites and unrealistically low high-latitude productivity and soil carbon predicted by CLM4.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Methane emissions from natural wetlands and rice paddies constitute a large proportion of atmospheric methane, but the magnitude and year-to-year variation of these methane sources are still unpredictable. Here we describe and evaluate the integration of a methane biogeochemical model (CLM4Me; Riley et al., 2011) into the Community Land Model 4.0 (CLM4CN) in order to better explain spatial and temporal variations in methane emissions. We test new functions for soil pH and redox potential that impact microbial methane production in soils. We also constrain aerenchyma in plants in always-inundated areas in order to better represent wetland vegetation. Satellite inundated fraction is explicitly prescribed in the model, because there are large differences between simulated fractional inundation and satellite observations, and thus we do not use CLM4-simulated hydrology to predict inundated areas. A rice paddy module is also incorporated into the model, where the fraction of land used for rice production is explicitly prescribed. The model is evaluated at the site level with vegetation cover and water table prescribed from measurements. Explicit site level evaluations of simulated methane emissions are quite different than evaluating the grid-cell averaged emissions against available measurements. Using a baseline set of parameter values, our model-estimated average global wetland emissions for the period 1993-2004 were 256 Tg CH4 yr&#8315;&#185; (including the soil sink) and rice paddy emissions in the year 2000 were 42 Tg CH4 yr&#8315;&#185;. Tropical wetlands contributed 201 Tg CH4 yr&#8315;&#185;, or 78% of the global wetland flux. Northern latitude (>50 N) systems contributed 12 Tg CH4 yr&#8315;&#185;. However, sensitivity studies show a large range (150-346 Tg CH4 yr&#8315;&#185;) in predicted global methane emissions (excluding emissions from rice paddies). The large range is sensitive to (1) the amount of methane transported through aerenchyma, (2) soil pH (&#177;100 Tg CH4 yr&#8315;&#185;), and (3) redox inhibition (&#177;45 Tg CH4 yr&#8315;&#185;). Results are sensitive to biases in the CLMCN and to errors in the satellite inundation fraction. In particular, the high latitude methane emission estimate may be biased low due to both underestimates in the high-latitude inundated area captured by satellites and unrealistically low high-latitude productivity and soil carbon predicted by CLM4.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -387,12 +383,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -434,7 +428,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

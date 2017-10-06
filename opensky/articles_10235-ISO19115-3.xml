@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.460697</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:17.477466</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Investigating the causes of the response of the thermohaline circulation to past and future climate changes</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2006-04-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -491,12 +489,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7qv3n3m</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -507,7 +504,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Atlantic thermohaline circulation (THC) is an important part of the earth's climate system. Previous research has shown large uncertainties in simulating future changes in this critical system. The simulated THC response to idealized freshwater perturbations and the associated climate changes have been intercompared as an activity of World Climate Research Program (WCRP) Coupled Model Intercomparison Project/Paleo-Modeling Intercomparison Project (CMIP/PMIP) committees. This intercomparison among models ranging from the earth system models of intermediate complexity (EMICs) to the fully coupled atmosphere-ocean general circulation models (AOGCMs) seeks to document and improve understanding of the causes of the wide variations in the modeled THC response. The robustness of particular simulation features has been evaluated across the model results. In response to 0.1-Sv (1 Sv &#8801; 10&#8310; m&#179; s&#8315;&#185;) freshwater input in the northern North Atlantic, the multimodel ensemble mean THC weakens by 30% after 100 yr. All models simulate some weakening of the THC, but no model simulates a complete shutdown of the THC. The multimodel ensemble indicates that the surface air temperature could present a complex anomaly pattern with cooling south of Greenland and warming over the Barents and Nordic Seas. The Atlantic ITCZ tends to shift southward. In response to 1.0-Sv freshwater input, the THC switches off rapidly in all model simulations. A large cooling occurs over the North Atlantic. The annual mean Atlantic ITCZ moves into the Southern Hemisphere. Models disagree in terms of the reversibility of the THC after its shutdown. In general, the EMICs and AOGCMs obtain similar THC responses and climate changes with more pronounced and sharper patterns in the AOGCMs.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Atlantic thermohaline circulation (THC) is an important part of the earth's climate system. Previous research has shown large uncertainties in simulating future changes in this critical system. The simulated THC response to idealized freshwater perturbations and the associated climate changes have been intercompared as an activity of World Climate Research Program (WCRP) Coupled Model Intercomparison Project/Paleo-Modeling Intercomparison Project (CMIP/PMIP) committees. This intercomparison among models ranging from the earth system models of intermediate complexity (EMICs) to the fully coupled atmosphere-ocean general circulation models (AOGCMs) seeks to document and improve understanding of the causes of the wide variations in the modeled THC response. The robustness of particular simulation features has been evaluated across the model results. In response to 0.1-Sv (1 Sv &#8801; 10&#8310; m&#179; s&#8315;&#185;) freshwater input in the northern North Atlantic, the multimodel ensemble mean THC weakens by 30% after 100 yr. All models simulate some weakening of the THC, but no model simulates a complete shutdown of the THC. The multimodel ensemble indicates that the surface air temperature could present a complex anomaly pattern with cooling south of Greenland and warming over the Barents and Nordic Seas. The Atlantic ITCZ tends to shift southward. In response to 1.0-Sv freshwater input, the THC switches off rapidly in all model simulations. A large cooling occurs over the North Atlantic. The annual mean Atlantic ITCZ moves into the Southern Hemisphere. Models disagree in terms of the reversibility of the THC after its shutdown. In general, the EMICs and AOGCMs obtain similar THC responses and climate changes with more pronounced and sharper patterns in the AOGCMs.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -566,7 +563,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -608,7 +604,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

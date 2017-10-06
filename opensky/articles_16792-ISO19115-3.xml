@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16792</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:03.903594</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:34.738868</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>CLUBB as a unified cloud parameterization: Opportunities and challenges</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-06-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7w37xhs</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2015GL063672</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>CLUBB (Cloud Layers Unified by Binormals) is a higher-order closure (HOC) method with an assumed joint probability density function (PDF) for the subgrid variations in vertical velocity, temperature, and moisture. CLUBB has been implemented in the atmospheric component (AM3) of the Geophysical Fluid Dynamics Laboratory general circulation model AM3-CLUBB and successfully unifies the treatment of shallow convection, resolved clouds, and planetary boundary layer (PBL). In this study, we further explore the possibility for CLUBB to unify the deep convection in a new configuration referred as AM3-CLUBB+. AM3-CLUBB+ simulations with prescribed sea surface temperature are discussed. Cloud, radiation, and precipitation fields compare favorably with observations and reanalyses. AM3-CLUBB+ successfully captures the transition from stratocumulus to deep convection and the modulated response of liquid water path to aerosols. Simulations of tropical variability and the Madden-Julian oscillation (MJO) are also improved. Deficiencies include excessive tropical water vapor and insufficient ice clouds in the midlatitudes.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[CLUBB (Cloud Layers Unified by Binormals) is a higher-order closure (HOC) method with an assumed joint probability density function (PDF) for the subgrid variations in vertical velocity, temperature, and moisture. CLUBB has been implemented in the atmospheric component (AM3) of the Geophysical Fluid Dynamics Laboratory general circulation model AM3-CLUBB and successfully unifies the treatment of shallow convection, resolved clouds, and planetary boundary layer (PBL). In this study, we further explore the possibility for CLUBB to unify the deep convection in a new configuration referred as AM3-CLUBB+. AM3-CLUBB+ simulations with prescribed sea surface temperature are discussed. Cloud, radiation, and precipitation fields compare favorably with observations and reanalyses. AM3-CLUBB+ successfully captures the transition from stratocumulus to deep convection and the modulated response of liquid water path to aerosols. Simulations of tropical variability and the Madden-Julian oscillation (MJO) are also improved. Deficiencies include excessive tropical water vapor and insufficient ice clouds in the midlatitudes.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

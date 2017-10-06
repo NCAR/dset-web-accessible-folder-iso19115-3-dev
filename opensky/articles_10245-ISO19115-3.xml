@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10245</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:26.420430</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:17.968521</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>MJO-like coherent structures: Sensitivity simulations using the Cloud-Resolving Convection Parameterization (CRCP)</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2003-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -169,12 +167,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d74x58bc</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -182,12 +179,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/1520-0469(2003)060&lt;0847:MLCSSS&gt;2.0.CO;2</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -197,7 +193,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Interaction between equatorially trapped disturbances and tropical convection is investigated using a nonhydrostatic global model that applies the cloud-resolving convection parameterization (CRCP). The CRCP represents subgrid scales of the global model by embedding a 2D cloud-resolving model in each column of the global model. The modeling setup is a constant-SST aquaplanet, with the size and rotation of earth, in radiative-convective quasi equilibrium. The global atmosphere is assumed to be initially at rest. No large-scale organization of convection is present outside the equatorial waveguide. Inside the waveguide, on the other hand, the model simulates spontaneous formation of coherent structures with deep convection on the leading edge and strong surface westerly winds to the west, the westerly wind bursts. These coherent structures resemble the Madden-Julian oscillation (MJO) observed in the terrestrial Tropics and are present in simulations applying prescribed and interactive radiation, and increased horizontal resolution of the global model. The MJO-like structures are essential for the development of the mean westerly flow, the superrotation, within the equatorial waveguide. Sensitivity simulations suggest that the coupling among deep convection, free-tropospheric moisture, and the large-scale flow is essential for coherence of the MJO-like structures. When large-scale fluctuations of convectively generated free-tropospheric moisture are removed on a timescale of a few hours, the coherent structures do not develop and, if already present, these structures disintegrate rapidly. It follows that the moisture-convection feedback, postulated previously to explain the large-scale organization of tropical convection and its coupling with SST fluctuations, operates very efficiently in the CRCP global model. It is also argued that the feedback plays a role in sensitivity simulations with horizontally uniform surface fluxes, where horizontal variability of the fluxes is required for the development, but not the maintenance, of MJO-like coherent structures. These results are discussed in the context of existing theories and modeling studies, which aim to explain the coupling between convection and the large-scale dynamics in the Tropics on intraseasonal timescales.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Interaction between equatorially trapped disturbances and tropical convection is investigated using a nonhydrostatic global model that applies the cloud-resolving convection parameterization (CRCP). The CRCP represents subgrid scales of the global model by embedding a 2D cloud-resolving model in each column of the global model. The modeling setup is a constant-SST aquaplanet, with the size and rotation of earth, in radiative-convective quasi equilibrium. The global atmosphere is assumed to be initially at rest. No large-scale organization of convection is present outside the equatorial waveguide. Inside the waveguide, on the other hand, the model simulates spontaneous formation of coherent structures with deep convection on the leading edge and strong surface westerly winds to the west, the westerly wind bursts. These coherent structures resemble the Madden-Julian oscillation (MJO) observed in the terrestrial Tropics and are present in simulations applying prescribed and interactive radiation, and increased horizontal resolution of the global model. The MJO-like structures are essential for the development of the mean westerly flow, the superrotation, within the equatorial waveguide. Sensitivity simulations suggest that the coupling among deep convection, free-tropospheric moisture, and the large-scale flow is essential for coherence of the MJO-like structures. When large-scale fluctuations of convectively generated free-tropospheric moisture are removed on a timescale of a few hours, the coherent structures do not develop and, if already present, these structures disintegrate rapidly. It follows that the moisture-convection feedback, postulated previously to explain the large-scale organization of tropical convection and its coupling with SST fluctuations, operates very efficiently in the CRCP global model. It is also argued that the feedback plays a role in sensitivity simulations with horizontally uniform surface fluxes, where horizontal variability of the fluxes is required for the development, but not the maintenance, of MJO-like coherent structures. These results are discussed in the context of existing theories and modeling studies, which aim to explain the coupling between convection and the large-scale dynamics in the Tropics on intraseasonal timescales.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -252,12 +248,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -299,7 +293,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

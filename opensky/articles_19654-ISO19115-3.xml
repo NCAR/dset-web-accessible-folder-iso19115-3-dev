@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:00.229300</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:09.151192</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Distinguishing stratospheric sudden warmings from ENSO as key drivers of wintertime climate variability over the North Atlantic and Eurasia</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7765h48</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0277.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Stratospheric conditions are increasingly being recognized as an important driver of North Atlantic and Eurasian climate variability. Mindful that the observational record is relatively short, and that internal climate variability can be large, the authors here analyze a new 10-member ensemble of integrations of a stratospherere-solving, atmospheric general circulation model, forced with the observed evolution of sea surface temperature (SST) during 1952-2003. Previous studies are confirmed, showing that El Nino conditions enhance the frequency of occurrence of stratospheric sudden warmings (SSWs), whereas La Nina conditions do not appear to affect it. However, large differences are noted among ensemble members, suggesting caution when interpreting the relatively short observational record. More importantly, it is emphasized that the majority of SSWs are not caused by anomalous tropical Pacific SSTs. Comparing composites of winters with and without SSWs in each ENSO phase separately, it is demonstrated that stratospheric variability gives rise to large and statistically significant anomalies in tropospheric circulation and surface conditions over the North Atlantic and Eurasia. This indicates that, for those regions, climate variability of stratospheric origin is comparable in magnitude to variability originating from tropical Pacific SSTs, so that the occurrence of a single SSW in a given winter is able to completely alter seasonal climate predictions based solely on ENSO conditions. These findings, corroborating other recent studies, highlight the importance of accurately forecasting SSWs for improved seasonal prediction of North Atlantic and Eurasian climate.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Stratospheric conditions are increasingly being recognized as an important driver of North Atlantic and Eurasian climate variability. Mindful that the observational record is relatively short, and that internal climate variability can be large, the authors here analyze a new 10-member ensemble of integrations of a stratospherere-solving, atmospheric general circulation model, forced with the observed evolution of sea surface temperature (SST) during 1952-2003. Previous studies are confirmed, showing that El Nino conditions enhance the frequency of occurrence of stratospheric sudden warmings (SSWs), whereas La Nina conditions do not appear to affect it. However, large differences are noted among ensemble members, suggesting caution when interpreting the relatively short observational record. More importantly, it is emphasized that the majority of SSWs are not caused by anomalous tropical Pacific SSTs. Comparing composites of winters with and without SSWs in each ENSO phase separately, it is demonstrated that stratospheric variability gives rise to large and statistically significant anomalies in tropospheric circulation and surface conditions over the North Atlantic and Eurasia. This indicates that, for those regions, climate variability of stratospheric origin is comparable in magnitude to variability originating from tropical Pacific SSTs, so that the occurrence of a single SSW in a given winter is able to completely alter seasonal climate predictions based solely on ENSO conditions. These findings, corroborating other recent studies, highlight the importance of accurately forecasting SSWs for improved seasonal prediction of North Atlantic and Eurasian climate.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

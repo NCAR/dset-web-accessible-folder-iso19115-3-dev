@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:8914</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:23.455460</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:12.177148</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Overview of the meteorological conditions and atmospheric transport processes during INDOEX 1999</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2001-11-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7js9r3w</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2001JD900203</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>We give an overview of the regional meteorological situation during the Indian Ocean Experiment INDOEX intensive field phase (IFP) in February and March 1999. The INDOEX domain, reaching from 30&#176;N to 30&#176;S and from 50&#176;E to 100&#176;E, was chosen because the low-level outflow of pollution from India is carried by the northeasterly trades into the tropical convergence zone, where cloud processing modifies the properties of the aerosols. In contrast, there is also an inflow of pristine southern hemispheric air by the southeasterly trades into the convergence zone. However, during the 1999 IFP some deviations from the climatological mean were observed. In 1999 the Intertropical Convergence Zone (ITCZ) was broken into a northern convergence zone and a southern convergence zone. During February the northern zone was more active and the cross-equatorial flow (N&#8594;S) was weak, both suggesting that less pollution was transported to the southern hemisphere. In February it was occasionally possible to sample a southern hemispheric air mass on the southern side of the INDOEX domain. During March 1999 the southern convergence zone became dominant and moved to a more southern position (near 5&#176;-10&#176;S). It is shown that four channels carry pollution into the INDOEX domain: (1) NE trades over the western Arabian Sea, (2) NW-NE flow along the west coast of India, (3) NE trades over the west Bay of Bengal, and (4) NE flow from SE Asia. The strength of each channel is modulated by transients moving across Pakistan and northern India (western disturbances). The heating of the Indian subcontinent in March resulted in a eastern shift of the subtropical high from central India to the Bay of Bengal, which also affected channels 2, 3, and 4. Episodes of high and low carbon monoxide concentrations as measured in Kaashidhoo (Maldives) during the 1999 IFP can qualitatively be explained by the operationality of the flow channels, determined through trajectory analyses, in combination with the intensity of the northern convergence zone.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[We give an overview of the regional meteorological situation during the Indian Ocean Experiment INDOEX intensive field phase (IFP) in February and March 1999. The INDOEX domain, reaching from 30&#176;N to 30&#176;S and from 50&#176;E to 100&#176;E, was chosen because the low-level outflow of pollution from India is carried by the northeasterly trades into the tropical convergence zone, where cloud processing modifies the properties of the aerosols. In contrast, there is also an inflow of pristine southern hemispheric air by the southeasterly trades into the convergence zone. However, during the 1999 IFP some deviations from the climatological mean were observed. In 1999 the Intertropical Convergence Zone (ITCZ) was broken into a northern convergence zone and a southern convergence zone. During February the northern zone was more active and the cross-equatorial flow (N&#8594;S) was weak, both suggesting that less pollution was transported to the southern hemisphere. In February it was occasionally possible to sample a southern hemispheric air mass on the southern side of the INDOEX domain. During March 1999 the southern convergence zone became dominant and moved to a more southern position (near 5&#176;-10&#176;S). It is shown that four channels carry pollution into the INDOEX domain: (1) NE trades over the western Arabian Sea, (2) NW-NE flow along the west coast of India, (3) NE trades over the west Bay of Bengal, and (4) NE flow from SE Asia. The strength of each channel is modulated by transients moving across Pakistan and northern India (western disturbances). The heating of the Indian subcontinent in March resulted in a eastern shift of the subtropical high from central India to the Bay of Bengal, which also affected channels 2, 3, and 4. Episodes of high and low carbon monoxide concentrations as measured in Kaashidhoo (Maldives) during the 1999 IFP can qualitatively be explained by the operationality of the flow channels, determined through trajectory analyses, in combination with the intensity of the northern convergence zone.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -312,12 +308,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -359,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

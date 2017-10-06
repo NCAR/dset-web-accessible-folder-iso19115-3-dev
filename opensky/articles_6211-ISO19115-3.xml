@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:6211</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:14.079534</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:31:59.357536</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>On multidecadal variability of the Atlantic meridional overturning circulation in the Community Climate System Model version 3</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2008-11-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -169,12 +167,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7w0963f</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -182,12 +179,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2008JCLI2019.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -197,7 +193,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Multidecadal variability of the Atlantic meridional overturning circulation (MOC) is investigated diagnostically in the NCAR Community Climate System Model version 3 (CCSM3) present-day simulations, using the highest (T85 &#215; 1) resolution version. This variability has a 21-yr period and is present in many other ocean fields in the North Atlantic. In MOC, the oscillation amplitude is about 4.5 Sv (1 Sv &#8801; 10&#8310; m&#179; s&#8315;&#185;), corresponding to 20% of the mean maximum MOC transport. The northward heat transport (NHT) variability has an amplitude of about 0.12 PW, representing 10% of the mean maximum NHT. In sea surface temperature (SST) and sea surface salinity (SSS), the peak-to-peak changes can be as large as 6&#176;&#8211;7&#176;C and 3 psu, respectively. The Labrador Sea region is identified as the deep-water formation (DWF) site associated with the MOC oscillations. In contrast with some previous studies, temperature and salinity contributions to the total density in this DWF region are almost equal and in phase. The heat and freshwater budget analyses performed for the DWF site indicate a complex relationship between the DWF, MOC, North Atlantic Oscillation (NAO), and subpolar gyre circulation anomalies. Their complicated interactions appear to be responsible for the maintenance of this multidecadal oscillation. In these interactions, the atmospheric variability associated with the model&#8217;s NAO plays a prominent role. In particular, the NAO modulates the subpolar gyre strength and contributes to the formation of the temperature and salinity anomalies that lead to positive/negative density anomalies at the DWF site. In addition, the wind stress curl anomalies occurring during the transition phase between the positive and negative NAO states produce fluctuations of the subtropical-subpolar gyre boundary, thus creating midlatitude SST and SSS anomalies. Comparisons with observations show that neither the pattern nor the magnitude of this dominant SST variability is realistic.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Multidecadal variability of the Atlantic meridional overturning circulation (MOC) is investigated diagnostically in the NCAR Community Climate System Model version 3 (CCSM3) present-day simulations, using the highest (T85 &#215; 1) resolution version. This variability has a 21-yr period and is present in many other ocean fields in the North Atlantic. In MOC, the oscillation amplitude is about 4.5 Sv (1 Sv &#8801; 10&#8310; m&#179; s&#8315;&#185;), corresponding to 20% of the mean maximum MOC transport. The northward heat transport (NHT) variability has an amplitude of about 0.12 PW, representing 10% of the mean maximum NHT. In sea surface temperature (SST) and sea surface salinity (SSS), the peak-to-peak changes can be as large as 6&#176;&#8211;7&#176;C and 3 psu, respectively. The Labrador Sea region is identified as the deep-water formation (DWF) site associated with the MOC oscillations. In contrast with some previous studies, temperature and salinity contributions to the total density in this DWF region are almost equal and in phase. The heat and freshwater budget analyses performed for the DWF site indicate a complex relationship between the DWF, MOC, North Atlantic Oscillation (NAO), and subpolar gyre circulation anomalies. Their complicated interactions appear to be responsible for the maintenance of this multidecadal oscillation. In these interactions, the atmospheric variability associated with the model&#8217;s NAO plays a prominent role. In particular, the NAO modulates the subpolar gyre strength and contributes to the formation of the temperature and salinity anomalies that lead to positive/negative density anomalies at the DWF site. In addition, the wind stress curl anomalies occurring during the transition phase between the positive and negative NAO states produce fluctuations of the subtropical-subpolar gyre boundary, thus creating midlatitude SST and SSS anomalies. Comparisons with observations show that neither the pattern nor the magnitude of this dominant SST variability is realistic.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -252,12 +248,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -299,7 +293,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

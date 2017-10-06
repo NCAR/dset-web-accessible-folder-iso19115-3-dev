@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12872</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:18.239201</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:25.095145</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Megacity impacts on regional ozone formation: Observations and WRF-Chem modeling for the MIRAGE-Shanghai field campaign</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2013-06-10T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -319,12 +317,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7js9r9k</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -332,12 +329,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-13-5655-2013</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -347,7 +343,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The MIRAGE-Shanghai experiment was designed to characterize the factors controlling regional air pollution near a Chinese megacity (Shanghai) and was conducted during September 2009. This paper provides information on the measurements conducted for this study. In order to have some deep analysis of the measurements, a regional chemical/dynamical model (version 3 of Weather Research and Forecasting Chemical model -- WRF-Chemv3) is applied for this study. The model results are intensively compared with the measurements to evaluate the model capability for calculating air pollutants in the Shanghai region, especially the chemical species related to ozone formation. The results show that the model is able to calculate the general distributions (the level and the variability) of air pollutants in the Shanghai region, and the differences between the model calculation and the measurement are mostly smaller than 30%, except the calculations of HONO (nitrous acid) at PD (Pudong) and CO (carbon monoxide) at DT (Dongtan). The main scientific focus is the study of ozone chemical formation not only in the urban area, but also on a regional scale of the surrounding area of Shanghai. The results show that during the experiment period, the ozone photochemical formation was strongly under the VOC (volatile organic compound)-limited condition in the urban area of Shanghai. Moreover, the VOC-limited condition occurred not only in the city, but also in the larger regional area. There was a continuous enhancement of ozone concentrations in the downwind of the megacity of Shanghai, resulting in a significant enhancement of ozone concentrations in a very large regional area in the surrounding region of Shanghai. The sensitivity study of the model suggests that there is a threshold value for switching from VOC-limited condition to NOx (nitric oxide and nitrogen dioxide)-limited condition. The threshold value is strongly dependent on the emission ratio of NOx / VOCs. When the ratio is about 0.4, the Shanghai region is under a strong VOC-limited condition over the regional scale. In contrast, when the ratio is reduced to about 0.1, the Shanghai region is under a strong NOx-limited condition. The estimated threshold value (on the regional scale) for switching from VOC-limited to NOx-limited condition ranges from 0.1 to 0.2. This result has important implications for ozone production in this region and will facilitate the development of effective O&#8323; control strategies in the Shanghai region.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The MIRAGE-Shanghai experiment was designed to characterize the factors controlling regional air pollution near a Chinese megacity (Shanghai) and was conducted during September 2009. This paper provides information on the measurements conducted for this study. In order to have some deep analysis of the measurements, a regional chemical/dynamical model (version 3 of Weather Research and Forecasting Chemical model -- WRF-Chemv3) is applied for this study. The model results are intensively compared with the measurements to evaluate the model capability for calculating air pollutants in the Shanghai region, especially the chemical species related to ozone formation. The results show that the model is able to calculate the general distributions (the level and the variability) of air pollutants in the Shanghai region, and the differences between the model calculation and the measurement are mostly smaller than 30%, except the calculations of HONO (nitrous acid) at PD (Pudong) and CO (carbon monoxide) at DT (Dongtan). The main scientific focus is the study of ozone chemical formation not only in the urban area, but also on a regional scale of the surrounding area of Shanghai. The results show that during the experiment period, the ozone photochemical formation was strongly under the VOC (volatile organic compound)-limited condition in the urban area of Shanghai. Moreover, the VOC-limited condition occurred not only in the city, but also in the larger regional area. There was a continuous enhancement of ozone concentrations in the downwind of the megacity of Shanghai, resulting in a significant enhancement of ozone concentrations in a very large regional area in the surrounding region of Shanghai. The sensitivity study of the model suggests that there is a threshold value for switching from VOC-limited condition to NOx (nitric oxide and nitrogen dioxide)-limited condition. The threshold value is strongly dependent on the emission ratio of NOx / VOCs. When the ratio is about 0.4, the Shanghai region is under a strong VOC-limited condition over the regional scale. In contrast, when the ratio is reduced to about 0.1, the Shanghai region is under a strong NOx-limited condition. The estimated threshold value (on the regional scale) for switching from VOC-limited to NOx-limited condition ranges from 0.1 to 0.2. This result has important implications for ozone production in this region and will facilitate the development of effective O&#8323; control strategies in the Shanghai region.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -402,12 +398,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -449,7 +443,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

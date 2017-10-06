@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.177034</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:16.938323</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The SPARC intercomparison of middle-atmosphere climatologies</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2004-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -416,12 +414,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d76110wc</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -432,7 +429,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>An updated assessment of uncertainties in "observed" climatological winds and temperatures in the middle atmosphere (over altitudes ~10-80 km) is provided by detailed intercomparisons of contemporary and historic datasets. These datasets include global meteorological analyses and assimilations, climatologies derived from research satellite measurements, historical reference atmosphere circulation statistics, rocketsonde wind and temperature data, and lidar temperature measurements. The comparisons focus on a few basic circulation statistics (temperatures and zonal winds), with special attention given to tropical variability. Notable differences are found between analyses for temperatures near the tropical tropopause and polar lower stratosphere, temperatures near the global stratopause, and zonal winds throughout the Tropics. Comparisons of historical reference atmosphere and rocketsonde temperatures with more recent global analyses show the influence of decadal-scale cooling of the stratosphere and mesosphere. Detailed comparisons of the tropical semiannual oscillation (SAO) and quasi- biennial oscillation (QBO) show large differences in amplitude between analyses; recent data assimilation schemes show the best agreement with equatorial radiosonde, rocket, and satellite data.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[An updated assessment of uncertainties in "observed" climatological winds and temperatures in the middle atmosphere (over altitudes ~10-80 km) is provided by detailed intercomparisons of contemporary and historic datasets. These datasets include global meteorological analyses and assimilations, climatologies derived from research satellite measurements, historical reference atmosphere circulation statistics, rocketsonde wind and temperature data, and lidar temperature measurements. The comparisons focus on a few basic circulation statistics (temperatures and zonal winds), with special attention given to tropical variability. Notable differences are found between analyses for temperatures near the tropical tropopause and polar lower stratosphere, temperatures near the global stratopause, and zonal winds throughout the Tropics. Comparisons of historical reference atmosphere and rocketsonde temperatures with more recent global analyses show the influence of decadal-scale cooling of the stratosphere and mesosphere. Detailed comparisons of the tropical semiannual oscillation (SAO) and quasi- biennial oscillation (QBO) show large differences in amplitude between analyses; recent data assimilation schemes show the best agreement with equatorial radiosonde, rocket, and satellite data.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -491,7 +488,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -533,7 +529,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

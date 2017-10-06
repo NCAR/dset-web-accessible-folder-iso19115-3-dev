@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12587</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:09.255732</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:15.922628</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Thunderstorms and upper troposphere chemistry during the early stages of the 2006 North American Monsoon</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2012-11-21T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7mw2j02</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-12-11003-2012</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>To study the meteorology and chemistry that is associated with the early stages of the North American Monsoon, the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) is applied for the first time at high resolution (4 km grid spacing, allowing for explicit representation of convection) over a large region (continental US and northern Mexico) for a multi-week (15 July to 7 August 2006) integration. Evaluation of model results shows that WRF-Chem reasonably represents the large-scale meteorology and strong convective storms, but tends to overestimate weak convection. In the upper troposphere, the WRF-Chem model predicts ozone (O&#8323;) and carbon monoxide (CO) to within 10-20% of aircraft and sonde measurements. Comparison of UT O&#8323; and CO frequency distributions between WRF-Chem and satellite data indicates that WRF-Chem is lofting CO too frequently from the boundary layer (BL). This excessive lofting should also cause biases in the WRF-Chem ozone frequency distribution; however it agrees well with satellite data suggesting that either the chemical production of O&#8323; in the model is overpredicted or there is too much stratosphere to troposphere transport in the model. Analysis of different geographic regions (West Coast, Rocky Mountains, Central Plains, Midwest, and Gulf Coast) reveals that much of the convective transport occurs in the Rocky Mountains, while much of the UT ozone chemical production occurs over the Gulf Coast and Midwest regions where both CO and volatile organic compounds (VOCs) are abundant in the upper troposphere and promote the production of peroxy radicals. In all regions most of the ozone chemical production occurs within 24 h of the air being lofted from the boundary layer. In addition, analysis of the anticyclone and adjacent air indicates that ozone mixing ratios within the anticyclone region associated with the North American Monsoon and just outside the anticyclone are similar. Increases of O&#8323; within the anticyclone are strongly coincident with entrainment of stratospheric air into the anticyclone, but also are from in situ O&#8323; chemical production. In situ O&#8323; production is up to 17% greater within the anticyclone than just outside the anticyclone when the anticyclone is over the southern US indicating that the enhancement of O&#8323; is most pronounced over regions with abundant VOCs.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[To study the meteorology and chemistry that is associated with the early stages of the North American Monsoon, the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem) is applied for the first time at high resolution (4 km grid spacing, allowing for explicit representation of convection) over a large region (continental US and northern Mexico) for a multi-week (15 July to 7 August 2006) integration. Evaluation of model results shows that WRF-Chem reasonably represents the large-scale meteorology and strong convective storms, but tends to overestimate weak convection. In the upper troposphere, the WRF-Chem model predicts ozone (O&#8323;) and carbon monoxide (CO) to within 10-20% of aircraft and sonde measurements. Comparison of UT O&#8323; and CO frequency distributions between WRF-Chem and satellite data indicates that WRF-Chem is lofting CO too frequently from the boundary layer (BL). This excessive lofting should also cause biases in the WRF-Chem ozone frequency distribution; however it agrees well with satellite data suggesting that either the chemical production of O&#8323; in the model is overpredicted or there is too much stratosphere to troposphere transport in the model. Analysis of different geographic regions (West Coast, Rocky Mountains, Central Plains, Midwest, and Gulf Coast) reveals that much of the convective transport occurs in the Rocky Mountains, while much of the UT ozone chemical production occurs over the Gulf Coast and Midwest regions where both CO and volatile organic compounds (VOCs) are abundant in the upper troposphere and promote the production of peroxy radicals. In all regions most of the ozone chemical production occurs within 24 h of the air being lofted from the boundary layer. In addition, analysis of the anticyclone and adjacent air indicates that ozone mixing ratios within the anticyclone region associated with the North American Monsoon and just outside the anticyclone are similar. Increases of O&#8323; within the anticyclone are strongly coincident with entrainment of stratospheric air into the anticyclone, but also are from in situ O&#8323; chemical production. In situ O&#8323; production is up to 17% greater within the anticyclone than just outside the anticyclone when the anticyclone is over the southern US indicating that the enhancement of O&#8323; is most pronounced over regions with abundant VOCs.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -357,12 +353,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -404,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:13383</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:30.956863</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:43.871706</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The global extent of the mid stratospheric CN layer: A three-dimensional modeling study</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2014-01-27T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7j67hv7</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2013JD020503</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>For the first time the global extent of a mid stratospheric new particle layer is addressed, using the National Center for Atmospheric Research Community Earth System Model, version 1 (CESM1), with the high-top atmosphere component, the Whole Atmosphere Community Climate Model (WACCM). The CESM1(WACCM) version has been configured for pure sulfate formation in the stratosphere, including the formation of late winter to spring condensation nuclei (CN), or small particle, layers of enhanced concentration in the polar regions. CESM1(WACCM) adequately reproduces, with some differences, a layer of observed (r&#8201;&gt;&#8201;3-10&#8201;nm) particles originating in the polar stratosphere as measured in both the Antarctic and northern mid latitude regions. The austral CN layer in August has nearly a symmetrical maximum in concentration within the 60&#8211;65&#176;S latitude band and extends to 15&#176;S. In comparison in February, the Northern Hemisphere CN layer has less symmetry and extends to only 30&#176;N. CN concentrations in the mid stratosphere are variable due to the polar formation of the CN layer in each hemisphere, and the CN layer accounts for&#8201;&gt;&#8201;50-90% of the r&#8201;&gt;&#8201;3&#8201;nm particles in the stratospheric column poleward of 30&#176;S and 35&#176;N during winter and spring. The increase in CN concentration during the formation of the austral layer is not necessarily smooth. There may be fluctuations related to changes in temperature, partitioning of sulfuric acid, and the competition between nucleation, condensation, and coagulation. CESM1(WACCM) also predicts fall CN layers in both hemispheres. There are no observations to compare with this prediction.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[For the first time the global extent of a mid stratospheric new particle layer is addressed, using the National Center for Atmospheric Research Community Earth System Model, version 1 (CESM1), with the high-top atmosphere component, the Whole Atmosphere Community Climate Model (WACCM). The CESM1(WACCM) version has been configured for pure sulfate formation in the stratosphere, including the formation of late winter to spring condensation nuclei (CN), or small particle, layers of enhanced concentration in the polar regions. CESM1(WACCM) adequately reproduces, with some differences, a layer of observed (r&#8201;>&#8201;3-10&#8201;nm) particles originating in the polar stratosphere as measured in both the Antarctic and northern mid latitude regions. The austral CN layer in August has nearly a symmetrical maximum in concentration within the 60&#8211;65&#176;S latitude band and extends to 15&#176;S. In comparison in February, the Northern Hemisphere CN layer has less symmetry and extends to only 30&#176;N. CN concentrations in the mid stratosphere are variable due to the polar formation of the CN layer in each hemisphere, and the CN layer accounts for&#8201;>&#8201;50-90% of the r&#8201;>&#8201;3&#8201;nm particles in the stratospheric column poleward of 30&#176;S and 35&#176;N during winter and spring. The increase in CN concentration during the formation of the austral layer is not necessarily smooth. There may be fluctuations related to changes in temperature, partitioning of sulfuric acid, and the competition between nucleation, condensation, and coagulation. CESM1(WACCM) also predicts fall CN layers in both hemispheres. There are no observations to compare with this prediction.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -282,12 +278,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -329,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

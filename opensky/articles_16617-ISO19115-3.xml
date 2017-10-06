@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16617</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:59.895551</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:29.137071</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Description and evaluation of tropospheric chemistry and aerosols in the Community Earth System Model (CESM1.2)</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-05-13T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -394,12 +392,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7gt5pbd</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -407,12 +404,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/gmd-8-1395-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -422,7 +418,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Community Atmosphere Model (CAM), version 5, is now coupled to extensive tropospheric and stratospheric chemistry, called CAM5-chem, and is available in addition to CAM4-chem in the Community Earth System Model (CESM) version 1.2. The main focus of this paper is to compare the performance of configurations with internally derived "free running" (FR) meteorology and "specified dynamics" (SD) against observations from surface, aircraft, and satellite, as well as understand the origin of the identified differences. We focus on the representation of aerosols and chemistry. All model configurations reproduce tropospheric ozone for most regions based on in situ and satellite observations. However, shortcomings exist in the representation of ozone precursors and aerosols. Tropospheric ozone in all model configurations agrees for the most part with ozonesondes and satellite observations in the tropics and the Northern Hemisphere within the variability of the observations. Southern hemispheric tropospheric ozone is consistently underestimated by up to 25%. Differences in convection and stratosphere to troposphere exchange processes are mostly responsible for differences in ozone in the different model configurations. Carbon monoxide (CO) and other volatile organic compounds are largely underestimated in Northern Hemisphere mid-latitudes based on satellite and aircraft observations. Nitrogen oxides (NOx) are biased low in the free tropical troposphere, whereas peroxyacetyl nitrate (PAN) is overestimated in particular in high northern latitudes. The present-day methane lifetime estimates are compared among the different model configurations. These range between 7.8 years in the SD configuration of CAM5-chem and 8.8 years in the FR configuration of CAM4-chem and are therefore underestimated compared to observational estimations. We find that differences in tropospheric aerosol surface area between CAM4 and CAM5 play an important role in controlling the burden of the tropical tropospheric hydroxyl radical (OH), which causes differences in tropical methane lifetime of about half a year between CAM4-chem and CAM5-chem. In addition, different distributions of NOx from lightning explain about half of the difference between SD and FR model versions in both CAM4-chem and CAM5-chem. Remaining differences in the tropical OH burden are due to enhanced tropical ozone burden in SD configurations compared to the FR versions, which are not only caused by differences in chemical production or loss but also by transport and mixing. For future studies, we recommend the use of CAM5-chem configurations, due to improved aerosol description and inclusion of aerosol-cloud interactions. However, smaller tropospheric surface area density in the current version of CAM5-chem compared to CAM4-chem results in larger oxidizing capacity in the troposphere and therefore a shorter methane lifetime.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Community Atmosphere Model (CAM), version 5, is now coupled to extensive tropospheric and stratospheric chemistry, called CAM5-chem, and is available in addition to CAM4-chem in the Community Earth System Model (CESM) version 1.2. The main focus of this paper is to compare the performance of configurations with internally derived "free running" (FR) meteorology and "specified dynamics" (SD) against observations from surface, aircraft, and satellite, as well as understand the origin of the identified differences. We focus on the representation of aerosols and chemistry. All model configurations reproduce tropospheric ozone for most regions based on in situ and satellite observations. However, shortcomings exist in the representation of ozone precursors and aerosols. Tropospheric ozone in all model configurations agrees for the most part with ozonesondes and satellite observations in the tropics and the Northern Hemisphere within the variability of the observations. Southern hemispheric tropospheric ozone is consistently underestimated by up to 25%. Differences in convection and stratosphere to troposphere exchange processes are mostly responsible for differences in ozone in the different model configurations. Carbon monoxide (CO) and other volatile organic compounds are largely underestimated in Northern Hemisphere mid-latitudes based on satellite and aircraft observations. Nitrogen oxides (NOx) are biased low in the free tropical troposphere, whereas peroxyacetyl nitrate (PAN) is overestimated in particular in high northern latitudes. The present-day methane lifetime estimates are compared among the different model configurations. These range between 7.8 years in the SD configuration of CAM5-chem and 8.8 years in the FR configuration of CAM4-chem and are therefore underestimated compared to observational estimations. We find that differences in tropospheric aerosol surface area between CAM4 and CAM5 play an important role in controlling the burden of the tropical tropospheric hydroxyl radical (OH), which causes differences in tropical methane lifetime of about half a year between CAM4-chem and CAM5-chem. In addition, different distributions of NOx from lightning explain about half of the difference between SD and FR model versions in both CAM4-chem and CAM5-chem. Remaining differences in the tropical OH burden are due to enhanced tropical ozone burden in SD configurations compared to the FR versions, which are not only caused by differences in chemical production or loss but also by transport and mixing. For future studies, we recommend the use of CAM5-chem configurations, due to improved aerosol description and inclusion of aerosol-cloud interactions. However, smaller tropospheric surface area density in the current version of CAM5-chem compared to CAM4-chem results in larger oxidizing capacity in the troposphere and therefore a shorter methane lifetime.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -477,12 +473,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -524,7 +518,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

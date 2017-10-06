@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18873</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:48.936011</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:42.257912</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Convective initiation near the Andes in subtropical South America</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7zg6txz</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/MWR-D-15-0058.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Satellite radar and radiometer data indicate that subtropical South America has some of the deepest and most extreme convective storms on Earth. This study uses the full 15-yr TRMM Precipitation Radar dataset in conjunction with high-resolution simulations from the Weather Research and Forecasting Model to better understand the physical factors that control the climatology of high-impact weather in subtropical South America. The occurrence of intense storms with an extreme horizontal dimension is generally associated with lee cyclogenesis and a strengthening South American low-level jet (SALLJ) in the La Plata basin. The orography of the Andes is critical, and model sensitivity calculations removing and/or reducing various topographic features indicate the orographic control on the initiation of convection and its upscale growth into mesoscale convective systems (MCSs). Reduced Andes experiments show more widespread convective initiation, weaker average storm intensity, and more rapid propagation of the MCS to the east (reminiscent of the MCS life cycle downstream of lower mountains such as the Rockies). With reduced Andes, lee cyclogenesis and SALLJ winds are weaker, while they are stronger in increased Andes runs. The presence of the Sierras de Cordoba (secondary mountain range east of the Andes in Argentina) focuses convective initiation and results in more intense storms in experiments with higher Andes. Average CAPE and CIN values for each terrain modification simulation show that reduced Andes runs had lower CIN and CAPE, while increased Andes runs had both stronger CAPE and CIN. From this research, a conceptual model for convective storm environments leading to convective initiation has been developed for subtropical South America.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Satellite radar and radiometer data indicate that subtropical South America has some of the deepest and most extreme convective storms on Earth. This study uses the full 15-yr TRMM Precipitation Radar dataset in conjunction with high-resolution simulations from the Weather Research and Forecasting Model to better understand the physical factors that control the climatology of high-impact weather in subtropical South America. The occurrence of intense storms with an extreme horizontal dimension is generally associated with lee cyclogenesis and a strengthening South American low-level jet (SALLJ) in the La Plata basin. The orography of the Andes is critical, and model sensitivity calculations removing and/or reducing various topographic features indicate the orographic control on the initiation of convection and its upscale growth into mesoscale convective systems (MCSs). Reduced Andes experiments show more widespread convective initiation, weaker average storm intensity, and more rapid propagation of the MCS to the east (reminiscent of the MCS life cycle downstream of lower mountains such as the Rockies). With reduced Andes, lee cyclogenesis and SALLJ winds are weaker, while they are stronger in increased Andes runs. The presence of the Sierras de Cordoba (secondary mountain range east of the Andes in Argentina) focuses convective initiation and results in more intense storms in experiments with higher Andes. Average CAPE and CIN values for each terrain modification simulation show that reduced Andes runs had lower CIN and CAPE, while increased Andes runs had both stronger CAPE and CIN. From this research, a conceptual model for convective storm environments leading to convective initiation has been developed for subtropical South America.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -267,12 +263,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -314,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

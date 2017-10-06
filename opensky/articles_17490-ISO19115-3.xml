@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:19.190377</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:00.665982</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A Modelling study of flux imbalance and the influence of entrainment in the convective boundary layer</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2008-05-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7j104ht</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s10546-007-9254-x</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>It is frequently observed in field experiments that the eddy covariance heat fluxes are systematically underestimated as compared to the available energy. The flux imbalance problem is investigated using the NCAR&#226;&#128;&#153;s large-eddy simulation (LES) model imbedded with an online scheme to calculate Reynolds-averaged fluxes. A top-down and a bottom-up tracer are implemented into the LES model to quantify the influence of entrainment and bottom-up diffusion processes on flux imbalance. The results show that the flux imbalance follows a set of universal functions that capture the exponential decreasing dependence on u */w *, where u * and w * are friction velocity and the convective velocity scale, respectively, and an elliptic relationship to z/z i , where z i is the mixing-layer height. The source location in the boundary layer is an important factor controlling the imbalance magnitude and its horizontal and vertical distributions. The flux imbalance of heat and the bottom-up tracer is tightly related to turbulent coherent structures, whereas for the top-down diffusion, such relations are weak to nonexistent. Our results are broadly consistent with previous studies on the flux imbalance problem, suggesting that the published results are robust and are not artefacts of numerical schemes.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[It is frequently observed in field experiments that the eddy covariance heat fluxes are systematically underestimated as compared to the available energy. The flux imbalance problem is investigated using the NCAR&#226;&#128;&#153;s large-eddy simulation (LES) model imbedded with an online scheme to calculate Reynolds-averaged fluxes. A top-down and a bottom-up tracer are implemented into the LES model to quantify the influence of entrainment and bottom-up diffusion processes on flux imbalance. The results show that the flux imbalance follows a set of universal functions that capture the exponential decreasing dependence on u */w *, where u * and w * are friction velocity and the convective velocity scale, respectively, and an elliptic relationship to z/z i , where z i is the mixing-layer height. The source location in the boundary layer is an important factor controlling the imbalance magnitude and its horizontal and vertical distributions. The flux imbalance of heat and the bottom-up tracer is tightly related to turbulent coherent structures, whereas for the top-down diffusion, such relations are weak to nonexistent. Our results are broadly consistent with previous studies on the flux imbalance problem, suggesting that the published results are robust and are not artefacts of numerical schemes.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

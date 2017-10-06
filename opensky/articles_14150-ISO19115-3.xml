@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:14150</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:35.328645</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:55.662647</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Overview of the first HyMeX Special Observation Period over Italy: Observations and model result</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2014-05-26T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -499,12 +497,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7qz2bx9</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -512,12 +509,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/hess-18-1953-2014</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -527,7 +523,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Special Observation Period (SOP1), part of the HyMeX campaign (Hydrological cycle in the Mediterranean Experiments, 5 September-6 November 2012), was dedicated to heavy precipitation events and flash floods in the western Mediterranean, and three Italian hydro-meteorological monitoring sites were identified: Liguria-Tuscany, northeastern Italy and central Italy. The extraordinary deployment of advanced instrumentation, including instrumented aircrafts, and the use of several different operational weather forecast models, including hydrological models and marine models, allowed an unprecedented monitoring and analysis of high-impact weather events around the Italian hydro-meteorological sites. This activity has seen strong collaboration between the Italian scientific and operational communities. In this paper an overview of the Italian organization during SOP1 is provided, and selected Intensive Observation Periods (IOPs) are described. A significant event for each Italian target area is chosen for this analysis: IOP2 (12-13 September 2012) in northeastern Italy, IOP13 (15-16 October 2012) in central Italy and IOP19 (3-5 November 2012) in Liguria and Tuscany. For each IOP the meteorological characteristics, together with special observations and weather forecasts, are analyzed with the aim of highlighting strengths and weaknesses of the forecast modeling systems, including the hydrological impacts. The usefulness of having different weather forecast operational chains characterized by different numerical weather prediction models and/or different model set up or initial conditions is finally shown for one of the events (IOP19).</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Special Observation Period (SOP1), part of the HyMeX campaign (Hydrological cycle in the Mediterranean Experiments, 5 September-6 November 2012), was dedicated to heavy precipitation events and flash floods in the western Mediterranean, and three Italian hydro-meteorological monitoring sites were identified: Liguria-Tuscany, northeastern Italy and central Italy. The extraordinary deployment of advanced instrumentation, including instrumented aircrafts, and the use of several different operational weather forecast models, including hydrological models and marine models, allowed an unprecedented monitoring and analysis of high-impact weather events around the Italian hydro-meteorological sites. This activity has seen strong collaboration between the Italian scientific and operational communities. In this paper an overview of the Italian organization during SOP1 is provided, and selected Intensive Observation Periods (IOPs) are described. A significant event for each Italian target area is chosen for this analysis: IOP2 (12-13 September 2012) in northeastern Italy, IOP13 (15-16 October 2012) in central Italy and IOP19 (3-5 November 2012) in Liguria and Tuscany. For each IOP the meteorological characteristics, together with special observations and weather forecasts, are analyzed with the aim of highlighting strengths and weaknesses of the forecast modeling systems, including the hydrological impacts. The usefulness of having different weather forecast operational chains characterized by different numerical weather prediction models and/or different model set up or initial conditions is finally shown for one of the events (IOP19).]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -582,12 +578,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -629,7 +623,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.931022</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:18.185413</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Coupling cloud processes with the large-scale dynamics using the Cloud-Resolving Convection Parameterization (CRCP)</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2001-05-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -161,12 +159,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7vd700p</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -177,7 +174,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A formal approach is presented to couple small-scale processes associated with atmospheric moist convection with the large-scale dynamics. The approach involves applying a two-dimensional cloud-resolving model in each column of a three-dimensional large-scale model. In the spirit of classical convection parameterization, which assumes scale separation between convection and the large-scale flow, the cloud-resolving models from neighboring columns interact only through the large-scale dynamics. This approach is referred to as Cloud-Resolving Convection Parameterization (CRCP). In short, CRCP involves many two-dimensional cloud-resolving models interacting in a manner consistent with the large-scale dynamics. The approach is first applied to the idealized problem of a convective-radiative equilibrium of a two-dimensional nonrotating atmosphere in the presence of SST gradients. This simple dynamical setup allows comparison of CRCP simulations with the cloud-resolving model results. In these tests, the large-scale model has various horizontal grid spacings, from 20 to 500 km, and the CRCP domains change correspondingly. Comparison between CRCP and cloud-resolving simulations shows that the large-scale features, such as the mean temperature and moisture profiles and the large-scale flow, are reasonably well represented in CRCP simulations. However, the interaction between ascending and descending branches through the gravity wave mechanism, as well as organization of convection into mesoscale convective systems, are poorly captured. These results illustrate the limitations of not only CRCP, but also convection parameterization in general. The CRCP approach is also applied to the idealized problem of a rotating constant-SST aquaplanet in convective-radiative equilibrium. The global CRCP simulation features pronounced large-scale organization of convection within the equatorial waveguide. A prominent solitary equatorial "super cloud cluster" develops toward the end of the 80-day long simulation, which bears a strong resemblance to the Madden-Julian oscillation observed in the terrestrial Tropics.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A formal approach is presented to couple small-scale processes associated with atmospheric moist convection with the large-scale dynamics. The approach involves applying a two-dimensional cloud-resolving model in each column of a three-dimensional large-scale model. In the spirit of classical convection parameterization, which assumes scale separation between convection and the large-scale flow, the cloud-resolving models from neighboring columns interact only through the large-scale dynamics. This approach is referred to as Cloud-Resolving Convection Parameterization (CRCP). In short, CRCP involves many two-dimensional cloud-resolving models interacting in a manner consistent with the large-scale dynamics. The approach is first applied to the idealized problem of a convective-radiative equilibrium of a two-dimensional nonrotating atmosphere in the presence of SST gradients. This simple dynamical setup allows comparison of CRCP simulations with the cloud-resolving model results. In these tests, the large-scale model has various horizontal grid spacings, from 20 to 500 km, and the CRCP domains change correspondingly. Comparison between CRCP and cloud-resolving simulations shows that the large-scale features, such as the mean temperature and moisture profiles and the large-scale flow, are reasonably well represented in CRCP simulations. However, the interaction between ascending and descending branches through the gravity wave mechanism, as well as organization of convection into mesoscale convective systems, are poorly captured. These results illustrate the limitations of not only CRCP, but also convection parameterization in general. The CRCP approach is also applied to the idealized problem of a rotating constant-SST aquaplanet in convective-radiative equilibrium. The global CRCP simulation features pronounced large-scale organization of convection within the equatorial waveguide. A prominent solitary equatorial "super cloud cluster" develops toward the end of the 80-day long simulation, which bears a strong resemblance to the Madden-Julian oscillation observed in the terrestrial Tropics.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -236,7 +233,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -278,7 +274,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

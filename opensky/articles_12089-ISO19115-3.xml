@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12089</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:58.178210</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:59.164444</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Calculations of in-snow NO&#8322; and OH radical photochemical production and photolysis rates: A field and radiative-transfer study of the optical properties of Arctic (Ny-&#197;lesund, Svalbard) snow</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-11-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7th8nfg</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2011JF002019</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Depth-integrated production rates of OH radicals and NO&#8322; molecules from snowpacks in Ny-&#197;lesund, Svalbard, are calculated from fieldwork investigating the light penetration depth (e-folding depth) and nadir reflectivity of snowpacks during the unusually warm spring of 2006. Light penetration depths of 8.1, 11.3, 5.1, and 8.2 cm were measured for fresh, old, marine-influenced, and glacial snowpacks, respectively (wavelength 400 nm). Radiative-transfer calculations of the light penetration depths with reflectivity measurements produced scattering cross sections of 5.3, 9.5, 20, and 25.5 m&#178; kg&#8315;&#185; and absorption cross sections of 7.7, 1.4, 3.4, and 0.5 cm&#178; kg&#8315;&#185; for the fresh, old, marine-influenced, and glacial snowpacks, respectively (wavelength 400 nm). Photolysis rate coefficients, J, are presented as a function of snow depth and solar zenith angle for the four snowpacks for the photolysis of H&#8322;O&#8322; and NO&#8323;-. Depth-integrated production rates of hydroxyl radicals are 1270, 2130, 950, and 1850 nmol m&#8315;&#178; h&#8315;&#185; (solar zenith angle of 60&#176;) for fresh, old, marine-influenced, and glacial snowpacks, respectively. Depth-integrated production rates of NO&#8322; are 32, 56, 11, and 22 nmol m&#8315;&#178; h&#8315;&#185; (solar zenith angle of 60&#176;) for the fresh, old, marine-influenced, and glacial snowpacks, respectively. The uncertainty of repeated light penetration depth measurement was determined to be ~20%, which propagates into a 20% error in depth-integrated production rates. A very simple steady state hydroxyl radical calculation demonstrates that a pseudo first-order loss rate of OH radicals of ~10&#178;-10&#8308; s&#8315;&#185; is required in snowpack. The snowpacks around Ny-&#197;lesund are thick enough to be considered optically infinite.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Depth-integrated production rates of OH radicals and NO&#8322; molecules from snowpacks in Ny-&#197;lesund, Svalbard, are calculated from fieldwork investigating the light penetration depth (e-folding depth) and nadir reflectivity of snowpacks during the unusually warm spring of 2006. Light penetration depths of 8.1, 11.3, 5.1, and 8.2 cm were measured for fresh, old, marine-influenced, and glacial snowpacks, respectively (wavelength 400 nm). Radiative-transfer calculations of the light penetration depths with reflectivity measurements produced scattering cross sections of 5.3, 9.5, 20, and 25.5 m&#178; kg&#8315;&#185; and absorption cross sections of 7.7, 1.4, 3.4, and 0.5 cm&#178; kg&#8315;&#185; for the fresh, old, marine-influenced, and glacial snowpacks, respectively (wavelength 400 nm). Photolysis rate coefficients, J, are presented as a function of snow depth and solar zenith angle for the four snowpacks for the photolysis of H&#8322;O&#8322; and NO&#8323;-. Depth-integrated production rates of hydroxyl radicals are 1270, 2130, 950, and 1850 nmol m&#8315;&#178; h&#8315;&#185; (solar zenith angle of 60&#176;) for fresh, old, marine-influenced, and glacial snowpacks, respectively. Depth-integrated production rates of NO&#8322; are 32, 56, 11, and 22 nmol m&#8315;&#178; h&#8315;&#185; (solar zenith angle of 60&#176;) for the fresh, old, marine-influenced, and glacial snowpacks, respectively. The uncertainty of repeated light penetration depth measurement was determined to be ~20%, which propagates into a 20% error in depth-integrated production rates. A very simple steady state hydroxyl radical calculation demonstrates that a pseudo first-order loss rate of OH radicals of ~10&#178;-10&#8308; s&#8315;&#185; is required in snowpack. The snowpacks around Ny-&#197;lesund are thick enough to be considered optically infinite.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -342,12 +338,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -389,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

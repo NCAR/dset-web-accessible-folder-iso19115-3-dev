@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12741</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:13.388915</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:20.994874</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Study of HD 169392A observed by CoRoT and HARPS</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2013-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -574,12 +572,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7gm8858</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -587,12 +584,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1051/0004-6361/201219678</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -602,7 +598,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Context. The results obtained by asteroseismology with data from space missions such as CoRoT and Kepler are providing new insights into stellar evolution. After five years of observations, CoRoT is continuing to provide high-quality data and we here present an analysis of the CoRoT observations of the double star HD 169392, complemented by ground-based spectroscopic observations. Aims. This work aims at characterising the fundamental parameters of the two stars, their chemical composition, the acoustic-mode global parameters including their individual frequencies, and their dynamics. Methods. We analysed HARPS observations of the two stars to derive their chemical compositions. Several methods were used and compared to determine the global properties of stars&#8217; acoustic modes and their individual frequencies from the photometric data of CoRoT. Results. The new spectroscopic observations and archival astrometric values suggest that HD 169392 is a weakly bound wide binary system. We obtained spectroscopic parameters for both components which suggest that they originate from the same interstellar cloud. However, only the signature of oscillation modes of HD 169392 A was measured; the signal-to-noise ratio of the modes in HD 169392B is too low to allow any confident detection. For HD 169392 A we were able to extract parameters of modes for &#8467; = 0, 1, 2, and 3. The analysis of splittings and inclination angle gives two possible solutions: one with with splittings and inclination angles of 0.4-1.0 &#181;Hz and 20 - 40&#176;, the other with 0.2-0.5 &#181;Hz and 55-86&#176;. Modelling this star using the Asteroseismic Modeling Portal (AMP) gives a mass of 1.15 &#177; 0.01 M&#8857;, a radius of 1.88 &#177; 0.02 R&#8857;, and an age of 4.33 &#177; 0.12 Gyr. The uncertainties come from estimated errors on the observables but do not include uncertainties on the surface layer correction or the physics of stellar models.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Context. The results obtained by asteroseismology with data from space missions such as CoRoT and Kepler are providing new insights into stellar evolution. After five years of observations, CoRoT is continuing to provide high-quality data and we here present an analysis of the CoRoT observations of the double star HD 169392, complemented by ground-based spectroscopic observations. Aims. This work aims at characterising the fundamental parameters of the two stars, their chemical composition, the acoustic-mode global parameters including their individual frequencies, and their dynamics. Methods. We analysed HARPS observations of the two stars to derive their chemical compositions. Several methods were used and compared to determine the global properties of stars&#8217; acoustic modes and their individual frequencies from the photometric data of CoRoT. Results. The new spectroscopic observations and archival astrometric values suggest that HD 169392 is a weakly bound wide binary system. We obtained spectroscopic parameters for both components which suggest that they originate from the same interstellar cloud. However, only the signature of oscillation modes of HD 169392 A was measured; the signal-to-noise ratio of the modes in HD 169392B is too low to allow any confident detection. For HD 169392 A we were able to extract parameters of modes for &#8467; = 0, 1, 2, and 3. The analysis of splittings and inclination angle gives two possible solutions: one with with splittings and inclination angles of 0.4-1.0 &#181;Hz and 20 - 40&#176;, the other with 0.2-0.5 &#181;Hz and 55-86&#176;. Modelling this star using the Asteroseismic Modeling Portal (AMP) gives a mass of 1.15 &#177; 0.01 M&#8857;, a radius of 1.88 &#177; 0.02 R&#8857;, and an age of 4.33 &#177; 0.12 Gyr. The uncertainties come from estimated errors on the observables but do not include uncertainties on the surface layer correction or the physics of stellar models.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -657,12 +653,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -704,7 +698,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

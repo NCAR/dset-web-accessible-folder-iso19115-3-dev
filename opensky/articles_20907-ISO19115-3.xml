@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:07.537541</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:19.938569</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Gusts and shear within hurricane eyewalls can exceed offshore wind turbine design standards</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-28T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7fj2k7m</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017GL073537</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Offshore wind energy development is underway in the U.S., with proposed sites located in hurricane-prone regions. Turbine design criteria outlined by the International Electrotechnical Commission do not encompass the extreme wind speeds and directional shifts of hurricanes stronger than category 2. We examine a hurricane's turbulent eyewall using large-eddy simulations with Cloud Model 1. Gusts and mean wind speeds near the eyewall of a category 5 hurricane exceed the current Class I turbine design threshold of 50 m s(-1) mean wind and 70 m s(-1) gusts. Largest gust factors occur at the eye-eyewall interface. Further, shifts in wind direction suggest that turbines must rotate or yaw faster than current practice. Although current design standards omit mention of wind direction change across the rotor layer, large values (15-50 degrees) suggest that veer should be considered.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Offshore wind energy development is underway in the U.S., with proposed sites located in hurricane-prone regions. Turbine design criteria outlined by the International Electrotechnical Commission do not encompass the extreme wind speeds and directional shifts of hurricanes stronger than category 2. We examine a hurricane's turbulent eyewall using large-eddy simulations with Cloud Model 1. Gusts and mean wind speeds near the eyewall of a category 5 hurricane exceed the current Class I turbine design threshold of 50 m s(-1) mean wind and 70 m s(-1) gusts. Largest gust factors occur at the eye-eyewall interface. Further, shifts in wind direction suggest that turbines must rotate or yaw faster than current practice. Although current design standards omit mention of wind direction change across the rotor layer, large values (15-50 degrees) suggest that veer should be considered.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.667622</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.422180</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Reduced ENSO variability at the LGM revealed by an isotope-enabled Earth system model</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -319,12 +317,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7474dbr</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -332,12 +329,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017GL073406</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -347,7 +343,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Studying the El Nino-Southern Oscillation (ENSO) in the past can help us better understand its dynamics and improve its future projections. However, both paleoclimate reconstructions and model simulations of ENSO strength at the Last Glacial Maximum (LGM; 21 ka B.P.) have led to contradicting results. Here we perform model simulations using the recently developed water isotope-enabled Community Earth System Model (iCESM). For the first time, model-simulated oxygen isotopes are directly compared with those from ENSO reconstructions using the individual foraminifera analysis (IFA). We find that the LGM ENSO is most likely weaker comparing with the preindustrial. The iCESM suggests that total variance of the IFA records may only reflect changes in the annual cycle instead of ENSO variability as previously assumed. Furthermore, the interpretation of subsurface IFA records can be substantially complicated by the habitat depth of thermocline-dwelling foraminifera and their vertical migration with a temporally varying thermocline.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Studying the El Nino-Southern Oscillation (ENSO) in the past can help us better understand its dynamics and improve its future projections. However, both paleoclimate reconstructions and model simulations of ENSO strength at the Last Glacial Maximum (LGM; 21 ka B.P.) have led to contradicting results. Here we perform model simulations using the recently developed water isotope-enabled Community Earth System Model (iCESM). For the first time, model-simulated oxygen isotopes are directly compared with those from ENSO reconstructions using the individual foraminifera analysis (IFA). We find that the LGM ENSO is most likely weaker comparing with the preindustrial. The iCESM suggests that total variance of the IFA records may only reflect changes in the annual cycle instead of ENSO variability as previously assumed. Furthermore, the interpretation of subsurface IFA records can be substantially complicated by the habitat depth of thermocline-dwelling foraminifera and their vertical migration with a temporally varying thermocline.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -406,7 +402,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -448,7 +443,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

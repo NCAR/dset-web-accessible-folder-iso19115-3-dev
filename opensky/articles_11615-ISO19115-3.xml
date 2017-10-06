@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:11615</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:46.847769</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:43.456405</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Seasonal and longitudinal variations of the solar quiet (Sq) current system during solar minimum determined by CHAMP satellite magnetic field observations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-04-21T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d79g5nfb</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2010JA016289</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Vector magnetometer observations from the Challenging Minisatellite Payload (CHAMP) satellite are used to determine the solar quiet (Sq) current system during the recent solar minimum. Observations from 2006 to 2008 are combined, and after removal of a main field model and accounting for field-aligned currents, the longitudinal and seasonal variation of the Sq currents are determined through the method of spherical harmonic analysis. Comparison with Sq currents derived from ground-based magnetometers in the African/European longitude sector reveals similar amplitudes and seasonal variations, indicating that the CHAMP observations can reliably determine the Sq current system. The seasonal variation is consistent with prior observations during solar minimum conditions and in the Northern Hemisphere exhibits a primarily annual variation with peak currents during local summer. The seasonal variation in the Southern Hemisphere is characterized by a semiannual variation with the maxima occurring around the equinoxes. Significant longitudinal variations are also observed, and they display a seasonal variability. During Northern Hemisphere summer, the predominant feature at local noon is a wave number 1 variation in longitude. During the remainder of the year, a wave 3 longitudinal structure is observed at this local time. The longitudinal variations are considered to be due to a combination of the orientation and strength of the geomagnetic field as well as the tidal winds in the lower thermosphere. Variations in tidal winds due to nonmigrating tides may influence the dynamo-generated electric fields and currents, resulting in the observed longitudinal variations of the Sq current function.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Vector magnetometer observations from the Challenging Minisatellite Payload (CHAMP) satellite are used to determine the solar quiet (Sq) current system during the recent solar minimum. Observations from 2006 to 2008 are combined, and after removal of a main field model and accounting for field-aligned currents, the longitudinal and seasonal variation of the Sq currents are determined through the method of spherical harmonic analysis. Comparison with Sq currents derived from ground-based magnetometers in the African/European longitude sector reveals similar amplitudes and seasonal variations, indicating that the CHAMP observations can reliably determine the Sq current system. The seasonal variation is consistent with prior observations during solar minimum conditions and in the Northern Hemisphere exhibits a primarily annual variation with peak currents during local summer. The seasonal variation in the Southern Hemisphere is characterized by a semiannual variation with the maxima occurring around the equinoxes. Significant longitudinal variations are also observed, and they display a seasonal variability. During Northern Hemisphere summer, the predominant feature at local noon is a wave number 1 variation in longitude. During the remainder of the year, a wave 3 longitudinal structure is observed at this local time. The longitudinal variations are considered to be due to a combination of the orientation and strength of the geomagnetic field as well as the tidal winds in the lower thermosphere. Variations in tidal winds due to nonmigrating tides may influence the dynamo-generated electric fields and currents, resulting in the observed longitudinal variations of the Sq current function.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -282,12 +278,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -329,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

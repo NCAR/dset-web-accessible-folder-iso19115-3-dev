@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:40.142870</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:30.694599</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Premature mortality in India due to PM&#8322;.&#8325; and ozone exposure</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-05-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -289,12 +287,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7j67jh5</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -302,12 +299,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016GL068949</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -317,7 +313,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>This bottom-up modeling study, supported by new population census 2011 data, simulates ozone (O&#8323;) and fine particulate matter (PM&#8322;.&#8325;) exposure on local to regional scales. It quantifies, present-day premature mortalities associated with the exposure to near-surface PM&#8322;.&#8325; and O&#8323; concentrations in India using a regional chemistry model. We estimate that PM&#8322;.&#8325; exposure leads to about 570,000 (CI95: 320,000-730,000) premature mortalities in 2011. On a national scale, our estimate of mortality by chronic obstructive pulmonary disease (COPD) due to O&#8323; exposure is about 12,000 people. The Indo-Gangetic region accounts for a large part (~42%) of the estimated mortalities. The associated lost life expectancy is calculated as 3.4&#8201;&#177;&#8201;1.1&#8201;years for all of India with highest values found for Delhi (6.3&#8201;&#177;&#8201;2.2&#8201;years). The economic cost of estimated premature mortalities associated with PM&#8322;.&#8325; and O&#8323; exposure is about 640 (350-800) billion USD in 2011, which is a factor of 10 higher than total expenditure on health by public and private expenditure.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[This bottom-up modeling study, supported by new population census 2011 data, simulates ozone (O&#8323;) and fine particulate matter (PM&#8322;.&#8325;) exposure on local to regional scales. It quantifies, present-day premature mortalities associated with the exposure to near-surface PM&#8322;.&#8325; and O&#8323; concentrations in India using a regional chemistry model. We estimate that PM&#8322;.&#8325; exposure leads to about 570,000 (CI95: 320,000-730,000) premature mortalities in 2011. On a national scale, our estimate of mortality by chronic obstructive pulmonary disease (COPD) due to O&#8323; exposure is about 12,000 people. The Indo-Gangetic region accounts for a large part (~42%) of the estimated mortalities. The associated lost life expectancy is calculated as 3.4&#8201;&#177;&#8201;1.1&#8201;years for all of India with highest values found for Delhi (6.3&#8201;&#177;&#8201;2.2&#8201;years). The economic cost of estimated premature mortalities associated with PM&#8322;.&#8325; and O&#8323; exposure is about 640 (350-800) billion USD in 2011, which is a factor of 10 higher than total expenditure on health by public and private expenditure.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -376,7 +372,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -418,7 +413,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

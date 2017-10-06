@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16719</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:02.297284</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:32.756218</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Aircraft measurements of BrO, IO, glyoxal, NO&#8322;, H&#8322;O, O&#8322;-O&#8322; and aerosol extinction profiles in the tropics: Comparison with aircraft-/ship-based in situ and lidar measurements</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-05-20T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -394,12 +392,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d79p32v0</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -407,12 +404,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/amt-8-2121-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -422,7 +418,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Tropospheric chemistry of halogens and organic carbon over tropical oceans modifies ozone and atmospheric aerosols, yet atmospheric models remain largely untested for lack of vertically resolved measurements of bromine monoxide (BrO), iodine monoxide (IO) and small oxygenated hydrocarbons like glyoxal (CHOCHO) in the tropical troposphere. BrO, IO, glyoxal, nitrogen dioxide (NO&#8322;), water vapor (H&#8322;O) and O&#8322;-O&#8322; collision complexes (O&#8324;) were measured by the University of Colorado Airborne Multi-AXis Differential Optical Absorption Spectroscopy (CU AMAX-DOAS) instrument, aerosol extinction by high spectral resolution lidar (HSRL), in situ aerosol size distributions by an ultra high sensitivity aerosol spectrometer (UHSAS) and in situ H&#8322;O by vertical-cavity surface-emitting laser (VCSEL) hygrometer. Data are presented from two research flights (RF12, RF17) aboard the National Science Foundation/National Center for Atmospheric Research Gulfstream V aircraft over the tropical Eastern Pacific Ocean (tEPO) as part of the "Tropical Ocean tRoposphere Exchange of Reactive halogens and Oxygenated hydrocarbons" (TORERO) project (January/February 2012). We assess the accuracy of O&#8324; slant column density (SCD) measurements in the presence and absence of aerosols. Our O&#8324;-inferred aerosol extinction profiles at 477 nm agree within 6% with HSRL in the boundary layer and closely resemble the renormalized profile shape of Mie calculations constrained by UHSAS at low (sub-Rayleigh) aerosol extinction in the free troposphere. CU AMAX-DOAS provides a flexible choice of geometry, which we exploit to minimize the SCD in the reference spectrum (SCDREF, maximize signal-to-noise ratio) and to test the robustness of BrO, IO and glyoxal differential SCDs. The RF12 case study was conducted in pristine marine and free tropospheric air. The RF17 case study was conducted above the NOAA RV Ka'imimoana (TORERO cruise, KA-12-01) and provides independent validation data from ship-based in situ cavity-enhanced DOAS and MAX-DOAS. Inside the marine boundary layer (MBL) no BrO was detected (smaller than 0.5 pptv), and 0.2-0.55 pptv IO and 32-36 pptv glyoxal were observed. The near-surface concentrations agree within 30% (IO) and 10% (glyoxal) between ship and aircraft. The BrO concentration strongly increased with altitude to 3.0 pptv at 14.5 km (RF12, 9.1 to 8.6&#176; N; 101.2 to 97.4&#176; W). At 14.5 km, 5-10 pptv NO&#8322; agree with model predictions and demonstrate good control over separating tropospheric from stratospheric absorbers (NO&#8322; and BrO). Our profile retrievals have 12-20 degrees of freedom (DoF) and up to 500 m vertical resolution. The tropospheric BrO vertical column density (VCD) was 1.5 &#215; 10&#185;&#179; molec cm&#8315;&#178; (RF12) and at least 0.5 &#215; 10&#185;&#179; molec cm&#8315;&#178; (RF17, 0-10 km, lower limit). Tropospheric IO VCDs correspond to 2.1 &#215; 10&#185;&#178; molec cm&#8315;&#178; (RF12) and 2.5 &#215; 10&#185;&#178; molec cm&#8315;&#178; (RF17) and glyoxal VCDs of 2.6 &#215; 10&#185;&#8308; molec cm&#8315;&#178; (RF12) and 2.7 &#215; 10&#185;&#8308; molec cm&#8315;&#178; (RF17). Surprisingly, essentially all BrO as well as the dominant IO and glyoxal VCD fraction was located above 2 km (IO: 58 &#177; 5%, 0.1-0.2 pptv; glyoxal: 52 &#177; 5%, 3-20 pptv). To our knowledge there are no previous vertically resolved measurements of BrO and glyoxal from aircraft in the tropical free troposphere. The atmospheric implications are briefly discussed. Future studies are necessary to better understand the sources and impacts of free tropospheric halogens and oxygenated hydrocarbons on tropospheric ozone, aerosols, mercury oxidation and the oxidation capacity of the atmosphere.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Tropospheric chemistry of halogens and organic carbon over tropical oceans modifies ozone and atmospheric aerosols, yet atmospheric models remain largely untested for lack of vertically resolved measurements of bromine monoxide (BrO), iodine monoxide (IO) and small oxygenated hydrocarbons like glyoxal (CHOCHO) in the tropical troposphere. BrO, IO, glyoxal, nitrogen dioxide (NO&#8322;), water vapor (H&#8322;O) and O&#8322;-O&#8322; collision complexes (O&#8324;) were measured by the University of Colorado Airborne Multi-AXis Differential Optical Absorption Spectroscopy (CU AMAX-DOAS) instrument, aerosol extinction by high spectral resolution lidar (HSRL), in situ aerosol size distributions by an ultra high sensitivity aerosol spectrometer (UHSAS) and in situ H&#8322;O by vertical-cavity surface-emitting laser (VCSEL) hygrometer. Data are presented from two research flights (RF12, RF17) aboard the National Science Foundation/National Center for Atmospheric Research Gulfstream V aircraft over the tropical Eastern Pacific Ocean (tEPO) as part of the "Tropical Ocean tRoposphere Exchange of Reactive halogens and Oxygenated hydrocarbons" (TORERO) project (January/February 2012). We assess the accuracy of O&#8324; slant column density (SCD) measurements in the presence and absence of aerosols. Our O&#8324;-inferred aerosol extinction profiles at 477 nm agree within 6% with HSRL in the boundary layer and closely resemble the renormalized profile shape of Mie calculations constrained by UHSAS at low (sub-Rayleigh) aerosol extinction in the free troposphere. CU AMAX-DOAS provides a flexible choice of geometry, which we exploit to minimize the SCD in the reference spectrum (SCDREF, maximize signal-to-noise ratio) and to test the robustness of BrO, IO and glyoxal differential SCDs. The RF12 case study was conducted in pristine marine and free tropospheric air. The RF17 case study was conducted above the NOAA RV Ka'imimoana (TORERO cruise, KA-12-01) and provides independent validation data from ship-based in situ cavity-enhanced DOAS and MAX-DOAS. Inside the marine boundary layer (MBL) no BrO was detected (smaller than 0.5 pptv), and 0.2-0.55 pptv IO and 32-36 pptv glyoxal were observed. The near-surface concentrations agree within 30% (IO) and 10% (glyoxal) between ship and aircraft. The BrO concentration strongly increased with altitude to 3.0 pptv at 14.5 km (RF12, 9.1 to 8.6&#176; N; 101.2 to 97.4&#176; W). At 14.5 km, 5-10 pptv NO&#8322; agree with model predictions and demonstrate good control over separating tropospheric from stratospheric absorbers (NO&#8322; and BrO). Our profile retrievals have 12-20 degrees of freedom (DoF) and up to 500 m vertical resolution. The tropospheric BrO vertical column density (VCD) was 1.5 &#215; 10&#185;&#179; molec cm&#8315;&#178; (RF12) and at least 0.5 &#215; 10&#185;&#179; molec cm&#8315;&#178; (RF17, 0-10 km, lower limit). Tropospheric IO VCDs correspond to 2.1 &#215; 10&#185;&#178; molec cm&#8315;&#178; (RF12) and 2.5 &#215; 10&#185;&#178; molec cm&#8315;&#178; (RF17) and glyoxal VCDs of 2.6 &#215; 10&#185;&#8308; molec cm&#8315;&#178; (RF12) and 2.7 &#215; 10&#185;&#8308; molec cm&#8315;&#178; (RF17). Surprisingly, essentially all BrO as well as the dominant IO and glyoxal VCD fraction was located above 2 km (IO: 58 &#177; 5%, 0.1-0.2 pptv; glyoxal: 52 &#177; 5%, 3-20 pptv). To our knowledge there are no previous vertically resolved measurements of BrO and glyoxal from aircraft in the tropical free troposphere. The atmospheric implications are briefly discussed. Future studies are necessary to better understand the sources and impacts of free tropospheric halogens and oxygenated hydrocarbons on tropospheric ozone, aerosols, mercury oxidation and the oxidation capacity of the atmosphere.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -477,12 +473,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -524,7 +518,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

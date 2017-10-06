@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17133</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:12.447572</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:47.138260</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Climate change impacts on Texas water: A white paper asessment of the past, present and future and recommendations for action</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-09-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -326,12 +324,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7rb75vb</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -342,7 +339,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Texas comprises the eastern portion of the Southwest region, where the convergence of climatological and geopolitical forces has the potential to put extreme stress on water resources. Geologic records indicate that Texas experienced large climate changes on millennial time scales in the past, and over the last thousand years, tree-ring records indicate that there were significant periods of drought in Texas. These droughts were of longer duration than the 1950s &#8220;drought of record&#8221; that is commonly used in planning, and they occurred independently of human-induced global climate change. Although there has been a negligible net temperature increase in Texas over the past century, temperatures have increased more significantly over the past three decades. Under essentially all climate model projections, Texas is susceptible to significant climate change in the future. Most projections for the 21st century show that with increasing atmospheric greenhouse gas concentrations, there will be an increase in temperatures across Texas and a shift to a more arid average climate. Studies agree that Texas will likely become significantly warmer and drier, yet the magnitude, timing, and regional distribution of these changes are uncertain. There is a large uncertainty in the projected changes in precipitation for Texas for the 21st century. In contrast, the more robust projected increase in temperature with its effect on evaporation, which is a dominant component in the region's hydrologic cycle, is consistent with model projections of frequent and extended droughts throughout the state. For these reasons, we recommend that Texas invest resources to investigate and anticipate the impacts of climate change on Texas&#8217; water resources, with the goal of providing data to inform resource planning. This investment should support development of 1) research programs that provide policy-relevant science; 2) education programs to engage future researchers and policy-makers; and 3) connections between policy-makers, scientists, water resource managers, and other stakeholders. It is proposed that these goals may be achieved through the establishment of a Texas Climate Consortium, consisting of representatives from academia, industry, government agencies, water authorities, and other stakeholders. The mission of this consortium would be to develop the capacity to provide decision makers with the information needed to develop adaptation strategies in the face of future climate change and uncertainty.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Texas comprises the eastern portion of the Southwest region, where the convergence of climatological and geopolitical forces has the potential to put extreme stress on water resources. Geologic records indicate that Texas experienced large climate changes on millennial time scales in the past, and over the last thousand years, tree-ring records indicate that there were significant periods of drought in Texas. These droughts were of longer duration than the 1950s &#8220;drought of record&#8221; that is commonly used in planning, and they occurred independently of human-induced global climate change. Although there has been a negligible net temperature increase in Texas over the past century, temperatures have increased more significantly over the past three decades. Under essentially all climate model projections, Texas is susceptible to significant climate change in the future. Most projections for the 21st century show that with increasing atmospheric greenhouse gas concentrations, there will be an increase in temperatures across Texas and a shift to a more arid average climate. Studies agree that Texas will likely become significantly warmer and drier, yet the magnitude, timing, and regional distribution of these changes are uncertain. There is a large uncertainty in the projected changes in precipitation for Texas for the 21st century. In contrast, the more robust projected increase in temperature with its effect on evaporation, which is a dominant component in the region's hydrologic cycle, is consistent with model projections of frequent and extended droughts throughout the state. For these reasons, we recommend that Texas invest resources to investigate and anticipate the impacts of climate change on Texas&#8217; water resources, with the goal of providing data to inform resource planning. This investment should support development of 1) research programs that provide policy-relevant science; 2) education programs to engage future researchers and policy-makers; and 3) connections between policy-makers, scientists, water resource managers, and other stakeholders. It is proposed that these goals may be achieved through the establishment of a Texas Climate Consortium, consisting of representatives from academia, industry, government agencies, water authorities, and other stakeholders. The mission of this consortium would be to develop the capacity to provide decision makers with the information needed to develop adaptation strategies in the face of future climate change and uncertainty.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -397,12 +394,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -444,7 +439,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

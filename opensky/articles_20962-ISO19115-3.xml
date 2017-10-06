@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.913429</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.804449</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Climatology of semidiurnal lunar and solar tides at middle and high latitudes: Interhemispheric comparison</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-24T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -289,12 +287,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7pv6nv9</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -302,12 +299,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017JA024396</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -317,7 +313,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The semidiurnal lunar and solar tides obtained from meteor radar measurements spanning from 2009 to 2013 observed at Davis (69 degrees S) and Rio Grande (54 degrees S) are presented and compared to the Northern Hemisphere ones at Andenes (69 degrees N) and Juliusruh (54 degrees N). Mean tidal differences for both intrahemispheric and interhemispheric scenarios are analyzed. Tidal behavior is also compared against numerical simulations during 2009 and 2013 sudden stratospheric warming (SSW) time periods. Possible influences in the Southern Hemisphere from the local stratosphere are also investigated using Modern Era Retrospective analysis for Research and Applications, version 2 (MERRA 2) data sets. The main features of the mean zonal wind are similar in both hemispheres, i.e., stronger amplitudes over midlatitude locations, eastward winds during winter and westward below 90 km with eastward higher up during corresponding summer times. On the other hand, the semidiurnal solar tides observed in the Southern Hemisphere show clear differences when compared to the Northern Hemisphere and between middle- and high-latitude locations at the same hemisphere. These differences are even larger for the semidiurnal lunar tide, which shows stronger amplitudes from October to March and March to October, over Davis and Rio Grande, respectively. Our results indicate that the lunar tides over the Southern Hemisphere midlatitudes are more prone to react to the Northern Hemisphere stratospheric polar vortex influences, in agreement with numerical simulations, particularly for the time of the 2013 SSW.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The semidiurnal lunar and solar tides obtained from meteor radar measurements spanning from 2009 to 2013 observed at Davis (69 degrees S) and Rio Grande (54 degrees S) are presented and compared to the Northern Hemisphere ones at Andenes (69 degrees N) and Juliusruh (54 degrees N). Mean tidal differences for both intrahemispheric and interhemispheric scenarios are analyzed. Tidal behavior is also compared against numerical simulations during 2009 and 2013 sudden stratospheric warming (SSW) time periods. Possible influences in the Southern Hemisphere from the local stratosphere are also investigated using Modern Era Retrospective analysis for Research and Applications, version 2 (MERRA 2) data sets. The main features of the mean zonal wind are similar in both hemispheres, i.e., stronger amplitudes over midlatitude locations, eastward winds during winter and westward below 90 km with eastward higher up during corresponding summer times. On the other hand, the semidiurnal solar tides observed in the Southern Hemisphere show clear differences when compared to the Northern Hemisphere and between middle- and high-latitude locations at the same hemisphere. These differences are even larger for the semidiurnal lunar tide, which shows stronger amplitudes from October to March and March to October, over Davis and Rio Grande, respectively. Our results indicate that the lunar tides over the Southern Hemisphere midlatitudes are more prone to react to the Northern Hemisphere stratospheric polar vortex influences, in agreement with numerical simulations, particularly for the time of the 2013 SSW.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -376,7 +372,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -418,7 +413,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12093</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:58.322923</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:59.355782</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Tropical and subtropical cloud transitions in weather and climate prediction models: The GCSS/WGNE Pacific Cross-Section Intercomparison (GPCI)</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-10-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -724,12 +722,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7sn09n2</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -737,12 +734,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2011JCLI3672.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -752,7 +748,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A model evaluation approach is proposed in which weather and climate prediction models are analyzed along a Pacific Ocean cross section, from the stratocumulus regions off the coast of California, across the shallow convection dominated trade winds, to the deep convection regions of the ITCZ-the Global Energy and Water Cycle Experiment Cloud System Study/Working Group on Numerical Experimentation (GCSS/WGNE) Pacific Cross-Section Intercomparison (GPCI). The main goal of GPCI is to evaluate and help understand and improve the representation of tropical and subtropical cloud processes in weather and climate prediction models. In this paper, a detailed analysis of cloud regime transitions along the cross section from the subtropics to the tropics for the season June-July-August of 1998 is presented. This GPCI study confirms many of the typical weather and climate prediction model problems in the representation of clouds: underestimation of clouds in the stratocumulus regime by most models with the corresponding consequences in terms of shortwave radiation biases; overestimation of clouds by the 40-yr ECMWF Re-Analysis (ERA-40) in the deep tropics (in particular) with the corresponding impact in the outgoing longwave radiation; large spread between the different models in terms of cloud cover, liquid water path and shortwave radiation; significant differences between the models in terms of vertical cross sections of cloud properties (in particular), vertical velocity, and relative humidity. An alternative analysis of cloud cover mean statistics is proposed where sharp gradients in cloud cover along the GPCI transect are taken into account. This analysis shows that the negative cloud bias of some models and ERA-40 in the stratocumulus regions [as compared to the first International Satellite Cloud Climatology Project (ISCCP)] is associated not only with lower values of cloud cover in these regimes, but also with a stratocumulus-to-cumulus transition that occurs too early along the trade wind Lagrangian trajectory. Histograms of cloud cover along the cross section differ significantly between models. Some models exhibit a quasi-bimodal structure with cloud cover being either very large (close to 100%) or very small, while other models show a more continuous transition. The ISCCP observations suggest that reality is in-between these two extreme examples. These different patterns reflect the diverse nature of the cloud, boundary layer, and convection parameterizations in the participating weather and climate prediction models.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A model evaluation approach is proposed in which weather and climate prediction models are analyzed along a Pacific Ocean cross section, from the stratocumulus regions off the coast of California, across the shallow convection dominated trade winds, to the deep convection regions of the ITCZ-the Global Energy and Water Cycle Experiment Cloud System Study/Working Group on Numerical Experimentation (GCSS/WGNE) Pacific Cross-Section Intercomparison (GPCI). The main goal of GPCI is to evaluate and help understand and improve the representation of tropical and subtropical cloud processes in weather and climate prediction models. In this paper, a detailed analysis of cloud regime transitions along the cross section from the subtropics to the tropics for the season June-July-August of 1998 is presented. This GPCI study confirms many of the typical weather and climate prediction model problems in the representation of clouds: underestimation of clouds in the stratocumulus regime by most models with the corresponding consequences in terms of shortwave radiation biases; overestimation of clouds by the 40-yr ECMWF Re-Analysis (ERA-40) in the deep tropics (in particular) with the corresponding impact in the outgoing longwave radiation; large spread between the different models in terms of cloud cover, liquid water path and shortwave radiation; significant differences between the models in terms of vertical cross sections of cloud properties (in particular), vertical velocity, and relative humidity. An alternative analysis of cloud cover mean statistics is proposed where sharp gradients in cloud cover along the GPCI transect are taken into account. This analysis shows that the negative cloud bias of some models and ERA-40 in the stratocumulus regions [as compared to the first International Satellite Cloud Climatology Project (ISCCP)] is associated not only with lower values of cloud cover in these regimes, but also with a stratocumulus-to-cumulus transition that occurs too early along the trade wind Lagrangian trajectory. Histograms of cloud cover along the cross section differ significantly between models. Some models exhibit a quasi-bimodal structure with cloud cover being either very large (close to 100%) or very small, while other models show a more continuous transition. The ISCCP observations suggest that reality is in-between these two extreme examples. These different patterns reflect the diverse nature of the cloud, boundary layer, and convection parameterizations in the participating weather and climate prediction models.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -807,12 +803,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -854,7 +848,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

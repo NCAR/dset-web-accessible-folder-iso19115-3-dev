@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:00.394433</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:09.362062</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Regional climate modeling of vegetation feedbacks on the Asian&#8211;Australian monsoon systems</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7q52rf2</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0669.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>This study explores the hypothesis that subtropical and tropical monsoon regions exhibit unique responses to vegetation feedbacks. Using the Community Climate System Model (CCSM), M. Notaro et al. concluded that reduced vegetation cover led to an earlier subtropical Chinese monsoon and a delayed, weaker tropical Australian monsoon, yet significant climate and leaf area index (LAI) biases obfuscated the hypothesis's reliability. To address these concerns, the Regional Climate Model, version 4 (RegCM4), likewise coupled to the Community Land Model but with ''observed'' LAI boundary conditions, is applied across China and Australia. The model matches the observed dominance of crops, grass, and evergreen trees in southern China and grass and shrubs in northern Australia. The optimal model configuration is determined and applied in control runs for 1960-2013. Monsoon region LAI is modified in a RegCM4 ensemble, aimed at contrasting vegetation feedbacks between tropical and subtropical regions. Greater LAI supports reductions in albedo, temperature, wind speed, boundary layer height, ascending motion, and midlevel clouds and increases in diurnal temperature range (DTR), wind stress, evapotranspiration (ET), specific humidity, and low clouds. In response to greater LAI, rainfall is enhanced during Australia's pre-to-midmonsoon season but not for China. Modified LAI leads to dramatic changes in the temporal distribution and intensity of Australian rain events. Heterogeneous responses to biophysical feedbacks include amplified impacts (e.g., increased ET and DTR) across China's croplands and Australia's shrublands. Inconsistencies between China's monsoonal responses in the present RegCM4 study and prior CCSM study of M. Notaro et al. are attributed to CCSM's excessive forest cover and LAI, exaggerated roughness mechanism, and deficient ET response.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[This study explores the hypothesis that subtropical and tropical monsoon regions exhibit unique responses to vegetation feedbacks. Using the Community Climate System Model (CCSM), M. Notaro et al. concluded that reduced vegetation cover led to an earlier subtropical Chinese monsoon and a delayed, weaker tropical Australian monsoon, yet significant climate and leaf area index (LAI) biases obfuscated the hypothesis's reliability. To address these concerns, the Regional Climate Model, version 4 (RegCM4), likewise coupled to the Community Land Model but with ''observed'' LAI boundary conditions, is applied across China and Australia. The model matches the observed dominance of crops, grass, and evergreen trees in southern China and grass and shrubs in northern Australia. The optimal model configuration is determined and applied in control runs for 1960-2013. Monsoon region LAI is modified in a RegCM4 ensemble, aimed at contrasting vegetation feedbacks between tropical and subtropical regions. Greater LAI supports reductions in albedo, temperature, wind speed, boundary layer height, ascending motion, and midlevel clouds and increases in diurnal temperature range (DTR), wind stress, evapotranspiration (ET), specific humidity, and low clouds. In response to greater LAI, rainfall is enhanced during Australia's pre-to-midmonsoon season but not for China. Modified LAI leads to dramatic changes in the temporal distribution and intensity of Australian rain events. Heterogeneous responses to biophysical feedbacks include amplified impacts (e.g., increased ET and DTR) across China's croplands and Australia's shrublands. Inconsistencies between China's monsoonal responses in the present RegCM4 study and prior CCSM study of M. Notaro et al. are attributed to CCSM's excessive forest cover and LAI, exaggerated roughness mechanism, and deficient ET response.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

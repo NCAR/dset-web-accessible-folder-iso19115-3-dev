@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.050323</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.583937</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Sensitivities of the hydrologic cycle to model physics, grid resolution, and ocean type in the aquaplanet Community Atmosphere Model</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7z3222b</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016MS000891</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Precipitation distributions and extremes play a fundamental role in shaping Earth's climate and yet are poorly represented in many global climate models. Here, a suite of idealized Community Atmosphere Model (CAM) aquaplanet simulations is examined to assess the aquaplanet's ability to reproduce hydroclimate statistics of real-Earth configurations and to investigate sensitivities of precipitation distributions and extremes to model physics, horizontal grid resolution, and ocean type. Little difference in precipitation statistics is found between aquaplanets using time-constant sea-surface temperatures and those implementing a slab ocean model with a 50 m mixed-layer depth. In contrast, CAM version 5.3 (CAM5.3) produces more time mean, zonally averaged precipitation than CAM version 4 (CAM4), while CAM4 generates significantly larger precipitation variance and frequencies of extremely intense precipitation events. The largest model configuration-based precipitation sensitivities relate to choice of horizontal grid resolution in the selected range 1-28. Refining grid resolution has significant physics-dependent effects on tropical precipitation: for CAM4, time mean zonal mean precipitation increases along the Equator and the intertropical convergence zone (ITCZ) narrows, while for CAM5.3 precipitation decreases along the Equator and the twin branches of the ITCZ shift poleward. Increased grid resolution also reduces light precipitation frequencies and enhances extreme precipitation for both CAM4 and CAM5.3 resulting in better alignment with observational estimates. A discussion of the potential implications these hydrologic cycle sensitivities have on the interpretation of precipitation statistics in future climate projections is also presented.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Precipitation distributions and extremes play a fundamental role in shaping Earth's climate and yet are poorly represented in many global climate models. Here, a suite of idealized Community Atmosphere Model (CAM) aquaplanet simulations is examined to assess the aquaplanet's ability to reproduce hydroclimate statistics of real-Earth configurations and to investigate sensitivities of precipitation distributions and extremes to model physics, horizontal grid resolution, and ocean type. Little difference in precipitation statistics is found between aquaplanets using time-constant sea-surface temperatures and those implementing a slab ocean model with a 50 m mixed-layer depth. In contrast, CAM version 5.3 (CAM5.3) produces more time mean, zonally averaged precipitation than CAM version 4 (CAM4), while CAM4 generates significantly larger precipitation variance and frequencies of extremely intense precipitation events. The largest model configuration-based precipitation sensitivities relate to choice of horizontal grid resolution in the selected range 1-28. Refining grid resolution has significant physics-dependent effects on tropical precipitation: for CAM4, time mean zonal mean precipitation increases along the Equator and the intertropical convergence zone (ITCZ) narrows, while for CAM5.3 precipitation decreases along the Equator and the twin branches of the ITCZ shift poleward. Increased grid resolution also reduces light precipitation frequencies and enhances extreme precipitation for both CAM4 and CAM5.3 resulting in better alignment with observational estimates. A discussion of the potential implications these hydrologic cycle sensitivities have on the interpretation of precipitation statistics in future climate projections is also presented.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

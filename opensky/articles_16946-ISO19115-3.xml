@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16946</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:07.809795</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:39.904093</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Validation of GOME-2/MetOp-A total water vapour column using reference radiosonde data from the GRUAN network</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-03-06T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7tb184h</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/amt-8-1135-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The main goal of this paper is to validate the total water vapour column (TWVC) measured by the Global Ozone Monitoring Experiment-2 (GOME-2) satellite sensor and generated using the GOME Data Processor (GDP) retrieval algorithm developed by the German Aerospace Centre (DLR). For this purpose, spatially and temporally collocated TWVC data from highly accurate sounding measurements for the period January 2009-May 2014 at six sites are used. These balloon-borne data are provided by the GCOS Reference Upper-Air Network (GRUAN). The correlation between GOME-2 and sounding TWVC data is reasonably good (determination coefficient, R&#178;, of 0.89) when all available radiosondes (1400) are employed in the inter-comparison. When cloud-free cases (544) are selected by means of the satellite cloud fraction (CF &lt; 5%), the correlation exhibits a remarkable improvement (R&#178; ~ 0.95). Nevertheless, the analysis of the relative differences between GOME-2 and GRUAN data shows a mean absolute bias error (weighted with the combined uncertainty derived from the estimated errors of both data sets) of 15% for all-sky conditions (9% for cloud-free cases). These results evidence a notable bias in the satellite TWVC data against the reference balloon-borne measurements, partially related to the cloudy conditions during the satellite overpass. The detailed analysis of the influence of cloud properties - CF, cloud top albedo (CTA) and cloud top pressure (CTP) - on the satellite-sounding differences reveals, as expected, a large effect of clouds in the GOME-2 TWVC data. For instance, the relative differences exhibit a large negative dependence on CTA, varying from -6 to -23% when CTA rises from 0.3 to 0.8. Furthermore, the satellite-sounding TWVC differences show a strong dependence on the satellite solar zenith angle (SZA) for values above 50&#176;. Hence the smallest relative differences found in this satellite-sounding comparison are achieved for those cloud-free cases with satellite SZA below 50&#176;. Finally, the relative differences also show a negative dependence on the reference TWVC values, e.g. changing from +10% (TWVC below 10 mm) to -10% (TWVC above 40 mm) when cloud-free conditions with SZA below 50&#176; are selected. Overall, relative differences within &#177;10% with respect to reference sounding data for a large range of TWVC values can be considered as a good result for satellite retrievals.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The main goal of this paper is to validate the total water vapour column (TWVC) measured by the Global Ozone Monitoring Experiment-2 (GOME-2) satellite sensor and generated using the GOME Data Processor (GDP) retrieval algorithm developed by the German Aerospace Centre (DLR). For this purpose, spatially and temporally collocated TWVC data from highly accurate sounding measurements for the period January 2009-May 2014 at six sites are used. These balloon-borne data are provided by the GCOS Reference Upper-Air Network (GRUAN). The correlation between GOME-2 and sounding TWVC data is reasonably good (determination coefficient, R&#178;, of 0.89) when all available radiosondes (1400) are employed in the inter-comparison. When cloud-free cases (544) are selected by means of the satellite cloud fraction (CF < 5%), the correlation exhibits a remarkable improvement (R&#178; ~ 0.95). Nevertheless, the analysis of the relative differences between GOME-2 and GRUAN data shows a mean absolute bias error (weighted with the combined uncertainty derived from the estimated errors of both data sets) of 15% for all-sky conditions (9% for cloud-free cases). These results evidence a notable bias in the satellite TWVC data against the reference balloon-borne measurements, partially related to the cloudy conditions during the satellite overpass. The detailed analysis of the influence of cloud properties - CF, cloud top albedo (CTA) and cloud top pressure (CTP) - on the satellite-sounding differences reveals, as expected, a large effect of clouds in the GOME-2 TWVC data. For instance, the relative differences exhibit a large negative dependence on CTA, varying from -6 to -23% when CTA rises from 0.3 to 0.8. Furthermore, the satellite-sounding TWVC differences show a strong dependence on the satellite solar zenith angle (SZA) for values above 50&#176;. Hence the smallest relative differences found in this satellite-sounding comparison are achieved for those cloud-free cases with satellite SZA below 50&#176;. Finally, the relative differences also show a negative dependence on the reference TWVC values, e.g. changing from +10% (TWVC below 10 mm) to -10% (TWVC above 40 mm) when cloud-free conditions with SZA below 50&#176; are selected. Overall, relative differences within &#177;10% with respect to reference sounding data for a large range of TWVC values can be considered as a good result for satellite retrievals.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

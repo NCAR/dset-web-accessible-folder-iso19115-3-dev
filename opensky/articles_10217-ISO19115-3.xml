@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:40.906788</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:16.530207</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Coupled climate simulation of the evolution of global monsoons in the Holocene</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2003-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -221,12 +219,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7cn74gp</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -237,7 +234,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Evolution of global monsoons in the Holocene is simulated in a coupled climate model?the Fast Ocean Atmosphere Model?and is also compared with the simulations in another coupled climate model?the NCAR Climate System Model. Holocene climates are simulated under the insolation forcing at 3000, 6000, 8000, and 11000 years before present. The evolution of six major regional summer monsoons is investigated: the Asian monsoon, the North African monsoon, the North American monsoon, the Australian monsoon, the South American monsoon, and the South African monsoon. Special attention has been paid to the relative roles of the direct insolation forcing and oceanic feedback. It is found that the responses of the monsoons to the insolation forcing and oceanic feedback differ substantially among regions, because of regional features of atmospheric and oceanic circulation and ocean-atmosphere interaction. In the Northern Hemisphere, the coupled models show a significant enhancement of all of the monsoons in the early Holocene and a gradual weakening toward the present, with the North African monsoon showing the largest relative changes. The monsoons are enhanced in the Holocene by a positive oceanic feedback in North Africa and North America but are suppressed by a negative overall feedback in Asia. In the Southern Hemisphere, monsoons are reduced most significantly in South America, and modestly in South Africa, mainly due to direct insolation forcing. In contrast, the Australian monsoon is enhanced by an overwhelming positive oceanic feedback. The simulated evolution of monsoons during the Holocene shows a general agreement with paleoclimate observations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Evolution of global monsoons in the Holocene is simulated in a coupled climate model?the Fast Ocean Atmosphere Model?and is also compared with the simulations in another coupled climate model?the NCAR Climate System Model. Holocene climates are simulated under the insolation forcing at 3000, 6000, 8000, and 11000 years before present. The evolution of six major regional summer monsoons is investigated: the Asian monsoon, the North African monsoon, the North American monsoon, the Australian monsoon, the South American monsoon, and the South African monsoon. Special attention has been paid to the relative roles of the direct insolation forcing and oceanic feedback. It is found that the responses of the monsoons to the insolation forcing and oceanic feedback differ substantially among regions, because of regional features of atmospheric and oceanic circulation and ocean-atmosphere interaction. In the Northern Hemisphere, the coupled models show a significant enhancement of all of the monsoons in the early Holocene and a gradual weakening toward the present, with the North African monsoon showing the largest relative changes. The monsoons are enhanced in the Holocene by a positive oceanic feedback in North Africa and North America but are suppressed by a negative overall feedback in Asia. In the Southern Hemisphere, monsoons are reduced most significantly in South America, and modestly in South Africa, mainly due to direct insolation forcing. In contrast, the Australian monsoon is enhanced by an overwhelming positive oceanic feedback. The simulated evolution of monsoons during the Holocene shows a general agreement with paleoclimate observations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -296,7 +293,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -338,7 +334,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

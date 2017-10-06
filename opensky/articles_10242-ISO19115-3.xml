@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.697769</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:17.832679</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Observations of drizzle in nocturnal marine stratocumulus</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2005-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -206,12 +204,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7xd1270</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -222,7 +219,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In situ and radar data from the second field study of the Dynamics and Chemistry of Marine Stratocumulus (DYCOMS-II) have been used to study drizzle in stratocumulus. Measurements indicate that drizzle is prevalent. During five of seven analyzed flights precipitation was evident at the surface, and on roughly a third of the flights mean surface rates approached or exceeded 0.5 mm day&#8315;&#185;. Additional analysis of the structure and variability of drizzle indicates that the macroscopic (flight averaged) mean drizzle rates at cloud base scale with H&#179;/N where H is the flight-averaged cloud depth and N the flight-averaged cloud droplet number concentration. To a lesser extent flight-to-flight variability in the mean drizzle rate also scales well with differences in the 11- and 4-&#956;m brightness temperatures, and the cloud-top effective radius. The structure of stratocumulus boundary layers with precipitation reaching the surface is also investigated, and a general picture emerges of large flight-averaged drizzle rates being manifested primarily through the emergence of intense pockets of precipitation. The characteristics of the drizzle spectrum in precipitating versus nonprecipitating regions of a particular cloud layer were mostly distinguished by the number of drizzle drops present, rather than a change in size of the median drizzle drop, or the breadth of the drizzle spectrum.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In situ and radar data from the second field study of the Dynamics and Chemistry of Marine Stratocumulus (DYCOMS-II) have been used to study drizzle in stratocumulus. Measurements indicate that drizzle is prevalent. During five of seven analyzed flights precipitation was evident at the surface, and on roughly a third of the flights mean surface rates approached or exceeded 0.5 mm day&#8315;&#185;. Additional analysis of the structure and variability of drizzle indicates that the macroscopic (flight averaged) mean drizzle rates at cloud base scale with H&#179;/N where H is the flight-averaged cloud depth and N the flight-averaged cloud droplet number concentration. To a lesser extent flight-to-flight variability in the mean drizzle rate also scales well with differences in the 11- and 4-&#956;m brightness temperatures, and the cloud-top effective radius. The structure of stratocumulus boundary layers with precipitation reaching the surface is also investigated, and a general picture emerges of large flight-averaged drizzle rates being manifested primarily through the emergence of intense pockets of precipitation. The characteristics of the drizzle spectrum in precipitating versus nonprecipitating regions of a particular cloud layer were mostly distinguished by the number of drizzle drops present, rather than a change in size of the median drizzle drop, or the breadth of the drizzle spectrum.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -281,7 +278,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -323,7 +319,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

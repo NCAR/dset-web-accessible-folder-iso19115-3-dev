@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:19282</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:52.387229</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:53.982227</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Global and regional radiative forcing from 20% reductions in BC, OC and SO4 -- An HTAP2 multi-model study</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-11-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -424,12 +422,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7qf8vn1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -437,12 +434,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-16-13579-2016</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -452,7 +448,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In the Hemispheric Transport of Air Pollution Phase 2 (HTAP2) exercise, a range of global atmospheric general circulation and chemical transport models performed coordinated perturbation experiments with 20% reductions in emissions of anthropogenic aerosols, or aerosol precursors, in a number of source regions. Here, we compare the resulting changes in the atmospheric load and vertically resolved profiles of black carbon (BC), organic aerosols (OA) and sulfate (SO4) from 10 models that include treatment of aerosols. We use a set of temporally, horizontally and vertically resolved profiles of aerosol forcing efficiency (AFE) to estimate the impact of emission changes in six major source regions on global radiative forcing (RF) pertaining to the direct aerosol effect, finding values between. 51.9 and 210.8 mW m(-2) Tg(-1) for BC, between -2.4 and -17.9 mW m(-2) Tg(-1) for OA and between -3.6 and -10.3 W m(-2) Tg(-1) for SO4. In most cases, the local influence dominates, but results show that mitigations in south and east Asia have substantial impacts on the radiative budget in all investigated receptor regions, especially for BC. In Russia and the Middle East, more than 80 % of the forcing for BC and OA is due to extra-regional emission reductions. Similarly, for North America, BC emissions control in east Asia is found to be more important than domestic mitigations, which is consistent with previous findings. Comparing fully resolved RF calculations to RF estimates based on vertically averaged AFE profiles allows us to quantify the importance of vertical resolution to RF estimates. We find that locally in the source regions, a 20% emission reduction strengthens the radiative forcing associated with SO4 by 25% when including the vertical dimension, as the AFE for SO4 is strongest near the surface. Conversely, the local RF from BC weakens by 37% since BC AFE is low close to the ground. The fraction of BC direct effect forcing attributable to intercontinental transport, on the other hand, is enhanced by one-third when accounting for the vertical aspect, because long-range transport primarily leads to aerosol changes at high altitudes, where the BC AFE is strong. While the surface temperature response may vary with the altitude of aerosol change, the analysis in the present study is not extended to estimates of temperature or precipitation changes.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In the Hemispheric Transport of Air Pollution Phase 2 (HTAP2) exercise, a range of global atmospheric general circulation and chemical transport models performed coordinated perturbation experiments with 20% reductions in emissions of anthropogenic aerosols, or aerosol precursors, in a number of source regions. Here, we compare the resulting changes in the atmospheric load and vertically resolved profiles of black carbon (BC), organic aerosols (OA) and sulfate (SO4) from 10 models that include treatment of aerosols. We use a set of temporally, horizontally and vertically resolved profiles of aerosol forcing efficiency (AFE) to estimate the impact of emission changes in six major source regions on global radiative forcing (RF) pertaining to the direct aerosol effect, finding values between. 51.9 and 210.8 mW m(-2) Tg(-1) for BC, between -2.4 and -17.9 mW m(-2) Tg(-1) for OA and between -3.6 and -10.3 W m(-2) Tg(-1) for SO4. In most cases, the local influence dominates, but results show that mitigations in south and east Asia have substantial impacts on the radiative budget in all investigated receptor regions, especially for BC. In Russia and the Middle East, more than 80 % of the forcing for BC and OA is due to extra-regional emission reductions. Similarly, for North America, BC emissions control in east Asia is found to be more important than domestic mitigations, which is consistent with previous findings. Comparing fully resolved RF calculations to RF estimates based on vertically averaged AFE profiles allows us to quantify the importance of vertical resolution to RF estimates. We find that locally in the source regions, a 20% emission reduction strengthens the radiative forcing associated with SO4 by 25% when including the vertical dimension, as the AFE for SO4 is strongest near the surface. Conversely, the local RF from BC weakens by 37% since BC AFE is low close to the ground. The fraction of BC direct effect forcing attributable to intercontinental transport, on the other hand, is enhanced by one-third when accounting for the vertical aspect, because long-range transport primarily leads to aerosol changes at high altitudes, where the BC AFE is strong. While the surface temperature response may vary with the altitude of aerosol change, the analysis in the present study is not extended to estimates of temperature or precipitation changes.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -507,12 +503,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -554,7 +548,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

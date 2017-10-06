@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18799</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:47.230131</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:39.404363</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>An evaluation of IASI-NH&#8323; with ground-based Fourier transform infrared spectroscopy measurements</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-08-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -559,12 +557,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7rf5wp2</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -572,12 +569,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-16-10351-2016</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -587,7 +583,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Global distributions of atmospheric ammonia (NH3) measured with satellite instruments such as the Infrared Atmospheric Sounding Interferometer (IASI) contain valuable information on NH3 concentrations and variability in regions not yet covered by ground-based instruments. Due to their large spatial coverage and (bi-)daily overpasses, the satellite observations have the potential to increase our knowledge of the distribution of NH3 emissions and associated seasonal cycles. However the observations remain poorly validated, with only a handful of available studies often using only surface measurements without any vertical information. In this study, we present the first validation of the IASI-NH3 product using ground-based Fourier transform infrared spectroscopy (FTIR) observations. Using a recently developed consistent retrieval strategy, NH3 concentration profiles have been retrieved using observations from nine Network for the Detection of Atmospheric Composition Change (NDACC) stations around the world between 2008 and 2015. We demonstrate the importance of strict spatiotemporal collocation criteria for the comparison. Large differences in the regression results are observed for changing intervals of spatial criteria, mostly due to terrain characteristics and the short lifetime of NH3 in the atmosphere. The seasonal variations of both datasets are consistent for most sites. Correlations are found to be high at sites in areas with considerable NH3 levels, whereas correlations are lower at sites with low atmospheric NH3 levels close to the detection limit of the IASI instrument. A combination of the observations from all sites (N-obs = 547) give a mean relative difference of -32.4 +/- (56.3) %, a correlation r of 0.8 with a slope of 0.73. These results give an improved estimate of the IASI-NH3 product performance compared to the previous upper-bound estimates (-50 to + 100 %).</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Global distributions of atmospheric ammonia (NH3) measured with satellite instruments such as the Infrared Atmospheric Sounding Interferometer (IASI) contain valuable information on NH3 concentrations and variability in regions not yet covered by ground-based instruments. Due to their large spatial coverage and (bi-)daily overpasses, the satellite observations have the potential to increase our knowledge of the distribution of NH3 emissions and associated seasonal cycles. However the observations remain poorly validated, with only a handful of available studies often using only surface measurements without any vertical information. In this study, we present the first validation of the IASI-NH3 product using ground-based Fourier transform infrared spectroscopy (FTIR) observations. Using a recently developed consistent retrieval strategy, NH3 concentration profiles have been retrieved using observations from nine Network for the Detection of Atmospheric Composition Change (NDACC) stations around the world between 2008 and 2015. We demonstrate the importance of strict spatiotemporal collocation criteria for the comparison. Large differences in the regression results are observed for changing intervals of spatial criteria, mostly due to terrain characteristics and the short lifetime of NH3 in the atmosphere. The seasonal variations of both datasets are consistent for most sites. Correlations are found to be high at sites in areas with considerable NH3 levels, whereas correlations are lower at sites with low atmospheric NH3 levels close to the detection limit of the IASI instrument. A combination of the observations from all sites (N-obs = 547) give a mean relative difference of -32.4 +/- (56.3) %, a correlation r of 0.8 with a slope of 0.73. These results give an improved estimate of the IASI-NH3 product performance compared to the previous upper-bound estimates (-50 to + 100 %).]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -642,12 +638,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -689,7 +683,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

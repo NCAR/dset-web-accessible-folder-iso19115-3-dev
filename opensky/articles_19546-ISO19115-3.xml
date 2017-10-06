@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:57.672497</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:04.943908</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Improved modeling of cloudy-sky actinic flux using satellite cloud retrievals</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-02-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7rj4m81</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016GL071892</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Clouds play a critical role in modulating tropospheric radiation and thus photochemistry. We develop a methodology for calculating the vertical distribution of tropospheric ultraviolet (300-420 nm) actinic fluxes using satellite cloud retrievals and a radiative transfer model. We demonstrate that our approach can accurately reproduce airborne-measured actinic fluxes from the 2013 Studies of Emissions and Atmospheric Composition, Clouds and Climate Coupling by Regional Surveys (SEAC4RS) campaign as a case study. The results show that the actinic flux is reduced below moderately thick clouds with increasing cloud optical depth and can be enhanced by a factor of 2 above clouds. Inside clouds, the actinic flux can be enhanced by up to 2.4 times in the upper part of clouds or reduced up to 10 times in the lower parts of clouds. Our study suggests that the use of satellite-derived actinic fluxes as input to chemistry-transport models can improve the accuracy of photochemistry calculations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Clouds play a critical role in modulating tropospheric radiation and thus photochemistry. We develop a methodology for calculating the vertical distribution of tropospheric ultraviolet (300-420 nm) actinic fluxes using satellite cloud retrievals and a radiative transfer model. We demonstrate that our approach can accurately reproduce airborne-measured actinic fluxes from the 2013 Studies of Emissions and Atmospheric Composition, Clouds and Climate Coupling by Regional Surveys (SEAC4RS) campaign as a case study. The results show that the actinic flux is reduced below moderately thick clouds with increasing cloud optical depth and can be enhanced by a factor of 2 above clouds. Inside clouds, the actinic flux can be enhanced by up to 2.4 times in the upper part of clouds or reduced up to 10 times in the lower parts of clouds. Our study suggests that the use of satellite-derived actinic fluxes as input to chemistry-transport models can improve the accuracy of photochemistry calculations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -361,7 +357,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -403,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

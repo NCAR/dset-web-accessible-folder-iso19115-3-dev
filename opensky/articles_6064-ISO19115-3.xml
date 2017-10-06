@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:6064</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:10.707377</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:31:53.204282</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Detection of migrating diurnal tide in the tropical upper troposphere and lower stratosphere using the Challenging Minisatellite Payload radio occultation data</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2008-02-02T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7vt1s8n</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2007JD008725</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The atmospheric limb sounding technique making use of radio signals transmitted by the Global Positioning System (GPS) has already proven to be a promising approach for global atmospheric measurements. In this study, we assess for the first time the potential of GPS radio occultation soundings for detecting the migrating diurnal tide. Retrieved temperatures between 10 and 30 km in the tropics from the Challenging Minisatellite Payload (CHAMP) occultation observations during May 2001 to August 2005 are analyzed using space-time spectrum analysis to isolate diurnal waves. Because of incomplete local time (LT) coverage of the monthly CHAMP occultation data in any given year, data from all available years are merged to obtain complete 24-h LT coverage. The effects of aliasing associated with uneven data sampling and measurement noise are estimated using synthetic data. The results show the feasibility of determining tidal structures from the composite CHAMP occultation data, and the vertical, seasonal, and latitudinal structures of the diurnal tide are presented. The estimated diurnal amplitude generally increases with altitude, exhibiting a maximum of order 1 K at 30 km. The estimated phase indicates an upward propagating mode above 14 km with a vertical wavelength about 20 km. The observed diurnal tide at 30 km exhibits a distinct seasonal-latitudinal variation. Comparison of the observed diurnal tide to the simulated tide in the extended Canadian Middle Atmosphere Model (CMAM) and Global-Scale Wave Model Version 2 (GSWM02) indicates that CMAM overestimates the amplitude but reproduces the seasonal-latitudinal variation of the diurnal tide while GSWM02 simulates well the annual mean amplitude but lacks the seasonal-latitudinal variation of the diurnal tide.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The atmospheric limb sounding technique making use of radio signals transmitted by the Global Positioning System (GPS) has already proven to be a promising approach for global atmospheric measurements. In this study, we assess for the first time the potential of GPS radio occultation soundings for detecting the migrating diurnal tide. Retrieved temperatures between 10 and 30 km in the tropics from the Challenging Minisatellite Payload (CHAMP) occultation observations during May 2001 to August 2005 are analyzed using space-time spectrum analysis to isolate diurnal waves. Because of incomplete local time (LT) coverage of the monthly CHAMP occultation data in any given year, data from all available years are merged to obtain complete 24-h LT coverage. The effects of aliasing associated with uneven data sampling and measurement noise are estimated using synthetic data. The results show the feasibility of determining tidal structures from the composite CHAMP occultation data, and the vertical, seasonal, and latitudinal structures of the diurnal tide are presented. The estimated diurnal amplitude generally increases with altitude, exhibiting a maximum of order 1 K at 30 km. The estimated phase indicates an upward propagating mode above 14 km with a vertical wavelength about 20 km. The observed diurnal tide at 30 km exhibits a distinct seasonal-latitudinal variation. Comparison of the observed diurnal tide to the simulated tide in the extended Canadian Middle Atmosphere Model (CMAM) and Global-Scale Wave Model Version 2 (GSWM02) indicates that CMAM overestimates the amplitude but reproduces the seasonal-latitudinal variation of the diurnal tide while GSWM02 simulates well the annual mean amplitude but lacks the seasonal-latitudinal variation of the diurnal tide.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

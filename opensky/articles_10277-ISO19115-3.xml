@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:42.491142</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:19.049710</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Comparisons between pseudospectral and radial basis function derivative approximations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7dj5g1h</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1093/imanum/drn064</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Fourier-based pseudospectral (PS) methods have been used since the 1970s for obtaining spectrally accurate solutions to PDEs in periodic geometries. Radial basis functions (RBFs) were introduced about the same time for interpolation on scattered nodes in irregular geometries. As was later recognized, they can also be used for accurate numerical solution of PDEs. Although the main strength of RBFs lies in their outstanding geometric flexibility, offering possibilities of spectral accuracy also over irregularly shaped finite domains, it is still of interest to compare them against Fourier-based PS methods in the extremely simple geometries (infinite or periodic domains) where the latter can also be used. Mostly by means of heuristic arguments and graphical illustrations based on Fourier analysis and numerical experiments, we show that there are notable differences (more pronounced in increasing numbers of dimensions) in how the two spectral approaches approximate derivatives.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Fourier-based pseudospectral (PS) methods have been used since the 1970s for obtaining spectrally accurate solutions to PDEs in periodic geometries. Radial basis functions (RBFs) were introduced about the same time for interpolation on scattered nodes in irregular geometries. As was later recognized, they can also be used for accurate numerical solution of PDEs. Although the main strength of RBFs lies in their outstanding geometric flexibility, offering possibilities of spectral accuracy also over irregularly shaped finite domains, it is still of interest to compare them against Fourier-based PS methods in the extremely simple geometries (infinite or periodic domains) where the latter can also be used. Mostly by means of heuristic arguments and graphical illustrations based on Fourier analysis and numerical experiments, we show that there are notable differences (more pronounced in increasing numbers of dimensions) in how the two spectral approaches approximate derivatives.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

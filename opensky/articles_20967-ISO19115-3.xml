@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:09.101771</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:22.056534</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Coupled mesoscale-LES modeling of a diurnal cycle during the CWEX-13 field campaign: From weather to boundary-layer eddies</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-10T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7251mp8</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017MS000960</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Multiscale modeling of a diurnal cycle of real-world conditions is presented for the first time, validated using data from the CWEX-13 field experiment. Dynamical downscaling from synoptic-scale down to resolved three-dimensional eddies in the atmospheric boundary layer (ABL) was performed, spanning 4 orders of magnitude in horizontal grid resolution: from 111 km down to 8.2 m (30 m) in stable (convective) conditions. Computationally efficient mesoscale-to-microscale transition was made possible by the generalized cell perturbation method with time-varying parameters derived from mesoscale forcing conditions, which substantially reduced the fetch to achieve fully developed turbulence. In addition, careful design of the simulations was made to inhibit the presence of under-resolved convection at convection-resolving mesoscale resolution and to ensure proper turbulence representation in stably-stratified conditions. Comparison to in situ wind-profiling lidar and near-surface sonic anemometer measurements demonstrated the ability to reproduce the ABL structure throughout the entire diurnal cycle with a high degree of fidelity. The multiscale simulations exhibit realistic atmospheric features such as convective rolls and global intermittency. Also, the diurnal evolution of turbulence was accurately simulated, with probability density functions of resolved turbulent velocity fluctuations nearly identical to the lidar measurements. Explicit representation of turbulence in the stably-stratified ABL was found to provide the right balance with larger scales, resulting in the development of intra-hour variability as observed by the wind lidar; this variability was not captured by the mesoscale model. Moreover, multiscale simulations improved mean ABL characteristics such as horizontal velocity, vertical wind shear, and turbulence.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Multiscale modeling of a diurnal cycle of real-world conditions is presented for the first time, validated using data from the CWEX-13 field experiment. Dynamical downscaling from synoptic-scale down to resolved three-dimensional eddies in the atmospheric boundary layer (ABL) was performed, spanning 4 orders of magnitude in horizontal grid resolution: from 111 km down to 8.2 m (30 m) in stable (convective) conditions. Computationally efficient mesoscale-to-microscale transition was made possible by the generalized cell perturbation method with time-varying parameters derived from mesoscale forcing conditions, which substantially reduced the fetch to achieve fully developed turbulence. In addition, careful design of the simulations was made to inhibit the presence of under-resolved convection at convection-resolving mesoscale resolution and to ensure proper turbulence representation in stably-stratified conditions. Comparison to in situ wind-profiling lidar and near-surface sonic anemometer measurements demonstrated the ability to reproduce the ABL structure throughout the entire diurnal cycle with a high degree of fidelity. The multiscale simulations exhibit realistic atmospheric features such as convective rolls and global intermittency. Also, the diurnal evolution of turbulence was accurately simulated, with probability density functions of resolved turbulent velocity fluctuations nearly identical to the lidar measurements. Explicit representation of turbulence in the stably-stratified ABL was found to provide the right balance with larger scales, resulting in the development of intra-hour variability as observed by the wind lidar; this variability was not captured by the mesoscale model. Moreover, multiscale simulations improved mean ABL characteristics such as horizontal velocity, vertical wind shear, and turbulence.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

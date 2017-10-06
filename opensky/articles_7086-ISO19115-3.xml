@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:34.515593</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:05.746398</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A high CO episode of long-range transport detected by MOPITT</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2007-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7tm7bch</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s11270-006-9191-1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Recent developments in satellite remote sensing technologies resulted in the ability to observe major pollution events such as dust and smoke around the world on a daily basis. Satellite imagery can sometimes detect long-range transport episodes. In this paper, a high CO episode at remote GAW station, Mt. Waliguan, detected by MOPITT CO dataset during the end of April 2002, is described. CO concentrations above 600 hPa almost doubled on 27 April and CMDL surface sample measurements also observed this significant CO enhancement. Using NCEP data, satellite fire products data and backward trajectory model we suggest that this high CO episode of 27 April is not a local pollution event, but that it is due to long-range transport from active biomass burning and biofuel burning areas located in the border areas of Pakistan and India. The trajectory cluster analysis shows that the origins of 5-day backward trajectories, for air masses reaching Mt. Waliguan station, at all altitudes, mainly overlap with the fire spot locations detected by TRMM data and biofuel burning in India.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Recent developments in satellite remote sensing technologies resulted in the ability to observe major pollution events such as dust and smoke around the world on a daily basis. Satellite imagery can sometimes detect long-range transport episodes. In this paper, a high CO episode at remote GAW station, Mt. Waliguan, detected by MOPITT CO dataset during the end of April 2002, is described. CO concentrations above 600 hPa almost doubled on 27 April and CMDL surface sample measurements also observed this significant CO enhancement. Using NCEP data, satellite fire products data and backward trajectory model we suggest that this high CO episode of 27 April is not a local pollution event, but that it is due to long-range transport from active biomass burning and biofuel burning areas located in the border areas of Pakistan and India. The trajectory cluster analysis shows that the origins of 5-day backward trajectories, for air masses reaching Mt. Waliguan station, at all altitudes, mainly overlap with the fire spot locations detected by TRMM data and biofuel burning in India.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -346,7 +342,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -388,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

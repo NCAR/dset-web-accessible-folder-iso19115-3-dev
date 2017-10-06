@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.404737</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.115916</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>HESS Opinions: The complementary merits of competing modelling philosophies in hydrology</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7xp77fs</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/hess-21-3953-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In hydrology, two somewhat competing philosophies form the basis of most process-based models. At one endpoint of this continuum are detailed, high-resolution descriptions of small-scale processes that are numerically integrated to larger scales (e.g. catchments). At the other endpoint of the continuum are spatially lumped representations of the system that express the hydrological response via, in the extreme case, a single linear transfer function. Many other models, developed starting from these two contrasting endpoints, plot along this continuum with different degrees of spatial resolutions and process complexities. A better understanding of the respective basis as well as the respective shortcomings of different modelling philosophies has the potential to improve our models. In this paper we analyse several frequently communicated beliefs and assumptions to identify, discuss and emphasize the functional similarity of the seemingly competing modelling philosophies. We argue that deficiencies in model applications largely do not depend on the modelling philosophy, although some models may be more suitable for specific applications than others and vice versa, but rather on the way a model is implemented. Based on the premises that any model can be implemented at any desired degree of detail and that any type of model remains to some degree conceptual, we argue that a convergence of modelling strategies may hold some value for advancing the development of hydrological models.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In hydrology, two somewhat competing philosophies form the basis of most process-based models. At one endpoint of this continuum are detailed, high-resolution descriptions of small-scale processes that are numerically integrated to larger scales (e.g. catchments). At the other endpoint of the continuum are spatially lumped representations of the system that express the hydrological response via, in the extreme case, a single linear transfer function. Many other models, developed starting from these two contrasting endpoints, plot along this continuum with different degrees of spatial resolutions and process complexities. A better understanding of the respective basis as well as the respective shortcomings of different modelling philosophies has the potential to improve our models. In this paper we analyse several frequently communicated beliefs and assumptions to identify, discuss and emphasize the functional similarity of the seemingly competing modelling philosophies. We argue that deficiencies in model applications largely do not depend on the modelling philosophy, although some models may be more suitable for specific applications than others and vice versa, but rather on the way a model is implemented. Based on the premises that any model can be implemented at any desired degree of detail and that any type of model remains to some degree conceptual, we argue that a convergence of modelling strategies may hold some value for advancing the development of hydrological models.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -271,7 +267,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -313,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

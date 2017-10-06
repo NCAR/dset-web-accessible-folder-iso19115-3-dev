@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17629</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:25.143544</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:05.838403</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>NO&#8322; seasonal evolution in the north subtropical free troposphere</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-09-25T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -334,12 +332,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d71837vf</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -347,12 +344,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-15-10567-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -362,7 +358,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Three years of multi-axis differential optical absorption spectroscopy (MAXDOAS) measurements (2011-2013) have been used for estimating the NO&#8322; mixing ratio along a horizontal line of sight from the high mountain subtropical observatory of Iza&#241;a, at 2370 m a.s.l. (NDACC station, 28.3&#176; N, 16.5&#176; W). The method is based on horizontal path calculation from the O&#8322;-O&#8322; collisional complex at the 477 nm absorption band which is measured simultaneously to the NO&#8322; column density, and is applicable under low aerosol-loading conditions. The MAXDOAS technique, applied in horizontal mode in the free troposphere, minimizes the impact of the NO&#8322; contamination resulting from the arrival of marine boundary layer (MBL) air masses from thermally forced upwelling breeze during middle hours of the day. Comparisons with in situ observations show that during most of the measuring period, the MAXDOAS is insensitive or very slightly sensitive to the upwelling breeze. Exceptions are found for pollution events during southern wind conditions. On these occasions, evidence of fast, efficient and irreversible transport from the surface to the free troposphere is found. Background NO&#8322; volume mixing ratio (vmr), representative of the remote free troposphere, is in the range of 20-45 pptv. The observed seasonal evolution shows an annual wave where the peak is in phase with the solar radiation. Model simulations with the chemistry-climate CAM-Chem model are in good agreement with the NO2 measurements, and are used to further investigate the possible drivers of the NO&#8322; seasonality observed at Iza&#241;a.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Three years of multi-axis differential optical absorption spectroscopy (MAXDOAS) measurements (2011-2013) have been used for estimating the NO&#8322; mixing ratio along a horizontal line of sight from the high mountain subtropical observatory of Iza&#241;a, at 2370 m a.s.l. (NDACC station, 28.3&#176; N, 16.5&#176; W). The method is based on horizontal path calculation from the O&#8322;-O&#8322; collisional complex at the 477 nm absorption band which is measured simultaneously to the NO&#8322; column density, and is applicable under low aerosol-loading conditions. The MAXDOAS technique, applied in horizontal mode in the free troposphere, minimizes the impact of the NO&#8322; contamination resulting from the arrival of marine boundary layer (MBL) air masses from thermally forced upwelling breeze during middle hours of the day. Comparisons with in situ observations show that during most of the measuring period, the MAXDOAS is insensitive or very slightly sensitive to the upwelling breeze. Exceptions are found for pollution events during southern wind conditions. On these occasions, evidence of fast, efficient and irreversible transport from the surface to the free troposphere is found. Background NO&#8322; volume mixing ratio (vmr), representative of the remote free troposphere, is in the range of 20-45 pptv. The observed seasonal evolution shows an annual wave where the peak is in phase with the solar radiation. Model simulations with the chemistry-climate CAM-Chem model are in good agreement with the NO2 measurements, and are used to further investigate the possible drivers of the NO&#8322; seasonality observed at Iza&#241;a.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -417,12 +413,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -464,7 +458,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

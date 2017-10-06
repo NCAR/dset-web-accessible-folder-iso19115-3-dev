@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17419</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:19.450887</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:58.235551</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Observations of eastward propagation of atmospheric intraseasonal oscillations from the Pacific to the Atlantic</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-05-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7pz5b4t</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2010JD014336</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Significant 40&#8211;60 day intraseasonal variability in surface winds, sea level, and thermocline depth were observed in the tropical Atlantic during the Atlantic Ni&#241;o year of 2002. Satellite-derived QuikSCAT winds and NOAA Outgoing Longwave Radiation (OLR) measurements for the period of 2000&#8211;2006, together with reanalysis of winds from a longer record, are analyzed to understand the sources of this 40&#8211;60-day wind variability and the global propagation of the Madden-Julian Oscillation (MJO) surface signatures. The results demonstrate that the MJO propagated eastward from the Indo-Pacific Ocean to the Atlantic during winter and spring of 2002, causing 40&#8211;60 day wind variations in the equatorial Atlantic. The Isthmus of Panama appears to be a dominant pathway for these surface wind anomalies to propagate into the Atlantic, where they can produce important climate impacts. This result is consistent with previous work that has demonstrated a strong MJO influence on the North American Monsoon (NAM) region, and complements other work demonstrating the propagation of intraseasonal wind anomalies and accompanying sea level pressure signals associated with dry equatorial Kelvin waves that reach the Caribbean through the Panama gap. The MJO is also shown to have a large influence on the subtropical Atlantic Ocean. Seasonality of the MJO impact on Atlantic surface winds is investigated using data from an extended record, and the most direct influence is found to be during boreal winter and spring, with a delayed influence during summer and fall.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Significant 40&#8211;60 day intraseasonal variability in surface winds, sea level, and thermocline depth were observed in the tropical Atlantic during the Atlantic Ni&#241;o year of 2002. Satellite-derived QuikSCAT winds and NOAA Outgoing Longwave Radiation (OLR) measurements for the period of 2000&#8211;2006, together with reanalysis of winds from a longer record, are analyzed to understand the sources of this 40&#8211;60-day wind variability and the global propagation of the Madden-Julian Oscillation (MJO) surface signatures. The results demonstrate that the MJO propagated eastward from the Indo-Pacific Ocean to the Atlantic during winter and spring of 2002, causing 40&#8211;60 day wind variations in the equatorial Atlantic. The Isthmus of Panama appears to be a dominant pathway for these surface wind anomalies to propagate into the Atlantic, where they can produce important climate impacts. This result is consistent with previous work that has demonstrated a strong MJO influence on the North American Monsoon (NAM) region, and complements other work demonstrating the propagation of intraseasonal wind anomalies and accompanying sea level pressure signals associated with dry equatorial Kelvin waves that reach the Caribbean through the Panama gap. The MJO is also shown to have a large influence on the subtropical Atlantic Ocean. Seasonality of the MJO impact on Atlantic surface winds is investigated using data from an extended record, and the most direct influence is found to be during boreal winter and spring, with a delayed influence during summer and fall.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -312,12 +308,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -359,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

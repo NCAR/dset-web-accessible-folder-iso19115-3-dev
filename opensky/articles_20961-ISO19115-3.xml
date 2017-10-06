@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.874561</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.735460</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Intercomparison of atmospheric water vapour measurements at a Canadian High Arctic site</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-08-11T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -334,12 +332,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7tm7dmg</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -347,12 +344,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/amt-10-2851-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -362,7 +358,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Water vapour is a critical component of the Earth system. Techniques to acquire and improve measurements of atmospheric water vapour and its isotopes are under active development. This work presents a detailed intercomparison of water vapour total column measurements taken between 2006 and 2014 at a Canadian High Arctic research site (Eureka, Nunavut). Instruments include radiosondes, sun photometers, a microwave radiometer, and emission and solar absorption Fourier transform infrared (FTIR) spectrometers. Close agreement is observed between all combination of datasets, with mean differences &lt;= 1.0 kg m(-2) and correlation coefficients &gt;= 0.98. The one exception in the observed high correlation is the comparison between the microwave radiometer and a radiosonde product, which had a correlation coefficient of 0.92.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Water vapour is a critical component of the Earth system. Techniques to acquire and improve measurements of atmospheric water vapour and its isotopes are under active development. This work presents a detailed intercomparison of water vapour total column measurements taken between 2006 and 2014 at a Canadian High Arctic research site (Eureka, Nunavut). Instruments include radiosondes, sun photometers, a microwave radiometer, and emission and solar absorption Fourier transform infrared (FTIR) spectrometers. Close agreement is observed between all combination of datasets, with mean differences <= 1.0 kg m(-2) and correlation coefficients >= 0.98. The one exception in the observed high correlation is the comparison between the microwave radiometer and a radiosonde product, which had a correlation coefficient of 0.92.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -421,7 +417,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -463,7 +458,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

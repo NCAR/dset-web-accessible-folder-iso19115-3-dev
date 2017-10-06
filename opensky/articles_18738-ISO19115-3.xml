@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:44.348940</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:37.279387</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Reference upper-air observations for climate: From concept to reality</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -424,12 +422,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7s1845j</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -437,12 +434,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/BAMS-D-14-00072.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -452,7 +448,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The three main objectives of the Global Climate Observing System (GCOS) Reference Upper-Air Network (GRUAN) are to provide long-term high-quality climate records of vertical profiles of selected essential climate variables (ECVs), to constrain and calibrate data from more spatially comprehensive global networks, and to provide measurements for process studies that permit an in-depth understanding of the properties of the atmospheric column. In the five years since the first GRUAN implementation and coordination meeting and the printing of an article (Seidel et al.) in this publication, GRUAN has matured to become a functioning network that provides reference-quality observations to a community of users. This article describes the achievements within GRUAN over the past five years toward making reference-quality observations of upper-air ECVs. Milestones in the evolution of GRUAN are emphasized, including development of rigorous criteria for site certification and assessment, the formal certification of the first GRUAN sites, salient aspects of the GRUAN manual and guide to operations, public availability of GRUAN&#8217;s first data product, outcomes of a network expansion workshop, and key results of scientific studies designed to provide a sound scientific foundation for GRUAN operations. Two defining attributes of GRUAN are 1) that every measurement is accompanied by a traceable estimate of the measurement uncertainty and 2) that data quality and continuity are maximized because network changes are minimized and managed. This article summarizes how these imperatives are being achieved for existing and planned data products and provides an outlook for the future, including expected new data streams, network expansion, and critical needs for the ongoing success of GRUAN.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The three main objectives of the Global Climate Observing System (GCOS) Reference Upper-Air Network (GRUAN) are to provide long-term high-quality climate records of vertical profiles of selected essential climate variables (ECVs), to constrain and calibrate data from more spatially comprehensive global networks, and to provide measurements for process studies that permit an in-depth understanding of the properties of the atmospheric column. In the five years since the first GRUAN implementation and coordination meeting and the printing of an article (Seidel et al.) in this publication, GRUAN has matured to become a functioning network that provides reference-quality observations to a community of users. This article describes the achievements within GRUAN over the past five years toward making reference-quality observations of upper-air ECVs. Milestones in the evolution of GRUAN are emphasized, including development of rigorous criteria for site certification and assessment, the formal certification of the first GRUAN sites, salient aspects of the GRUAN manual and guide to operations, public availability of GRUAN&#8217;s first data product, outcomes of a network expansion workshop, and key results of scientific studies designed to provide a sound scientific foundation for GRUAN operations. Two defining attributes of GRUAN are 1) that every measurement is accompanied by a traceable estimate of the measurement uncertainty and 2) that data quality and continuity are maximized because network changes are minimized and managed. This article summarizes how these imperatives are being achieved for existing and planned data products and provides an outlook for the future, including expected new data streams, network expansion, and critical needs for the ongoing success of GRUAN.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -511,7 +507,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -553,7 +548,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

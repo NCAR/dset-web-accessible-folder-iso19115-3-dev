@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18729</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:45.562947</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:36.974239</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>In situ balloon-borne ice particle imaging in high-latitude cirrus</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-09-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7t1559x</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s00024-016-1324-x</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Cirrus clouds reflect incoming solar radiation, creating a cooling effect. At the same time, these clouds absorb the infrared radiation from the Earth, creating a greenhouse effect. The net effect, crucial for radiative transfer, depends on the cirrus microphysical properties, such as particle size distributions and particle shapes. Knowledge of these cloud properties is also needed for calibrating and validating passive and active remote sensors. Ice particles of sizes below 100 A mu m are inherently difficult to measure with aircraft-mounted probes due to issues with resolution, sizing, and size-dependent sampling volume. Furthermore, artefacts are produced by shattering of particles on the leading surfaces of the aircraft probes when particles several hundred microns or larger are present. Here, we report on a series of balloon-borne in situ measurements that were carried out at a high-latitude location, Kiruna in northern Sweden (68N 21E). The method used here avoids these issues experienced with the aircraft probes. Furthermore, with a balloon-borne instrument, data are collected as vertical profiles, more useful for calibrating or evaluating remote sensing measurements than data collected along horizontal traverses. Particles are collected on an oil-coated film at a sampling speed given directly by the ascending rate of the balloon, 4 m s(-1). The collecting film is advanced uniformly inside the instrument so that an always unused section of the film is exposed to ice particles, which are measured by imaging shortly after sampling. The high optical resolution of about 4 A mu m together with a pixel resolution of 1.65 A mu m allows particle detection at sizes of 10 A mu m and larger. For particles that are 20 A mu m (12 pixel) in size or larger, the shape can be recognized. The sampling volume, 130 cm(3) s(-1), is well defined and independent of particle size. With the encountered number concentrations of between 4 and 400 L-1, this required about 90- to 4-s sampling times to determine particle size distributions of cloud layers. Depending on how ice particles vary through the cloud, several layers per cloud with relatively uniform properties have been analysed. Preliminary results of the balloon campaign, targeting upper tropospheric, cold cirrus clouds, are presented here. Ice particles in these clouds were predominantly very small, with a median size of measured particles of around 50 A mu m and about 80 % of all particles below 100 A mu m in size. The properties of the particle size distributions at temperatures between -36 and -67 A degrees C have been studied, as well as particle areas, extinction coefficients, and their shapes (area ratios). Gamma and log-normal distribution functions could be fitted to all measured particle size distributions achieving very good correlation with coefficients R of up to 0.95. Each distribution features one distinct mode. With decreasing temperature, the mode diameter decreases exponentially, whereas the total number concentration increases by two orders of magnitude with decreasing temperature in the same range. The high concentrations at cold temperatures also caused larger extinction coefficients, directly determined from cross-sectional areas of single ice particles, than at warmer temperatures. The mass of particles has been estimated from area and size. Ice water content (IWC) and effective diameters are then determined from the data.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Cirrus clouds reflect incoming solar radiation, creating a cooling effect. At the same time, these clouds absorb the infrared radiation from the Earth, creating a greenhouse effect. The net effect, crucial for radiative transfer, depends on the cirrus microphysical properties, such as particle size distributions and particle shapes. Knowledge of these cloud properties is also needed for calibrating and validating passive and active remote sensors. Ice particles of sizes below 100 A mu m are inherently difficult to measure with aircraft-mounted probes due to issues with resolution, sizing, and size-dependent sampling volume. Furthermore, artefacts are produced by shattering of particles on the leading surfaces of the aircraft probes when particles several hundred microns or larger are present. Here, we report on a series of balloon-borne in situ measurements that were carried out at a high-latitude location, Kiruna in northern Sweden (68N 21E). The method used here avoids these issues experienced with the aircraft probes. Furthermore, with a balloon-borne instrument, data are collected as vertical profiles, more useful for calibrating or evaluating remote sensing measurements than data collected along horizontal traverses. Particles are collected on an oil-coated film at a sampling speed given directly by the ascending rate of the balloon, 4 m s(-1). The collecting film is advanced uniformly inside the instrument so that an always unused section of the film is exposed to ice particles, which are measured by imaging shortly after sampling. The high optical resolution of about 4 A mu m together with a pixel resolution of 1.65 A mu m allows particle detection at sizes of 10 A mu m and larger. For particles that are 20 A mu m (12 pixel) in size or larger, the shape can be recognized. The sampling volume, 130 cm(3) s(-1), is well defined and independent of particle size. With the encountered number concentrations of between 4 and 400 L-1, this required about 90- to 4-s sampling times to determine particle size distributions of cloud layers. Depending on how ice particles vary through the cloud, several layers per cloud with relatively uniform properties have been analysed. Preliminary results of the balloon campaign, targeting upper tropospheric, cold cirrus clouds, are presented here. Ice particles in these clouds were predominantly very small, with a median size of measured particles of around 50 A mu m and about 80 % of all particles below 100 A mu m in size. The properties of the particle size distributions at temperatures between -36 and -67 A degrees C have been studied, as well as particle areas, extinction coefficients, and their shapes (area ratios). Gamma and log-normal distribution functions could be fitted to all measured particle size distributions achieving very good correlation with coefficients R of up to 0.95. Each distribution features one distinct mode. With decreasing temperature, the mode diameter decreases exponentially, whereas the total number concentration increases by two orders of magnitude with decreasing temperature in the same range. The high concentrations at cold temperatures also caused larger extinction coefficients, directly determined from cross-sectional areas of single ice particles, than at warmer temperatures. The mass of particles has been estimated from area and size. Ice water content (IWC) and effective diameters are then determined from the data.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -267,12 +263,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -314,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

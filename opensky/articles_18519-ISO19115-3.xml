@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:38.847167</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:28.578103</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Impact of emission mitigation on ozone-induced wheat and rice damage in India</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-04-25T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7930vsm</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.18520/cs/v110/i8/1452-1458</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In this study, we evaluate the potential impact of ground level ozone (O&#8323;) on rice and wheat yield in top 10 states in India during 2005. This study is based on simulated hourly O3 concentration from the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem), district-wise seasonal crop production datasets and accumulated daytime hourly O&#8323; concentration over a threshold of 40 ppbv (AOT40) indices to estimate crop yield damage resulting from ambient O&#8323; exposure. The response of nitrogen oxides (NOx) and volatile organic compounds (VOC) mitigation action is evaluated based on ground level O&#8323; simulations with individual reduction in anthropogenicNOx and VOC emissions over the Indian domain. The total loss of wheat and rice from top 10 producing states in India is estimated to be 2.2 million tonnes (3.3%) and 2.05 million tonnes (2.5%) respectively. Sensitivity model study reveals relatively 93% decrease in O&#8323;-induced crop yield losses in response to anthropogenic NOx emission mitigation. The response of VOC mitigation action results in relatively small changes of about 24% decrease in O&#8323;-induced crop yield losses, suggesting NOx as a key pollutant for mitigation. VOC also contribute to crop yield reduction but their effects are a distant second compared to NOx effects</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In this study, we evaluate the potential impact of ground level ozone (O&#8323;) on rice and wheat yield in top 10 states in India during 2005. This study is based on simulated hourly O3 concentration from the Weather Research and Forecasting model coupled with Chemistry (WRF-Chem), district-wise seasonal crop production datasets and accumulated daytime hourly O&#8323; concentration over a threshold of 40 ppbv (AOT40) indices to estimate crop yield damage resulting from ambient O&#8323; exposure. The response of nitrogen oxides (NOx) and volatile organic compounds (VOC) mitigation action is evaluated based on ground level O&#8323; simulations with individual reduction in anthropogenicNOx and VOC emissions over the Indian domain. The total loss of wheat and rice from top 10 producing states in India is estimated to be 2.2 million tonnes (3.3%) and 2.05 million tonnes (2.5%) respectively. Sensitivity model study reveals relatively 93% decrease in O&#8323;-induced crop yield losses in response to anthropogenic NOx emission mitigation. The response of VOC mitigation action results in relatively small changes of about 24% decrease in O&#8323;-induced crop yield losses, suggesting NOx as a key pollutant for mitigation. VOC also contribute to crop yield reduction but their effects are a distant second compared to NOx effects]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -331,7 +327,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -373,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12157</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:59.635283</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:01.057028</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Interannual variability of carbon monoxide emission estimates over South America from 2006 to 2010</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2012-08-10T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7474bk2</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2012JD017758</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>We present the first inverse modeling study to estimate CO emissions constrained by both surface and satellite observations. Our 4D-Var system assimilates National Oceanic and Atmospheric Administration Earth System Research Laboratory (NOAA/ESRL) Global Monitoring Division (GMD) surface and Measurements Of Pollution In The Troposphere (MOPITT) satellite observations jointly by fitting a bias correction scheme. This approach leads to the identification of a positive bias of maximum 5 ppb in MOPITT column-averaged CO mixing ratios in the remote Southern Hemisphere (SH). The 4D-Var system is used to estimate CO emissions over South America in the period 2006-2010 and to analyze the interannual variability (IAV) of these emissions. We infer robust, high spatial resolution CO emission estimates that show slightly smaller IAV due to fires compared to the Global Fire Emissions Database (GFED3) prior emissions. South American dry season (August and September) biomass burning emission estimates amount to 60, 92, 42, 16 and 93 Tg CO/yr for 2006 to 2010, respectively. Moreover, CO emissions probably associated with pre-harvest burning of sugar cane plantations in S&#227;o Paulo state are underestimated in current inventories by 50-100%. We conclude that climatic conditions (such as the widespread drought in 2010) seem the most likely cause for the IAV in biomass burning CO emissions. However, socio-economic factors (such as the growing global demand for soy, beef and sugar cane ethanol) and associated deforestation fires, are also likely as drivers for the IAV of CO emissions, but are difficult to link directly to CO emissions.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[We present the first inverse modeling study to estimate CO emissions constrained by both surface and satellite observations. Our 4D-Var system assimilates National Oceanic and Atmospheric Administration Earth System Research Laboratory (NOAA/ESRL) Global Monitoring Division (GMD) surface and Measurements Of Pollution In The Troposphere (MOPITT) satellite observations jointly by fitting a bias correction scheme. This approach leads to the identification of a positive bias of maximum 5 ppb in MOPITT column-averaged CO mixing ratios in the remote Southern Hemisphere (SH). The 4D-Var system is used to estimate CO emissions over South America in the period 2006-2010 and to analyze the interannual variability (IAV) of these emissions. We infer robust, high spatial resolution CO emission estimates that show slightly smaller IAV due to fires compared to the Global Fire Emissions Database (GFED3) prior emissions. South American dry season (August and September) biomass burning emission estimates amount to 60, 92, 42, 16 and 93 Tg CO/yr for 2006 to 2010, respectively. Moreover, CO emissions probably associated with pre-harvest burning of sugar cane plantations in S&#227;o Paulo state are underestimated in current inventories by 50-100%. We conclude that climatic conditions (such as the widespread drought in 2010) seem the most likely cause for the IAV in biomass burning CO emissions. However, socio-economic factors (such as the growing global demand for soy, beef and sugar cane ethanol) and associated deforestation fires, are also likely as drivers for the IAV of CO emissions, but are difficult to link directly to CO emissions.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -357,12 +353,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -404,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

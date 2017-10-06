@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.703649</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.481895</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Multiphase chemistry: Experimental design for coordinated measurement and modeling studies of cloud processing at a mountaintop</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d70g3nm1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/BAMS-D-17-0015.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In situ measurements and remote sensing retrievals of atmospheric chemistry are typically limited to sampling in clear sky. It is reasonable to assume that biased sampling has resulted in a biased understanding of atmospheric chemistry, given the following facts: 1) clouds form frequently within the troposphere, 2) updrafts associated with clouds are the primary means by which emissions from the boundary layer are lofted into the free troposphere (Ching and Alkezweeny 1986; Ching et al. 1988; Vila-Guerau de Arellano et al. 2005), and 3) cloud droplets provide a medium for aqueous-phase chemical reactions that are distinctly different from chemical processes occurring in the gas or aerosol phases (Volkamer et al. 2009; Carlton et al. 2008; Altieri et al. 2008; Perri et al. 2009). Although much research effort has historically focused on cloud-processing impacts on inorganic compounds like sulfate (Hegg and Hobbs 1982; Husain et al. 1991), many questions remain regarding organic compounds (Ervens 2015). An increasing body of experimental evidence indicates that scavenging of soluble gas-phase organic compounds (such as glyoxal and methylglyxal) and subsequent oxidation reactions within fog and cloud droplets can contribute substantially to secondary organic aerosol (SOA) mass following cloud droplet evaporation (Blando and Turpin 2000; Volkamer et al. 2006; Ervens et al. 2011). However, there remains a critical need to identify the key processes impacting organic chemical transformation taking place within clouds and to better understand the conditions under which those processes occur as well as the frequency with which they occur in the troposphere.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In situ measurements and remote sensing retrievals of atmospheric chemistry are typically limited to sampling in clear sky. It is reasonable to assume that biased sampling has resulted in a biased understanding of atmospheric chemistry, given the following facts: 1) clouds form frequently within the troposphere, 2) updrafts associated with clouds are the primary means by which emissions from the boundary layer are lofted into the free troposphere (Ching and Alkezweeny 1986; Ching et al. 1988; Vila-Guerau de Arellano et al. 2005), and 3) cloud droplets provide a medium for aqueous-phase chemical reactions that are distinctly different from chemical processes occurring in the gas or aerosol phases (Volkamer et al. 2009; Carlton et al. 2008; Altieri et al. 2008; Perri et al. 2009). Although much research effort has historically focused on cloud-processing impacts on inorganic compounds like sulfate (Hegg and Hobbs 1982; Husain et al. 1991), many questions remain regarding organic compounds (Ervens 2015). An increasing body of experimental evidence indicates that scavenging of soluble gas-phase organic compounds (such as glyoxal and methylglyxal) and subsequent oxidation reactions within fog and cloud droplets can contribute substantially to secondary organic aerosol (SOA) mass following cloud droplet evaporation (Blando and Turpin 2000; Volkamer et al. 2006; Ervens et al. 2011). However, there remains a critical need to identify the key processes impacting organic chemical transformation taking place within clouds and to better understand the conditions under which those processes occur as well as the frequency with which they occur in the troposphere.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

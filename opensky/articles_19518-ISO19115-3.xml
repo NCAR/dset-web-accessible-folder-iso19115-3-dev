@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:57.043946</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:03.862359</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A potential enstrophy and energy conserving scheme for the shallow-water equations extended to generalized curvilinear coordinates</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7vh5qn5</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/MWR-D-16-0250.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>An energy and potential enstrophy conserving finite-difference scheme for the shallow-water equations is derived in generalized curvilinear coordinates. This is an extension of a scheme formulated by Arakawa and Lamb for orthogonal coordinate systems. The starting point for the present scheme is the shallow-water equations cast in generalized curvilinear coordinates, and tensor analysis is used to derive the invariant conservation properties. Preliminary tests on a flat plane with doubly periodic boundary conditions are presented. The scheme is shown to possess similar order-of-convergence error characteristics using a non-orthogonal coordinate compared to Cartesian coordinates for a nonlinear test of flow over an isolated mountain. A linear normal mode analysis shows that the discrete form of the Coriolis term provides stationary geostrophically balanced modes for the nonorthogonal coordinate and no unphysical computational modes are introduced. The scheme uses centered differences and averages, which are formally second-order accurate. An empirical test with a steady geostrophically balanced flow shows that the convergence rate of the truncation errors of the discrete operators is second order. The next step will be to adapt the scheme for use on the cubed sphere, which will involve modification at the lateral boundaries of the cube faces.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[An energy and potential enstrophy conserving finite-difference scheme for the shallow-water equations is derived in generalized curvilinear coordinates. This is an extension of a scheme formulated by Arakawa and Lamb for orthogonal coordinate systems. The starting point for the present scheme is the shallow-water equations cast in generalized curvilinear coordinates, and tensor analysis is used to derive the invariant conservation properties. Preliminary tests on a flat plane with doubly periodic boundary conditions are presented. The scheme is shown to possess similar order-of-convergence error characteristics using a non-orthogonal coordinate compared to Cartesian coordinates for a nonlinear test of flow over an isolated mountain. A linear normal mode analysis shows that the discrete form of the Coriolis term provides stationary geostrophically balanced modes for the nonorthogonal coordinate and no unphysical computational modes are introduced. The scheme uses centered differences and averages, which are formally second-order accurate. An empirical test with a steady geostrophically balanced flow shows that the convergence rate of the truncation errors of the discrete operators is second order. The next step will be to adapt the scheme for use on the cubed sphere, which will involve modification at the lateral boundaries of the cube faces.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -271,7 +267,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -313,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

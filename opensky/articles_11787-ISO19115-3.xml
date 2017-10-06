@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:11787</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:50.873162</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:48.631044</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Simulations of the equatorial thermosphere anomaly: Field-aligned ion drag effect</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2012-01-06T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -289,12 +287,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7qv3n5h</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -302,12 +299,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2011JA017114</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -317,7 +313,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In this paper the impact of the field-aligned ion drag on equatorial thermosphere temperature and density is quantitatively investigated on the basis of the National Center for Atmospheric Research Thermosphere Ionosphere Electrodynamics General Circulation Model (NCAR TIEGCM) simulations under high solar activity (F107 = 180). The increase of upward vertical winds over the magnetic equator associated with the additional divergence of meridional winds, caused by the inclusion of field-aligned ion drag, leads to a reduction in thermosphere temperature and density at the magnetic equator through enhanced adiabatic cooling. We found that the field-aligned ion drag has an obvious impact on the thermosphere only over the magnetic equatorial region in the daytime and evening sectors, whereas it has less effect on the equatorial thermosphere anomaly (ETA) crests. The daytime neutral temperature over the magnetic equator is reduced by about 30 K, for altitudes above 250 km without significant altitudinal variations, when field-aligned ion drag is included in the simulation. The thermosphere density in the magnetic equatorial region starts to change slightly at 300 km and depletes by about 5% at 400 km, while experiencing a greater decrease with altitude. Furthermore, the trough produced in the neutral temperature and density corresponds well with the magnetic dip equator. The ETA features during 12:00-18:00 LT become obvious as a result of the inclusion of the field-aligned ion drag. Specifically, our results show that at 400 km the crest-trough differences in neutral temperature are about 30-60 K, and the crest-trough ratios in thermosphere density are 1.03-1.06, comparable with observations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In this paper the impact of the field-aligned ion drag on equatorial thermosphere temperature and density is quantitatively investigated on the basis of the National Center for Atmospheric Research Thermosphere Ionosphere Electrodynamics General Circulation Model (NCAR TIEGCM) simulations under high solar activity (F107 = 180). The increase of upward vertical winds over the magnetic equator associated with the additional divergence of meridional winds, caused by the inclusion of field-aligned ion drag, leads to a reduction in thermosphere temperature and density at the magnetic equator through enhanced adiabatic cooling. We found that the field-aligned ion drag has an obvious impact on the thermosphere only over the magnetic equatorial region in the daytime and evening sectors, whereas it has less effect on the equatorial thermosphere anomaly (ETA) crests. The daytime neutral temperature over the magnetic equator is reduced by about 30 K, for altitudes above 250 km without significant altitudinal variations, when field-aligned ion drag is included in the simulation. The thermosphere density in the magnetic equatorial region starts to change slightly at 300 km and depletes by about 5% at 400 km, while experiencing a greater decrease with altitude. Furthermore, the trough produced in the neutral temperature and density corresponds well with the magnetic dip equator. The ETA features during 12:00-18:00 LT become obvious as a result of the inclusion of the field-aligned ion drag. Specifically, our results show that at 400 km the crest-trough differences in neutral temperature are about 30-60 K, and the crest-trough ratios in thermosphere density are 1.03-1.06, comparable with observations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -372,12 +368,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -419,7 +413,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

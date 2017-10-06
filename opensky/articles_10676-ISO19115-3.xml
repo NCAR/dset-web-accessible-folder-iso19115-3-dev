@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10676</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:38.628173</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:34.068284</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Convective snowbands downstream of the Rocky Mountains in an environment with conditional, dry symmetric, and inertial instabilities</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-12-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7j67hg9</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2010MWR3334.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Convective snowbands moved slowly over Wyoming and northern Colorado on 16-17 February 2007 and produced up to 71 mm (2.8 in.) of snow that was unpredicted by operational numerical weather prediction models and human forecasters. The northwest southeast-oriented bands lasted for over 6 h, comprising both a single major band (more than 30 km wide) and multiple minor bands (about 10 km wide). The convective bands initiated within the ascending branch of a secondary circulation associated with both near-surface and elevated frontogenesis, but the bands remained nearly stationary while the near-surface frontogenesis moved quickly equatorward. The bands occurred downstream of complex terrain on the anticyclonic-shear side of a midlevel jet streak, where conditional, dry symmetric (negative potential vorticity), and inertial (negative absolute vorticity) instabilities were present. To determine the mechanisms responsible for the development and organization of these bands, simulations using a convection-permitting numerical model are conducted. In contrast to the operational models, these simulations are able to produce convective bands in the same area and at about the same time as that observed. The simulated bands occurred in an environment with a nearly well-mixed, baroclinic boundary layer, positive convective available potential energy. and widespread negative potential vorticity. Individual bands initiated on the low-momentum side of vorticity banners downstream of mountains, and in association with frontogenetical ascent along two baroclinic zones. In addition, ascent caused by both frontogenesis and banded moist convection produced additional narrow regions of negative vorticity by transporting low-momentum air upward and creating strong horizontal gradients in wind speed. This event is similar to other observed instances of banded convection in the western United States on the anticyclonic-shear side of strong mid- and upper-tropospheric jets in environments lacking large-scale saturation. In contrast, these events differ from previously published banded precipitation events in the comma head of extratropical cyclones and downstream of mountains where large-scale saturation is present.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Convective snowbands moved slowly over Wyoming and northern Colorado on 16-17 February 2007 and produced up to 71 mm (2.8 in.) of snow that was unpredicted by operational numerical weather prediction models and human forecasters. The northwest southeast-oriented bands lasted for over 6 h, comprising both a single major band (more than 30 km wide) and multiple minor bands (about 10 km wide). The convective bands initiated within the ascending branch of a secondary circulation associated with both near-surface and elevated frontogenesis, but the bands remained nearly stationary while the near-surface frontogenesis moved quickly equatorward. The bands occurred downstream of complex terrain on the anticyclonic-shear side of a midlevel jet streak, where conditional, dry symmetric (negative potential vorticity), and inertial (negative absolute vorticity) instabilities were present. To determine the mechanisms responsible for the development and organization of these bands, simulations using a convection-permitting numerical model are conducted. In contrast to the operational models, these simulations are able to produce convective bands in the same area and at about the same time as that observed. The simulated bands occurred in an environment with a nearly well-mixed, baroclinic boundary layer, positive convective available potential energy. and widespread negative potential vorticity. Individual bands initiated on the low-momentum side of vorticity banners downstream of mountains, and in association with frontogenetical ascent along two baroclinic zones. In addition, ascent caused by both frontogenesis and banded moist convection produced additional narrow regions of negative vorticity by transporting low-momentum air upward and creating strong horizontal gradients in wind speed. This event is similar to other observed instances of banded convection in the western United States on the anticyclonic-shear side of strong mid- and upper-tropospheric jets in environments lacking large-scale saturation. In contrast, these events differ from previously published banded precipitation events in the comma head of extratropical cyclones and downstream of mountains where large-scale saturation is present.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -282,12 +278,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -329,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

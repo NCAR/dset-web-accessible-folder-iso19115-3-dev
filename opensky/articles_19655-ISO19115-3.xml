@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:00.270898</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:09.198883</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Statistical&#8211;dynamical seasonal forecast of western North Pacific and East Asia landfalling tropical cyclones using the GFDL FLOR coupled climate model</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d73f4rgf</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0487.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>This study attempts to improve the prediction of western North Pacific (WNP) and East Asia (EA) landfalling tropical cyclones (TCs) using modes of large-scale climate variability [e.g., the Pacific meridional mode (PMM), the Atlantic meridional mode (AMM), and North Atlantic sea surface temperature anomalies (NASST)] as predictors in a hybrid statistical-dynamical scheme, based on dynamical model forecasts with the GFDL Forecast-Oriented Low Ocean Resolution version of CM2.5 with flux adjustments (FLOR-FA). Overall, the predictive skill of the hybrid model for the WNP TC frequency increases from lead month 5 (initialized in January) to lead month 0 (initialized in June) in terms of correlation coefficient and root-mean-square error (RMSE). The hybrid model outperforms FLOR-FA in predicting WNPTC frequency for all lead months. The predictive skill of the hybrid model improves as the forecast lead time decreases, with values of the correlation coefficient increasing from 0.56 for forecasts initialized in January to 0.69 in June. The hybrid models for landfalling TCs over the entire East Asian (EEA) coast and its three subregions [i.e., southern EA (SEA), middle EA (MEA), and northern EA (NEA)] dramatically outperform FLOR-FA. The correlation coefficient between predicted and observed TC landfall over SEA increases from 0.52 for forecasts initialized in January to 0.64 in June. The hybrid models substantially reduce the RMSE of landfalling TCs over SEA and EEA compared with FLOR-FA. This study suggests that the PMM and NASST/AMM can be used to improve statistical/hybrid forecast models for the frequencies of WNP or East Asia landfalling TCs.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[This study attempts to improve the prediction of western North Pacific (WNP) and East Asia (EA) landfalling tropical cyclones (TCs) using modes of large-scale climate variability [e.g., the Pacific meridional mode (PMM), the Atlantic meridional mode (AMM), and North Atlantic sea surface temperature anomalies (NASST)] as predictors in a hybrid statistical-dynamical scheme, based on dynamical model forecasts with the GFDL Forecast-Oriented Low Ocean Resolution version of CM2.5 with flux adjustments (FLOR-FA). Overall, the predictive skill of the hybrid model for the WNP TC frequency increases from lead month 5 (initialized in January) to lead month 0 (initialized in June) in terms of correlation coefficient and root-mean-square error (RMSE). The hybrid model outperforms FLOR-FA in predicting WNPTC frequency for all lead months. The predictive skill of the hybrid model improves as the forecast lead time decreases, with values of the correlation coefficient increasing from 0.56 for forecasts initialized in January to 0.69 in June. The hybrid models for landfalling TCs over the entire East Asian (EEA) coast and its three subregions [i.e., southern EA (SEA), middle EA (MEA), and northern EA (NEA)] dramatically outperform FLOR-FA. The correlation coefficient between predicted and observed TC landfall over SEA increases from 0.52 for forecasts initialized in January to 0.64 in June. The hybrid models substantially reduce the RMSE of landfalling TCs over SEA and EEA compared with FLOR-FA. This study suggests that the PMM and NASST/AMM can be used to improve statistical/hybrid forecast models for the frequencies of WNP or East Asia landfalling TCs.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -331,7 +327,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -373,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

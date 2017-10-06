@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:58.999833</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:07.361093</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Impacts of coal dust from an active mine on the spectral reflectance of Arctic surface snow in Svalbard, Norway</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-02-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d78917pz</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016JD025757</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Light-absorbing particles (LAPs) in snow such as dust and black carbon influence the radiative forcing at the Earth's surface, which has major implications for global climate models. LAPs also significantly influence the melting of glaciers, sea ice, and seasonal snow. Here we present an in situ study of surface snow near an active coal mine in the Norwegian Arctic. We couple measurements of spectral hemispherical directional reflectance factor (HDRF) with measurements of LAPs characterized in two ways, as refractory black carbon using a Single Particle Soot Photometer and the total light absorption of LAPs measured with the Light Absorption Heating Method. The Snow Ice and Aerosol Radiation model was constrained by LAP measurements. Results were compared to observed spectral albedo measurements. Modeled and observed albedos were similar at the cleaner and more remote sites. However, the modeled spectral albedos do not fully account for the low spectral albedo measured next to the mine. LAP measurements also showed a large variation in particle sizes (tenths to tens of microns) related to transport distance of the particles from the mine. Here we find that LAPs from coal dust reduce the spectral HDRF by up to 84% next to the mine and 55% 0.5 km downwind of the mine. The coupling of extreme LAP observations (1 ng g(-1) to 4863 ng g(-1)) with HDRF measurements from 350 to 2500nm has facilitated the development of spectral band pairs, which could be used in the future to remotely assess LAPs in Arctic snow.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Light-absorbing particles (LAPs) in snow such as dust and black carbon influence the radiative forcing at the Earth's surface, which has major implications for global climate models. LAPs also significantly influence the melting of glaciers, sea ice, and seasonal snow. Here we present an in situ study of surface snow near an active coal mine in the Norwegian Arctic. We couple measurements of spectral hemispherical directional reflectance factor (HDRF) with measurements of LAPs characterized in two ways, as refractory black carbon using a Single Particle Soot Photometer and the total light absorption of LAPs measured with the Light Absorption Heating Method. The Snow Ice and Aerosol Radiation model was constrained by LAP measurements. Results were compared to observed spectral albedo measurements. Modeled and observed albedos were similar at the cleaner and more remote sites. However, the modeled spectral albedos do not fully account for the low spectral albedo measured next to the mine. LAP measurements also showed a large variation in particle sizes (tenths to tens of microns) related to transport distance of the particles from the mine. Here we find that LAPs from coal dust reduce the spectral HDRF by up to 84% next to the mine and 55% 0.5 km downwind of the mine. The coupling of extreme LAP observations (1 ng g(-1) to 4863 ng g(-1)) with HDRF measurements from 350 to 2500nm has facilitated the development of spectral band pairs, which could be used in the future to remotely assess LAPs in Arctic snow.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -361,7 +357,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -403,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

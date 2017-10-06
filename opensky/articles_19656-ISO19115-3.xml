@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:00.310968</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:09.261823</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Role of fire in the global land water budget during the Twentieth Century due to changing ecosystems</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7zp47zp</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0460.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Fire is a global phenomenon and the primary form of terrestrial ecosystem disturbance on a global scale. It is tightly coupled with climate, ecosystems, carbon and water cycles, and human activities. Through biomass burning and fire-induced plant-tissue mortality, current and historical fires significantly affect terrestrial ecosystems, which can alter hydrology fluxes. This study provides the first quantitative assessment and understanding about the influence of fire on the global land water budget due to changing terrestrial ecosystems during the twentieth century. This is done by quantifying the difference between twentieth-century fire-on and fire-off simulations using the Community Earth System Model (CESM). Results show that fire significantly reduces the annual evapotranspiration (ET) over the global land by 0.6 x 10(3) km(3) yr(-1) and increases global total of runoff in almost the same quantity, while having almost no impact (0.0 x 10(3) km(3) yr(-1)) on annual precipitation amount. Fire also weakens both the significant upward trend in total ET over global land prior to the 1950s and the downward trend from 1950 to about 1985 by approximately 35%. For the twentieth-century average, fire impact on ET and runoff is most clearly seen in the tropical savannas, African rain forests, and some boreal forests and southern Asian forests. Fire affects global ET and runoff through reducing vegetation canopy and vegetation height, which interact with fire-induced changes in biogeochemical cycle and result in drier and warmer surface air and higher wind speed. Globally speaking, reducing the vegetation canopy is the main pathway of fire's impact on ET and runoff.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Fire is a global phenomenon and the primary form of terrestrial ecosystem disturbance on a global scale. It is tightly coupled with climate, ecosystems, carbon and water cycles, and human activities. Through biomass burning and fire-induced plant-tissue mortality, current and historical fires significantly affect terrestrial ecosystems, which can alter hydrology fluxes. This study provides the first quantitative assessment and understanding about the influence of fire on the global land water budget due to changing terrestrial ecosystems during the twentieth century. This is done by quantifying the difference between twentieth-century fire-on and fire-off simulations using the Community Earth System Model (CESM). Results show that fire significantly reduces the annual evapotranspiration (ET) over the global land by 0.6 x 10(3) km(3) yr(-1) and increases global total of runoff in almost the same quantity, while having almost no impact (0.0 x 10(3) km(3) yr(-1)) on annual precipitation amount. Fire also weakens both the significant upward trend in total ET over global land prior to the 1950s and the downward trend from 1950 to about 1985 by approximately 35%. For the twentieth-century average, fire impact on ET and runoff is most clearly seen in the tropical savannas, African rain forests, and some boreal forests and southern Asian forests. Fire affects global ET and runoff through reducing vegetation canopy and vegetation height, which interact with fire-induced changes in biogeochemical cycle and result in drier and warmer surface air and higher wind speed. Globally speaking, reducing the vegetation canopy is the main pathway of fire's impact on ET and runoff.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -271,7 +267,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -313,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

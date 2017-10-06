@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10744</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:40.874880</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:36.288513</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Solar rotational periodicities and the semiannual variation in the solar wind, radiation belt, and aurora</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-12-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7q52q52</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s11207-011-9758-x</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The behavior of a number of solar wind, radiation belt, auroral and geomagnetic parameters is examined during the recent extended solar minimum and previous solar cycles, covering the period from January 1972 to July 2010. This period includes most of the solar minimum between Cycles 23 and 24, which was more extended than recent solar minima, with historically low values of most of these parameters in 2009. Solar rotational periodicities from 5 to 27 days were found from daily averages over 81 days for the parameters. There were very strong 9-day periodicities in many variables in 2005 - 2008, triggered by recurring corotating high-speed streams (HSS). All rotational amplitudes were relatively large in the descending and early minimum phases of the solar cycle, when HSS are the predominant solar wind structures. There were minima in the amplitudes of all solar rotational periodicities near the end of each solar minimum, as well as at the start of the reversal of the solar magnetic field polarity at solar maximum (&#732; 1980, &#732; 1990, and &#732; 2001) when the occurrence frequency of HSS is relatively low. Semiannual equinoctial periodicities, which were relatively strong in the 1995 - 1997 solar minimum, were found to be primarily the result of the changing amplitudes of the 13.5- and 27-day periodicities, where 13.5-day amplitudes were better correlated with heliospheric daily observations and 27-day amplitudes correlated better with Earth-based daily observations. The equinoctial rotational amplitudes of the Earth-based parameters were probably enhanced by a combination of the Russell-McPherron effect and a reduction in the solar wind-magnetosphere coupling efficiency during solstices. The rotational amplitudes were cross-correlated with each other, where the 27-day amplitudes showed some of the weakest cross-correlations. The rotational amplitudes of the &gt; 2 MeV radiation belt electron number fluxes were progressively weaker from 27- to 5-day periods, showing that processes in the magnetosphere act as a low-pass filter between the solar wind and the radiation belt. The A p/K p magnetic currents observed at subauroral latitudes are sensitive to proton auroral precipitation, especially for 9-day and shorter periods, while the A p/K p currents are governed by electron auroral precipitation for 13.5- and 27-day periodicities.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The behavior of a number of solar wind, radiation belt, auroral and geomagnetic parameters is examined during the recent extended solar minimum and previous solar cycles, covering the period from January 1972 to July 2010. This period includes most of the solar minimum between Cycles 23 and 24, which was more extended than recent solar minima, with historically low values of most of these parameters in 2009. Solar rotational periodicities from 5 to 27 days were found from daily averages over 81 days for the parameters. There were very strong 9-day periodicities in many variables in 2005 - 2008, triggered by recurring corotating high-speed streams (HSS). All rotational amplitudes were relatively large in the descending and early minimum phases of the solar cycle, when HSS are the predominant solar wind structures. There were minima in the amplitudes of all solar rotational periodicities near the end of each solar minimum, as well as at the start of the reversal of the solar magnetic field polarity at solar maximum (&#732; 1980, &#732; 1990, and &#732; 2001) when the occurrence frequency of HSS is relatively low. Semiannual equinoctial periodicities, which were relatively strong in the 1995 - 1997 solar minimum, were found to be primarily the result of the changing amplitudes of the 13.5- and 27-day periodicities, where 13.5-day amplitudes were better correlated with heliospheric daily observations and 27-day amplitudes correlated better with Earth-based daily observations. The equinoctial rotational amplitudes of the Earth-based parameters were probably enhanced by a combination of the Russell-McPherron effect and a reduction in the solar wind-magnetosphere coupling efficiency during solstices. The rotational amplitudes were cross-correlated with each other, where the 27-day amplitudes showed some of the weakest cross-correlations. The rotational amplitudes of the > 2 MeV radiation belt electron number fluxes were progressively weaker from 27- to 5-day periods, showing that processes in the magnetosphere act as a low-pass filter between the solar wind and the radiation belt. The A p/K p magnetic currents observed at subauroral latitudes are sensitive to proton auroral precipitation, especially for 9-day and shorter periods, while the A p/K p currents are governed by electron auroral precipitation for 13.5- and 27-day periodicities.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -312,12 +308,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -359,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

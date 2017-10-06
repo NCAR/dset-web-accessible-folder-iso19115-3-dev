@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17820</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:29.021274</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:11.223343</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Radiative forcing and climate response to projected 21st century aerosol decreases</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-11-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7rf5wht</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-15-12681-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>It is widely expected that global emissions of atmospheric aerosols and their precursors will decrease strongly throughout the remainder of the 21st century, due to emission reduction policies enacted to protect human health. For instance, global emissions of aerosols and their precursors are projected to decrease by as much as 80 % by the year 2100, according to the four Representative Concentration Pathway (RCP) scenarios. The removal of aerosols will cause unintended climate consequences, including an unmasking of global warming from long-lived greenhouse gases. We use the Geophysical Fluid Dynamics Laboratory Coupled Climate Model version 3 (GFDL CM3) to simulate future climate over the 21st century with and without the aerosol emission changes projected by each of the RCPs in order to isolate the radiative forcing and climate response resulting from the aerosol reductions. We find that the projected global radiative forcing and climate response due to aerosol decreases do not vary significantly across the four RCPs by 2100, although there is some mid-century variation, especially in cloud droplet effective radius, that closely follows the RCP emissions and energy consumption projections. Up to 1 W m&#8722;2 of radiative forcing may be unmasked globally from 2005 to 2100 due to reductions in aerosol and precursor emissions, leading to average global temperature increases up to 1 K and global precipitation rate increases up to 0.09 mm day-1. However, when using a version of CM3 with reduced present-day aerosol radiative forcing (-1.0 W m-2), the global temperature increase for RCP8.5 is about 0.5 K, with similar magnitude decreases in other climate response parameters as well. Regionally and locally, climate impacts can be much larger than the global mean, with a 2.1 K warming projected over China, Japan, and Korea due to the reduced aerosol emissions in RCP8.5, as well as nearly a 0.2 mm day&#8722;1 precipitation increase, a 7 g m-2 LWP decrease, and a 2 &#956;m increase in cloud droplet effective radius. Future aerosol decreases could be responsible for 30-40 % of total climate warming (or 10-20 % with weaker aerosol forcing) by 2100 in East Asia, even under the high greenhouse gas emissions scenario (RCP8.5). The expected unmasking of global warming caused by aerosol reductions will require more aggressive greenhouse gas mitigation policies than anticipated in order to meet desired climate targets.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[It is widely expected that global emissions of atmospheric aerosols and their precursors will decrease strongly throughout the remainder of the 21st century, due to emission reduction policies enacted to protect human health. For instance, global emissions of aerosols and their precursors are projected to decrease by as much as 80 % by the year 2100, according to the four Representative Concentration Pathway (RCP) scenarios. The removal of aerosols will cause unintended climate consequences, including an unmasking of global warming from long-lived greenhouse gases. We use the Geophysical Fluid Dynamics Laboratory Coupled Climate Model version 3 (GFDL CM3) to simulate future climate over the 21st century with and without the aerosol emission changes projected by each of the RCPs in order to isolate the radiative forcing and climate response resulting from the aerosol reductions. We find that the projected global radiative forcing and climate response due to aerosol decreases do not vary significantly across the four RCPs by 2100, although there is some mid-century variation, especially in cloud droplet effective radius, that closely follows the RCP emissions and energy consumption projections. Up to 1 W m&#8722;2 of radiative forcing may be unmasked globally from 2005 to 2100 due to reductions in aerosol and precursor emissions, leading to average global temperature increases up to 1 K and global precipitation rate increases up to 0.09 mm day-1. However, when using a version of CM3 with reduced present-day aerosol radiative forcing (-1.0 W m-2), the global temperature increase for RCP8.5 is about 0.5 K, with similar magnitude decreases in other climate response parameters as well. Regionally and locally, climate impacts can be much larger than the global mean, with a 2.1 K warming projected over China, Japan, and Korea due to the reduced aerosol emissions in RCP8.5, as well as nearly a 0.2 mm day&#8722;1 precipitation increase, a 7 g m-2 LWP decrease, and a 2 &#956;m increase in cloud droplet effective radius. Future aerosol decreases could be responsible for 30-40 % of total climate warming (or 10-20 % with weaker aerosol forcing) by 2100 in East Asia, even under the high greenhouse gas emissions scenario (RCP8.5). The expected unmasking of global warming caused by aerosol reductions will require more aggressive greenhouse gas mitigation policies than anticipated in order to meet desired climate targets.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -312,12 +308,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -359,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

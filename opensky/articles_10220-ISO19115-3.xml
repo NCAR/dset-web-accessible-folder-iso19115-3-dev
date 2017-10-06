@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:40.995831</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:16.662676</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Contributions of external forcings to Southern Annular Mode trends</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2006-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -176,12 +174,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7m61ksh</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -192,7 +189,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>An observed trend in the Southern Hemisphere annular mode (SAM) during recent decades has involved an intensification of the polar vortex. The source of this trend is a matter of scientific debate with stratospheric ozone losses, greenhouse gas increases, and natural variability all being possible contenders. Because it is difficult to separate the contribution of various external forcings to the observed trend, a state-of-the-art global coupled model is utilized here. Ensembles of twentieth-century simulations forced with the observed time series of greenhouse gases, tropospheric and stratospheric ozone, sulfate aerosols, volcanic aerosols, solar variability, and various combinations of these are used to examine the annular mode trends in comparison to observations, in an attempt to isolate the response of the climate system to each individual forcing. It is found that ozone changes are the biggest contributor to the observed summertime intensification of the southern polar vortex in the second half of the twentieth century, with increases of greenhouse gases also being a necessary factor in the reproduction of the observed trends at the surface. Although stratospheric ozone losses are expected to stabilize and eventually recover to preindustrial levels over the course of the twenty-first century, these results show that increasing greenhouse gases will continue to intensify the polar vortex throughout the twenty-first century, but that radiative forcing will cause widespread temperature increases over the entire Southern Hemisphere.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[An observed trend in the Southern Hemisphere annular mode (SAM) during recent decades has involved an intensification of the polar vortex. The source of this trend is a matter of scientific debate with stratospheric ozone losses, greenhouse gas increases, and natural variability all being possible contenders. Because it is difficult to separate the contribution of various external forcings to the observed trend, a state-of-the-art global coupled model is utilized here. Ensembles of twentieth-century simulations forced with the observed time series of greenhouse gases, tropospheric and stratospheric ozone, sulfate aerosols, volcanic aerosols, solar variability, and various combinations of these are used to examine the annular mode trends in comparison to observations, in an attempt to isolate the response of the climate system to each individual forcing. It is found that ozone changes are the biggest contributor to the observed summertime intensification of the southern polar vortex in the second half of the twentieth century, with increases of greenhouse gases also being a necessary factor in the reproduction of the observed trends at the surface. Although stratospheric ozone losses are expected to stabilize and eventually recover to preindustrial levels over the course of the twenty-first century, these results show that increasing greenhouse gases will continue to intensify the polar vortex throughout the twenty-first century, but that radiative forcing will cause widespread temperature increases over the entire Southern Hemisphere.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -251,7 +248,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -293,7 +289,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

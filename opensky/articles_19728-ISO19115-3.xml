@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:02.106240</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:11.758851</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>An analytic description of the structure and evolution of growing deep cumulus updrafts</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -169,12 +167,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d79c707h</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -182,12 +179,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JAS-D-16-0234.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -197,7 +193,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>New theoretical analytic expressions are derived for the evolution of a passive scalar, buoyancy, and vertical velocity in growing, entraining moist deep convective updrafts. These expressions are a function of updraft radius, height, convective available potential energy (CAPE), and environmental relative humidity RH. They are quantitatively consistent with idealized three-dimensional moist updraft simulations with varying updraft sizes and in environments with differing RH. In particular, the analytic expressions capture the rapid decrease of buoyancy with height due to entrainment for narrow updrafts in a dry environment despite large CAPE. In contrast to the standard entraining-plume model, the theoretical expressions also describe the effects of engulfment of environmental air between the level of free convection (LFC) and height of maximum buoyancy (HMB) required by mass continuity to balance upward acceleration of updraft air (i.e., dynamic entrainment). This organized inflow sharpens horizontal gradients, thereby enhancing smaller-scale lateral turbulent mixing below the HMB. For narrow updrafts in a dry environment, this enhanced mixing leads to a negatively buoyant region between the LFC and HMB, effectively cutting off the region of positive buoyancy at the HMB from below so that the updraft structure resembles a rising thermal rather than a plume. Thus, it is proposed that a transition from plume-like to thermal-like structure is driven by dynamic entrainment and depends on updraft width (relative to height) and environmental RH. These results help to bridge the entraining-plume and rising-thermal conceptual models of moist convection.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[New theoretical analytic expressions are derived for the evolution of a passive scalar, buoyancy, and vertical velocity in growing, entraining moist deep convective updrafts. These expressions are a function of updraft radius, height, convective available potential energy (CAPE), and environmental relative humidity RH. They are quantitatively consistent with idealized three-dimensional moist updraft simulations with varying updraft sizes and in environments with differing RH. In particular, the analytic expressions capture the rapid decrease of buoyancy with height due to entrainment for narrow updrafts in a dry environment despite large CAPE. In contrast to the standard entraining-plume model, the theoretical expressions also describe the effects of engulfment of environmental air between the level of free convection (LFC) and height of maximum buoyancy (HMB) required by mass continuity to balance upward acceleration of updraft air (i.e., dynamic entrainment). This organized inflow sharpens horizontal gradients, thereby enhancing smaller-scale lateral turbulent mixing below the HMB. For narrow updrafts in a dry environment, this enhanced mixing leads to a negatively buoyant region between the LFC and HMB, effectively cutting off the region of positive buoyancy at the HMB from below so that the updraft structure resembles a rising thermal rather than a plume. Thus, it is proposed that a transition from plume-like to thermal-like structure is driven by dynamic entrainment and depends on updraft width (relative to height) and environmental RH. These results help to bridge the entraining-plume and rising-thermal conceptual models of moist convection.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -256,7 +252,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -298,7 +293,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

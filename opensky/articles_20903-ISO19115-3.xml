@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:07.402947</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:19.728313</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A moist static energy budget&#8211;based analysis of the Sahel rainfall response to uniform oceanic warming</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d72b91g9</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0785.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,9 +238,9 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Climate models generate a wide range of precipitation responses to global warming in the African Sahel, but all that use the NOAA Geophysical Fluid Dynamics Laboratory AM2.1 model as their atmospheric component dry the region sharply. This study compares the Sahel&#8217;s wet season response to uniform 2-K SST warming in AM2.1 using either its default convective parameterization, relaxed Arakawa&#8211;Schubert (RAS), or an alternate, the University of Washington (UW) parameterization, using the moist static energy (MSE) budget to diagnose the relevant mechanisms.&#13;
-&#13;
-UW generates a drier, cooler control Sahel climate than does RAS and a modest rainfall increase with SST warming rather than a sharp decrease. Horizontal advection of dry, low-MSE air from the Sahara Desert&#8212;a leading-order term in the control MSE budget with either parameterization&#8212;is enhanced with oceanic warming, driven by enhanced meridional MSE and moisture gradients spanning the Sahel. With RAS, this occurs throughout the free troposphere and is balanced by anomalous MSE import through anomalous subsidence, which must be especially large in the midtroposphere where the moist static stability is small. With UW, the strengthening of the meridional MSE gradient is mostly confined to the lower troposphere, due in part to comparatively shallow prevailing convection. This necessitates less subsidence, enabling convective and total precipitation to increase with UW, although both large-scale precipitation and precipitation minus evaporation decrease. This broad set of hydrological and energetic responses persists in simulations with SSTs varied over a wide range.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Climate models generate a wide range of precipitation responses to global warming in the African Sahel, but all that use the NOAA Geophysical Fluid Dynamics Laboratory AM2.1 model as their atmospheric component dry the region sharply. This study compares the Sahel&#8217;s wet season response to uniform 2-K SST warming in AM2.1 using either its default convective parameterization, relaxed Arakawa&#8211;Schubert (RAS), or an alternate, the University of Washington (UW) parameterization, using the moist static energy (MSE) budget to diagnose the relevant mechanisms.
+
+UW generates a drier, cooler control Sahel climate than does RAS and a modest rainfall increase with SST warming rather than a sharp decrease. Horizontal advection of dry, low-MSE air from the Sahara Desert&#8212;a leading-order term in the control MSE budget with either parameterization&#8212;is enhanced with oceanic warming, driven by enhanced meridional MSE and moisture gradients spanning the Sahel. With RAS, this occurs throughout the free troposphere and is balanced by anomalous MSE import through anomalous subsidence, which must be especially large in the midtroposphere where the moist static stability is small. With UW, the strengthening of the meridional MSE gradient is mostly confined to the lower troposphere, due in part to comparatively shallow prevailing convection. This necessitates less subsidence, enabling convective and total precipitation to increase with UW, although both large-scale precipitation and precipitation minus evaporation decrease. This broad set of hydrological and energetic responses persists in simulations with SSTs varied over a wide range.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -303,7 +299,6 @@ UW generates a drier, cooler control Sahel climate than does RAS and a modest ra
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -345,7 +340,6 @@ UW generates a drier, cooler control Sahel climate than does RAS and a modest ra
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

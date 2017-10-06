@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12200</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:00.897313</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:02.642148</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Airborne measurement of liquid and total water content</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-09-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7125tdb</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JTECH-D-10-05035.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Two identical liquid water content (LWC) King probes--one total water content/liquid water content (TWC/LWC) Nevzorov probe and two constant-temperature T probes that are different in size to distinguish particles of different densities and diameters (section 2c)--were flown during the Alliance Icing Research Study (AIRS) II field campaign in the fall of 2003. This paper assesses measurements performed during several flights in mostly stratiform clouds. The two LWC King probes tracked well; however, discrepancies of up to 0.1 g m&#8315;&#179; for 1-s LWC measurements of 0.3 g m&#8315;&#179; were observed. Agreement between probes of different geometry and size was generally favorable, while levels of disagreement between the probes changed during numerous cloud penetrations from less than 20% up to a factor of 2, varying with flight conditions and microphysical structure of the cloud. Disagreement between probes was even larger when detecting ice water content (IWC). Measurement differences were attributed to different collection efficiencies resulting from preferred particle size, shape, and density and local aerodynamic effects around the aircraft. Measurements from a single probe are subject to uncertainty at a single point in time beyond the noise and drift level of the instrument. This uncertainty is evaluated considering particle habit, diameter, and density, and probe geometry and size, in addition to particle impact, breakup/splash, and bounce. From a working point of view, the intercomparison of several probes is subject to real but unknown spatial differences because of different locations between air samples. Comparison of identical probes is not appropriate because each measurement in itself is unique by definition. Thus, instead of duplication of instruments, subject to these levels of agreement, the use of a single probe is a practical approach while remaining aware of its limitations and capabilities.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Two identical liquid water content (LWC) King probes--one total water content/liquid water content (TWC/LWC) Nevzorov probe and two constant-temperature T probes that are different in size to distinguish particles of different densities and diameters (section 2c)--were flown during the Alliance Icing Research Study (AIRS) II field campaign in the fall of 2003. This paper assesses measurements performed during several flights in mostly stratiform clouds. The two LWC King probes tracked well; however, discrepancies of up to 0.1 g m&#8315;&#179; for 1-s LWC measurements of 0.3 g m&#8315;&#179; were observed. Agreement between probes of different geometry and size was generally favorable, while levels of disagreement between the probes changed during numerous cloud penetrations from less than 20% up to a factor of 2, varying with flight conditions and microphysical structure of the cloud. Disagreement between probes was even larger when detecting ice water content (IWC). Measurement differences were attributed to different collection efficiencies resulting from preferred particle size, shape, and density and local aerodynamic effects around the aircraft. Measurements from a single probe are subject to uncertainty at a single point in time beyond the noise and drift level of the instrument. This uncertainty is evaluated considering particle habit, diameter, and density, and probe geometry and size, in addition to particle impact, breakup/splash, and bounce. From a working point of view, the intercomparison of several probes is subject to real but unknown spatial differences because of different locations between air samples. Comparison of identical probes is not appropriate because each measurement in itself is unique by definition. Thus, instead of duplication of instruments, subject to these levels of agreement, the use of a single probe is a practical approach while remaining aware of its limitations and capabilities.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -282,12 +278,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -329,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

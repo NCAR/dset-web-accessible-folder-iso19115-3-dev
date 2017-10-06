@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:17.196233</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:58.098407</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Kalman filter and analog schemes to post-process numerical weather predictions</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-11-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7qz2c86</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2011MWR3653.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Two new post-processing methods are proposed to reduce numerical-weather-prediction s systematic and random errors. The first method (ANKF) consists of running a post-processing algorithm inspired by the Kalman filter (KF) through an ordered set of analog forecasts rather than a sequence of forecasts in time. The analog of a forecast for a given location and time is defined as a past prediction that matches selected features of the current forecast. The second method is the weighted average of the observations that verified when the 10 best analogs were issued (AN). ANKF and AN are tested for 10-m wind speed predictions from the Weather Research and Forecasting (WRF) model, with observations from 400 surface stations over the western USA for a 6-month period. Both AN and ANKF predict drastic changes in forecast error (e.g., associated with rapid weather regime changes), a feature lacking in KF and a 7-day running-mean correction (7-Day). AN almost eliminates the bias of the raw prediction (Raw), while ANKF drastically reduces it with values slightly worse than KF. Both analog-based methods are also able to reduce random errors, therefore improving the predictive skill of Raw. AN is consistently the best, with average improvements of 10%, 20%, 25%, and 35% with respect to ANKF, KF, 7-Day, and Raw, as measured by centered-root-mean-square-error, and of 5%, 20%, 25%, and 40%, as measured by rank correlation. Moreover, being a prediction based solely on observations, AN results in an efficient downscaling procedure that eliminates representativeness discrepancies between observations and predictions.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Two new post-processing methods are proposed to reduce numerical-weather-prediction s systematic and random errors. The first method (ANKF) consists of running a post-processing algorithm inspired by the Kalman filter (KF) through an ordered set of analog forecasts rather than a sequence of forecasts in time. The analog of a forecast for a given location and time is defined as a past prediction that matches selected features of the current forecast. The second method is the weighted average of the observations that verified when the 10 best analogs were issued (AN). ANKF and AN are tested for 10-m wind speed predictions from the Weather Research and Forecasting (WRF) model, with observations from 400 surface stations over the western USA for a 6-month period. Both AN and ANKF predict drastic changes in forecast error (e.g., associated with rapid weather regime changes), a feature lacking in KF and a 7-day running-mean correction (7-Day). AN almost eliminates the bias of the raw prediction (Raw), while ANKF drastically reduces it with values slightly worse than KF. Both analog-based methods are also able to reduce random errors, therefore improving the predictive skill of Raw. AN is consistently the best, with average improvements of 10%, 20%, 25%, and 35% with respect to ANKF, KF, 7-Day, and Raw, as measured by centered-root-mean-square-error, and of 5%, 20%, 25%, and 40%, as measured by rank correlation. Moreover, being a prediction based solely on observations, AN results in an efficient downscaling procedure that eliminates representativeness discrepancies between observations and predictions.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

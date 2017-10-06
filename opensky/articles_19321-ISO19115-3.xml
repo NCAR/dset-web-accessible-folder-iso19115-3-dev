@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:52.258607</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:55.741337</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Global burden of mortalities due to chronic exposure to ambient PM2.5 from open combustion of domestic waste</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-12-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7pc344q</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1088/1748-9326/11/12/124022</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Uncontrolled combustion of domestic waste has been observed in many countries, creating concerns for air quality; however, the health implications have not yet been quantified. We incorporate the Wiedinmyer et al (2014 Environ. Sci. Technol. 48 9523-30) emissions inventory into the global chemical-transport model, GEOS-Chem, and provide a first estimate of premature adult mortalities from chronic exposure to ambient PM2.5 from uncontrolled combustion of domestic waste. Using the concentration-response functions (CRFs) of Burnett et al (2014 Environ. Health Perspect. 122 397-403), we estimate that waste-combustion emissions result in 270 000 (5th&#8211;95th: 213 000-328 000) premature adult mortalities per year. The confidence interval results only from uncertainty in the CRFs and assumes equal toxicity of waste-combustion PM2.5 to all other PM2.5 sources. We acknowledge that this result is likely sensitive to choice of chemical-transport model, CRFs, and emission inventories. Our central estimate equates to 9% of adult mortalities from exposure to ambient PM2.5 reported in the Global Burden of Disease Study 2010. Exposure to PM2.5 from waste combustion increases the risk of premature mortality by more than 0.5% for greater than 50% of the population. We consider sensitivity simulations to uncertainty in waste-combustion emission mass, the removal of waste-combustion emissions, and model resolution. A factor-of-2 uncertainty in waste-combustion PM2.5 leads to central estimates ranging from 138 000 to 518 000 mortalities per year for factors-of-2 reductions and increases, respectively. Complete removal of waste combustion would only avoid 191 000 (5th-95th: 151 000-224 000) mortalities per year (smaller than the total contributed premature mortalities due to nonlinear CRFs). Decreasing model resolution from 2&#176; &#215; 2.5&#176; to 4&#176; &#215; 5&#176; results in 16% fewer mortalities attributed to waste-combustion PM2.5, and over Asia, decreasing resolution from 0.5&#176; &#215; 0.666&#176; to 2&#176; &#215; 2.5&#176; results in 21% fewer mortalities attributed to waste-combustion PM2.5. Owing to coarse model resolution, our global estimates of premature mortality from waste-combustion PM2.5 are likely a lower bound.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Uncontrolled combustion of domestic waste has been observed in many countries, creating concerns for air quality; however, the health implications have not yet been quantified. We incorporate the Wiedinmyer et al (2014 Environ. Sci. Technol. 48 9523-30) emissions inventory into the global chemical-transport model, GEOS-Chem, and provide a first estimate of premature adult mortalities from chronic exposure to ambient PM2.5 from uncontrolled combustion of domestic waste. Using the concentration-response functions (CRFs) of Burnett et al (2014 Environ. Health Perspect. 122 397-403), we estimate that waste-combustion emissions result in 270 000 (5th&#8211;95th: 213 000-328 000) premature adult mortalities per year. The confidence interval results only from uncertainty in the CRFs and assumes equal toxicity of waste-combustion PM2.5 to all other PM2.5 sources. We acknowledge that this result is likely sensitive to choice of chemical-transport model, CRFs, and emission inventories. Our central estimate equates to 9% of adult mortalities from exposure to ambient PM2.5 reported in the Global Burden of Disease Study 2010. Exposure to PM2.5 from waste combustion increases the risk of premature mortality by more than 0.5% for greater than 50% of the population. We consider sensitivity simulations to uncertainty in waste-combustion emission mass, the removal of waste-combustion emissions, and model resolution. A factor-of-2 uncertainty in waste-combustion PM2.5 leads to central estimates ranging from 138 000 to 518 000 mortalities per year for factors-of-2 reductions and increases, respectively. Complete removal of waste combustion would only avoid 191 000 (5th-95th: 151 000-224 000) mortalities per year (smaller than the total contributed premature mortalities due to nonlinear CRFs). Decreasing model resolution from 2&#176; &#215; 2.5&#176; to 4&#176; &#215; 5&#176; results in 16% fewer mortalities attributed to waste-combustion PM2.5, and over Asia, decreasing resolution from 0.5&#176; &#215; 0.666&#176; to 2&#176; &#215; 2.5&#176; results in 21% fewer mortalities attributed to waste-combustion PM2.5. Owing to coarse model resolution, our global estimates of premature mortality from waste-combustion PM2.5 are likely a lower bound.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -346,7 +342,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -388,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

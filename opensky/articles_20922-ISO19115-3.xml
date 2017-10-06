@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.122276</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.712929</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Eulerian and Lagrangian approaches to multidimensional condensation and collection</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7jw8hc7</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017MS000930</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Turbulence is argued to play a crucial role in cloud droplet growth. The combined problem of turbulence and cloud droplet growth is numerically challenging. Here an Eulerian scheme based on the Smoluchowski equation is compared with two Lagrangian superparticle (or superdroplet) schemes in the presence of condensation and collection. The growth processes are studied either separately or in combination using either two-dimensional turbulence, a steady flow or just gravitational acceleration without gas flow. Good agreement between the different schemes for the time evolution of the size spectra is observed in the presence of gravity or turbulence. The Lagrangian superparticle schemes are found to be superior over the Eulerian one in terms of computational performance. However, it is shown that the use of interpolation schemes such as the cloud-in-cell algorithm is detrimental in connection with superparticle or superdroplet approaches. Furthermore, the use of symmetric over asymmetric collection schemes is shown to reduce the amount of scatter in the results. For the Eulerian scheme, gravitational collection is rather sensitive to the mass bin resolution, but not so in the case with turbulence.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Turbulence is argued to play a crucial role in cloud droplet growth. The combined problem of turbulence and cloud droplet growth is numerically challenging. Here an Eulerian scheme based on the Smoluchowski equation is compared with two Lagrangian superparticle (or superdroplet) schemes in the presence of condensation and collection. The growth processes are studied either separately or in combination using either two-dimensional turbulence, a steady flow or just gravitational acceleration without gas flow. Good agreement between the different schemes for the time evolution of the size spectra is observed in the presence of gravity or turbulence. The Lagrangian superparticle schemes are found to be superior over the Eulerian one in terms of computational performance. However, it is shown that the use of interpolation schemes such as the cloud-in-cell algorithm is detrimental in connection with superparticle or superdroplet approaches. Furthermore, the use of symmetric over asymmetric collection schemes is shown to reduce the amount of scatter in the results. For the Eulerian scheme, gravitational collection is rather sensitive to the mass bin resolution, but not so in the case with turbulence.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

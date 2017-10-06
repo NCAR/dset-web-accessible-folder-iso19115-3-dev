@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:09.643991</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:22.876364</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Building community informed and driven data services at the National Center for Atmospheric Research</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7jq13hp</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1145/3093338.3093343</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>At the National Center for Atmospheric Research (NCAR), being able to enable and facilitate scientific progress by providing advanced computing capabilities has been a key focus for multiple decades. Additional developments of dedicated technical infrastructures for supporting data-related activities, such as visualization, analysis, processing, and transformation, have also been prioritized. However, in order to meet the diverse existing and emerging data needs from the scientific community, data services must couple technical development with human and organizational services. Data services have a better chance to be accepted and used by the target community if the community members are represented and consulted during the design and implementation process. This paper discusses NCAR's Data Stewardship Engineering Team (DSET), which was created to facilitate cross-organizational participation and communication. The NCAR DSET includes representatives and stakeholders from the NCAR science and technical divisions to leverage the expertise of both groups, and ensures that feedback from users is built into the process. The goal of the DSET is to enable data services, including the technical infrastructures, to be developed in alignment with the community's research and data needs.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[At the National Center for Atmospheric Research (NCAR), being able to enable and facilitate scientific progress by providing advanced computing capabilities has been a key focus for multiple decades. Additional developments of dedicated technical infrastructures for supporting data-related activities, such as visualization, analysis, processing, and transformation, have also been prioritized. However, in order to meet the diverse existing and emerging data needs from the scientific community, data services must couple technical development with human and organizational services. Data services have a better chance to be accepted and used by the target community if the community members are represented and consulted during the design and implementation process. This paper discusses NCAR's Data Stewardship Engineering Team (DSET), which was created to facilitate cross-organizational participation and communication. The NCAR DSET includes representatives and stakeholders from the NCAR science and technical divisions to leverage the expertise of both groups, and ensures that feedback from users is built into the process. The goal of the DSET is to enable data services, including the technical infrastructures, to be developed in alignment with the community's research and data needs.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:09.313906</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:22.473188</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Wildfire air pollution hazard during the 21st&#160;century</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-31T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d70v8g9m</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-17-9223-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Wildfires pose a significant risk to human livelihoods and are a substantial health hazard due to emissions of toxic smoke. Previous studies have shown that climate change, increasing atmospheric CO2, and human demographic dynamics can lead to substantially altered wildfire risk in the future, with fire activity increasing in some regions and decreasing in others. The present study re-examines these results from the perspective of air pollution risk, focussing on emissions of airborne particulate matter (PM2.5), combining an existing ensemble of simulations using a coupled fire-dynamic vegetation model with current observation-based estimates of wildfire emissions and simulations with a chemical transport model. Currently, wildfire PM2.5 emissions exceed those from anthropogenic sources in large parts of the world. We further analyse two extreme sets of future wildfire emissions in a socio-economic, demographic climate change context and compare them to anthropogenic emission scenarios reflecting current and ambitious air pollution legislation. In most regions of the world, ambitious reductions of anthropogenic air pollutant emissions have the potential to limit mean annual pollutant PM2.5 levels to comply with World Health Organization (WHO) air quality guidelines for PM2.5. Worst-case future wildfire emissions are not likely to interfere with these annual goals, largely due to fire seasonality, as well as a tendency of wildfire sources to be situated in areas of intermediate population density, as opposed to anthropogenic sources that tend to be highest at the highest population densities. However, during the high-fire season, we find many regions where future PM2.5 pollution levels can reach dangerous levels even for a scenario of aggressive reduction of anthropogenic emissions.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Wildfires pose a significant risk to human livelihoods and are a substantial health hazard due to emissions of toxic smoke. Previous studies have shown that climate change, increasing atmospheric CO2, and human demographic dynamics can lead to substantially altered wildfire risk in the future, with fire activity increasing in some regions and decreasing in others. The present study re-examines these results from the perspective of air pollution risk, focussing on emissions of airborne particulate matter (PM2.5), combining an existing ensemble of simulations using a coupled fire-dynamic vegetation model with current observation-based estimates of wildfire emissions and simulations with a chemical transport model. Currently, wildfire PM2.5 emissions exceed those from anthropogenic sources in large parts of the world. We further analyse two extreme sets of future wildfire emissions in a socio-economic, demographic climate change context and compare them to anthropogenic emission scenarios reflecting current and ambitious air pollution legislation. In most regions of the world, ambitious reductions of anthropogenic air pollutant emissions have the potential to limit mean annual pollutant PM2.5 levels to comply with World Health Organization (WHO) air quality guidelines for PM2.5. Worst-case future wildfire emissions are not likely to interfere with these annual goals, largely due to fire seasonality, as well as a tendency of wildfire sources to be situated in areas of intermediate population density, as opposed to anthropogenic sources that tend to be highest at the highest population densities. However, during the high-fire season, we find many regions where future PM2.5 pollution levels can reach dangerous levels even for a scenario of aggressive reduction of anthropogenic emissions.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

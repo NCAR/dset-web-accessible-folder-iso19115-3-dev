@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.189047</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.824376</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Revised cloud processes to improve the mean and intraseasonal variability of Indian summer monsoon in climate forecast system: Part 1</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d79c70w1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016MS000819</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The National Centre for Environmental Prediction (NCEP) Climate Forecast System (CFS) is being used for operational monsoon prediction over the Indian region. Recent studies indicate that the moist convective process in CFS is one of the major sources of uncertainty in monsoon predictions. In this study, the existing simple cloud microphysics of CFS is replaced by the six-class Weather Research Forecasting (WRF) single moment (WSM6) microphysical scheme. Additionally, a revised convective parameterization is employed to improve the performance of the model in simulating the boreal summer mean climate and intraseasonal variability over the Indian summer monsoon (ISM) region. The revised version of the model (CFSCR) exhibits a potential to improve shortcomings in the seasonal mean precipitation distribution relative to the standard CFS (CTRL), especially over the ISM region. Consistently, notable improvements are also evident in other observed ISM characteristics. These improvements are found to be associated with a better simulation of spatial and vertical distributions of cloud hydrometeors in CFSCR. A reasonable representation of the subgrid-scale convective parameterization along with cloud hydrometeors helps to improve the convective and large-scale precipitation distribution in the model. As a consequence, the simulated low-frequency boreal summer intraseasonal oscillation (BSISO) exhibits realistic propagation and the observed northwest-southeast rainband is well reproduced in CFSCR. Additionally, both the high and low-frequency BSISOs are better captured in CFSCR. The improvement of low and high-frequency BSISOs in CFSCR is shown to be related to a realistic phase relationship of clouds.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The National Centre for Environmental Prediction (NCEP) Climate Forecast System (CFS) is being used for operational monsoon prediction over the Indian region. Recent studies indicate that the moist convective process in CFS is one of the major sources of uncertainty in monsoon predictions. In this study, the existing simple cloud microphysics of CFS is replaced by the six-class Weather Research Forecasting (WRF) single moment (WSM6) microphysical scheme. Additionally, a revised convective parameterization is employed to improve the performance of the model in simulating the boreal summer mean climate and intraseasonal variability over the Indian summer monsoon (ISM) region. The revised version of the model (CFSCR) exhibits a potential to improve shortcomings in the seasonal mean precipitation distribution relative to the standard CFS (CTRL), especially over the ISM region. Consistently, notable improvements are also evident in other observed ISM characteristics. These improvements are found to be associated with a better simulation of spatial and vertical distributions of cloud hydrometeors in CFSCR. A reasonable representation of the subgrid-scale convective parameterization along with cloud hydrometeors helps to improve the convective and large-scale precipitation distribution in the model. As a consequence, the simulated low-frequency boreal summer intraseasonal oscillation (BSISO) exhibits realistic propagation and the observed northwest-southeast rainband is well reproduced in CFSCR. Additionally, both the high and low-frequency BSISOs are better captured in CFSCR. The improvement of low and high-frequency BSISOs in CFSCR is shown to be related to a realistic phase relationship of clouds.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -331,7 +327,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -373,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

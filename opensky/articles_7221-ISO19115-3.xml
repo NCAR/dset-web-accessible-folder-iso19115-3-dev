@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:7221</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:19.681950</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:06.983621</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Real-time comparisons of VPR-corrected daily rainfall estimates with a gauge mesonet</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2007-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7cv4j26</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JAM2502.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The relative skill of two vertical-profile-of-reflectivity (VPR) correction techniques for daily accumulations on a selected dataset and a real-time dataset has been verified. The first technique (C1) adjusts the 1-h rainfall amounts already derived on a Cartesian CAPPI map at an altitude of 1.5 km in a "one step" procedure using the range-dependent space - time-averaged VPR over the 1-h interval. The C2 technique corrects the nonconvective polar reflectivity measurements of each 5-min radar cycle that are also centered at a height of 1.5 km according to a VPR that is similarly derived but over a shorter time interval. The results emphasize the importance of applying a VPR correction scheme--in particular, in a climatic regime in which most of the liquid precipitation falls from stratiform echoes. The crucial importance of the choice of datasets is also underlined, causing differences in the final assessment that may be greater than those between the various algorithms. Both techniques perform well with selected events of low bright band and thus with the greatest potential for improvement--in particular, when the bias is removed in a post facto analysis. However, when the VPR algorithm is tested in a real-time environment consisting of less strong or higher brightband situations and faces a variety of day-to-day precipitation, the improvement is substantially lower. RMS errors are reduced only from 61% to 48% in contrast with the reduction from 117% to 43% seen with the smaller sample of selected events. This is because other sources of error--in particular, the variability in the radar reflectivity-rainfall rate (Z-R) relationship--are often of the same magnitude as the VPR errors. An example is provided that shows how the bias from an improper Z-R relationship can reduce the true skill of a real-time VPR correction scheme.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The relative skill of two vertical-profile-of-reflectivity (VPR) correction techniques for daily accumulations on a selected dataset and a real-time dataset has been verified. The first technique (C1) adjusts the 1-h rainfall amounts already derived on a Cartesian CAPPI map at an altitude of 1.5 km in a "one step" procedure using the range-dependent space - time-averaged VPR over the 1-h interval. The C2 technique corrects the nonconvective polar reflectivity measurements of each 5-min radar cycle that are also centered at a height of 1.5 km according to a VPR that is similarly derived but over a shorter time interval. The results emphasize the importance of applying a VPR correction scheme--in particular, in a climatic regime in which most of the liquid precipitation falls from stratiform echoes. The crucial importance of the choice of datasets is also underlined, causing differences in the final assessment that may be greater than those between the various algorithms. Both techniques perform well with selected events of low bright band and thus with the greatest potential for improvement--in particular, when the bias is removed in a post facto analysis. However, when the VPR algorithm is tested in a real-time environment consisting of less strong or higher brightband situations and faces a variety of day-to-day precipitation, the improvement is substantially lower. RMS errors are reduced only from 61% to 48% in contrast with the reduction from 117% to 43% seen with the smaller sample of selected events. This is because other sources of error--in particular, the variability in the radar reflectivity-rainfall rate (Z-R) relationship--are often of the same magnitude as the VPR errors. An example is provided that shows how the bias from an improper Z-R relationship can reduce the true skill of a real-time VPR correction scheme.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10804</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:42.409899</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:38.134988</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Intercomparison of cloud model simulations of Arctic mixed-phase boundary layer clouds observed during SHEBA/FIRE-ACE</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-06-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -334,12 +332,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7b858p5</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -347,12 +344,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2011MS000066</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -362,7 +358,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>An intercomparison of six cloud-resolving and large-eddy simulation models is presented. This case study is based on observations of a persistent mixed-phase boundary layer cloud gathered on 7 May, 1998 from the Surface Heat Budget of Arctic Ocean (SHEBA) and First ISCCP Regional Experiment - Arctic Cloud Experiment (FIRE-ACE). Ice nucleation is constrained in the simulations in a way that holds the ice crystal concentration approximately fixed, with two sets of sensitivity runs in addition to the baseline simulations utilizing different specified ice nucleus (IN) concentrations. All of the baseline and sensitivity simulations group into two distinct quasi-steady states associated with either persistent mixed-phase clouds or all-ice clouds after the first few hours of integration, implying the existence of multiple equilibria. These two states are associated with distinctly different microphysical, thermodynamic, and radiative characteristics. Most but not all of the models produce a persistent mixed-phase cloud qualitatively similar to observations using the baseline IN/crystal concentration, while small increases in the IN/crystal concentration generally lead to rapid glaciation and conversion to the all-ice state. Budget analysis indicates that larger ice deposition rates associated with increased IN/crystal concentrations have a limited direct impact on dissipation of liquid in these simulations. However, the impact of increased ice deposition is greatly enhanced by several interaction pathways that lead to an increased surface precipitation flux, weaker cloud top radiative cooling and cloud dynamics, and reduced vertical mixing, promoting rapid glaciation of the mixed-phase cloud for deposition rates in the cloud layer greater than about 1-2x10&#8315;&#8309; g kg&#8315;&#185; s&#8315;&#185;. These results indicate the critical importance of precipitation-radiative-dynamical interactions in simulating cloud phase, which have been neglected in previous fixed-dynamical parcel studies of the cloud phase parameter space. Large sensitivity to the IN/crystal concentration also suggests the need for improved understanding of ice nucleation and its parameterization in models.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[An intercomparison of six cloud-resolving and large-eddy simulation models is presented. This case study is based on observations of a persistent mixed-phase boundary layer cloud gathered on 7 May, 1998 from the Surface Heat Budget of Arctic Ocean (SHEBA) and First ISCCP Regional Experiment - Arctic Cloud Experiment (FIRE-ACE). Ice nucleation is constrained in the simulations in a way that holds the ice crystal concentration approximately fixed, with two sets of sensitivity runs in addition to the baseline simulations utilizing different specified ice nucleus (IN) concentrations. All of the baseline and sensitivity simulations group into two distinct quasi-steady states associated with either persistent mixed-phase clouds or all-ice clouds after the first few hours of integration, implying the existence of multiple equilibria. These two states are associated with distinctly different microphysical, thermodynamic, and radiative characteristics. Most but not all of the models produce a persistent mixed-phase cloud qualitatively similar to observations using the baseline IN/crystal concentration, while small increases in the IN/crystal concentration generally lead to rapid glaciation and conversion to the all-ice state. Budget analysis indicates that larger ice deposition rates associated with increased IN/crystal concentrations have a limited direct impact on dissipation of liquid in these simulations. However, the impact of increased ice deposition is greatly enhanced by several interaction pathways that lead to an increased surface precipitation flux, weaker cloud top radiative cooling and cloud dynamics, and reduced vertical mixing, promoting rapid glaciation of the mixed-phase cloud for deposition rates in the cloud layer greater than about 1-2x10&#8315;&#8309; g kg&#8315;&#185; s&#8315;&#185;. These results indicate the critical importance of precipitation-radiative-dynamical interactions in simulating cloud phase, which have been neglected in previous fixed-dynamical parcel studies of the cloud phase parameter space. Large sensitivity to the IN/crystal concentration also suggests the need for improved understanding of ice nucleation and its parameterization in models.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -417,12 +413,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -464,7 +458,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

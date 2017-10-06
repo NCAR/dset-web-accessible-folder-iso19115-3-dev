@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16493</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:56.586048</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:24.935280</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>WRF-Chem model predictions of the regional impacts of N&#8322;O&#8325; heterogeneous processes on night-time chemistry over north-western Europe</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-02-09T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -364,12 +362,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7hd7wt3</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -377,12 +374,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-15-1385-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -392,7 +388,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Chemical modelling studies have been conducted over north-western Europe in summer conditions, showing that night-time dinitrogen pentoxide (N&#8322;O&#8325;) heterogeneous reactive uptake is important regionally in modulating particulate nitrate and has a~modest influence on oxidative chemistry. Results from Weather Research and Forecasting model with Chemistry (WRF-Chem) model simulations, run with a detailed volatile organic compound (VOC) gas-phase chemistry scheme and the Model for Simulating Aerosol Interactions and Chemistry (MOSAIC) sectional aerosol scheme, were compared with a series of airborne gas and particulate measurements made over the UK in July 2010. Modelled mixing ratios of key gas-phase species were reasonably accurate (correlations with measurements of 0.7-0.9 for NO&#8322; and O&#8323;). However modelled loadings of particulate species were less accurate (correlation with measurements for particulate sulfate and ammonium were between 0.0 and 0.6). Sulfate mass loadings were particularly low (modelled means of 0.5-0.7 &#181;g kg-1air, compared with measurements of 1.0-1.5 &#181;g kg-1air). Two flights from the campaign were used as test cases -- one with low relative humidity (RH) (60-70%), the other with high RH (80-90%). N&#8322;&#8325; heterogeneous chemistry was found to not be important in the low-RH test case; but in the high-RH test case it had a strong effect and significantly improved the agreement between modelled and measured NO&#8323; and N&#8322;O&#8325;. When the model failed to capture atmospheric RH correctly, the modelled NO3 and N&#8322;O&#8325; mixing ratios for these flights differed significantly from the measurements. This demonstrates that, for regional modelling which involves heterogeneous processes, it is essential to capture the ambient temperature and water vapour profiles. The night-time NO&#8323; oxidation of VOCs across the whole region was found to be 100-300 times slower than the daytime OH oxidation of these compounds. The difference in contribution was less for alkenes (&#215; 80) and comparable for dimethylsulfide (DMS). However the suppression of NO&#8323; mixing ratios across the domain by N&#8322;O&#8325; heterogeneous chemistry has only a very slight, negative, influence on this oxidative capacity. The influence on regional particulate nitrate mass loadings is stronger. Night-time N&#8322;O&#8325; heterogeneous chemistry maintains the production of particulate nitrate within polluted regions: when this process is taken into consideration, the daytime peak (for the 95th percentile) of PM10 nitrate mass loadings remains around 5.6 &#181;g kg&#8315;&#185;air, but the night-time minimum increases from 3.5 to 4.6 &#181;g kg&#8315;&#185;air. The sustaining of higher particulate mass loadings through the night by this process improves model skill at matching measured aerosol nitrate diurnal cycles and will negatively impact on regional air quality, requiring this process to be included in regional models.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Chemical modelling studies have been conducted over north-western Europe in summer conditions, showing that night-time dinitrogen pentoxide (N&#8322;O&#8325;) heterogeneous reactive uptake is important regionally in modulating particulate nitrate and has a~modest influence on oxidative chemistry. Results from Weather Research and Forecasting model with Chemistry (WRF-Chem) model simulations, run with a detailed volatile organic compound (VOC) gas-phase chemistry scheme and the Model for Simulating Aerosol Interactions and Chemistry (MOSAIC) sectional aerosol scheme, were compared with a series of airborne gas and particulate measurements made over the UK in July 2010. Modelled mixing ratios of key gas-phase species were reasonably accurate (correlations with measurements of 0.7-0.9 for NO&#8322; and O&#8323;). However modelled loadings of particulate species were less accurate (correlation with measurements for particulate sulfate and ammonium were between 0.0 and 0.6). Sulfate mass loadings were particularly low (modelled means of 0.5-0.7 &#181;g kg-1air, compared with measurements of 1.0-1.5 &#181;g kg-1air). Two flights from the campaign were used as test cases -- one with low relative humidity (RH) (60-70%), the other with high RH (80-90%). N&#8322;&#8325; heterogeneous chemistry was found to not be important in the low-RH test case; but in the high-RH test case it had a strong effect and significantly improved the agreement between modelled and measured NO&#8323; and N&#8322;O&#8325;. When the model failed to capture atmospheric RH correctly, the modelled NO3 and N&#8322;O&#8325; mixing ratios for these flights differed significantly from the measurements. This demonstrates that, for regional modelling which involves heterogeneous processes, it is essential to capture the ambient temperature and water vapour profiles. The night-time NO&#8323; oxidation of VOCs across the whole region was found to be 100-300 times slower than the daytime OH oxidation of these compounds. The difference in contribution was less for alkenes (&#215; 80) and comparable for dimethylsulfide (DMS). However the suppression of NO&#8323; mixing ratios across the domain by N&#8322;O&#8325; heterogeneous chemistry has only a very slight, negative, influence on this oxidative capacity. The influence on regional particulate nitrate mass loadings is stronger. Night-time N&#8322;O&#8325; heterogeneous chemistry maintains the production of particulate nitrate within polluted regions: when this process is taken into consideration, the daytime peak (for the 95th percentile) of PM10 nitrate mass loadings remains around 5.6 &#181;g kg&#8315;&#185;air, but the night-time minimum increases from 3.5 to 4.6 &#181;g kg&#8315;&#185;air. The sustaining of higher particulate mass loadings through the night by this process improves model skill at matching measured aerosol nitrate diurnal cycles and will negatively impact on regional air quality, requiring this process to be included in regional models.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -447,12 +443,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -494,7 +488,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

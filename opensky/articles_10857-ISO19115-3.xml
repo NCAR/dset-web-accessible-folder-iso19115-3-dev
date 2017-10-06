@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10857</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:43.795514</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:39.895830</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Assimilation of GPS radio occultation data for an intense atmospheric river with the NCEP regional GSI system</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-07-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7n58mxb</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2011MWR3342.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>This paper uses a case study to explore the potential of Constellation Observing System for Meteorology. Ionosphere, and Climate (COSMIC) and Challenging Minisatellite Payload (CHAMP) global positioning system (GPS) radio occultation (RO) satellite data over the eastern Pacific Ocean to improve analyses and mesoscale forecasts of landfalling atmospheric rivers (ARs) along the U.S. West Coast. The case study is from early November 2006 and was a very high-impact event in the Pacific Northwest where it created torrential rainfall and severe flooding. Recent studies have shown that the COSMIC data offshore have the ability to better define the vertical and horizontal structure of the strong AR. This paper extends the earlier work by assessing the impact of assimilating the COSMIC data into the Advanced Research Weather Research and Forecasting (ARW-WRF) mesoscale numerical model (using a nested mode with 36-, 12-, and 4-km grid sizes) on a key 24-h forecast. The data are assimilated using NCEP's Gridpoint Statistical Interpolation (GSI), and impacts are evaluated using Special Sensor Microwave Imager (SSM/I) satellite observations over the ocean and precipitation observations over land. The assimilation of GPS RO soundings made use of a local refractivity observation operator as well as an advanced nonlocal excess phase observation operator that considers the effects of atmospheric horizontal gradients. The results show that the assimilation of G PS RO soundings improved the moisture analysis for this AR event. This result supports conclusions from earlier observing systems simulation experiment (OSSE) studies, but in a real event. The use of a nonlocal excess phase observation operator can produce larger and more robust analysis increments. Although this is a single case study, the results are likely representative of the potential impacts of assimilating COSMIC data in other extreme AR and precipitation events and in other regions affected by landfalling ARs, for example, western Europe, western South America, and New Zealand.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[This paper uses a case study to explore the potential of Constellation Observing System for Meteorology. Ionosphere, and Climate (COSMIC) and Challenging Minisatellite Payload (CHAMP) global positioning system (GPS) radio occultation (RO) satellite data over the eastern Pacific Ocean to improve analyses and mesoscale forecasts of landfalling atmospheric rivers (ARs) along the U.S. West Coast. The case study is from early November 2006 and was a very high-impact event in the Pacific Northwest where it created torrential rainfall and severe flooding. Recent studies have shown that the COSMIC data offshore have the ability to better define the vertical and horizontal structure of the strong AR. This paper extends the earlier work by assessing the impact of assimilating the COSMIC data into the Advanced Research Weather Research and Forecasting (ARW-WRF) mesoscale numerical model (using a nested mode with 36-, 12-, and 4-km grid sizes) on a key 24-h forecast. The data are assimilated using NCEP's Gridpoint Statistical Interpolation (GSI), and impacts are evaluated using Special Sensor Microwave Imager (SSM/I) satellite observations over the ocean and precipitation observations over land. The assimilation of GPS RO soundings made use of a local refractivity observation operator as well as an advanced nonlocal excess phase observation operator that considers the effects of atmospheric horizontal gradients. The results show that the assimilation of G PS RO soundings improved the moisture analysis for this AR event. This result supports conclusions from earlier observing systems simulation experiment (OSSE) studies, but in a real event. The use of a nonlocal excess phase observation operator can produce larger and more robust analysis increments. Although this is a single case study, the results are likely representative of the potential impacts of assimilating COSMIC data in other extreme AR and precipitation events and in other regions affected by landfalling ARs, for example, western Europe, western South America, and New Zealand.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -342,12 +338,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -389,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

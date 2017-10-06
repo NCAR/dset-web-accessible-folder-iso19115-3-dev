@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:16.794728</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:57.561314</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Warm season afternoon thunderstorm characteristics under weak synoptic-scale forcing over Taiwan Island</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-02-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7dn46bw</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2010WAF2222386.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The spatial and temporal characteristics and distributions of thunderstorms in Taiwan during the warm season (May-October) from 2005 to 2008 and under weak synoptic-scale forcing are documented using radar reflectivity, lightning, radiosonde, and surface data. Average hourly rainfall amounts peaked in midafternoon (1500-1600 local solar time, LST). The maximum frequency of rain was located in a narrow strip, parallel to the orientation of the mountains, along the lower slopes of the mountains. Significant diurnal variations were found in surface wind, temperature, and dewpoint temperature between days with and without afternoon thunderstorms (TSA and non-TSA days). Before thunderstorms occurred, on TSA days, the surface temperature was warmer (about 0.5&#176;-1.5&#176;C) and the surface dewpoint temperature was moister (about 0.5&#176;-2&#176;C) than on non-TSA days. Sounding observations from northern Taiwan also showed warmer and higher moisture conditions on TSA days relative to non-TSA days. The largest average difference was in the 750-550-hPa layer where the non-TSA days averaged 2.5&#176;-3.5&#176;C drier. These preconvective factors associated with the occurrences of afternoon thunderstorms could be integrated into nowcasting tools to enhance warning systems and decision-making capabilities in real-time operations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The spatial and temporal characteristics and distributions of thunderstorms in Taiwan during the warm season (May-October) from 2005 to 2008 and under weak synoptic-scale forcing are documented using radar reflectivity, lightning, radiosonde, and surface data. Average hourly rainfall amounts peaked in midafternoon (1500-1600 local solar time, LST). The maximum frequency of rain was located in a narrow strip, parallel to the orientation of the mountains, along the lower slopes of the mountains. Significant diurnal variations were found in surface wind, temperature, and dewpoint temperature between days with and without afternoon thunderstorms (TSA and non-TSA days). Before thunderstorms occurred, on TSA days, the surface temperature was warmer (about 0.5&#176;-1.5&#176;C) and the surface dewpoint temperature was moister (about 0.5&#176;-2&#176;C) than on non-TSA days. Sounding observations from northern Taiwan also showed warmer and higher moisture conditions on TSA days relative to non-TSA days. The largest average difference was in the 750-550-hPa layer where the non-TSA days averaged 2.5&#176;-3.5&#176;C drier. These preconvective factors associated with the occurrences of afternoon thunderstorms could be integrated into nowcasting tools to enhance warning systems and decision-making capabilities in real-time operations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

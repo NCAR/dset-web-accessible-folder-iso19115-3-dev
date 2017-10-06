@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:29.644361</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:14.619166</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Characterizing Sierra Nevada snowpack using variable-resolution CESM</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d74b32tj</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JAMC-D-15-0156.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The location, timing, and intermittency of precipitation in California make the state integrally reliant on winter-season snowpack accumulation to maintain its economic and agricultural livelihood. Of particular concern is that winter-season snowpack has shown a net decline across the western United States over the past 50 years, resulting in major uncertainty in water-resource management heading into the next century. Cutting-edge tools are available to help navigate and preemptively plan for these uncertainties. This paper uses a next-generation modeling technique--variable-resolution global climate modeling within the Community Earth System Model (VR-CESM)--at horizontal resolutions of 0.125&#176; (14 km) and 0.25&#176; (28 km). VR-CESM provides the means to include dynamically large-scale atmosphere-ocean drivers, to limit model bias, and to provide more accurate representations of regional topography while doing so in a more computationally efficient manner than can be achieved with conventional general circulation models. This paper validates VR-CESM at climatological and seasonal time scales for Sierra Nevada snowpack metrics by comparing them with the "Daymet," "Cal-Adapt," NARR, NCEP, and North American Land Data Assimilation System (NLDAS) reanalysis datasets, the MODIS remote sensing dataset, the SNOTEL observational dataset, a standard-practice global climate model (CESM), and a regional climate model (WRF Model) dataset. Overall, given California&#8217;s complex terrain and intermittent precipitation and that both of the VR-CESM simulations were only constrained by prescribed sea surface temperatures and data on sea ice extent, a 0.68 centered Pearson product-moment correlation, a negative mean SWE bias of &lt;7 mm, an interquartile range well within the values exhibited in the reanalysis datasets, and a mean December-February extent of snow cover that is within 7% of the expected MODIS value together make apparent the efficacy of the VR-CESM framework.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The location, timing, and intermittency of precipitation in California make the state integrally reliant on winter-season snowpack accumulation to maintain its economic and agricultural livelihood. Of particular concern is that winter-season snowpack has shown a net decline across the western United States over the past 50 years, resulting in major uncertainty in water-resource management heading into the next century. Cutting-edge tools are available to help navigate and preemptively plan for these uncertainties. This paper uses a next-generation modeling technique--variable-resolution global climate modeling within the Community Earth System Model (VR-CESM)--at horizontal resolutions of 0.125&#176; (14 km) and 0.25&#176; (28 km). VR-CESM provides the means to include dynamically large-scale atmosphere-ocean drivers, to limit model bias, and to provide more accurate representations of regional topography while doing so in a more computationally efficient manner than can be achieved with conventional general circulation models. This paper validates VR-CESM at climatological and seasonal time scales for Sierra Nevada snowpack metrics by comparing them with the "Daymet," "Cal-Adapt," NARR, NCEP, and North American Land Data Assimilation System (NLDAS) reanalysis datasets, the MODIS remote sensing dataset, the SNOTEL observational dataset, a standard-practice global climate model (CESM), and a regional climate model (WRF Model) dataset. Overall, given California&#8217;s complex terrain and intermittent precipitation and that both of the VR-CESM simulations were only constrained by prescribed sea surface temperatures and data on sea ice extent, a 0.68 centered Pearson product-moment correlation, a negative mean SWE bias of <7 mm, an interquartile range well within the values exhibited in the reanalysis datasets, and a mean December-February extent of snow cover that is within 7% of the expected MODIS value together make apparent the efficacy of the VR-CESM framework.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:19681</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:08:02.277541</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:10.098973</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Impact of typhoons on the composition of the upper troposphere within the Asian summer monsoon anticyclone: The SWOP campaign in Lhasa 2013</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-04-10T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -319,12 +317,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d78054f0</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -332,12 +329,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-17-4657-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -347,7 +343,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In the frame of the SWOP (sounding water vapour, ozone, and particle) campaign during the Asian summer monsoon (ASM), ozone and water vapour profiles were measured by balloon-borne sensors launched from Lhasa (29.66&#176;&#8239;N, 91.14&#176;&#8239;E, elevation 3650&#8239;m), China, in August 2013. In total, 24 soundings were launched, nearly half of which show strong variations in the relationship between ozone and water vapour in the tracer-tracer correlation in the upper troposphere and lower stratosphere (UTLS). For each sounding, 20-day backward trajectories were calculated using the trajectory module of the Chemical Lagrangian Model of the Stratosphere (CLaMS) to analyse these variations. The trajectory calculations demonstrate that three tropical cyclones (tropical storm Jebi, typhoons Utor and Trami), which occurred over the western Pacific Ocean during August 2013, had a considerable impact on the vertical distribution of ozone and water vapour by uplifting marine air masses to altitudes of the ASM anticyclone. Air parcels subsequently arrived at the observation site via two primary pathways: firstly via direct horizontal transport from the location of the typhoon to the station within approximately 3 days, and secondly via transport following the clockwise wind flow of the ASM within a timescale of 1 week. Furthermore, the interplay between the spatial position of the ASM anticyclone and tropical cyclones plays a key role in controlling the transport pathways of air parcels from the boundary layer of the western Pacific to Lhasa in horizontal and vertical transport. Moreover, the statistical analysis shows that the strongest impact by typhoons is found at altitudes between 14.5 and 17&#8239;km (365-375&#8239;K). Low ozone values (50-80&#8239;ppbv) were observed between 370 and 380&#8239;K due to the strong vertical transport within tropical cyclones.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In the frame of the SWOP (sounding water vapour, ozone, and particle) campaign during the Asian summer monsoon (ASM), ozone and water vapour profiles were measured by balloon-borne sensors launched from Lhasa (29.66&#176;&#8239;N, 91.14&#176;&#8239;E, elevation 3650&#8239;m), China, in August 2013. In total, 24 soundings were launched, nearly half of which show strong variations in the relationship between ozone and water vapour in the tracer-tracer correlation in the upper troposphere and lower stratosphere (UTLS). For each sounding, 20-day backward trajectories were calculated using the trajectory module of the Chemical Lagrangian Model of the Stratosphere (CLaMS) to analyse these variations. The trajectory calculations demonstrate that three tropical cyclones (tropical storm Jebi, typhoons Utor and Trami), which occurred over the western Pacific Ocean during August 2013, had a considerable impact on the vertical distribution of ozone and water vapour by uplifting marine air masses to altitudes of the ASM anticyclone. Air parcels subsequently arrived at the observation site via two primary pathways: firstly via direct horizontal transport from the location of the typhoon to the station within approximately 3 days, and secondly via transport following the clockwise wind flow of the ASM within a timescale of 1 week. Furthermore, the interplay between the spatial position of the ASM anticyclone and tropical cyclones plays a key role in controlling the transport pathways of air parcels from the boundary layer of the western Pacific to Lhasa in horizontal and vertical transport. Moreover, the statistical analysis shows that the strongest impact by typhoons is found at altitudes between 14.5 and 17&#8239;km (365-375&#8239;K). Low ozone values (50-80&#8239;ppbv) were observed between 370 and 380&#8239;K due to the strong vertical transport within tropical cyclones.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -402,12 +398,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -449,7 +443,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

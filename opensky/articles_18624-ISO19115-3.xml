@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18624</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:42.786717</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:32.716184</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Evaluation of HY-2A scatterometer wind vectors using data from buoys, ERA-interim and ASCAT during 2012-2014</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-05-07T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7xd1399</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.3390/rs8050390</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The first Chinese operational Ku-band scatterometer on board Haiyang-2A (HY-2A), launched in August 2011, is designed for monitoring the global ocean surface wind. This study estimates the quality of the near-real-time (NRT) retrieval wind speed and wind direction from the HY-2A scatterometer for 36 months from 2012 to 2014. We employed three types of sea-surface wind data from oceanic moored buoys operated by the National Data Buoy Center (NDBC) and the Tropical Atmospheric Ocean project (TAO), the European Centre for Medium Range Weather Forecasting (ECMWF) reanalysis data (ERA-Interim), and the advanced scatterometer (ASCAT) to calculate the error statistics including mean bias, root mean square error (RMSE), and standard deviation. In addition, the rain effects on the retrieval winds were investigated using collocated Climate Prediction Center morphing method (CMORPH) precipitation data. All data were collocated with the HY-2A scatterometer wind data for comparison. The quality performances of the HY-2A NRT wind vectors data (especially the wind speeds) were satisfactory throughout the service period. The RMSEs of the HY-2A wind speeds relative to the NDBC, TAO, ERA-Interim, and ASCAT data were 1.94, 1.73, 2.25, and 1.62 m&#183;s-1, respectively. The corresponding RMSEs of the wind direction were 46.63&#176;, 43.11&#176;, 39.93&#176;, and 47.47&#176;, respectively. The HY-2A scatterometer overestimated low wind speeds, especially under rainy conditions. Rain exerted a diminishing effect on the wind speed retrievals with increasing wind speed, but its effect on wind direction was robust at low and moderate wind speeds. Relative to the TAO buoy data, the RMSEs without rain effect were reduced to 1.2 m&#183;s-1 and 39.68&#176; for the wind speed direction, respectively, regardless of wind speed. By investigating the objective laws between rain and the retrieval winds from HY-2A, we could improve the quality of wind retrievals through future studies.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The first Chinese operational Ku-band scatterometer on board Haiyang-2A (HY-2A), launched in August 2011, is designed for monitoring the global ocean surface wind. This study estimates the quality of the near-real-time (NRT) retrieval wind speed and wind direction from the HY-2A scatterometer for 36 months from 2012 to 2014. We employed three types of sea-surface wind data from oceanic moored buoys operated by the National Data Buoy Center (NDBC) and the Tropical Atmospheric Ocean project (TAO), the European Centre for Medium Range Weather Forecasting (ECMWF) reanalysis data (ERA-Interim), and the advanced scatterometer (ASCAT) to calculate the error statistics including mean bias, root mean square error (RMSE), and standard deviation. In addition, the rain effects on the retrieval winds were investigated using collocated Climate Prediction Center morphing method (CMORPH) precipitation data. All data were collocated with the HY-2A scatterometer wind data for comparison. The quality performances of the HY-2A NRT wind vectors data (especially the wind speeds) were satisfactory throughout the service period. The RMSEs of the HY-2A wind speeds relative to the NDBC, TAO, ERA-Interim, and ASCAT data were 1.94, 1.73, 2.25, and 1.62 m&#183;s-1, respectively. The corresponding RMSEs of the wind direction were 46.63&#176;, 43.11&#176;, 39.93&#176;, and 47.47&#176;, respectively. The HY-2A scatterometer overestimated low wind speeds, especially under rainy conditions. Rain exerted a diminishing effect on the wind speed retrievals with increasing wind speed, but its effect on wind direction was robust at low and moderate wind speeds. Relative to the TAO buoy data, the RMSEs without rain effect were reduced to 1.2 m&#183;s-1 and 39.68&#176; for the wind speed direction, respectively, regardless of wind speed. By investigating the objective laws between rain and the retrieval winds from HY-2A, we could improve the quality of wind retrievals through future studies.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -312,12 +308,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -359,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

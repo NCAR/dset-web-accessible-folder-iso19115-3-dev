@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.086184</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.642480</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Fast and slow shifts of the zonal-mean intertropical convergence zone in response to an idealized anthropogenic aerosol</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -304,12 +302,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d76m398n</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -317,12 +314,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016MS000902</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -332,7 +328,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Previous modeling work showed that aerosol can affect the position of the tropical rain belt, i.e., the intertropical convergence zone (ITCZ). Yet it remains unclear which aspects of the aerosol impact are robust across models, and which are not. Here we present simulations with seven comprehensive atmosphere models that study the fast and slow impacts of an idealized anthropogenic aerosol on the zonalmean ITCZ position. The fast impact, which results from aerosol atmospheric heating and land cooling before sea-surface temperature (SST) has time to respond, causes a northward ITCZ shift. Yet the fast impact is compensated locally by decreased evaporation over the ocean, and a clear northward shift is only found for an unrealistically large aerosol forcing. The local compensation implies that while models differ in atmospheric aerosol heating, this does not contribute to model differences in the ITCZ shift. The slow impact includes the aerosol impact on the ocean surface energy balance and is mediated by SST changes. The slow impact is an order of magnitude more effective than the fast impact and causes a clear southward ITCZ shift for realistic aerosol forcing. Models agree well on the slow ITCZ shift when perturbed with the same SST pattern. However, an energetic analysis suggests that the slow ITCZ shifts would be substantially more modeldependent in interactive-SST setups due to model differences in clear-sky radiative transfer and clouds. We also discuss implications for the representation of aerosol in climate models and attributions of recent observed ITCZ shifts to aerosol.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Previous modeling work showed that aerosol can affect the position of the tropical rain belt, i.e., the intertropical convergence zone (ITCZ). Yet it remains unclear which aspects of the aerosol impact are robust across models, and which are not. Here we present simulations with seven comprehensive atmosphere models that study the fast and slow impacts of an idealized anthropogenic aerosol on the zonalmean ITCZ position. The fast impact, which results from aerosol atmospheric heating and land cooling before sea-surface temperature (SST) has time to respond, causes a northward ITCZ shift. Yet the fast impact is compensated locally by decreased evaporation over the ocean, and a clear northward shift is only found for an unrealistically large aerosol forcing. The local compensation implies that while models differ in atmospheric aerosol heating, this does not contribute to model differences in the ITCZ shift. The slow impact includes the aerosol impact on the ocean surface energy balance and is mediated by SST changes. The slow impact is an order of magnitude more effective than the fast impact and causes a clear southward ITCZ shift for realistic aerosol forcing. Models agree well on the slow ITCZ shift when perturbed with the same SST pattern. However, an energetic analysis suggests that the slow ITCZ shifts would be substantially more modeldependent in interactive-SST setups due to model differences in clear-sky radiative transfer and clouds. We also discuss implications for the representation of aerosol in climate models and attributions of recent observed ITCZ shifts to aerosol.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -391,7 +387,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -433,7 +428,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

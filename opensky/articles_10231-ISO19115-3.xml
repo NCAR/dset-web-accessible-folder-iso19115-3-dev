@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.333932</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:17.281987</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Global precipitation and thunderstorm frequencies. Part II: Diurnal variations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2001-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -161,12 +159,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7wh2qj0</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -177,7 +174,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Three-hourly present weather reports from ~15000 stations around the globe and from the Comprehensive Ocean-Atmosphere Data Set from 1975 to 1997 were analyzed for diurnal variations in the frequency of occurrence for various types of precipitation (drizzle, nondrizzle, showery, nonshowery, and snow) and thunderstorms. Significant diurnal variations with amplitudes exceeding 20% of the daily mean are found over much of the globe, especially over land areas and during summer. Drizzle and nonshowery precipitation occur most frequently in the morning around 0600 local solar time (LST) over most land areas and from midnight to 0400 LST over many oceanic areas. Showery precipitation and thunderstorms occur much more frequently in the late afternoon than other times over most land areas in all seasons, with a diurnal amplitude exceeding 50% of the daily mean frequencies. Over the North Pacific, the North Atlantic, and many other oceanic areas adjacent to continents, showery precipitation is most frequent in the morning around 0600 LST, which is out of phase with land areas. Over the tropical and southern oceans, showery precipitation tends to peak from midnight to 0400 LST. Maritime thunderstorms occur most frequently around midnight. It is suggested that the diurnal variations in atmospheric relative humidity contribute to the morning maximum in the frequency of occurrence for drizzle and nonshowery precipitation, especially over land areas. Solar heating on the ground produces a late-afternoon maximum of convective available potential energy in the atmosphere that favors late-afternoon moist convection and showery precipitation over land areas during summer. This strong continental diurnal cycle induces a diurnal cycle of opposite phase in low-level convergence over large nearby oceanic areas that favors a morning maximum of maritime showery precipitation. Larger low-level convergence induced by pressure tides and higher relative humidity at night than at other times may contribute to the nighttime maximum of maritime showery and nonshowery precipitation over remote oceans far away from continents.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Three-hourly present weather reports from ~15000 stations around the globe and from the Comprehensive Ocean-Atmosphere Data Set from 1975 to 1997 were analyzed for diurnal variations in the frequency of occurrence for various types of precipitation (drizzle, nondrizzle, showery, nonshowery, and snow) and thunderstorms. Significant diurnal variations with amplitudes exceeding 20% of the daily mean are found over much of the globe, especially over land areas and during summer. Drizzle and nonshowery precipitation occur most frequently in the morning around 0600 local solar time (LST) over most land areas and from midnight to 0400 LST over many oceanic areas. Showery precipitation and thunderstorms occur much more frequently in the late afternoon than other times over most land areas in all seasons, with a diurnal amplitude exceeding 50% of the daily mean frequencies. Over the North Pacific, the North Atlantic, and many other oceanic areas adjacent to continents, showery precipitation is most frequent in the morning around 0600 LST, which is out of phase with land areas. Over the tropical and southern oceans, showery precipitation tends to peak from midnight to 0400 LST. Maritime thunderstorms occur most frequently around midnight. It is suggested that the diurnal variations in atmospheric relative humidity contribute to the morning maximum in the frequency of occurrence for drizzle and nonshowery precipitation, especially over land areas. Solar heating on the ground produces a late-afternoon maximum of convective available potential energy in the atmosphere that favors late-afternoon moist convection and showery precipitation over land areas during summer. This strong continental diurnal cycle induces a diurnal cycle of opposite phase in low-level convergence over large nearby oceanic areas that favors a morning maximum of maritime showery precipitation. Larger low-level convergence induced by pressure tides and higher relative humidity at night than at other times may contribute to the nighttime maximum of maritime showery and nonshowery precipitation over remote oceans far away from continents.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -236,7 +233,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -278,7 +274,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

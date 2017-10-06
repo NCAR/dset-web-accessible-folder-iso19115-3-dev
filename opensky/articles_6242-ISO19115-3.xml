@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:6242</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:14.770350</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:00.170004</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A hybrid ETKF-3DVAR data assimilation scheme for the WRF model. Part II: Real observation experiments</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2008-12-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7vx0gpz</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2008MWR2445.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The hybrid ensemble transform Kalman filter-three-dimensional variational data assimilation (ETKF-3DVAR) system developed for the Weather Research and Forecasting (WRF) Model was further tested with real observations, as a follow-up for the observation system simulation experiment (OSSE) conducted in Part I. A domain encompassing North America was considered. Because of limited computational resources and the large number of experiments conducted, the forecasts and analyses employed relatively coarse grid spacing (200 km) to emphasize synoptic scales. As a first effort to explore the new system with real observations, relatively sparse observation datasets consisting of radiosonde wind and temperature during 4 weeks of January 2003 were assimilated. The 12-h forecasts produced by the hybrid analysis produced less root-mean-square error than the 3DVAR. The hybrid improved the forecast more in the western part of the domain than the eastern part. It also produced larger improvements in the upper troposphere. The overall magnitude of the ETKF ensemble spread agreed with the overall magnitude of the background forecast error. For individual variables and layers, the consistency between the spread and the error was less than the OSSE in Part I. Given the coarse resolution and relatively sparse observation network adopted in this study, caution is warranted when extrapolating these results to operational applications. A case study was also performed to further understand a large forecast improvement of the hybrid during the 4-week period. The flow-dependent adjustments produced by the hybrid extended a large distance into the eastern Pacific data-void region. The much improved analysis and forecast by the hybrid in the data void subsequently improved forecasts downstream in the region of verification. Although no moisture observations were assimilated, the hybrid updated the moisture fields flow dependently through cross-variable covariances defined by the ensemble, which improved the forecasts of cyclone development.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The hybrid ensemble transform Kalman filter-three-dimensional variational data assimilation (ETKF-3DVAR) system developed for the Weather Research and Forecasting (WRF) Model was further tested with real observations, as a follow-up for the observation system simulation experiment (OSSE) conducted in Part I. A domain encompassing North America was considered. Because of limited computational resources and the large number of experiments conducted, the forecasts and analyses employed relatively coarse grid spacing (200 km) to emphasize synoptic scales. As a first effort to explore the new system with real observations, relatively sparse observation datasets consisting of radiosonde wind and temperature during 4 weeks of January 2003 were assimilated. The 12-h forecasts produced by the hybrid analysis produced less root-mean-square error than the 3DVAR. The hybrid improved the forecast more in the western part of the domain than the eastern part. It also produced larger improvements in the upper troposphere. The overall magnitude of the ETKF ensemble spread agreed with the overall magnitude of the background forecast error. For individual variables and layers, the consistency between the spread and the error was less than the OSSE in Part I. Given the coarse resolution and relatively sparse observation network adopted in this study, caution is warranted when extrapolating these results to operational applications. A case study was also performed to further understand a large forecast improvement of the hybrid during the 4-week period. The flow-dependent adjustments produced by the hybrid extended a large distance into the eastern Pacific data-void region. The much improved analysis and forecast by the hybrid in the data void subsequently improved forecasts downstream in the region of verification. Although no moisture observations were assimilated, the hybrid updated the moisture fields flow dependently through cross-variable covariances defined by the ensemble, which improved the forecasts of cyclone development.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

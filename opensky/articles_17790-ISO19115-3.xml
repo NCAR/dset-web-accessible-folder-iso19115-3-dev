@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17790</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:28.306830</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:10.128092</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>CESM/CAM5 improvement and application: comparison and evaluation of updated CB05_GE and MOZART-4 gas-phase mechanisms and associated impacts on global air quality and climate</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-12-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7mw2jm4</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/gmd-8-3999-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Atmospheric chemistry plays a key role in determining the amounts and distributions of oxidants and gaseous precursors that control the formation of secondary gaseous and aerosol pollutants; all of those species can interact with the climate system. To understand the impacts of different gas-phase mechanisms on global air quality and climate predictions, in this work, a comprehensive comparative evaluation is performed using the Community Atmosphere Model (CAM) Version 5 with comprehensive tropospheric and stratospheric chemistry (CAM5-chem) within the Community Earth System Model (CESM) with the two most commonly used gas-phase chemical mechanisms: the 2005 Carbon Bond mechanism with Global Extension (CB05_GE) and the Model of OZone and Related chemical Tracers version 4 (MOZART-4) mechanism with additional updates (MOZART-4x). MOZART-4x and CB05_GE use different approaches to represent volatile organic compounds (VOCs) and different surrogates for secondary organic aerosol (SOA) precursors. MOZART-4x includes a more detailed representation of isoprene chemistry compared to CB05_GE. CB05_GE includes additional oxidation of SO&#8322; by O&#8323; over the surface of dust particles, which is not included in MOZART-4x. The results show that the two CAM5-chem simulations with CB05_GE and MOZART-4x predict similar chemical profiles for major gases (e.g., O&#8323;, CO, and NOx) compared to the aircraft measurements, with generally better agreement for NOy profiles by CB05_GE than MOZART-4x. The concentrations of SOA at four sites in the continental US (CONUS) and organic carbon (OC) over the IMPROVE sites are well predicted by MOZART-4x (with normalized mean biases (NMBs) of -1.9 and 2.1 %, respectively) but moderately underpredicted by CB05_GE (with NMBs of -23.1 and -20.7 %, respectively). This is mainly due to the higher biogenic emissions and OH levels simulated with MOZART-4x than with CB05_GE. The concentrations of OC over Europe are largely underpredicted by both MOZART-4x and CB05_GE, with NMBs of -73.0 and -75.1 %, respectively, indicating the uncertainties in the emissions of precursors and primary OC and relevant model treatments such as the oxidations of VOCs and SOA formation. Uncertainties in the emissions and convection scheme can contribute to the large bias in the model predictions (e.g., SO&#8322;, CO, black carbon, and aerosol optical depth). The two simulations also have similar cloud/radiative predictions, with a slightly better performance of domain average cloud condensation nuclei (CCN) at supersaturation of 0.5 % by CB05_GE, but slightly better agreement with observed CCN (at supersaturation of 0.2 %) profile over Beijing by MOZART-4x. The two gas-phase mechanisms result in a global average difference of 0.5 W m&#8315;&#178; in simulated shortwave cloud radiative forcing, with significant differences (e.g., up to 13.6 W m&#8315;&#178;) over subtropical regions.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Atmospheric chemistry plays a key role in determining the amounts and distributions of oxidants and gaseous precursors that control the formation of secondary gaseous and aerosol pollutants; all of those species can interact with the climate system. To understand the impacts of different gas-phase mechanisms on global air quality and climate predictions, in this work, a comprehensive comparative evaluation is performed using the Community Atmosphere Model (CAM) Version 5 with comprehensive tropospheric and stratospheric chemistry (CAM5-chem) within the Community Earth System Model (CESM) with the two most commonly used gas-phase chemical mechanisms: the 2005 Carbon Bond mechanism with Global Extension (CB05_GE) and the Model of OZone and Related chemical Tracers version 4 (MOZART-4) mechanism with additional updates (MOZART-4x). MOZART-4x and CB05_GE use different approaches to represent volatile organic compounds (VOCs) and different surrogates for secondary organic aerosol (SOA) precursors. MOZART-4x includes a more detailed representation of isoprene chemistry compared to CB05_GE. CB05_GE includes additional oxidation of SO&#8322; by O&#8323; over the surface of dust particles, which is not included in MOZART-4x. The results show that the two CAM5-chem simulations with CB05_GE and MOZART-4x predict similar chemical profiles for major gases (e.g., O&#8323;, CO, and NOx) compared to the aircraft measurements, with generally better agreement for NOy profiles by CB05_GE than MOZART-4x. The concentrations of SOA at four sites in the continental US (CONUS) and organic carbon (OC) over the IMPROVE sites are well predicted by MOZART-4x (with normalized mean biases (NMBs) of -1.9 and 2.1 %, respectively) but moderately underpredicted by CB05_GE (with NMBs of -23.1 and -20.7 %, respectively). This is mainly due to the higher biogenic emissions and OH levels simulated with MOZART-4x than with CB05_GE. The concentrations of OC over Europe are largely underpredicted by both MOZART-4x and CB05_GE, with NMBs of -73.0 and -75.1 %, respectively, indicating the uncertainties in the emissions of precursors and primary OC and relevant model treatments such as the oxidations of VOCs and SOA formation. Uncertainties in the emissions and convection scheme can contribute to the large bias in the model predictions (e.g., SO&#8322;, CO, black carbon, and aerosol optical depth). The two simulations also have similar cloud/radiative predictions, with a slightly better performance of domain average cloud condensation nuclei (CCN) at supersaturation of 0.5 % by CB05_GE, but slightly better agreement with observed CCN (at supersaturation of 0.2 %) profile over Beijing by MOZART-4x. The two gas-phase mechanisms result in a global average difference of 0.5 W m&#8315;&#178; in simulated shortwave cloud radiative forcing, with significant differences (e.g., up to 13.6 W m&#8315;&#178;) over subtropical regions.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -357,12 +353,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -404,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10730</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:40.523407</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:35.818341</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Mass yields of secondary organic aerosols from the oxidation of alpha-pinene and real plant emissions</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-02-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -424,12 +422,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7b27vv4</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -437,12 +434,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-11-1367-2011</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -452,7 +448,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Biogenic volatile organic compounds (VOCs) are a significant source of global secondary organic aerosol (SOA); however, quantifying their aerosol forming potential remains a challenge. This study presents smog chamber laboratory work, focusing on SOA formation via oxidation of the emissions of two dominant tree species from boreal forest area, Scots pine (Pinus sylvestris L.) and Norway spruce (Picea abies), by hydroxyl radical (OH) and ozone (O&#8323;). Oxidation of &#945;-pinene was also studied as a reference system. Tetramethylethylene (TME) and 2-butanol were added to control OH and O&#8323; levels, thereby allowing SOA formation events to be categorized as resulting from either OH-dominated or O&#8323;-initiated chemistry. SOA mass yields from &#945;-pinene are consistent with previous studies while the yields from the real plant emissions are generally lower than that from &#945;-pinene, varying from 1.9% at an aerosol mass loading of 0.69 &#956;g m&#8315;&#179; to 17.7% at 26.0 &#956;g m&#8315;&#179;. Mass yields from oxidation of real plant emissions are subject to the interactive effects of the molecular structures of plant emissions and their reaction chemistry with OH and O&#8323;, which lead to variations in condensable product volatility. SOA formation can be reproduced with a two-product gas-phase partitioning absorption model in spite of differences in the source of oxidant species and product volatility in the real plant emission experiments. Condensable products from OH-dominated chemistry showed a higher volatility than those from O&#8323;-initiated systems during aerosol growth stage. Particulate phase products became less volatile via aging process which continued after input gas-phase oxidants had been completely consumed.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Biogenic volatile organic compounds (VOCs) are a significant source of global secondary organic aerosol (SOA); however, quantifying their aerosol forming potential remains a challenge. This study presents smog chamber laboratory work, focusing on SOA formation via oxidation of the emissions of two dominant tree species from boreal forest area, Scots pine (Pinus sylvestris L.) and Norway spruce (Picea abies), by hydroxyl radical (OH) and ozone (O&#8323;). Oxidation of &#945;-pinene was also studied as a reference system. Tetramethylethylene (TME) and 2-butanol were added to control OH and O&#8323; levels, thereby allowing SOA formation events to be categorized as resulting from either OH-dominated or O&#8323;-initiated chemistry. SOA mass yields from &#945;-pinene are consistent with previous studies while the yields from the real plant emissions are generally lower than that from &#945;-pinene, varying from 1.9% at an aerosol mass loading of 0.69 &#956;g m&#8315;&#179; to 17.7% at 26.0 &#956;g m&#8315;&#179;. Mass yields from oxidation of real plant emissions are subject to the interactive effects of the molecular structures of plant emissions and their reaction chemistry with OH and O&#8323;, which lead to variations in condensable product volatility. SOA formation can be reproduced with a two-product gas-phase partitioning absorption model in spite of differences in the source of oxidant species and product volatility in the real plant emission experiments. Condensable products from OH-dominated chemistry showed a higher volatility than those from O&#8323;-initiated systems during aerosol growth stage. Particulate phase products became less volatile via aging process which continued after input gas-phase oxidants had been completely consumed.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -507,12 +503,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -554,7 +548,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

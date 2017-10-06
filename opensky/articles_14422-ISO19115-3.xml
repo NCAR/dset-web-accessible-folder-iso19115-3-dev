@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:14422</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:41.727028</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:04.221004</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A seasonal agricultural drought forecast system for food-insecure regions of East Africa</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2014-10-02T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7ks6sj9</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/hess-18-3907-2014</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The increasing food and water demands of East Africa's growing population are stressing the region's inconsistent water resources and rain-fed agriculture. More accurate seasonal agricultural drought forecasts for this region can inform better water and agropastoral management decisions, support optimal allocation of the region's water resources, and mitigate socioeconomic losses incurred by droughts and floods. Here we describe the development and implementation of a seasonal agricultural drought forecast system for East Africa (EA) that provides decision support for the Famine Early Warning Systems Network's (FEWS NET) science team. We evaluate this forecast system for a region of equatorial EA (2&#176; S&#8211;8&#176; N, 36&#8211;46&#176; E) for the March-April-May (MAM) growing season. This domain encompasses one of the most food-insecure, climatically variable, and socioeconomically vulnerable regions in EA, and potentially the world; this region has experienced famine as recently as 2011. To produce an "agricultural outlook", our forecast system simulates soil moisture (SM) scenarios using the Variable Infiltration Capacity (VIC) hydrologic model forced with climate scenarios describing the upcoming season. First, we forced the VIC model with high-quality atmospheric observations to produce baseline soil moisture (SM) estimates (here after referred as SM a posteriori estimates). These compared favorably (correlation = 0.75) with the water requirement satisfaction index (WRSI), an index that the FEWS NET uses to estimate crop yields. Next, we evaluated the SM forecasts generated by this system on 5 March and 5 April of each year between 1993 and 2012 by comparing them with the corresponding SM a posteriori estimates. We found that initializing SM forecasts with start-of-season (SOS) (5 March) SM conditions resulted in useful SM forecast skill (&gt; 0.5 correlation) at 1-month and, in some cases, 3-month lead times. Similarly, when the forecast was initialized with midseason (i.e., 5 April) SM conditions, the skill of forecasting SM estimates until the end-of-season improved (correlation &gt; 0.5 over several grid cells). We also found these SM forecasts to be more skillful than the ones generated using the Ensemble Streamflow Prediction (ESP) method, which derives its hydrologic forecast skill solely from the knowledge of the initial hydrologic conditions. Finally, we show that, in terms of forecasting spatial patterns of SM anomalies, the skill of this agricultural drought forecast system is generally greater (&gt; 0.8 correlation) during drought years (when standardized anomaly of MAM precipitation is below 0). This indicates that this system might be particularity useful for identifying drought events in this region and can support decision-making for mitigation or humanitarian assistance.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The increasing food and water demands of East Africa's growing population are stressing the region's inconsistent water resources and rain-fed agriculture. More accurate seasonal agricultural drought forecasts for this region can inform better water and agropastoral management decisions, support optimal allocation of the region's water resources, and mitigate socioeconomic losses incurred by droughts and floods. Here we describe the development and implementation of a seasonal agricultural drought forecast system for East Africa (EA) that provides decision support for the Famine Early Warning Systems Network's (FEWS NET) science team. We evaluate this forecast system for a region of equatorial EA (2&#176; S&#8211;8&#176; N, 36&#8211;46&#176; E) for the March-April-May (MAM) growing season. This domain encompasses one of the most food-insecure, climatically variable, and socioeconomically vulnerable regions in EA, and potentially the world; this region has experienced famine as recently as 2011. To produce an "agricultural outlook", our forecast system simulates soil moisture (SM) scenarios using the Variable Infiltration Capacity (VIC) hydrologic model forced with climate scenarios describing the upcoming season. First, we forced the VIC model with high-quality atmospheric observations to produce baseline soil moisture (SM) estimates (here after referred as SM a posteriori estimates). These compared favorably (correlation = 0.75) with the water requirement satisfaction index (WRSI), an index that the FEWS NET uses to estimate crop yields. Next, we evaluated the SM forecasts generated by this system on 5 March and 5 April of each year between 1993 and 2012 by comparing them with the corresponding SM a posteriori estimates. We found that initializing SM forecasts with start-of-season (SOS) (5 March) SM conditions resulted in useful SM forecast skill (> 0.5 correlation) at 1-month and, in some cases, 3-month lead times. Similarly, when the forecast was initialized with midseason (i.e., 5 April) SM conditions, the skill of forecasting SM estimates until the end-of-season improved (correlation > 0.5 over several grid cells). We also found these SM forecasts to be more skillful than the ones generated using the Ensemble Streamflow Prediction (ESP) method, which derives its hydrologic forecast skill solely from the knowledge of the initial hydrologic conditions. Finally, we show that, in terms of forecasting spatial patterns of SM anomalies, the skill of this agricultural drought forecast system is generally greater (> 0.8 correlation) during drought years (when standardized anomaly of MAM precipitation is below 0). This indicates that this system might be particularity useful for identifying drought events in this region and can support decision-making for mitigation or humanitarian assistance.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17599</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:24.322800</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:04.833144</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The land surface climatology of the community land model coupled to the NCAR community climate model</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2002-11-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -266,12 +264,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7fn17hq</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -282,7 +279,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The land surface parameterization used with the community climate model (CCM3) and the climate system model (CSM1), the National Center for Atmospheric Research land surface model (NCAR LSM1), has been modified as part of the development of the next version of these climate models. This new model is known as the community land model (CLM2). In CLM2, the surface is represented by five primary subgrid land cover types (glacier, lake, wetland, urban, vegetated) in each grid cell. The vegetated portion of a grid cell is further divided into patches of up to 4 of 16 plant functional types, each with its own leaf and stem area index and canopy height. The relative area of each subgrid unit, the plant functional type, and leaf area index are obtained from 1-km satellite data. The soil texture dataset allows vertical profiles of sand and clay. Most of the physical parameterizations in the model were also updated. Major model differences include: 10 layers for soil temperature and soil water with explicit treatment of liquid water and ice; a multilayer snowpack; runoff based on the TOPMODEL concept; new formulation of ground and vegetation fluxes; and vertical root profiles from a global synthesis of ecological studies. Simulations with CCM3 show significant improvements in surface air temperature, snow cover, and runoff for CLM2 compared to LSM1. CLM2 generally warms surface air temperature in all seasons compared to LSM1, reducing or eliminating many cold biases. Annual precipitation over land is reduced from 2.35 mm day&#8315;&#185; in LSM1 to 2.14 mm day&#8315;&#185; in CLM2. The hydrologic cycle is also different. Transpiration and ground evaporation are reduced. Leaves and stems evaporate more intercepted water annually in CLM2 than LSM1. Global runoff from land increases from 0.75 mm day&#8315;&#185; in LSM1 to 0.84 mm day&#8315;&#185; in CLM2. The annual cycle of runoff is greatly improved in CLM2, especially in arctic and boreal regions where the model has low runoff in cold seasons when the soil is frozen and high runoff during the snowmelt season. Most of the differences between CLM2 and LSM1 are attributed to particular parameterizations rather than to different surface datasets. Important processes include: multilayer snow, frozen water, interception, soil water limitation to latent heat, and higher aerodynamic resistances to heat exchange from ground.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The land surface parameterization used with the community climate model (CCM3) and the climate system model (CSM1), the National Center for Atmospheric Research land surface model (NCAR LSM1), has been modified as part of the development of the next version of these climate models. This new model is known as the community land model (CLM2). In CLM2, the surface is represented by five primary subgrid land cover types (glacier, lake, wetland, urban, vegetated) in each grid cell. The vegetated portion of a grid cell is further divided into patches of up to 4 of 16 plant functional types, each with its own leaf and stem area index and canopy height. The relative area of each subgrid unit, the plant functional type, and leaf area index are obtained from 1-km satellite data. The soil texture dataset allows vertical profiles of sand and clay. Most of the physical parameterizations in the model were also updated. Major model differences include: 10 layers for soil temperature and soil water with explicit treatment of liquid water and ice; a multilayer snowpack; runoff based on the TOPMODEL concept; new formulation of ground and vegetation fluxes; and vertical root profiles from a global synthesis of ecological studies. Simulations with CCM3 show significant improvements in surface air temperature, snow cover, and runoff for CLM2 compared to LSM1. CLM2 generally warms surface air temperature in all seasons compared to LSM1, reducing or eliminating many cold biases. Annual precipitation over land is reduced from 2.35 mm day&#8315;&#185; in LSM1 to 2.14 mm day&#8315;&#185; in CLM2. The hydrologic cycle is also different. Transpiration and ground evaporation are reduced. Leaves and stems evaporate more intercepted water annually in CLM2 than LSM1. Global runoff from land increases from 0.75 mm day&#8315;&#185; in LSM1 to 0.84 mm day&#8315;&#185; in CLM2. The annual cycle of runoff is greatly improved in CLM2, especially in arctic and boreal regions where the model has low runoff in cold seasons when the soil is frozen and high runoff during the snowmelt season. Most of the differences between CLM2 and LSM1 are attributed to particular parameterizations rather than to different surface datasets. Important processes include: multilayer snow, frozen water, interception, soil water limitation to latent heat, and higher aerodynamic resistances to heat exchange from ground.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -337,12 +334,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -384,7 +379,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

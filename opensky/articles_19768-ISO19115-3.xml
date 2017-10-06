@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:19768</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:08:04.793413</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:13.382806</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Impact of Southeast Asian smoke on aerosol properties in Southwest China: First comparison of model simulations with satellite and ground observations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-04-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7wd42gz</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016JD025793</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Smoke aerosols have been observed in Southwest China as a result of long-range transport from surrounding areas in March and April. The processes driving this transport and the resultant impact on regional aerosol optical properties are studied here through a combined use of the Goddard Earth Observing System (GEOS)-Chem chemistry transport model in conjunction with satellite and the first-ever ground-based observations in the Southwest China. The potential biomass burning source regions as well as their respective contributions to aerosol loading in Southwest China are quantified. Compared to Sun photometer observations of aerosol optical depth (AOD) at 550nm at eight stations in the study region (10-28 degrees N, 90-115 degrees E, comprising Northeast India, Indo-China Peninsula, and Southwest and South China), the AOD simulated by GEOS-Chem (nested grid with 0.5 degrees x0.667 degrees resolution) by using the Fire Inventory from National Center for Atmospheric Research shows an average bias of -0.17 during January 2012 to May 2013. However, during the biomass burning months (March-April), the simulated AOD is much improved with a bias of -0.04. Model sensitivity experiments show that biomass burning in Burma and Northeast India is the largest contributor to smoke AOD (similar to 88%) and total AOD (similar to 57%) over Kunming, an urban site in Southwest China. Case studies on 21-23 March 2013 show that the smoke layer in Northeast India and North Burma can extend from the surface to 4km and then be transported to Southwest China by prevailing westerly airflow. Model-simulated AOD and vertical distribution of aerosols are respectively in good agreement with satellite measurements from Moderate Resolution Imaging Spectroradiometer and Cloud-Aerosol Lidar with Orthogonal Polarization.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Smoke aerosols have been observed in Southwest China as a result of long-range transport from surrounding areas in March and April. The processes driving this transport and the resultant impact on regional aerosol optical properties are studied here through a combined use of the Goddard Earth Observing System (GEOS)-Chem chemistry transport model in conjunction with satellite and the first-ever ground-based observations in the Southwest China. The potential biomass burning source regions as well as their respective contributions to aerosol loading in Southwest China are quantified. Compared to Sun photometer observations of aerosol optical depth (AOD) at 550nm at eight stations in the study region (10-28 degrees N, 90-115 degrees E, comprising Northeast India, Indo-China Peninsula, and Southwest and South China), the AOD simulated by GEOS-Chem (nested grid with 0.5 degrees x0.667 degrees resolution) by using the Fire Inventory from National Center for Atmospheric Research shows an average bias of -0.17 during January 2012 to May 2013. However, during the biomass burning months (March-April), the simulated AOD is much improved with a bias of -0.04. Model sensitivity experiments show that biomass burning in Burma and Northeast India is the largest contributor to smoke AOD (similar to 88%) and total AOD (similar to 57%) over Kunming, an urban site in Southwest China. Case studies on 21-23 March 2013 show that the smoke layer in Northeast India and North Burma can extend from the surface to 4km and then be transported to Southwest China by prevailing westerly airflow. Model-simulated AOD and vertical distribution of aerosols are respectively in good agreement with satellite measurements from Moderate Resolution Imaging Spectroradiometer and Cloud-Aerosol Lidar with Orthogonal Polarization.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -342,12 +338,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -389,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

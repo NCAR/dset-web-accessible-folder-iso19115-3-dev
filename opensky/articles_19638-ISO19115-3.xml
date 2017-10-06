@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:59.892561</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:08.725375</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The influence of the Calbuco eruption on the 2015 Antarctic ozone hole in a fully coupled chemistry-climate model</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7hm5b75</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016GL071925</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Recent research has demonstrated that the concentrations of anthropogenic halocarbons have decreased in response to the worldwide phaseout of ozone depleting substances. Yet in 2015 the Antarctic ozone hole reached a historical record daily average size in October. Model simulations with specified dynamics and temperatures based on a reanalysis suggested that the record size was likely due to the eruption of Calbuco but did not allow for fully coupled dynamical or thermal feedbacks. We present simulations of the impact of the 2015 Calbuco eruption on the stratosphere using the Whole Atmosphere Community Climate Model with interactive dynamics and temperatures. Comparisons of the interactive and specified dynamics simulations indicate that chemical ozone depletion due to volcanic aerosols played a key role in establishing the record-sized ozone hole of October 2015. The analysis of an ensemble of interactive simulations with and without volcanic aerosols suggests that the forced response to the eruption of Calbuco was an increase in the size of the ozone hole by 4.5x10(6)km(2).</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Recent research has demonstrated that the concentrations of anthropogenic halocarbons have decreased in response to the worldwide phaseout of ozone depleting substances. Yet in 2015 the Antarctic ozone hole reached a historical record daily average size in October. Model simulations with specified dynamics and temperatures based on a reanalysis suggested that the record size was likely due to the eruption of Calbuco but did not allow for fully coupled dynamical or thermal feedbacks. We present simulations of the impact of the 2015 Calbuco eruption on the stratosphere using the Whole Atmosphere Community Climate Model with interactive dynamics and temperatures. Comparisons of the interactive and specified dynamics simulations indicate that chemical ozone depletion due to volcanic aerosols played a key role in establishing the record-sized ozone hole of October 2015. The analysis of an ensemble of interactive simulations with and without volcanic aerosols suggests that the forced response to the eruption of Calbuco was an increase in the size of the ozone hole by 4.5x10(6)km(2).]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -331,7 +327,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -373,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

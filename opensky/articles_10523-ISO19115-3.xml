@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10523</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:34.755669</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:28.710736</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Characteristics and trends in various forms of the Palmer Drought Severity Index during 1900-2008</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-06-29T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -169,12 +167,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d76d5tfs</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -182,12 +179,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2010JD015541</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -197,7 +193,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Palmer Drought Severity Index (PDSI) has been widely used to study aridity changes in modern and past climates. Efforts to address its major problems have led to new variants of the PDSI, such as the self-calibrating PDSI (sc_PDSI) and PDSI using improved formulations for evapotranspiration (PE), such as the Penman-Monteith equation (PE_pm) instead of the Thornthwaite equation (PE_th). Here I compare and evaluate four forms of the PDSI, namely the PDSI with PE_th (PDSI_th) and PE_pm (PDSI_pm) and the sc_PDSI with PE_th (sc_PDSI_th) and PE_pm (sc_PDSI_pm) calculated using available climate data from 1850-2008. Our results confirm previous findings that the choice of the PE only has small effects on both the PDSI and sc_PDSI for the 20th century climate, and the self-calibration reduces the value range slightly and makes the sc_PDSI more comparable spatially than the original PDSI. However, the histograms of the sc_PDSI are still non-Gaussian at many locations, and all the four forms of the PDSI show similar correlations with observed monthly soil moisture (r=0.4~0.8) in North America and Eurasia, with historical yearly streamflow data (r=0.4~0.9) over most of world's largest river basins, and with GRACE satellite-observed water storage changes (r=0.4~0.8) over most land areas. All the four forms of the PDSI show wide-spread drying over Africa, East and South Asia and other areas from 1950-2008, and most of this drying is due to recent warming. The global percentage dry areas have increased by about 1.74% (of global land area) per decade from 1950-2008. The use of the Penman-Monteith PE and self-calibrating PDSI only slightly reduces the drying trend seen in the original PDSI. The percentage dry and wet areas over the global land area and six select regions are anticorrelated (r= -0.5 to -0.7), but their long -term trends during the 20th century do not cancel each other, with the trend for the dry area often predominating over that for the wet area, resulting in upward trends during the 20th century for the areas under extreme (i.e., dry or wet) conditions for the global land as a whole (~1.27%/decade) and the U.S., western Europe, Australia, Sahel, East Asia, and southern Africa. The recent drying trends are qualitatively consistent with other analyses and model predictions, which suggest more severe drying in the coming decades.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Palmer Drought Severity Index (PDSI) has been widely used to study aridity changes in modern and past climates. Efforts to address its major problems have led to new variants of the PDSI, such as the self-calibrating PDSI (sc_PDSI) and PDSI using improved formulations for evapotranspiration (PE), such as the Penman-Monteith equation (PE_pm) instead of the Thornthwaite equation (PE_th). Here I compare and evaluate four forms of the PDSI, namely the PDSI with PE_th (PDSI_th) and PE_pm (PDSI_pm) and the sc_PDSI with PE_th (sc_PDSI_th) and PE_pm (sc_PDSI_pm) calculated using available climate data from 1850-2008. Our results confirm previous findings that the choice of the PE only has small effects on both the PDSI and sc_PDSI for the 20th century climate, and the self-calibration reduces the value range slightly and makes the sc_PDSI more comparable spatially than the original PDSI. However, the histograms of the sc_PDSI are still non-Gaussian at many locations, and all the four forms of the PDSI show similar correlations with observed monthly soil moisture (r=0.4~0.8) in North America and Eurasia, with historical yearly streamflow data (r=0.4~0.9) over most of world's largest river basins, and with GRACE satellite-observed water storage changes (r=0.4~0.8) over most land areas. All the four forms of the PDSI show wide-spread drying over Africa, East and South Asia and other areas from 1950-2008, and most of this drying is due to recent warming. The global percentage dry areas have increased by about 1.74% (of global land area) per decade from 1950-2008. The use of the Penman-Monteith PE and self-calibrating PDSI only slightly reduces the drying trend seen in the original PDSI. The percentage dry and wet areas over the global land area and six select regions are anticorrelated (r= -0.5 to -0.7), but their long -term trends during the 20th century do not cancel each other, with the trend for the dry area often predominating over that for the wet area, resulting in upward trends during the 20th century for the areas under extreme (i.e., dry or wet) conditions for the global land as a whole (~1.27%/decade) and the U.S., western Europe, Australia, Sahel, East Asia, and southern Africa. The recent drying trends are qualitatively consistent with other analyses and model predictions, which suggest more severe drying in the coming decades.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -252,12 +248,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -299,7 +293,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

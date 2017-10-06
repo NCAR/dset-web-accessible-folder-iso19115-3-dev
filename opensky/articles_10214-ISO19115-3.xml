@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:40.810563</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:16.395138</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Characterization and correction of relative humidity measurements from Vaisala RS80-A radiosondes at cold temperatures</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2001-02-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -221,12 +219,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d78w3dvw</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -237,7 +234,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Radiosonde relative humidity (RH) measurements are known to be unreliable at cold temperatures. This study characterizes radiosonde RH measurements from Vaisala RS80-A thin-film capacitive sensors in the temperature range 0&#176; to &#8722;70&#176;C. Sources of measurement error are identified, and two approaches for correcting the errors are presented. The corrections given in this paper apply only to the Vaisala RS80-A sensor, although the RS80-H sensor is briefly discussed for comparison. A temperature-dependent correction factor is derived from statistical analysis of simultaneous RH measurements from RS80-A radiosondes and the NOAA cryogenic frostpoint hygrometer. The mean RS80-A measurement error is shown to be a dry bias that increases with decreasing temperature, and the multiplicative correction factor is about 1.3 at &#8722;35&#176;C, 1.6 at &#8722;50&#176;C, 2.0 at &#8722;60&#176;C, and 2.4 at &#8722;70&#176;C. The fractional uncertainty in the mean of corrected measurements, when large datasets are considered statistically, increases from 0.06 at 0&#176;C to 0.11 at &#8722;70&#176;C. The fractional uncertainty for correcting an individual sounding is about &#177;0.2, which is larger because this statistical approach considers only the mean value of measurement errors that are not purely temperature dependent. The correction must not be used outside the temperature range 0&#176; to &#8722;70&#176;C, because it is a meaningless extrapolation of a polynomial curve fit. Laboratory measurements of sensor response conducted at Vaisala are used to characterize some of the individual sources of RS80-A measurement error. A correction factor is derived for the dominant RS80-A measurement error at cold temperatures: an inaccurate approximation for the sensor&#8217;s temperature dependence in the data processing algorithm. The correction factor for temperature-dependence error is about 1.1 at &#8722;35&#176;C, 1.4 at &#8722;50&#176;C, 1.8 at &#8722;60&#176;C, and 2.5 at &#8722;70&#176;C. Dependences and typical magnitudes are given for measurement errors that result from the temperature dependence of the sensor&#8217;s time constant, and from several smaller bias errors and random uncertainties.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Radiosonde relative humidity (RH) measurements are known to be unreliable at cold temperatures. This study characterizes radiosonde RH measurements from Vaisala RS80-A thin-film capacitive sensors in the temperature range 0&#176; to &#8722;70&#176;C. Sources of measurement error are identified, and two approaches for correcting the errors are presented. The corrections given in this paper apply only to the Vaisala RS80-A sensor, although the RS80-H sensor is briefly discussed for comparison. A temperature-dependent correction factor is derived from statistical analysis of simultaneous RH measurements from RS80-A radiosondes and the NOAA cryogenic frostpoint hygrometer. The mean RS80-A measurement error is shown to be a dry bias that increases with decreasing temperature, and the multiplicative correction factor is about 1.3 at &#8722;35&#176;C, 1.6 at &#8722;50&#176;C, 2.0 at &#8722;60&#176;C, and 2.4 at &#8722;70&#176;C. The fractional uncertainty in the mean of corrected measurements, when large datasets are considered statistically, increases from 0.06 at 0&#176;C to 0.11 at &#8722;70&#176;C. The fractional uncertainty for correcting an individual sounding is about &#177;0.2, which is larger because this statistical approach considers only the mean value of measurement errors that are not purely temperature dependent. The correction must not be used outside the temperature range 0&#176; to &#8722;70&#176;C, because it is a meaningless extrapolation of a polynomial curve fit. Laboratory measurements of sensor response conducted at Vaisala are used to characterize some of the individual sources of RS80-A measurement error. A correction factor is derived for the dominant RS80-A measurement error at cold temperatures: an inaccurate approximation for the sensor&#8217;s temperature dependence in the data processing algorithm. The correction factor for temperature-dependence error is about 1.1 at &#8722;35&#176;C, 1.4 at &#8722;50&#176;C, 1.8 at &#8722;60&#176;C, and 2.5 at &#8722;70&#176;C. Dependences and typical magnitudes are given for measurement errors that result from the temperature dependence of the sensor&#8217;s time constant, and from several smaller bias errors and random uncertainties.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -296,7 +293,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -338,7 +334,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

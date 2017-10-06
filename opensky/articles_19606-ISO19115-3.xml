@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:58.847692</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:06.995950</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Revisiting global fossil fuel and biofuel emissions of ethane</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-02-27T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -439,12 +437,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7x068tv</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -452,12 +449,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016JD025767</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -467,7 +463,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Recent measurements over the Northern Hemisphere indicate that the long-term decline in the atmospheric burden of ethane (C2H6) has ended and the abundance increased dramatically between 2010 and 2014. The rise in C2H6 atmospheric abundances has been attributed to oil and natural gas extraction in North America. Existing global C2H6 emission inventories are based on outdated activity maps that do not account for current oil and natural gas exploitation regions. We present an updated global C2H6 emission inventory based on 2010 satellite-derived CH4 fluxes with adjusted C2H6 emissions over the U.S. from the National Emission Inventory (NEI 2011). We contrast our global 2010 C2H6 emission inventory with one developed for 2001. The C2H6 difference between global anthropogenic emissions is subtle (7.9 versus 7.2 Tg yr(-1)), but the spatial distribution of the emissions is distinct. In the 2010 C2H6 inventory, fossil fuel sources in the Northern Hemisphere represent half of global C2H6 emissions and 95% of global fossil fuel emissions. Over the U.S., unadjusted NEI 2011 C2H6 emissions produce mixing ratios that are 14-50% of those observed by aircraft observations (2008-2014). When the NEI 2011 C2H6 emission totals are scaled by a factor of 1.4, the Goddard Earth Observing System Chem model largely reproduces a regional suite of observations, with the exception of the central U. S., where it continues to underpredict observed mixing ratios in the lower troposphere. We estimate monthly mean contributions of fossil fuel C2H6 emissions to ozone and peroxyacetyl nitrate surface mixing ratios over North America of similar to 1% and similar to 8%, respectively.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Recent measurements over the Northern Hemisphere indicate that the long-term decline in the atmospheric burden of ethane (C2H6) has ended and the abundance increased dramatically between 2010 and 2014. The rise in C2H6 atmospheric abundances has been attributed to oil and natural gas extraction in North America. Existing global C2H6 emission inventories are based on outdated activity maps that do not account for current oil and natural gas exploitation regions. We present an updated global C2H6 emission inventory based on 2010 satellite-derived CH4 fluxes with adjusted C2H6 emissions over the U.S. from the National Emission Inventory (NEI 2011). We contrast our global 2010 C2H6 emission inventory with one developed for 2001. The C2H6 difference between global anthropogenic emissions is subtle (7.9 versus 7.2 Tg yr(-1)), but the spatial distribution of the emissions is distinct. In the 2010 C2H6 inventory, fossil fuel sources in the Northern Hemisphere represent half of global C2H6 emissions and 95% of global fossil fuel emissions. Over the U.S., unadjusted NEI 2011 C2H6 emissions produce mixing ratios that are 14-50% of those observed by aircraft observations (2008-2014). When the NEI 2011 C2H6 emission totals are scaled by a factor of 1.4, the Goddard Earth Observing System Chem model largely reproduces a regional suite of observations, with the exception of the central U. S., where it continues to underpredict observed mixing ratios in the lower troposphere. We estimate monthly mean contributions of fossil fuel C2H6 emissions to ozone and peroxyacetyl nitrate surface mixing ratios over North America of similar to 1% and similar to 8%, respectively.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -526,7 +522,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -568,7 +563,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

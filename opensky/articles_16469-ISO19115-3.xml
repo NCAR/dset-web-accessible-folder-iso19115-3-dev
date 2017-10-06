@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16469</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:56.099959</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:24.239821</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Research on Emissions, Air quality, Climate, and Cooking Technologies in Northern Ghana (Reaccting): Study rationale and protocol</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-02-12T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -544,12 +542,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7mc9161</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -557,12 +554,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1186/s12889-015-1414-1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -572,7 +568,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>BackgroundCooking over open fires using solid fuels is both common practice throughout much of the world and widely recognized to contribute to human health, environmental, and social problems. The public health burden of household air pollution includes an estimated four million premature deaths each year. To be effective and generate useful insight into potential solutions, cookstove intervention studies must select cooking technologies that are appropriate for local socioeconomic conditions and cooking culture, and include interdisciplinary measurement strategies along a continuum of outcomes. REACCTING (Research on Emissions, Air quality, Climate, and Cooking Technologies in Northern Ghana) is an ongoing interdisciplinary randomized cookstove intervention study in the Kassena-Nankana Districts of Northern Ghana. The study tests two types of biomass burning stoves that have the potential to meet local cooking needs and represent different "rungs" in the cookstove technology ladder: a locally-made low-tech rocket stove and the imported, highly efficient Philips gasifier stove. Intervention households were randomized into four different groups, three of which received different combinations of two improved stoves, while the fourth group serves as a control for the duration of the study. Diverse measurements assess different points along the causal chain linking the intervention to final outcomes of interest. We assess stove use and cooking behavior, cooking emissions, household air pollution and personal exposure, health burden, and local to regional air quality. Integrated analysis and modeling will tackle a range of interdisciplinary science questions, including examining ambient exposures among the regional population, assessing how those exposures might change with different technologies and behaviors, and estimating the comparative impact of local behavior and technological changes versus regional climate variability and change on local air quality and health outcomes. REACCTING is well-poised to generate useful data on the impact of a cookstove intervention on a wide range of outcomes. By comparing different technologies side by side and employing an interdisciplinary approach to study this issue from multiple perspectives, this study may help to inform future efforts to improve health and quality of life for populations currently relying on open fires for their cooking needs.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[BackgroundCooking over open fires using solid fuels is both common practice throughout much of the world and widely recognized to contribute to human health, environmental, and social problems. The public health burden of household air pollution includes an estimated four million premature deaths each year. To be effective and generate useful insight into potential solutions, cookstove intervention studies must select cooking technologies that are appropriate for local socioeconomic conditions and cooking culture, and include interdisciplinary measurement strategies along a continuum of outcomes. REACCTING (Research on Emissions, Air quality, Climate, and Cooking Technologies in Northern Ghana) is an ongoing interdisciplinary randomized cookstove intervention study in the Kassena-Nankana Districts of Northern Ghana. The study tests two types of biomass burning stoves that have the potential to meet local cooking needs and represent different "rungs" in the cookstove technology ladder: a locally-made low-tech rocket stove and the imported, highly efficient Philips gasifier stove. Intervention households were randomized into four different groups, three of which received different combinations of two improved stoves, while the fourth group serves as a control for the duration of the study. Diverse measurements assess different points along the causal chain linking the intervention to final outcomes of interest. We assess stove use and cooking behavior, cooking emissions, household air pollution and personal exposure, health burden, and local to regional air quality. Integrated analysis and modeling will tackle a range of interdisciplinary science questions, including examining ambient exposures among the regional population, assessing how those exposures might change with different technologies and behaviors, and estimating the comparative impact of local behavior and technological changes versus regional climate variability and change on local air quality and health outcomes. REACCTING is well-poised to generate useful data on the impact of a cookstove intervention on a wide range of outcomes. By comparing different technologies side by side and employing an interdisciplinary approach to study this issue from multiple perspectives, this study may help to inform future efforts to improve health and quality of life for populations currently relying on open fires for their cooking needs.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -627,12 +623,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -674,7 +668,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

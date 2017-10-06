@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:43.724393</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:36.406731</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>What would it take to achieve the Paris temperature targets?</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-07-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7862j4v</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016GL069563</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The 2015 Paris Agreement aims to limit warming to 2 or 1.5 degrees C above preindustrial level, although combined Intended Nationally Determined Contributions (INDCs) are likely insufficient to achieve these targets. We propose a set of idealized emission pathways consistent with the targets. If countries reduce emissions in line with their INDCs, the 2 degrees C threshold could be avoided only if net zero greenhouse gas emissions (GHGEs) are achieved by 2085 and late century negative emissions are considerably in excess of those assumed in Representative Concentration Pathway (RCP) 2.6 (net -5GtCO(2)/yr, compared with -1.5GtCO(2)/yr in RCP2.6). More aggressive near-term reductions would allow 2 degrees C to be avoided with less end-of-century carbon removal capacity. A 10% cut in GHGEs by 2030 (relative to 2015) could likely achieve 2 degrees C with RCP2.6 level negative emissions. The 1.5 degrees C target requires GHGEs to be reduced by almost a third by 2030 and net zero by 2050, while a 50year overshoot of 1.5 degrees C allows net zero GHGEs by 2060.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The 2015 Paris Agreement aims to limit warming to 2 or 1.5 degrees C above preindustrial level, although combined Intended Nationally Determined Contributions (INDCs) are likely insufficient to achieve these targets. We propose a set of idealized emission pathways consistent with the targets. If countries reduce emissions in line with their INDCs, the 2 degrees C threshold could be avoided only if net zero greenhouse gas emissions (GHGEs) are achieved by 2085 and late century negative emissions are considerably in excess of those assumed in Representative Concentration Pathway (RCP) 2.6 (net -5GtCO(2)/yr, compared with -1.5GtCO(2)/yr in RCP2.6). More aggressive near-term reductions would allow 2 degrees C to be avoided with less end-of-century carbon removal capacity. A 10% cut in GHGEs by 2030 (relative to 2015) could likely achieve 2 degrees C with RCP2.6 level negative emissions. The 1.5 degrees C target requires GHGEs to be reduced by almost a third by 2030 and net zero by 2050, while a 50year overshoot of 1.5 degrees C allows net zero GHGEs by 2060.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

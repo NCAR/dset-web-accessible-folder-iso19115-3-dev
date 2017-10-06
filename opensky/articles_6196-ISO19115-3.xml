@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:6196</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:13.205483</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:31:58.820328</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Observationally derived and GCM simulated tropical stratospheric upward mass fluxes</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2008-10-30T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7t72hm1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2008JD009945</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>We quantify the vertical velocity and upward mass flux in the tropical lower stratosphere on the basis of accurate radiative heating rate calculations using 8-year Southern Hemisphere Additional Ozonesondes balloon-borne measurements of temperature and ozone and cryogenic frost-point hygrometer measured water vapor in the tropics (15&#176;S&#8212;10&#176;N). The impact of tropospheric clouds on the stratospheric heating rates is considered using cloud distributions from the International Satellite Cloud Climatology Project. We find a nearly constant annual mean upward mass flux in the tropical lower stratosphere above the top of the tropical tropopause layer (i.e., &#8764;70 hPa), which is 1.13 &#177; 0.40 kgm&#8315;&#178;d&#8315;&#185; for the 40- to 30-hPa layer, and 0.89 &#177; 0.48 kgm#8315;&#178;d&#8315;&#185; for the 70- to 50-hPa layer. A strong seasonal cycle exists in the upward mass flux and it is found that the mass flux below &#8764;70 hPa is decoupled from that above in the Northern Hemisphere summer. Simulations of the tropical lower stratosphere from two stratospheric General Circulation Models (GCMs) are compared with observations. The annual mean upward mass fluxes from both GCMs for the 40- to 30-hPa layer agree well with observations, while the simulated mass fluxes for the 70- to 50-hPa layer are twice as large. Both GCMs also simulate seasonal variation of the mass flux reasonably well but are incapable of simulating the observed interannual variability of the upward mass flux, which is closely correlated with the quasi-biennial oscillations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[We quantify the vertical velocity and upward mass flux in the tropical lower stratosphere on the basis of accurate radiative heating rate calculations using 8-year Southern Hemisphere Additional Ozonesondes balloon-borne measurements of temperature and ozone and cryogenic frost-point hygrometer measured water vapor in the tropics (15&#176;S&#8212;10&#176;N). The impact of tropospheric clouds on the stratospheric heating rates is considered using cloud distributions from the International Satellite Cloud Climatology Project. We find a nearly constant annual mean upward mass flux in the tropical lower stratosphere above the top of the tropical tropopause layer (i.e., &#8764;70 hPa), which is 1.13 &#177; 0.40 kgm&#8315;&#178;d&#8315;&#185; for the 40- to 30-hPa layer, and 0.89 &#177; 0.48 kgm#8315;&#178;d&#8315;&#185; for the 70- to 50-hPa layer. A strong seasonal cycle exists in the upward mass flux and it is found that the mass flux below &#8764;70 hPa is decoupled from that above in the Northern Hemisphere summer. Simulations of the tropical lower stratosphere from two stratospheric General Circulation Models (GCMs) are compared with observations. The annual mean upward mass fluxes from both GCMs for the 40- to 30-hPa layer agree well with observations, while the simulated mass fluxes for the 70- to 50-hPa layer are twice as large. Both GCMs also simulate seasonal variation of the mass flux reasonably well but are incapable of simulating the observed interannual variability of the upward mass flux, which is closely correlated with the quasi-biennial oscillations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

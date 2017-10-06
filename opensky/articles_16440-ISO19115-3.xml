@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16440</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:55.519001</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:23.418025</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Changes in air quality and tropospheric composition due to depletion of stratospheric ozone and interactions with changing climate: Implications for human and environmental health</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7bz676r</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1039/c4pp90037e</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>UV radiation is an essential driver for the formation of photochemical smog, which includes ground-level ozone and particulate matter (PM). Recent analyses support earlier work showing that poor outdoor air quality is a major environmental hazard as well as quantifying health effects on regional and global scales more accurately. Greater exposure to these pollutants has been linked to increased risks of cardiovascular and respiratory diseases in humans and is associated globally with several million premature deaths per year. Ozone also has adverse effects on yields of crops, leading to loss of billions of US dollars each year. These detrimental effects also may alter biological diversity and affect the function of natural ecosystems. Future air quality will depend mostly on changes in emission of pollutants and their precursors, but changes in UV radiation and climate will contribute as well. Significant reductions in emissions, mainly from the energy and transportation sectors, have already led to improved air quality in many locations. Air quality will continue to improve in those cities/states that can afford controls, and worsen where the regulatory infrastructure is not available. Future changes in UV radiation and climate will alter the rates of formation of ground-level ozone and photochemically-generated particulate matter and must be considered in predictions of air quality. The decrease in UV radiation associated with recovery of stratospheric ozone will, according to recent global atmospheric model simulations, lead to increases in ground-level ozone at most locations. If correct, this will add significantly to future ground-level ozone trends. However, the spatial resolution of these global models is insufficient to inform policy at this time, especially for urban areas. UV radiation affects the atmospheric concentration of hydroxyl radicals, &#729;OH, which are responsible for the self-cleaning of the atmosphere. Recent measurements confirm that, on a local scale, &#729;OH radicals respond rapidly to changes in UV radiation. However, on large (global) scales, models differ in their predictions by nearly a factor of two, with consequent uncertainties for estimating the atmospheric lifetime and concentrations of key greenhouse gases and air pollutants. Projections of future climate need to consider these uncertainties. No new negative environmental effects of substitutes for ozone depleting substances or their breakdown-products have been identified. However, some substitutes for the ozone depleting substances will continue to contribute to global climate change if concentrations rise above current levels.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[UV radiation is an essential driver for the formation of photochemical smog, which includes ground-level ozone and particulate matter (PM). Recent analyses support earlier work showing that poor outdoor air quality is a major environmental hazard as well as quantifying health effects on regional and global scales more accurately. Greater exposure to these pollutants has been linked to increased risks of cardiovascular and respiratory diseases in humans and is associated globally with several million premature deaths per year. Ozone also has adverse effects on yields of crops, leading to loss of billions of US dollars each year. These detrimental effects also may alter biological diversity and affect the function of natural ecosystems. Future air quality will depend mostly on changes in emission of pollutants and their precursors, but changes in UV radiation and climate will contribute as well. Significant reductions in emissions, mainly from the energy and transportation sectors, have already led to improved air quality in many locations. Air quality will continue to improve in those cities/states that can afford controls, and worsen where the regulatory infrastructure is not available. Future changes in UV radiation and climate will alter the rates of formation of ground-level ozone and photochemically-generated particulate matter and must be considered in predictions of air quality. The decrease in UV radiation associated with recovery of stratospheric ozone will, according to recent global atmospheric model simulations, lead to increases in ground-level ozone at most locations. If correct, this will add significantly to future ground-level ozone trends. However, the spatial resolution of these global models is insufficient to inform policy at this time, especially for urban areas. UV radiation affects the atmospheric concentration of hydroxyl radicals, &#729;OH, which are responsible for the self-cleaning of the atmosphere. Recent measurements confirm that, on a local scale, &#729;OH radicals respond rapidly to changes in UV radiation. However, on large (global) scales, models differ in their predictions by nearly a factor of two, with consequent uncertainties for estimating the atmospheric lifetime and concentrations of key greenhouse gases and air pollutants. Projections of future climate need to consider these uncertainties. No new negative environmental effects of substitutes for ozone depleting substances or their breakdown-products have been identified. However, some substitutes for the ozone depleting substances will continue to contribute to global climate change if concentrations rise above current levels.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12544</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:08.441345</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:14.547225</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Impacts of transported background pollutants on summertime western US air quality: Model evaluation, sensitivity analysis and data assimilation</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2013-01-14T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -349,12 +347,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7vt1sx5</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -362,12 +359,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-13-359-2013</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -377,7 +373,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The impacts of transported background (TBG) pollutants on western US ozone (O&#8233;&#8323;) distributions in summer 2008 are studied using the multi-scale Sulfur Transport and dEposition Modeling system. Forward sensitivity simulations show that TBG contributes &#732;30&#8211;35 ppb to the surface Monthly mean Daily maximum 8-h Average O&#8323; (MDA8) over Pacific Southwest (US Environmental Protection Agency (EPA) Region 9, including California, Nevada and Arizona) and Pacific Northwest (EPA Region 10, including Washington, Oregon and Idaho), and ~10&#8211;17 ppm-h to the secondary standard metric "W126 monthly index" over EPA Region 9 and &#732;3-4 ppm-h over Region 10. The strongest TBG impacts on W126 occur over the grass/shrub-covered regions. Among TBG pollutants, O&#8323; is the major contributor to surface O&#8323;, while peroxyacetyl nitrate is the most important O&#8323; precursor species. W126 shows larger responses than MDA8 to perturbations in TBG and stronger non-linearity to the magnitude of perturbations. The TBG impacts on both metrics overall negatively correlate to model vertical resolution and positively correlate to the horizontal resolution. The mechanisms that determine TBG contributions and their variation are analyzed using trajectories and the receptor-based adjoint sensitivity analysis, which demonstrate the connection between the surface O&#8323; and O&#8323; aloft (at &#732;1&#8211;4 km) 1&#8211;2 days earlier. The probabilities of airmasses originating from Mt. Bachelor (2.7 km) and 2.5 km above Trinidad Head (THD) entraining into the boundary layer reach daily maxima of 66% and 34% at &#732;03:00 p.m. Pacific Daylight Time (PDT), respectively, and stay above 50% during 09:00 a.m.-04:00 p.m. PDT for those originating 1.5 km above California's South Coast. Assimilation of the surface in-situ measurements significantly reduced the errors in the modeled surface O&#8323; during a long-range transport episode by ~5 ppb on average (up to ~17 ppb) and increased the estimated TBG contributions by &#732;3 ppb. Available O&#8323; vertical profiles from Tropospheric Emission Spectrometer (TES), Ozone Monitoring Instrument (OMI) and THD sonde identified this transport event, but assimilation of these observations in this case did not efficiently improve the O&#8323; distributions except near the sampling locations, due to their limited spatiotemporal resolution and/or possible uncertainties.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The impacts of transported background (TBG) pollutants on western US ozone (O&#8233;&#8323;) distributions in summer 2008 are studied using the multi-scale Sulfur Transport and dEposition Modeling system. Forward sensitivity simulations show that TBG contributes &#732;30&#8211;35 ppb to the surface Monthly mean Daily maximum 8-h Average O&#8323; (MDA8) over Pacific Southwest (US Environmental Protection Agency (EPA) Region 9, including California, Nevada and Arizona) and Pacific Northwest (EPA Region 10, including Washington, Oregon and Idaho), and ~10&#8211;17 ppm-h to the secondary standard metric "W126 monthly index" over EPA Region 9 and &#732;3-4 ppm-h over Region 10. The strongest TBG impacts on W126 occur over the grass/shrub-covered regions. Among TBG pollutants, O&#8323; is the major contributor to surface O&#8323;, while peroxyacetyl nitrate is the most important O&#8323; precursor species. W126 shows larger responses than MDA8 to perturbations in TBG and stronger non-linearity to the magnitude of perturbations. The TBG impacts on both metrics overall negatively correlate to model vertical resolution and positively correlate to the horizontal resolution. The mechanisms that determine TBG contributions and their variation are analyzed using trajectories and the receptor-based adjoint sensitivity analysis, which demonstrate the connection between the surface O&#8323; and O&#8323; aloft (at &#732;1&#8211;4 km) 1&#8211;2 days earlier. The probabilities of airmasses originating from Mt. Bachelor (2.7 km) and 2.5 km above Trinidad Head (THD) entraining into the boundary layer reach daily maxima of 66% and 34% at &#732;03:00 p.m. Pacific Daylight Time (PDT), respectively, and stay above 50% during 09:00 a.m.-04:00 p.m. PDT for those originating 1.5 km above California's South Coast. Assimilation of the surface in-situ measurements significantly reduced the errors in the modeled surface O&#8323; during a long-range transport episode by ~5 ppb on average (up to ~17 ppb) and increased the estimated TBG contributions by &#732;3 ppb. Available O&#8323; vertical profiles from Tropospheric Emission Spectrometer (TES), Ozone Monitoring Instrument (OMI) and THD sonde identified this transport event, but assimilation of these observations in this case did not efficiently improve the O&#8323; distributions except near the sampling locations, due to their limited spatiotemporal resolution and/or possible uncertainties.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -432,12 +428,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -479,7 +473,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16861</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:05.679897</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:37.081991</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A 49 year hindcast of surface winds over the Iberian Peninsula</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7zk5hwf</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/joc.4189</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The use of hindcast climatic data is quite extended for multiple applications. However, this approach needs the support of a validation process to allow its drawbacks and, therefore, confidence levels to be assessed. In this work, the strategy relies on an hourly wind database resulting from a dynamical downscaling experiment, with a spatial resolution of 10 km, covering the Iberian Peninsula (IP), driven by the ERA40 reanalysis (1959-2001) extended by European Centre for Medium-Range Weather Forecast (ECMWF) analysis (2002-2007) and comprising two main steps. Initially, the skill of the simulation is evaluated comparing the quality-tested observational database (Lorente-Plazas et al., 2014) at local and regional scales. The results show that the model is able to portray the main features of the wind over the IP: annual cycles, wind roses, spatial and temporal variability, as well as the response to different circulation types. In addition, there is a significant added value of the simulation with respect to driving conditions, especially in regions with a complex orography. However, some problems are evident, the major drawback being the systematic overestimation of the wind speed, which is mainly attributed to a miss-representation of frictional forces. The model skill is also lower along the Mediterranean coast and for the Pyrenees. In a second phase, the high spatio-temporal resolution of the pseudo-real wind database is used to explore the limitations of the observational database. It is shown that missing values do not affect the characterization of the wind climate over the IP, while the length of the observational period (6 years) is sufficient for most regions, with only a few exceptions. The spatial distribution of the observational sampling schemes should be enhanced to improve the correct assessment of all IP wind regimes, particularly in some mountainous areas.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The use of hindcast climatic data is quite extended for multiple applications. However, this approach needs the support of a validation process to allow its drawbacks and, therefore, confidence levels to be assessed. In this work, the strategy relies on an hourly wind database resulting from a dynamical downscaling experiment, with a spatial resolution of 10 km, covering the Iberian Peninsula (IP), driven by the ERA40 reanalysis (1959-2001) extended by European Centre for Medium-Range Weather Forecast (ECMWF) analysis (2002-2007) and comprising two main steps. Initially, the skill of the simulation is evaluated comparing the quality-tested observational database (Lorente-Plazas et al., 2014) at local and regional scales. The results show that the model is able to portray the main features of the wind over the IP: annual cycles, wind roses, spatial and temporal variability, as well as the response to different circulation types. In addition, there is a significant added value of the simulation with respect to driving conditions, especially in regions with a complex orography. However, some problems are evident, the major drawback being the systematic overestimation of the wind speed, which is mainly attributed to a miss-representation of frictional forces. The model skill is also lower along the Mediterranean coast and for the Pyrenees. In a second phase, the high spatio-temporal resolution of the pseudo-real wind database is used to explore the limitations of the observational database. It is shown that missing values do not affect the characterization of the wind climate over the IP, while the length of the observational period (6 years) is sufficient for most regions, with only a few exceptions. The spatial distribution of the observational sampling schemes should be enhanced to improve the correct assessment of all IP wind regimes, particularly in some mountainous areas.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

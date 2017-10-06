@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:02.183827</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:11.886258</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>On the dynamical control of the mesosphere-lower thermosphere by the lower and middle atmosphere</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d71v5gth</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JAS-D-16-0226.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The NCAR Whole Atmosphere Community Climate Model (WACCM) is used to investigate the dynamical influence of the lower and middle atmosphere on the upper mesosphere and lower thermosphere. In simulations using a methodology adapted from the "specified dynamics'' (nudged) version of the model, horizontal winds and temperature over part of the vertical range of the atmosphere are relaxed toward results from a previous simulation that serves as the true simulation, equivalent to meteorological analysis. In the upper mesosphere, the magnitude of the divergence of the constrained simulations from the true simulation depends on the vertical extent and frequency of the data used for nudging the model and grows with altitude. The simulations quantify the error growth of the model dynamical fields when data and forcing terms are known exactly and there are no model biases. The error growth rate and the ultimate discrepancy between the nudged and true fields depend strongly on the method used for representing gravity wave drag. The largest error growth occurs when the gravity wave parameterization uses interactive wave sources that depend on convective activity or fronts. Errors are reduced when the same parameterization is used with smoothly varying specified wave sources. The smallest errors are seen when the parameterized gravity wave drag is replaced by linear Rayleigh friction damping on the wind speed. These comparisons demonstrate the role of gravity waves in transporting the variability of the troposphere into the mesosphere and lower thermosphere.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The NCAR Whole Atmosphere Community Climate Model (WACCM) is used to investigate the dynamical influence of the lower and middle atmosphere on the upper mesosphere and lower thermosphere. In simulations using a methodology adapted from the "specified dynamics'' (nudged) version of the model, horizontal winds and temperature over part of the vertical range of the atmosphere are relaxed toward results from a previous simulation that serves as the true simulation, equivalent to meteorological analysis. In the upper mesosphere, the magnitude of the divergence of the constrained simulations from the true simulation depends on the vertical extent and frequency of the data used for nudging the model and grows with altitude. The simulations quantify the error growth of the model dynamical fields when data and forcing terms are known exactly and there are no model biases. The error growth rate and the ultimate discrepancy between the nudged and true fields depend strongly on the method used for representing gravity wave drag. The largest error growth occurs when the gravity wave parameterization uses interactive wave sources that depend on convective activity or fronts. Errors are reduced when the same parameterization is used with smoothly varying specified wave sources. The smallest errors are seen when the parameterized gravity wave drag is replaced by linear Rayleigh friction damping on the wind speed. These comparisons demonstrate the role of gravity waves in transporting the variability of the troposphere into the mesosphere and lower thermosphere.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.395242</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:17.381527</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>How well do we understand and evaluate climate change feedback processes?</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2006-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -356,12 +354,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d77s7p96</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -372,7 +369,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Processes in the climate system that can either amplify or dampen the climate response to an external perturbation are referred to as climate feedbacks. Climate sensitivity estimates depend critically on radiative feedbacks associated with water vapor, lapse rate, clouds, snow, and sea ice, and global estimates of these feedbacks differ among general circulation models. By reviewing recent observational, numerical, and theoretical studies, this paper shows that there has been progress since the Third Assessment Report of the Intergovernmental Panel on Climate Change in (i) the understanding of the physical mechanisms involved in these feedbacks, (ii) the interpretation of intermodel differences in global estimates of these feedbacks, and (iii) the development of methodologies of evaluation of these feedbacks (or of some components) using observations. This suggests that continuing developments in climate feedback research will progressively help make it possible to constrain the GCMs&#8217; range of climate feedbacks and climate sensitivity through an ensemble of diagnostics based on physical understanding and observations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Processes in the climate system that can either amplify or dampen the climate response to an external perturbation are referred to as climate feedbacks. Climate sensitivity estimates depend critically on radiative feedbacks associated with water vapor, lapse rate, clouds, snow, and sea ice, and global estimates of these feedbacks differ among general circulation models. By reviewing recent observational, numerical, and theoretical studies, this paper shows that there has been progress since the Third Assessment Report of the Intergovernmental Panel on Climate Change in (i) the understanding of the physical mechanisms involved in these feedbacks, (ii) the interpretation of intermodel differences in global estimates of these feedbacks, and (iii) the development of methodologies of evaluation of these feedbacks (or of some components) using observations. This suggests that continuing developments in climate feedback research will progressively help make it possible to constrain the GCMs&#8217; range of climate feedbacks and climate sensitivity through an ensemble of diagnostics based on physical understanding and observations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -431,7 +428,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -473,7 +469,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

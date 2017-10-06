@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10482</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:33.569823</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:27.090704</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Characterization of trace gases measured over Alberta oil sands mining operations: 76 speciated C&#8322;&#8211;C&#8321;&#8320; volatile organic compounds (VOCs), CO&#8322;, CH&#8324;, CO, NO, NO&#8322;, NOy, O&#8323; and SO&#8322;</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-12-15T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -349,12 +347,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7sn09fc</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -362,12 +359,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-10-11931-2010</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -377,7 +373,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Oil sands comprise 30% of the world's oil reserves and the crude oil reserves in Canada's oil sands deposits are second only to Saudi Arabia. The extraction and processing of oil sands is much more challenging than for light sweet crude oils because of the high viscosity of the bitumen contained within the oil sands and because the bitumen is mixed with sand and contains chemical impurities such as sulphur. Despite these challenges, the importance of oil sands is increasing in the energy market. To our best knowledge this is the first peer-reviewed study to characterize volatile organic compounds (VOCs) emitted from Alberta's oil sands mining sites. We present high-precision gas chromatography measurements of 76 speciated C2&#8211;C10 VOCs (alkanes, alkenes, alkynes, cycloalkanes, aromatics, monoterpenes, oxygenated hydrocarbons, halocarbons and sulphur compounds) in 17 boundary layer air samples collected over surface mining operations in northeast Alberta on 10 July 2008, using the NASA DC-8 airborne laboratory as a research platform. In addition to the VOCs, we present simultaneous measurements of CO2, CH4, CO, NO, NO2, NOy, O3 and SO2, which were measured in situ aboard the DC-8. Carbon dioxide, CH4, CO, NO, NO2, NOy, SO2 and 53 VOCs (e.g., non-methane hydrocarbons, halocarbons, sulphur species) showed clear statistical enhancements (1.1-397&#215;) over the oil sands compared to local background values and, with the exception of CO, were greater over the oil sands than at any other time during the flight. Twenty halocarbons (e.g., CFCs, HFCs, halons, brominated species) either were not enhanced or were minimally enhanced (&lt;10%) over the oil sands. Ozone levels remained low because of titration by NO, and three VOCs (propyne, furan, MTBE) remained below their 3 pptv detection limit throughout the flight. Based on their correlations with one another, the compounds emitted by the oil sands industry fell into two groups: (1) evaporative emissions from the oil sands and its products and/or from the diluent used to lower the viscosity of the extracted bitumen (i.e., C4-C9 alkanes, C5-C6 cycloalkanes, C6-C8 aromatics), together with CO; and (2) emissions associated with the mining effort, such as upgraders (i.e., CO2, CO, CH4, NO, NO2, NOy, SO2, C2-C4 alkanes, C2-C4 alkenes, C9 aromatics, short-lived solvents such as C2Cl4 and C2HCl3, and longer-lived species such as HCFC-22 and HCFC-142b). Prominent in the second group, SO2 and NO were remarkably enhanced over the oil sands, with maximum mixing ratios of 38.7 ppbv and 5.0 ppbv, or 383&#215; and 319&#215; the local background, respectively. These SO2 levels are comparable to maximum values measured in heavily polluted megacities such as Mexico City and are attributed to coke combustion. By contrast, relatively poor correlations between CH4, ethane and propane suggest low levels of natural gas leakage despite its heavy use at the surface mining sites. Instead the elevated CH4 levels are attributed to methanogenic tailings pond emissions. In addition to the emission of many trace gases, the natural drawdown of OCS by vegetation was absent above the surface mining operations, presumably because of the widespread land disturbance. Unexpectedly, the mixing ratios of &#945;-pinene and &#946;-pinene were much greater over the oil sands (up to 217 pptv and 610 pptv, respectively) than over vegetation in the background boundary layer (20&#177;7 pptv and 84&#177;24 pptv, respectively), and the pinenes correlated well with several industrial tracers that were elevated in the oil sands plumes. Because so few independent measurements from the oil sands mining industry exist, this study provides an important initial characterization of trace gas emissions from oil sands surface mining operations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Oil sands comprise 30% of the world's oil reserves and the crude oil reserves in Canada's oil sands deposits are second only to Saudi Arabia. The extraction and processing of oil sands is much more challenging than for light sweet crude oils because of the high viscosity of the bitumen contained within the oil sands and because the bitumen is mixed with sand and contains chemical impurities such as sulphur. Despite these challenges, the importance of oil sands is increasing in the energy market. To our best knowledge this is the first peer-reviewed study to characterize volatile organic compounds (VOCs) emitted from Alberta's oil sands mining sites. We present high-precision gas chromatography measurements of 76 speciated C2&#8211;C10 VOCs (alkanes, alkenes, alkynes, cycloalkanes, aromatics, monoterpenes, oxygenated hydrocarbons, halocarbons and sulphur compounds) in 17 boundary layer air samples collected over surface mining operations in northeast Alberta on 10 July 2008, using the NASA DC-8 airborne laboratory as a research platform. In addition to the VOCs, we present simultaneous measurements of CO2, CH4, CO, NO, NO2, NOy, O3 and SO2, which were measured in situ aboard the DC-8. Carbon dioxide, CH4, CO, NO, NO2, NOy, SO2 and 53 VOCs (e.g., non-methane hydrocarbons, halocarbons, sulphur species) showed clear statistical enhancements (1.1-397&#215;) over the oil sands compared to local background values and, with the exception of CO, were greater over the oil sands than at any other time during the flight. Twenty halocarbons (e.g., CFCs, HFCs, halons, brominated species) either were not enhanced or were minimally enhanced (<10%) over the oil sands. Ozone levels remained low because of titration by NO, and three VOCs (propyne, furan, MTBE) remained below their 3 pptv detection limit throughout the flight. Based on their correlations with one another, the compounds emitted by the oil sands industry fell into two groups: (1) evaporative emissions from the oil sands and its products and/or from the diluent used to lower the viscosity of the extracted bitumen (i.e., C4-C9 alkanes, C5-C6 cycloalkanes, C6-C8 aromatics), together with CO; and (2) emissions associated with the mining effort, such as upgraders (i.e., CO2, CO, CH4, NO, NO2, NOy, SO2, C2-C4 alkanes, C2-C4 alkenes, C9 aromatics, short-lived solvents such as C2Cl4 and C2HCl3, and longer-lived species such as HCFC-22 and HCFC-142b). Prominent in the second group, SO2 and NO were remarkably enhanced over the oil sands, with maximum mixing ratios of 38.7 ppbv and 5.0 ppbv, or 383&#215; and 319&#215; the local background, respectively. These SO2 levels are comparable to maximum values measured in heavily polluted megacities such as Mexico City and are attributed to coke combustion. By contrast, relatively poor correlations between CH4, ethane and propane suggest low levels of natural gas leakage despite its heavy use at the surface mining sites. Instead the elevated CH4 levels are attributed to methanogenic tailings pond emissions. In addition to the emission of many trace gases, the natural drawdown of OCS by vegetation was absent above the surface mining operations, presumably because of the widespread land disturbance. Unexpectedly, the mixing ratios of &#945;-pinene and &#946;-pinene were much greater over the oil sands (up to 217 pptv and 610 pptv, respectively) than over vegetation in the background boundary layer (20&#177;7 pptv and 84&#177;24 pptv, respectively), and the pinenes correlated well with several industrial tracers that were elevated in the oil sands plumes. Because so few independent measurements from the oil sands mining industry exist, this study provides an important initial characterization of trace gas emissions from oil sands surface mining operations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -432,12 +428,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -479,7 +473,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

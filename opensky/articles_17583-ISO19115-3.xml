@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:22.401138</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:04.082982</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The effects of North Atlantic SST and sea ice anomalies on the winter circulation in CCM3. Part I: Main features and storm track characteristics of the response</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2004-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7hh6mcm</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/1520-0442(2004)017&lt;0857:TEONAS&gt;2.0.CO;2</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Observed multidecadal trends in extratropical atmospheric flow, such as the positive trend in the North Atlantic Oscillation (NAO) index, may be attributable to a number of causes. This study addresses the question of whether the atmospheric trends may be caused by observed trends in oceanic boundary forcing. Experiments were carried out using the NCAR atmospheric general circulation model with specified sea surface temperature (SST) and sea ice anomalies confined to the North Atlantic sector. The spatial pattern of the anomalous forcing was chosen to be realistic in that it corresponds to the recent 40-yr trend in SST and sea ice, but the anomaly amplitude was exaggerated in order to make the response statistically more robust. The wintertime response to both types of forcing resembles the NAO to first order. Even for an exaggerated amplitude, the atmospheric response to the SST anomaly is quite weak compared to the observed positive trend in the NAO, but has the same sign, indicative of a weak positive feedback. The anomalies in sea ice extent are more efficient than SST anomalies at exciting an atmospheric response comparable in amplitude to the observed NAO trend. However, this atmospheric response has the opposite sign to the observed trend, indicative of a significant negative feedback associated with the sea ice forcing. Additional experiments using SST anomalies with opposite sign to the observed trend indicate that there are significant nonlinearities associated with the atmospheric response. The transient eddy response to the observed SST trend is consistent with the positive NAO response, with the North Atlantic storm track amplifying downstream and developing a more pronounced meridional tilt. In contrast, the storm track response to the observed sea ice trend corresponds to a weaker, southward-shifted, more zonal storm track, which is consistent with the negative NAO response.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Observed multidecadal trends in extratropical atmospheric flow, such as the positive trend in the North Atlantic Oscillation (NAO) index, may be attributable to a number of causes. This study addresses the question of whether the atmospheric trends may be caused by observed trends in oceanic boundary forcing. Experiments were carried out using the NCAR atmospheric general circulation model with specified sea surface temperature (SST) and sea ice anomalies confined to the North Atlantic sector. The spatial pattern of the anomalous forcing was chosen to be realistic in that it corresponds to the recent 40-yr trend in SST and sea ice, but the anomaly amplitude was exaggerated in order to make the response statistically more robust. The wintertime response to both types of forcing resembles the NAO to first order. Even for an exaggerated amplitude, the atmospheric response to the SST anomaly is quite weak compared to the observed positive trend in the NAO, but has the same sign, indicative of a weak positive feedback. The anomalies in sea ice extent are more efficient than SST anomalies at exciting an atmospheric response comparable in amplitude to the observed NAO trend. However, this atmospheric response has the opposite sign to the observed trend, indicative of a significant negative feedback associated with the sea ice forcing. Additional experiments using SST anomalies with opposite sign to the observed trend indicate that there are significant nonlinearities associated with the atmospheric response. The transient eddy response to the observed SST trend is consistent with the positive NAO response, with the North Atlantic storm track amplifying downstream and developing a more pronounced meridional tilt. In contrast, the storm track response to the observed sea ice trend corresponds to a weaker, southward-shifted, more zonal storm track, which is consistent with the negative NAO response.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:14013</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:31.559436</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:44.804951</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Individual aerosol particles in ambient and updraft conditions below convective cloud bases in the Oman mountain region</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2014-03-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7f76dhj</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2013JD021165</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>An airborne study of cloud microphysics provided an opportunity to collect aerosol particles in ambient and updraft conditions of natural convection systems for transmission electron microscopy (TEM). Particles were collected simultaneously on lacey carbon and calcium-coated carbon (Ca-C) TEM grids, providing information on particle morphology and chemistry and a unique record of the particle's physical state on impact. In total, 22 particle categories were identified, including single, coated, aggregate, and droplet types. The fine fraction comprised up to 90% mixed cation sulfate (MCS) droplets, while the coarse fraction comprised up to 80% mineral-containing aggregates. Insoluble (dry), partially soluble (wet), and fully soluble particles (droplets) were recorded on Ca-C grids. Dry particles were typically silicate grains; wet particles were mineral aggregates with chloride, nitrate, or sulfate components; and droplets were mainly aqueous NaCl and MCS. Higher numbers of droplets were present in updrafts (80% relative humidity (RH)) compared with ambient conditions (60% RH), and almost all particles activated at cloud base (100% RH). Greatest changes in size and shape were observed in NaCl-containing aggregates (&gt;0.3 &#181;m diameter) along updraft trajectories. Their abundance was associated with high numbers of cloud condensation nuclei (CCN) and cloud droplets, as well as large droplet sizes in updrafts. Thus, compositional dependence was observed in activation behavior recorded for coarse and fine fractions. Soluble salts from local pollution and natural sources clearly affected aerosol-cloud interactions, enhancing the spectrum of particles forming CCN and by forming giant CCN from aggregates, thus, making cloud seeding with hygroscopic flares ineffective in this region.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[An airborne study of cloud microphysics provided an opportunity to collect aerosol particles in ambient and updraft conditions of natural convection systems for transmission electron microscopy (TEM). Particles were collected simultaneously on lacey carbon and calcium-coated carbon (Ca-C) TEM grids, providing information on particle morphology and chemistry and a unique record of the particle's physical state on impact. In total, 22 particle categories were identified, including single, coated, aggregate, and droplet types. The fine fraction comprised up to 90% mixed cation sulfate (MCS) droplets, while the coarse fraction comprised up to 80% mineral-containing aggregates. Insoluble (dry), partially soluble (wet), and fully soluble particles (droplets) were recorded on Ca-C grids. Dry particles were typically silicate grains; wet particles were mineral aggregates with chloride, nitrate, or sulfate components; and droplets were mainly aqueous NaCl and MCS. Higher numbers of droplets were present in updrafts (80% relative humidity (RH)) compared with ambient conditions (60% RH), and almost all particles activated at cloud base (100% RH). Greatest changes in size and shape were observed in NaCl-containing aggregates (>0.3 &#181;m diameter) along updraft trajectories. Their abundance was associated with high numbers of cloud condensation nuclei (CCN) and cloud droplets, as well as large droplet sizes in updrafts. Thus, compositional dependence was observed in activation behavior recorded for coarse and fine fractions. Soluble salts from local pollution and natural sources clearly affected aerosol-cloud interactions, enhancing the spectrum of particles forming CCN and by forming giant CCN from aggregates, thus, making cloud seeding with hygroscopic flares ineffective in this region.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:42.189589</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:18.582547</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A revised approach to ice-microphysical processes for the bulk parameterization of cloud and precipitation</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2004-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -191,12 +189,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7j103q3</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -207,7 +204,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A revised approach to cloud microphysical processes in a commonly used bulk microphysics parameterization and the importance of correctly representing properties of cloud ice are discussed. Several modifications are introduced to more realistically simulate some of the ice microphysical processes. In addition to the assumption that ice nuclei number concentration is a function of temperature, a new and separate assumption is developed in which ice crystal number concentration is a function of ice amount. Related changes in ice microphysics are introduced, and the impact of sedimentation of ice crystals is also investigated. In an idealized thunderstorm simulation, the distribution of simulated clouds and precipitation is sensitive to the assumptions in microphysical processes, whereas the impact of the sedimentation of cloud ice is small. Overall, the modifications introduced to microphysical processes play a role in significantly reducing cloud ice and increasing snow at colder temperatures and slightly increasing cloud ice and decreasing snow at warmer temperatures. A mesoscale simulation experiment for a heavy rainfall case indicates that impact due to the inclusion of sedimentation of cloud ice is not negligible but is still smaller than that due to the microphysics changes. Together with the sedimentation of ice, the new microphysics reveals a significant improvement in high-cloud amount, surface precipitation, and large-scale mean temperature through a better representation of the ice cloud&#8211;radiation feedback.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A revised approach to cloud microphysical processes in a commonly used bulk microphysics parameterization and the importance of correctly representing properties of cloud ice are discussed. Several modifications are introduced to more realistically simulate some of the ice microphysical processes. In addition to the assumption that ice nuclei number concentration is a function of temperature, a new and separate assumption is developed in which ice crystal number concentration is a function of ice amount. Related changes in ice microphysics are introduced, and the impact of sedimentation of ice crystals is also investigated. In an idealized thunderstorm simulation, the distribution of simulated clouds and precipitation is sensitive to the assumptions in microphysical processes, whereas the impact of the sedimentation of cloud ice is small. Overall, the modifications introduced to microphysical processes play a role in significantly reducing cloud ice and increasing snow at colder temperatures and slightly increasing cloud ice and decreasing snow at warmer temperatures. A mesoscale simulation experiment for a heavy rainfall case indicates that impact due to the inclusion of sedimentation of cloud ice is not negligible but is still smaller than that due to the microphysics changes. Together with the sedimentation of ice, the new microphysics reveals a significant improvement in high-cloud amount, surface precipitation, and large-scale mean temperature through a better representation of the ice cloud&#8211;radiation feedback.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -266,7 +263,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -308,7 +304,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

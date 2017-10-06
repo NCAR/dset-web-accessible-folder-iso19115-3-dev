@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.259955</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.933082</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>An efficient approach for estimating streamflow forecast skill elasticity</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7v98bhw</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JHM-D-16-0259.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Seasonal streamflow prediction skill can derive from catchment initial hydrological conditions (IHCs) and from the future seasonal climate forecasts (SCFs) used to produce the hydrological forecasts. Although much effort has gone into producing state-of-the-art seasonal streamflow forecasts from improving IHCs and SCFs, these developments are expensive and time consuming and the forecasting skill is still limited inmost parts of the world. Hence, sensitivity analyses are crucial to funnel the resources into useful modeling and forecasting developments. It is in this context that a sensitivity analysis technique, the variational ensemble streamflow prediction assessment (VESPA) approach, was recently introduced. VESPA can be used to quantify the expected improvements in seasonal streamflow forecast skill as a result of realistic improvements in its predictability sources (i.e., the IHCs and the SCFs)-termed "skill elasticity''- and to indicate where efforts should be targeted. The VESPA approach is, however, computationally expensive, relying on multiple hindcasts having varying levels of skill in IHCs and SCFs. This paper presents two approximations of the approach that are computationally inexpensive alternatives. These new methods were tested against the original VESPA results using 30 years of ensemble hindcasts for 18 catchments of the contiguous United States. The results suggest that one of themethods, end point blending, is an effective alternative for estimating the forecast skill elasticities yielded by the VESPA approach. The results also highlight the importance of the choice of verification score for a goal- oriented sensitivity analysis.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Seasonal streamflow prediction skill can derive from catchment initial hydrological conditions (IHCs) and from the future seasonal climate forecasts (SCFs) used to produce the hydrological forecasts. Although much effort has gone into producing state-of-the-art seasonal streamflow forecasts from improving IHCs and SCFs, these developments are expensive and time consuming and the forecasting skill is still limited inmost parts of the world. Hence, sensitivity analyses are crucial to funnel the resources into useful modeling and forecasting developments. It is in this context that a sensitivity analysis technique, the variational ensemble streamflow prediction assessment (VESPA) approach, was recently introduced. VESPA can be used to quantify the expected improvements in seasonal streamflow forecast skill as a result of realistic improvements in its predictability sources (i.e., the IHCs and the SCFs)-termed "skill elasticity''- and to indicate where efforts should be targeted. The VESPA approach is, however, computationally expensive, relying on multiple hindcasts having varying levels of skill in IHCs and SCFs. This paper presents two approximations of the approach that are computationally inexpensive alternatives. These new methods were tested against the original VESPA results using 30 years of ensemble hindcasts for 18 catchments of the contiguous United States. The results suggest that one of themethods, end point blending, is an effective alternative for estimating the forecast skill elasticities yielded by the VESPA approach. The results also highlight the importance of the choice of verification score for a goal- oriented sensitivity analysis.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -316,7 +312,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -358,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

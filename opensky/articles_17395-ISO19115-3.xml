@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:16.688123</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:57.391219</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The VAMOS Ocean-Cloud-Atmosphere-Land Study Regional Experiment (VOCALS-REx): goals, platforms, and field operations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-01-21T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -634,12 +632,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7sx6fhz</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -647,12 +644,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-11-627-2011</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -662,7 +658,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The VAMOS1 Ocean-Cloud-Atmosphere-Land Study Regional Experiment (VOCALS-REx) was an international field program designed to make observations of poorly understood but critical components of the coupled climate system of the southeast Pacific. This region is characterized by strong coastal upwelling, the coolest SSTs in the tropical belt, and is home to the largest subtropical stratocumulus deck on Earth. The field intensive phase of VOCALS-REx took place during October and November 2008 and constitutes a critical part of a broader CLIVAR program (VOCALS) designed to develop and promote scientific activities leading to improved understanding, model simulations, and predictions of the southeastern Pacific (SEP) coupled ocean-atmosphere-land system, on diurnal to interannual timescales. The other major components of VOCALS are a modeling program with a model hierarchy ranging from the local to global scales, and a suite of extended observations from regular research cruises, instrumented moorings, and satellites. The two central themes of VOCALS-REx focus upon (a) links between aerosols, clouds and precipitation and their impacts on marine stratocumulus radiative properties, and (b) physical and chemical couplings between the upper ocean and the lower atmosphere, including the role that mesoscale ocean eddies play. A set of hypotheses designed to be tested with the combined field, monitoring and modeling work in VOCALS is presented here. A further goal of VOCALS-REx is to provide datasets for the evaluation and improvement of large-scale numerical models. VOCALS-REx involved five research aircraft, two ships and two surface sites in northern Chile. We describe the instrument payloads and key mission strategies for these platforms and give a summary of the missions conducted.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The VAMOS1 Ocean-Cloud-Atmosphere-Land Study Regional Experiment (VOCALS-REx) was an international field program designed to make observations of poorly understood but critical components of the coupled climate system of the southeast Pacific. This region is characterized by strong coastal upwelling, the coolest SSTs in the tropical belt, and is home to the largest subtropical stratocumulus deck on Earth. The field intensive phase of VOCALS-REx took place during October and November 2008 and constitutes a critical part of a broader CLIVAR program (VOCALS) designed to develop and promote scientific activities leading to improved understanding, model simulations, and predictions of the southeastern Pacific (SEP) coupled ocean-atmosphere-land system, on diurnal to interannual timescales. The other major components of VOCALS are a modeling program with a model hierarchy ranging from the local to global scales, and a suite of extended observations from regular research cruises, instrumented moorings, and satellites. The two central themes of VOCALS-REx focus upon (a) links between aerosols, clouds and precipitation and their impacts on marine stratocumulus radiative properties, and (b) physical and chemical couplings between the upper ocean and the lower atmosphere, including the role that mesoscale ocean eddies play. A set of hypotheses designed to be tested with the combined field, monitoring and modeling work in VOCALS is presented here. A further goal of VOCALS-REx is to provide datasets for the evaluation and improvement of large-scale numerical models. VOCALS-REx involved five research aircraft, two ships and two surface sites in northern Chile. We describe the instrument payloads and key mission strategies for these platforms and give a summary of the missions conducted.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -721,7 +717,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -763,7 +758,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

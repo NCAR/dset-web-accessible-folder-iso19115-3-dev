@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:20.766344</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:01.775794</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>An assessment of precipitation changes over Antarctica and the Southern Ocean since 1989 in contemporary global reanalyses</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7ht2qmk</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2011JCLI4074.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>This study evaluates the temporal variability of the Antarctic surface mass balance, approximated as precipitation-minus-evaporation (P-E), and Southern Ocean precipitation in five global reanalyses (NCEP-2, JRA-25, ERA-Interim, MERRA and CFSR) during 1989-2009. Reanalyses are known to be prone to spurious trends and inhomogeneities caused by changes in the observing system, especially in the data-sparse high southern latitudes. The period of study has seen a dramatic increase in the amount of satellite observations used for data assimilation. The large positive and statistically significant trends in mean Antarctic P-E and mean Southern Ocean precipitation in NCEP-2, JRA-25 and MERRA are found to be largely spurious. The origin of these artifacts varies between the reanalyses. Notably, a precipitation jump in MERRA in the late 1990s coincides with the start of the assimilation of radiances from the Advanced Microwave Sounding Unit (AMSU). ERA-Interim and CFSR do not exhibit any significant trends. However, the potential impact of the assimilation of rain-affected radiances in ERA-Interim and inhomogeneities in CFSR pressure fields over Antarctica cast some doubt on the reliability of these two datasets. We conclude that ERA-Interim likely offers the most realistic depiction of precipitation changes in high southern latitudes during 1989-2009. The range of the trends in Antarctic P-E among the reanalyses is equivalent to 1 mm of sea level over 21 years, which highlights the improvements still needed in reanalysis simulations to better assess the contribution of Antarctica to sea level rise. Finally, this work argues for continuing cautious use of reanalysis datasets for climate change assessment.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[This study evaluates the temporal variability of the Antarctic surface mass balance, approximated as precipitation-minus-evaporation (P-E), and Southern Ocean precipitation in five global reanalyses (NCEP-2, JRA-25, ERA-Interim, MERRA and CFSR) during 1989-2009. Reanalyses are known to be prone to spurious trends and inhomogeneities caused by changes in the observing system, especially in the data-sparse high southern latitudes. The period of study has seen a dramatic increase in the amount of satellite observations used for data assimilation. The large positive and statistically significant trends in mean Antarctic P-E and mean Southern Ocean precipitation in NCEP-2, JRA-25 and MERRA are found to be largely spurious. The origin of these artifacts varies between the reanalyses. Notably, a precipitation jump in MERRA in the late 1990s coincides with the start of the assimilation of radiances from the Advanced Microwave Sounding Unit (AMSU). ERA-Interim and CFSR do not exhibit any significant trends. However, the potential impact of the assimilation of rain-affected radiances in ERA-Interim and inhomogeneities in CFSR pressure fields over Antarctica cast some doubt on the reliability of these two datasets. We conclude that ERA-Interim likely offers the most realistic depiction of precipitation changes in high southern latitudes during 1989-2009. The range of the trends in Antarctic P-E among the reanalyses is equivalent to 1 mm of sea level over 21 years, which highlights the improvements still needed in reanalysis simulations to better assess the contribution of Antarctica to sea level rise. Finally, this work argues for continuing cautious use of reanalysis datasets for climate change assessment.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10544</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:35.231647</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:29.346237</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Simulation of the intraseasonal variability over the eastern Pacific ITCZ in climate models</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2012-08-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -334,12 +332,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7nc61qx</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -347,12 +344,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s00382-011-1098-x</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -362,7 +358,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>During boreal summer, convective activity over the eastern Pacific (EPAC) inter-tropical convergence zone (ITCZ) exhibits vigorous intraseasonal variability (ISV). Previous observational studies identified two dominant ISV modes over the EPAC, i.e., a 40-day mode and a quasi-biweekly mode (QBM). The 40-day ISV mode is generally considered a local expression of the Madden-Julian Oscillation. However, in addition to the eastward propagation, northward propagation of the 40-day mode is also evident. The QBM mode bears a smaller spatial scale than the 40-day mode, and is largely characterized by northward propagation. While the ISV over the EPAC exerts significant influences on regional climate/weather systems, investigation of contemporary model capabilities in representing these ISV modes over the EPAC is limited. In this study, the model fidelity in representing these two dominant ISV modes over the EPAC is assessed by analyzing six atmospheric and three coupled general circulation models (GCMs), including one super-parameterized GCM (SPCAM) and one recently developed high-resolution GCM (GFDL HIRAM) with horizontal resolution of about 50 km. While it remains challenging for GCMs to faithfully represent these two ISV modes including their amplitude, evolution patterns, and periodicities, encouraging simulations are also noted. In general, SPCAM and HIRAM exhibit relatively superior skill in representing the two ISV modes over the EPAC. While the advantage of SPCAM is achieved through explicit representation of the cumulus process by the embedded 2-D cloud resolving models, the improved representation in HIRAM could be ascribed to the employment of a strongly entraining plume cumulus scheme, which inhibits the deep convection, and thus effectively enhances the stratiform rainfall. The sensitivity tests based on HIRAM also suggest that fine horizontal resolution could also be conducive to realistically capture the ISV over the EPAC, particularly for the QBM mode. Further analysis illustrates that the observed 40-day ISV mode over the EPAC is closely linked to the eastward propagating ISV signals from the Indian Ocean/Western Pacific, which is in agreement with the general impression that the 40-day ISV mode over the EPAC could be a local expression of the global Madden-Julian Oscillation (MJO). In contrast, the convective signals associated with the 40-day mode over the EPAC in most of the GCM simulations tend to originate between 150&#176;E and 150&#176;W, suggesting the 40-day ISV mode over the EPAC might be sustained without the forcing by the eastward propagating MJO. Further investigation is warranted towards improved understanding of the origin of the ISV over the EPAC.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[During boreal summer, convective activity over the eastern Pacific (EPAC) inter-tropical convergence zone (ITCZ) exhibits vigorous intraseasonal variability (ISV). Previous observational studies identified two dominant ISV modes over the EPAC, i.e., a 40-day mode and a quasi-biweekly mode (QBM). The 40-day ISV mode is generally considered a local expression of the Madden-Julian Oscillation. However, in addition to the eastward propagation, northward propagation of the 40-day mode is also evident. The QBM mode bears a smaller spatial scale than the 40-day mode, and is largely characterized by northward propagation. While the ISV over the EPAC exerts significant influences on regional climate/weather systems, investigation of contemporary model capabilities in representing these ISV modes over the EPAC is limited. In this study, the model fidelity in representing these two dominant ISV modes over the EPAC is assessed by analyzing six atmospheric and three coupled general circulation models (GCMs), including one super-parameterized GCM (SPCAM) and one recently developed high-resolution GCM (GFDL HIRAM) with horizontal resolution of about 50 km. While it remains challenging for GCMs to faithfully represent these two ISV modes including their amplitude, evolution patterns, and periodicities, encouraging simulations are also noted. In general, SPCAM and HIRAM exhibit relatively superior skill in representing the two ISV modes over the EPAC. While the advantage of SPCAM is achieved through explicit representation of the cumulus process by the embedded 2-D cloud resolving models, the improved representation in HIRAM could be ascribed to the employment of a strongly entraining plume cumulus scheme, which inhibits the deep convection, and thus effectively enhances the stratiform rainfall. The sensitivity tests based on HIRAM also suggest that fine horizontal resolution could also be conducive to realistically capture the ISV over the EPAC, particularly for the QBM mode. Further analysis illustrates that the observed 40-day ISV mode over the EPAC is closely linked to the eastward propagating ISV signals from the Indian Ocean/Western Pacific, which is in agreement with the general impression that the 40-day ISV mode over the EPAC could be a local expression of the global Madden-Julian Oscillation (MJO). In contrast, the convective signals associated with the 40-day mode over the EPAC in most of the GCM simulations tend to originate between 150&#176;E and 150&#176;W, suggesting the 40-day ISV mode over the EPAC might be sustained without the forcing by the eastward propagating MJO. Further investigation is warranted towards improved understanding of the origin of the ISV over the EPAC.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -417,12 +413,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -464,7 +458,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

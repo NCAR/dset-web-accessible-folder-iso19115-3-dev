@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18743</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:45.840600</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:37.448567</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Insights into Earth's energy imbalance from multiple sources</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-10-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d74b32zb</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0339.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The current Earth&#8217;s energy imbalance (EEI) can best be estimated from changes in ocean heat content (OHC), complemented by top-of-atmosphere (TOA) radiation measurements and an assessment of the small non-ocean components. Sustained observations from the Argo array of autonomous profiling floats enable near-global estimates of OHC since 2005, which reveal considerable cancellation of variations in the upper 300 m. An analysis of the monthly contributions to EEI from non-ocean components (land and ice) using the Community Earth System Model (CESM) Large Ensemble reveals standard deviations of 0.3&#8211;0.4 W m&#8722;2 (global); largest values occur in August, but values are below 0.75 W m&#8722;2 greater than 95% of the time. Global standard deviations of EEI of 0.64 W m&#8722;2 based on top-of-atmosphere observations therefore substantially constrain ocean contributions, given by the tendencies of OHC. Instead, monthly standard deviations of many Argo-based OHC tendencies are 6&#8211;13 W m&#8722;2, and nonphysical fluctuations are clearly evident. It is shown that an ocean reanalysis with multivariate dynamical data assimilation features much better agreement with TOA radiation, and 44% of the vertically integrated short-term OHC trend for 2005&#8211;14 of 0.8 &#177; 0.2 W m&#8722;2 (globally) occurs below 700-m depth. Largest warming occurs from 20&#176; to 50&#176;S, especially over the southern oceans, and near 40&#176;N in all ocean analyses. The EEI is estimated to be 0.9 &#177; 0.3 W m&#8722;2 for 2005&#8211;14.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The current Earth&#8217;s energy imbalance (EEI) can best be estimated from changes in ocean heat content (OHC), complemented by top-of-atmosphere (TOA) radiation measurements and an assessment of the small non-ocean components. Sustained observations from the Argo array of autonomous profiling floats enable near-global estimates of OHC since 2005, which reveal considerable cancellation of variations in the upper 300 m. An analysis of the monthly contributions to EEI from non-ocean components (land and ice) using the Community Earth System Model (CESM) Large Ensemble reveals standard deviations of 0.3&#8211;0.4 W m&#8722;2 (global); largest values occur in August, but values are below 0.75 W m&#8722;2 greater than 95% of the time. Global standard deviations of EEI of 0.64 W m&#8722;2 based on top-of-atmosphere observations therefore substantially constrain ocean contributions, given by the tendencies of OHC. Instead, monthly standard deviations of many Argo-based OHC tendencies are 6&#8211;13 W m&#8722;2, and nonphysical fluctuations are clearly evident. It is shown that an ocean reanalysis with multivariate dynamical data assimilation features much better agreement with TOA radiation, and 44% of the vertically integrated short-term OHC trend for 2005&#8211;14 of 0.8 &#177; 0.2 W m&#8722;2 (globally) occurs below 700-m depth. Largest warming occurs from 20&#176; to 50&#176;S, especially over the southern oceans, and near 40&#176;N in all ocean analyses. The EEI is estimated to be 0.9 &#177; 0.3 W m&#8722;2 for 2005&#8211;14.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

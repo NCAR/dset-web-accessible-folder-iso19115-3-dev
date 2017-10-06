@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18728</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:45.529169</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:36.908343</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Impacts of the Denver Cyclone on regional air quality and aerosol formation in the Colorado Front Range during FRAPP&#201;&#160;2014</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-09-27T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -589,12 +587,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7xs5x2d</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -602,12 +599,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-16-12039-2016</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -617,7 +613,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>We present airborne measurements made during the 2014 Front Range Air Pollution and Photochemistry Experiment (FRAPP&#201;) project to investigate the impacts of the Denver Cyclone on regional air quality in the greater Denver area. Data on trace gases, non-refractory submicron aerosol chemical constituents, and aerosol optical extinction (&#946;ext) at &#955;&#8239;&#8201;=&#8201;&#8239;632&#8239;nm were evaluated in the presence and absence of the surface mesoscale circulation in three distinct study regions of the Front Range: In-Flow, Northern Front Range, and the Denver metropolitan area. Pronounced increases in mass concentrations of organics, nitrate, and sulfate in the Northern Front Range and the Denver metropolitan area were observed during the cyclone episodes (27&#8211;28 July) compared to the non-cyclonic days (26 July, 2&#8211;3 August). Organic aerosols dominated the mass concentrations on all evaluated days, with a 45&#8239;% increase in organics on cyclone days across all three regions, while the increase during the cyclone episode was up to &#8201;&#8764;&#8201;&#8239;80&#8239;% over the Denver metropolitan area. In the most aged air masses (NOx&#8239;/&#8239;NOy&#8239;&#8201;&lt;&#8201;&#8239;0.5), background organic aerosols over the Denver metropolitan area increased by a factor of &#8764;&#8201;&#8239;2.5 due to transport from Northern Front Range. Furthermore, enhanced partitioning of nitric acid to the aerosol phase was observed during the cyclone episodes, mainly due to increased abundance of gas phase ammonia. During the non-cyclone events, &#946;ext displayed strong correlations (r&#8239;&#8201;=&#8201;&#8239;0.71) with organic and nitrate in the Northern Front Range and only with organics (r&#8239;&#8201;=&#8201;&#8239;0.70) in the Denver metropolitan area, while correlation of &#946;ext during the cyclone was strongest (r&#8239;&#8201;=&#8201;&#8239;0.86) with nitrate over Denver. Mass extinction efficiency (MEE) values in the Denver metropolitan area were similar on cyclone and non-cyclone days despite the dominant influence of different aerosol species on &#946;ext. Our analysis showed that the meteorological patterns associated with the Denver Cyclone increased aerosol mass loadings in the Denver metropolitan area mainly by transporting aerosols and/or aerosol precursors from the northern regions, leading to impaired visibility and air quality deterioration.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[We present airborne measurements made during the 2014 Front Range Air Pollution and Photochemistry Experiment (FRAPP&#201;) project to investigate the impacts of the Denver Cyclone on regional air quality in the greater Denver area. Data on trace gases, non-refractory submicron aerosol chemical constituents, and aerosol optical extinction (&#946;ext) at &#955;&#8239;&#8201;=&#8201;&#8239;632&#8239;nm were evaluated in the presence and absence of the surface mesoscale circulation in three distinct study regions of the Front Range: In-Flow, Northern Front Range, and the Denver metropolitan area. Pronounced increases in mass concentrations of organics, nitrate, and sulfate in the Northern Front Range and the Denver metropolitan area were observed during the cyclone episodes (27&#8211;28 July) compared to the non-cyclonic days (26 July, 2&#8211;3 August). Organic aerosols dominated the mass concentrations on all evaluated days, with a 45&#8239;% increase in organics on cyclone days across all three regions, while the increase during the cyclone episode was up to &#8201;&#8764;&#8201;&#8239;80&#8239;% over the Denver metropolitan area. In the most aged air masses (NOx&#8239;/&#8239;NOy&#8239;&#8201;<&#8201;&#8239;0.5), background organic aerosols over the Denver metropolitan area increased by a factor of &#8764;&#8201;&#8239;2.5 due to transport from Northern Front Range. Furthermore, enhanced partitioning of nitric acid to the aerosol phase was observed during the cyclone episodes, mainly due to increased abundance of gas phase ammonia. During the non-cyclone events, &#946;ext displayed strong correlations (r&#8239;&#8201;=&#8201;&#8239;0.71) with organic and nitrate in the Northern Front Range and only with organics (r&#8239;&#8201;=&#8201;&#8239;0.70) in the Denver metropolitan area, while correlation of &#946;ext during the cyclone was strongest (r&#8239;&#8201;=&#8201;&#8239;0.86) with nitrate over Denver. Mass extinction efficiency (MEE) values in the Denver metropolitan area were similar on cyclone and non-cyclone days despite the dominant influence of different aerosol species on &#946;ext. Our analysis showed that the meteorological patterns associated with the Denver Cyclone increased aerosol mass loadings in the Denver metropolitan area mainly by transporting aerosols and/or aerosol precursors from the northern regions, leading to impaired visibility and air quality deterioration.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -672,12 +668,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -719,7 +713,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

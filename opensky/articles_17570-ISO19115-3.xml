@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17570</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:23.348973</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:03.464362</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A complete dynamical ozone budget measured in the tropical marine boundary layer during PASE</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -319,12 +317,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7668fh6</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -332,12 +329,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s10874-011-9195-0</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -347,7 +343,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Pacific Atmospheric Sulfur Experiment (PASE) was field mission that took place aboard the NCAR C-130 airborne laboratory over the equatorial Pacific Ocean near Christmas Island (Kirimati, Republic of Kiribati) during August&#8211;September, 2007. Eddy covariance measurements of the ozone fluxes at various altitudes above the ocean surface, along with simultaneous mapping of the horizontal gradients provided a unique opportunity to observe all of the dynamical components of the ozone budget in this remote marine environment. The results of six daytime and two sunrise flights indicate that vertical transport into the marine boundary layer from above and horizontal advection by the tradewinds are both important source terms, while photochemical destruction consisting of 82% photolysis (leading to OH production), 11% reaction with HO2, and 7% reaction with OH provides the main sink. The overall photochemical lifetime of ozone in the marine boundary layer was found to be 6.5 days. Ocean uptake of ozone was observed to be fairly slow (mean deposition velocity of 0.024&#8201;&#177;&#8201;0.014 cm s&#8722;1) accounting for a diurnally averaged loss rate that was &#8764;30% as large as the net photochemical destruction. From the measurement of deposition velocity an ozone reactivity of &#8764;50 s&#8722;1 in seawater is inferred. Due to the unprecedented measurement accuracy of the dynamical budget terms, unobserved photochemistry was able to be deduced, leading to the conclusion that 3.9&#8201;&#177;&#8201;3.0 ppt (parts per trillion by volume) of NO is present on average in the daytime tropical marine boundary layer, broadly consistent with several previous studies in similar environments. It is estimated, however, that each ppt of BrO hypothetically present would counter each ppt of NO above the requisite 3.9 ppt needed for budget closure. The long-term budget of ozone is further analyzed in the buffer layer, between the boundary layer and free troposphere, and used to derive an entrainment velocity across the trade wind inversion of 0.51 &#177; 0.38 cm s&#8722;1.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Pacific Atmospheric Sulfur Experiment (PASE) was field mission that took place aboard the NCAR C-130 airborne laboratory over the equatorial Pacific Ocean near Christmas Island (Kirimati, Republic of Kiribati) during August&#8211;September, 2007. Eddy covariance measurements of the ozone fluxes at various altitudes above the ocean surface, along with simultaneous mapping of the horizontal gradients provided a unique opportunity to observe all of the dynamical components of the ozone budget in this remote marine environment. The results of six daytime and two sunrise flights indicate that vertical transport into the marine boundary layer from above and horizontal advection by the tradewinds are both important source terms, while photochemical destruction consisting of 82% photolysis (leading to OH production), 11% reaction with HO2, and 7% reaction with OH provides the main sink. The overall photochemical lifetime of ozone in the marine boundary layer was found to be 6.5 days. Ocean uptake of ozone was observed to be fairly slow (mean deposition velocity of 0.024&#8201;&#177;&#8201;0.014 cm s&#8722;1) accounting for a diurnally averaged loss rate that was &#8764;30% as large as the net photochemical destruction. From the measurement of deposition velocity an ozone reactivity of &#8764;50 s&#8722;1 in seawater is inferred. Due to the unprecedented measurement accuracy of the dynamical budget terms, unobserved photochemistry was able to be deduced, leading to the conclusion that 3.9&#8201;&#177;&#8201;3.0 ppt (parts per trillion by volume) of NO is present on average in the daytime tropical marine boundary layer, broadly consistent with several previous studies in similar environments. It is estimated, however, that each ppt of BrO hypothetically present would counter each ppt of NO above the requisite 3.9 ppt needed for budget closure. The long-term budget of ozone is further analyzed in the buffer layer, between the boundary layer and free troposphere, and used to derive an entrainment velocity across the trade wind inversion of 0.51 &#177; 0.38 cm s&#8722;1.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -402,12 +398,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -449,7 +443,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

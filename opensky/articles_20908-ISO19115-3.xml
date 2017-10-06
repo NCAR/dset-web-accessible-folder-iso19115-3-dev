@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:07.575539</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:19.993241</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Variations of global gravity waves derived from 14&#160;years of SABER temperature observations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-27T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7zk5k4d</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017JD026604</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The global gravity wave (GW) potential energy (PE) per unit mass is derived from SABER (Sounding of the Atmosphere using Broadband Emission Radiometry) temperature profiles over the past 14 years (2002-2015). Since the SABER data cover longer than one solar cycle, multivariate linear regression is applied to calculate the trend (means linear trend from 2002 to 2015) of global GW PE and the responses of global GW PE to solar activity, to QBO (quasi-biennial oscillation) and to ENSO (El Nino-Southern Oscillation). We find a significant positive trend of GW PE at around 50 degrees N during July from 2002 to 2015, in agreement with ground-based radar observations at a similar latitude but from 1990 to 2010. Both the monthly and the deseasonalized trends of GW PE are significant near 50 degrees S. Specifically, the deseasonalized trend of GW PE has a positive peak of 12-15% per decade at 40 degrees S-50 degrees S and below 60 km, which suggests that eddy diffusion is increasing in some places. A significant positive trend of GW PE near 50 degrees S could be due to the strengthening of the polar stratospheric jets, as documented from Modern Era Retrospective-analysis for Research and Applications wind data. The response of GW PE to solar activity is negative in the lower and middle latitudes. The response of GW PE to QBO (as indicated by 30 hPa zonal winds over the equator) is negative in the tropical upper stratosphere and extends to higher latitudes at higher altitudes. The response of GW PE to ENSO (as indicated by the Multivariate ENSO Index) is positive in the tropical upper stratosphere.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The global gravity wave (GW) potential energy (PE) per unit mass is derived from SABER (Sounding of the Atmosphere using Broadband Emission Radiometry) temperature profiles over the past 14 years (2002-2015). Since the SABER data cover longer than one solar cycle, multivariate linear regression is applied to calculate the trend (means linear trend from 2002 to 2015) of global GW PE and the responses of global GW PE to solar activity, to QBO (quasi-biennial oscillation) and to ENSO (El Nino-Southern Oscillation). We find a significant positive trend of GW PE at around 50 degrees N during July from 2002 to 2015, in agreement with ground-based radar observations at a similar latitude but from 1990 to 2010. Both the monthly and the deseasonalized trends of GW PE are significant near 50 degrees S. Specifically, the deseasonalized trend of GW PE has a positive peak of 12-15% per decade at 40 degrees S-50 degrees S and below 60 km, which suggests that eddy diffusion is increasing in some places. A significant positive trend of GW PE near 50 degrees S could be due to the strengthening of the polar stratospheric jets, as documented from Modern Era Retrospective-analysis for Research and Applications wind data. The response of GW PE to solar activity is negative in the lower and middle latitudes. The response of GW PE to QBO (as indicated by 30 hPa zonal winds over the equator) is negative in the tropical upper stratosphere and extends to higher latitudes at higher altitudes. The response of GW PE to ENSO (as indicated by the Multivariate ENSO Index) is positive in the tropical upper stratosphere.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -361,7 +357,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -403,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

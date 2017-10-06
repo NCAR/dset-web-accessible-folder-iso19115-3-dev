@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10491</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:33.997433</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:27.503524</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>An overview of the Amazonian Aerosol Characterization Experiment 2008 (AMAZE-08)</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-12-02T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -559,12 +557,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7g73f63</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -572,12 +569,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-10-11415-2010</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -587,7 +583,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Amazon Basin provides an excellent environment for studying the sources, transformations, and properties of natural aerosol particles and the resulting links between biological processes and climate. With this framework in mind, the Amazonian Aerosol Characterization Experiment (AMAZE-08), carried out from 7 February to 14 March 2008 during the wet season in the central Amazon Basin, sought to understand the formation, transformations, and cloud-forming properties of fine- and coarse-mode biogenic aerosol particles, especially as related to their effects on cloud activation and regional climate. Special foci included (1) the production mechanisms of secondary organic components at a pristine continental site, including the factors regulating their temporal variability, and (2) predicting and understanding the cloud-forming properties of biogenic particles at such a site. In this overview paper, the field site and the instrumentation employed during the campaign are introduced. Observations and findings are reported, including the large-scale context for the campaign, especially as provided by satellite observations. New findings presented include: (i) a particle number-diameter distribution from 10 nm to 10 &#956;m that is representative of the pristine tropical rain forest and recommended for model use; (ii) the absence of substantial quantities of primary biological particles in the submicron mode as evidenced by mass spectral characterization; (iii) the large-scale production of secondary organic material; (iv) insights into the chemical and physical properties of the particles as revealed by thermodenuder-induced changes in the particle number-diameter distributions and mass spectra; and (v) comparisons of ground-based predictions and satellite-based observations of hydrometeor phase in clouds. A main finding of AMAZE-08 is the dominance of secondary organic material as particle components. The results presented here provide mechanistic insight and quantitative parameters that can serve to increase the accuracy of models of the formation, transformations, and cloud-forming properties of biogenic natural aerosol particles, especially as related to their effects on cloud activation and regional climate.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Amazon Basin provides an excellent environment for studying the sources, transformations, and properties of natural aerosol particles and the resulting links between biological processes and climate. With this framework in mind, the Amazonian Aerosol Characterization Experiment (AMAZE-08), carried out from 7 February to 14 March 2008 during the wet season in the central Amazon Basin, sought to understand the formation, transformations, and cloud-forming properties of fine- and coarse-mode biogenic aerosol particles, especially as related to their effects on cloud activation and regional climate. Special foci included (1) the production mechanisms of secondary organic components at a pristine continental site, including the factors regulating their temporal variability, and (2) predicting and understanding the cloud-forming properties of biogenic particles at such a site. In this overview paper, the field site and the instrumentation employed during the campaign are introduced. Observations and findings are reported, including the large-scale context for the campaign, especially as provided by satellite observations. New findings presented include: (i) a particle number-diameter distribution from 10 nm to 10 &#956;m that is representative of the pristine tropical rain forest and recommended for model use; (ii) the absence of substantial quantities of primary biological particles in the submicron mode as evidenced by mass spectral characterization; (iii) the large-scale production of secondary organic material; (iv) insights into the chemical and physical properties of the particles as revealed by thermodenuder-induced changes in the particle number-diameter distributions and mass spectra; and (v) comparisons of ground-based predictions and satellite-based observations of hydrometeor phase in clouds. A main finding of AMAZE-08 is the dominance of secondary organic material as particle components. The results presented here provide mechanistic insight and quantitative parameters that can serve to increase the accuracy of models of the formation, transformations, and cloud-forming properties of biogenic natural aerosol particles, especially as related to their effects on cloud activation and regional climate.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -642,12 +638,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -689,7 +683,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.988883</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.904873</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Global modeling of thermospheric airglow in the far ultraviolet</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-17T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -169,12 +167,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7fb55dz</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -182,12 +179,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017JA024314</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -197,7 +193,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Global Airglow (GLOW) model has been updated and extended to calculate thermospheric emissions in the far ultraviolet, including sources from daytime photoelectron-driven processes, nighttime recombination radiation, and auroral excitation. It can be run using inputs from empirical models of the neutral atmosphere and ionosphere or from numerical general circulation models of the coupled ionosphere-thermosphere system. It uses a solar flux module, photoelectron generation routine, and the Nagy-Banks two-stream electron transport algorithmto simultaneously handle energetic electron distributions from photon and auroral electron sources. It contains an ion-neutral chemistry module that calculates excited and ionized species densities and the resulting airglow volume emission rates. This paper describes the inputs, algorithms, and code structure of the model and demonstrates example outputs for daytime and auroral cases. Simulations of far ultraviolet emissions by the atomic oxygen doublet at 135.6 nm and the molecular nitrogen Lyman-Birge-Hopfield bands, as viewed from geostationary orbit, are shown, and model calculations are compared to limb-scan observations by the Global Ultraviolet Imager on the TIMED satellite. The GLOW model code is provided to the community through an open-source academic research license.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Global Airglow (GLOW) model has been updated and extended to calculate thermospheric emissions in the far ultraviolet, including sources from daytime photoelectron-driven processes, nighttime recombination radiation, and auroral excitation. It can be run using inputs from empirical models of the neutral atmosphere and ionosphere or from numerical general circulation models of the coupled ionosphere-thermosphere system. It uses a solar flux module, photoelectron generation routine, and the Nagy-Banks two-stream electron transport algorithmto simultaneously handle energetic electron distributions from photon and auroral electron sources. It contains an ion-neutral chemistry module that calculates excited and ionized species densities and the resulting airglow volume emission rates. This paper describes the inputs, algorithms, and code structure of the model and demonstrates example outputs for daytime and auroral cases. Simulations of far ultraviolet emissions by the atomic oxygen doublet at 135.6 nm and the molecular nitrogen Lyman-Birge-Hopfield bands, as viewed from geostationary orbit, are shown, and model calculations are compared to limb-scan observations by the Global Ultraviolet Imager on the TIMED satellite. The GLOW model code is provided to the community through an open-source academic research license.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -256,7 +252,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -298,7 +293,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

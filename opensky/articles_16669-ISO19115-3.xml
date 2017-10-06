@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16669</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:01.120766</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:30.838814</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Using results from the PlioMIP ensemble to investigate the Greenland Ice Sheet during the mid-Pliocene Warm Period</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-03-05T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -484,12 +482,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7s183pv</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -497,12 +494,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/cp-11-403-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -512,7 +508,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>During an interval of the Late Pliocene, referred to here as the mid-Pliocene Warm Period (mPWP; 3.264 to 3.025 million years ago), global mean temperature was similar to that predicted for the end of this century, and atmospheric carbon dioxide concentrations were higher than pre-industrial levels. Sea level was also higher than today, implying a significant reduction in the extent of the ice sheets. Thus, the mPWP provides a natural laboratory in which to investigate the long-term response of the Earth's ice sheets and sea level in a warmer-than-present-day world. At present, our understanding of the Greenland ice sheet during the mPWP is generally based upon predictions using single climate and ice sheet models. Therefore, it is essential that the model dependency of these results is assessed. The Pliocene Model Intercomparison Project (PlioMIP) has brought together nine international modelling groups to simulate the warm climate of the Pliocene. Here we use the climatological fields derived from the results of the 15 PlioMIP climate models to force an offline ice sheet model. We show that mPWP ice sheet reconstructions are highly dependent upon the forcing climatology used, with Greenland reconstructions ranging from an ice-free state to a near-modern ice sheet. An analysis of the surface albedo variability between the climate models over Greenland offers insights into the drivers of inter-model differences. As we demonstrate that the climate model dependency of our results is high, we highlight the necessity of data-based constraints of ice extent in developing our understanding of the mPWP Greenland ice sheet.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[During an interval of the Late Pliocene, referred to here as the mid-Pliocene Warm Period (mPWP; 3.264 to 3.025 million years ago), global mean temperature was similar to that predicted for the end of this century, and atmospheric carbon dioxide concentrations were higher than pre-industrial levels. Sea level was also higher than today, implying a significant reduction in the extent of the ice sheets. Thus, the mPWP provides a natural laboratory in which to investigate the long-term response of the Earth's ice sheets and sea level in a warmer-than-present-day world. At present, our understanding of the Greenland ice sheet during the mPWP is generally based upon predictions using single climate and ice sheet models. Therefore, it is essential that the model dependency of these results is assessed. The Pliocene Model Intercomparison Project (PlioMIP) has brought together nine international modelling groups to simulate the warm climate of the Pliocene. Here we use the climatological fields derived from the results of the 15 PlioMIP climate models to force an offline ice sheet model. We show that mPWP ice sheet reconstructions are highly dependent upon the forcing climatology used, with Greenland reconstructions ranging from an ice-free state to a near-modern ice sheet. An analysis of the surface albedo variability between the climate models over Greenland offers insights into the drivers of inter-model differences. As we demonstrate that the climate model dependency of our results is high, we highlight the necessity of data-based constraints of ice extent in developing our understanding of the mPWP Greenland ice sheet.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -567,12 +563,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -614,7 +608,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

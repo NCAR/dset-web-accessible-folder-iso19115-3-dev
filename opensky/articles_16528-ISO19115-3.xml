@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16528</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:57.576742</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:26.413214</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Recent trends and drivers of regional sources and sinks of carbon dioxide</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-02-02T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -619,12 +617,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d70866gx</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -632,12 +629,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/bg-12-653-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -647,7 +643,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The land and ocean absorb on average just over half of the anthropogenic emissions of carbon dioxide (CO&#8322;) every year. These CO&#8322; "sinks" are modulated by climate change and variability. Here we use a suite of nine dynamic global vegetation models (DGVMs) and four ocean biogeochemical general circulation models (OBGCMs) to estimate trends driven by global and regional climate and atmospheric CO&#8322; in land and oceanic CO&#8322; exchanges with the atmosphere over the period 1990-2009, to attribute these trends to underlying processes in the models, and to quantify the uncertainty and level of inter-model agreement. The models were forced with reconstructed climate fields and observed global atmospheric CO&#8322;; land use and land cover changes are not included for the DGVMs. Over the period 1990-2009, the DGVMs simulate a mean global land carbon sink of &#8722;2.4 &#177; 0.7 Pg C yr&#8315;&#185; with a small significant trend of &#8722;0.06 &#177; 0.03 Pg C yr&#8315;&#178; (increasing sink). Over the more limited period 1990-2004, the ocean models simulate a mean ocean sink of &#8722;2.2 &#177; 0.2 Pg C yr&#8315;&#185; with a trend in the net C uptake that is indistinguishable from zero (&#8722;0.01 &#177; 0.02 Pg C yr&#8315;&#178;). The two ocean models that extended the simulations until 2009 suggest a slightly stronger, but still small, trend of &#8722;0.02 &#177; 0.01 Pg C yr&#8315;&#178;. Trends from land and ocean models compare favourably to the land greenness trends from remote sensing, atmospheric inversion results, and the residual land sink required to close the global carbon budget. Trends in the land sink are driven by increasing net primary production (NPP), whose statistically significant trend of 0.22 &#177; 0.08 Pg C yr&#8315;&#178; exceeds a significant trend in heterotrophic respiration of 0.16 &#177; 0.05 Pg C yr&#8315;&#178; -- primarily as a consequence of widespread CO&#8322; fertilisation of plant production. Most of the land-based trend in simulated net carbon uptake originates from natural ecosystems in the tropics (&#8722;0.04 &#177; 0.01 Pg C yr&#8315;&#178;), with almost no trend over the northern land region, where recent warming and reduced rainfall offsets the positive impact of elevated atmospheric CO&#8322; and changes in growing season length on carbon storage. The small uptake trend in the ocean models emerges because climate variability and change, and in particular increasing sea surface temperatures, tend to counter\-act the trend in ocean uptake driven by the increase in atmospheric CO&#8322;. Large uncertainty remains in the magnitude and sign of modelled carbon trends in several regions, as well as regarding the influence of land use and land cover changes on regional trends.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The land and ocean absorb on average just over half of the anthropogenic emissions of carbon dioxide (CO&#8322;) every year. These CO&#8322; "sinks" are modulated by climate change and variability. Here we use a suite of nine dynamic global vegetation models (DGVMs) and four ocean biogeochemical general circulation models (OBGCMs) to estimate trends driven by global and regional climate and atmospheric CO&#8322; in land and oceanic CO&#8322; exchanges with the atmosphere over the period 1990-2009, to attribute these trends to underlying processes in the models, and to quantify the uncertainty and level of inter-model agreement. The models were forced with reconstructed climate fields and observed global atmospheric CO&#8322;; land use and land cover changes are not included for the DGVMs. Over the period 1990-2009, the DGVMs simulate a mean global land carbon sink of &#8722;2.4 &#177; 0.7 Pg C yr&#8315;&#185; with a small significant trend of &#8722;0.06 &#177; 0.03 Pg C yr&#8315;&#178; (increasing sink). Over the more limited period 1990-2004, the ocean models simulate a mean ocean sink of &#8722;2.2 &#177; 0.2 Pg C yr&#8315;&#185; with a trend in the net C uptake that is indistinguishable from zero (&#8722;0.01 &#177; 0.02 Pg C yr&#8315;&#178;). The two ocean models that extended the simulations until 2009 suggest a slightly stronger, but still small, trend of &#8722;0.02 &#177; 0.01 Pg C yr&#8315;&#178;. Trends from land and ocean models compare favourably to the land greenness trends from remote sensing, atmospheric inversion results, and the residual land sink required to close the global carbon budget. Trends in the land sink are driven by increasing net primary production (NPP), whose statistically significant trend of 0.22 &#177; 0.08 Pg C yr&#8315;&#178; exceeds a significant trend in heterotrophic respiration of 0.16 &#177; 0.05 Pg C yr&#8315;&#178; -- primarily as a consequence of widespread CO&#8322; fertilisation of plant production. Most of the land-based trend in simulated net carbon uptake originates from natural ecosystems in the tropics (&#8722;0.04 &#177; 0.01 Pg C yr&#8315;&#178;), with almost no trend over the northern land region, where recent warming and reduced rainfall offsets the positive impact of elevated atmospheric CO&#8322; and changes in growing season length on carbon storage. The small uptake trend in the ocean models emerges because climate variability and change, and in particular increasing sea surface temperatures, tend to counter\-act the trend in ocean uptake driven by the increase in atmospheric CO&#8322;. Large uncertainty remains in the magnitude and sign of modelled carbon trends in several regions, as well as regarding the influence of land use and land cover changes on regional trends.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -702,12 +698,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -749,7 +743,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

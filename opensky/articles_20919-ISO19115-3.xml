@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.011619</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.547892</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A climate-scale satellite record for carbon monoxide: the MOPITT Version 7 product</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-19T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7tb19bm</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/amt-10-2533-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The MOPITT (Measurements of Pollution in the Troposphere) satellite instrument has been making observations of atmospheric carbon monoxide since 2000. Recent enhancements to the MOPITT retrieval algorithm have resulted in the release of the version 7 (V7) product. Improvements include (1) representation of growing atmospheric concentrations of N2O, (2) use of meteorological fields from the MERRA-2 (Modern-Era Retrospective Analysis for Research and Applications) reanalysis for the entire MOPITT mission (instead of MERRA), (3) use of the MODIS (Moderate-Resolution Imaging Spectroradiometer) Collection 6 cloud mask product (instead of Collection 5), (4) a new strategy for radiance-bias correction and (5) an improved method for calibrating MOPITT's near-infrared (NIR) radiances. Statistical comparisons of V7 validation results with corresponding V6 results are presented, using aircraft in situ measurements as the reference. Clear improvements are demonstrated for V7 products with respect to overall retrieval biases, bias variability and bias drift uncertainty.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The MOPITT (Measurements of Pollution in the Troposphere) satellite instrument has been making observations of atmospheric carbon monoxide since 2000. Recent enhancements to the MOPITT retrieval algorithm have resulted in the release of the version 7 (V7) product. Improvements include (1) representation of growing atmospheric concentrations of N2O, (2) use of meteorological fields from the MERRA-2 (Modern-Era Retrospective Analysis for Research and Applications) reanalysis for the entire MOPITT mission (instead of MERRA), (3) use of the MODIS (Moderate-Resolution Imaging Spectroradiometer) Collection 6 cloud mask product (instead of Collection 5), (4) a new strategy for radiance-bias correction and (5) an improved method for calibrating MOPITT's near-infrared (NIR) radiances. Statistical comparisons of V7 validation results with corresponding V6 results are presented, using aircraft in situ measurements as the reference. Clear improvements are demonstrated for V7 products with respect to overall retrieval biases, bias variability and bias drift uncertainty.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -346,7 +342,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -388,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

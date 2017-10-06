@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.835739</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:18.058231</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Interannual changes of stratospheric water vapor and correlations with tropical tropopause temperatures</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2004-09-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -221,12 +219,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7mw2hpm</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -237,7 +234,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Interannual variations of stratospheric water vapor over 1992-2003 are studied using Halogen Occultation Experiment (HALOE) satellite measurements. Interannual anomalies in water vapor with an approximate 2-yr periodicity are evident near the tropical tropopause, and these propagate vertically and latitudinally with the mean stratospheric transport circulation (in a manner analogous to the seasonal "tape recorder"). Unusually low water vapor anomalies are observed in the lower stratosphere for 2001-03. These interannual anomalies are also observed in Arctic lower-stratospheric water vapor measurements by the Polar Ozone and Aerosol Measurement (POAM) satellite instrument during 1998-2003. Comparisons of the HALOE data with balloon measurements of lower-stratospheric water vapor at Boulder, Colorado (40&#176;N), show partial agreement for seasonal and interannual changes during 1992-2002, but decadal increases observed in the balloon measurements for this period are not observed in HALOE data. Interannual changes in HALOE water vapor are well correlated with anomalies in tropical tropopause temperatures. The approximate 2-yr periodicity is attributable to tropopause temperature changes associated with the quasi-biennial oscillation and El Ni&#241;o-Southern Oscillation.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Interannual variations of stratospheric water vapor over 1992-2003 are studied using Halogen Occultation Experiment (HALOE) satellite measurements. Interannual anomalies in water vapor with an approximate 2-yr periodicity are evident near the tropical tropopause, and these propagate vertically and latitudinally with the mean stratospheric transport circulation (in a manner analogous to the seasonal "tape recorder"). Unusually low water vapor anomalies are observed in the lower stratosphere for 2001-03. These interannual anomalies are also observed in Arctic lower-stratospheric water vapor measurements by the Polar Ozone and Aerosol Measurement (POAM) satellite instrument during 1998-2003. Comparisons of the HALOE data with balloon measurements of lower-stratospheric water vapor at Boulder, Colorado (40&#176;N), show partial agreement for seasonal and interannual changes during 1992-2002, but decadal increases observed in the balloon measurements for this period are not observed in HALOE data. Interannual changes in HALOE water vapor are well correlated with anomalies in tropical tropopause temperatures. The approximate 2-yr periodicity is attributable to tropopause temperature changes associated with the quasi-biennial oscillation and El Ni&#241;o-Southern Oscillation.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -296,7 +293,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -338,7 +334,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

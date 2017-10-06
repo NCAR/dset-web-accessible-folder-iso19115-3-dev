@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:19350</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:54.483296</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:57.059031</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Les r&#233;sultats exceptionnels de Iasi, sondeur atmosph&#233;rique hyperspectral de Metop</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-02-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -469,12 +467,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7zc84nt</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -482,12 +479,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.4267/2042/39838</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -497,7 +493,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>La deuxi&#232;me conf&#233;rence internationale Iasi (Infrared Atmospheric Sounding Interferometer), qui s&#8217;est tenue &#224; S&#233;vrier (Haute-Savoie) du 24 au 29 janvier 2010, a rassembl&#233; 150 scientifiques de tous horizons pour faire le point sur l&#8217;instrument Iasi, le traitement des donn&#233;es, les r&#233;sultats de son exploitation, trois ans apr&#232;s sa mise en service, et pour envisager les suites du programme. Dans cet article, on pr&#233;sente l&#8217;instrument mont&#233; sur les trois satellites Metop d&#8217;Eumetsat qui se succ&#233;deront jusqu&#8217;en 2020. On illustre succinctement les extraordinaires performances de cet instrument devenu r&#233;f&#233;rence pour l&#8217;inter&#233;talonnage de capteurs infrarouges. Apr&#232;s un rappel sur l&#8217;organisation du traitement des donn&#233;es, les perspectives &#224; court et moyen termes sont mises en lumi&#232;re. La partie principale traite des r&#233;sultats les plus r&#233;cents expos&#233;s &#224; la conf&#233;rence dans les diff&#233;rents domaines d&#8217;application de Iasi : la pr&#233;vision num&#233;rique, l&#8217;&#233;tude de la composition atmosph&#233;rique, les applications op&#233;rationnelles de la chimie atmosph&#233;rique et le suivi du changement climatique. Le dernier paragraphe est consacr&#233; au futur avec les &#233;volutions attendues des produits et les perspectives de l&#8217;apr&#232;s Iasi avec le sondeur infrarouge sur M&#233;t&#233;osat troisi&#232;me g&#233;n&#233;ration et le sondeur Iasi nouvelle g&#233;n&#233;ration.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[La deuxi&#232;me conf&#233;rence internationale Iasi (Infrared Atmospheric Sounding Interferometer), qui s&#8217;est tenue &#224; S&#233;vrier (Haute-Savoie) du 24 au 29 janvier 2010, a rassembl&#233; 150 scientifiques de tous horizons pour faire le point sur l&#8217;instrument Iasi, le traitement des donn&#233;es, les r&#233;sultats de son exploitation, trois ans apr&#232;s sa mise en service, et pour envisager les suites du programme. Dans cet article, on pr&#233;sente l&#8217;instrument mont&#233; sur les trois satellites Metop d&#8217;Eumetsat qui se succ&#233;deront jusqu&#8217;en 2020. On illustre succinctement les extraordinaires performances de cet instrument devenu r&#233;f&#233;rence pour l&#8217;inter&#233;talonnage de capteurs infrarouges. Apr&#232;s un rappel sur l&#8217;organisation du traitement des donn&#233;es, les perspectives &#224; court et moyen termes sont mises en lumi&#232;re. La partie principale traite des r&#233;sultats les plus r&#233;cents expos&#233;s &#224; la conf&#233;rence dans les diff&#233;rents domaines d&#8217;application de Iasi : la pr&#233;vision num&#233;rique, l&#8217;&#233;tude de la composition atmosph&#233;rique, les applications op&#233;rationnelles de la chimie atmosph&#233;rique et le suivi du changement climatique. Le dernier paragraphe est consacr&#233; au futur avec les &#233;volutions attendues des produits et les perspectives de l&#8217;apr&#232;s Iasi avec le sondeur infrarouge sur M&#233;t&#233;osat troisi&#232;me g&#233;n&#233;ration et le sondeur Iasi nouvelle g&#233;n&#233;ration.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -552,12 +548,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -599,7 +593,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

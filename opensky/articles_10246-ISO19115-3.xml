@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.806821</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:18.012420</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Analysis of the influence of film-forming compounds on droplet growth: Implications for cloud microphysical processes and climate</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2002-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -176,12 +174,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7wd4142</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -192,7 +189,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Decades of cloud microphysical research have not provided conclusive understanding of the physical processes responsible for droplet spectral broadening. Numerous mechanisms have been proposed?for example, entrainment mixing, vortex shedding, giant cloud condensation nuclei (CCN), chemical processing of CCN, and radiative cooling?all of which are likely candidates under select conditions. In this paper it is suggested that variability in the composition of CCN, and in particular, the existence of condensation inhibiting compounds, is another possible candidate. The inferred potential abundance of these amphiphilic film-forming compounds (FFCs) suggests that their effect may be important. Using a cloud parcel model with a simplified treatment of the effect of FFCs, it is shown that modest concentrations of FFCs (on the order of 5% of the total aerosol mass) can have a marked effect on drop growth and can cause significant increases in spectral dispersions. Moreover, it is shown that FFCs may, in some cases, reduce the number concentration of cloud droplets, with implications for cloud-climate feedbacks. This trend is at least in qualitative agreement with results from a recent field campaign.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Decades of cloud microphysical research have not provided conclusive understanding of the physical processes responsible for droplet spectral broadening. Numerous mechanisms have been proposed?for example, entrainment mixing, vortex shedding, giant cloud condensation nuclei (CCN), chemical processing of CCN, and radiative cooling?all of which are likely candidates under select conditions. In this paper it is suggested that variability in the composition of CCN, and in particular, the existence of condensation inhibiting compounds, is another possible candidate. The inferred potential abundance of these amphiphilic film-forming compounds (FFCs) suggests that their effect may be important. Using a cloud parcel model with a simplified treatment of the effect of FFCs, it is shown that modest concentrations of FFCs (on the order of 5% of the total aerosol mass) can have a marked effect on drop growth and can cause significant increases in spectral dispersions. Moreover, it is shown that FFCs may, in some cases, reduce the number concentration of cloud droplets, with implications for cloud-climate feedbacks. This trend is at least in qualitative agreement with results from a recent field campaign.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -251,7 +248,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -293,7 +289,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

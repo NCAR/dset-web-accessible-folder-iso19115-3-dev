@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17494</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:21.324453</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:00.858691</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>An observational estimate of inferred ocean energy divergence</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2008-05-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d70z74m5</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2007JPO3833.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Monthly net surface energy fluxes (FS) over the oceans are computed as residuals of the atmospheric energy budget using top-of-atmosphere (TOA) net radiation (RT) and the complete atmospheric energy (AE) budget tendency (&#948;AE/&#948;t) and divergence (&#8711; &#183; FA). The focus is on TOA radiation from the Earth Radiation Budget Experiment (ERBE) (February 1985&#8211;April 1989) and the Clouds and Earth&#8217;s Radiant Energy System (CERES) (March 2000&#8211;May 2004) satellite observations combined with results from two atmospheric reanalyses and three ocean datasets that enable a comprehensive estimate of uncertainties. Surface energy flux departures from the annual mean and the implied annual cycle in "equivalent ocean energy content" are compared with the directly observed ocean energy content (OE) and tendency (&#948;OE/&#948;t) to reveal the inferred annual cycle of divergence (&#8711; &#183; FO). In the extratropics, the surface flux dominates the ocean energy tendency, although it is supplemented by ocean Ekman transports that enhance the annual cycle in ocean heat content. In contrast, in the tropics, ocean dynamics dominate OE variations throughout the year in association with the annual cycle in surface wind stress and the North Equatorial Current. An analysis of the regional characteristics of the first joint empirical orthogonal function (EOF) of FS, &#948;OE/&#948;t, and &#8711; &#183; FO is presented, and the largest sources of uncertainty are attributed to variations in OE. The mean and annual cycle of zonal mean global ocean meridional heat transports are estimated. The annual cycle reveals the strongest poleward heat transports in each hemisphere in the cold season, from November to April in the north and from May to October in the south, with a substantial across-equatorial transport, exceeding 4 PW in some months. Annual mean results do not differ greatly from some earlier estimates, but the sources of uncertainty are exposed. Comparison of annual means with direct ocean observations gives reasonable agreement, except in the North Atlantic, where transports from the ocean transects are slightly greater than the estimates presented here.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Monthly net surface energy fluxes (FS) over the oceans are computed as residuals of the atmospheric energy budget using top-of-atmosphere (TOA) net radiation (RT) and the complete atmospheric energy (AE) budget tendency (&#948;AE/&#948;t) and divergence (&#8711; &#183; FA). The focus is on TOA radiation from the Earth Radiation Budget Experiment (ERBE) (February 1985&#8211;April 1989) and the Clouds and Earth&#8217;s Radiant Energy System (CERES) (March 2000&#8211;May 2004) satellite observations combined with results from two atmospheric reanalyses and three ocean datasets that enable a comprehensive estimate of uncertainties. Surface energy flux departures from the annual mean and the implied annual cycle in "equivalent ocean energy content" are compared with the directly observed ocean energy content (OE) and tendency (&#948;OE/&#948;t) to reveal the inferred annual cycle of divergence (&#8711; &#183; FO). In the extratropics, the surface flux dominates the ocean energy tendency, although it is supplemented by ocean Ekman transports that enhance the annual cycle in ocean heat content. In contrast, in the tropics, ocean dynamics dominate OE variations throughout the year in association with the annual cycle in surface wind stress and the North Equatorial Current. An analysis of the regional characteristics of the first joint empirical orthogonal function (EOF) of FS, &#948;OE/&#948;t, and &#8711; &#183; FO is presented, and the largest sources of uncertainty are attributed to variations in OE. The mean and annual cycle of zonal mean global ocean meridional heat transports are estimated. The annual cycle reveals the strongest poleward heat transports in each hemisphere in the cold season, from November to April in the north and from May to October in the south, with a substantial across-equatorial transport, exceeding 4 PW in some months. Annual mean results do not differ greatly from some earlier estimates, but the sources of uncertainty are exposed. Comparison of annual means with direct ocean observations gives reasonable agreement, except in the North Atlantic, where transports from the ocean transects are slightly greater than the estimates presented here.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -267,12 +263,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -314,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

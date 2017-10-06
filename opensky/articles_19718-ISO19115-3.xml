@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:19718</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:08:03.340413</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:11.287257</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Global gridded crop model evaluation: benchmarking, skills, deficiencies and implications</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-04-04T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -589,12 +587,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7ks6tb1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -602,12 +599,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/gmd-10-1403-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -617,7 +613,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Crop models are increasingly used to simulate crop yields at the global scale, but so far there is no general framework on how to assess model performance. Here we evaluate the simulation results of 14 global gridded crop modeling groups that have contributed historic crop yield simulations for maize, wheat, rice and soybean to the Global Gridded Crop Model Intercomparison (GGCMI) of the Agricultural Model Intercomparison and Improvement Project (AgMIP). Simulation results are compared to reference data at global, national and grid cell scales and we evaluate model performance with respect to time series correlation, spatial correlation and mean bias. We find that global gridded crop models (GGCMs) show mixed skill in reproducing time series correlations or spatial patterns at the different spatial scales. Generally, maize, wheat and soybean simulations of many GGCMs are capable of reproducing larger parts of observed temporal variability (time series correlation coefficients (r) of up to 0.888 for maize, 0.673 for wheat and 0.643 for soybean at the global scale) but rice yield variability cannot be well reproduced by most models. Yield variability can be well reproduced for most major producing countries by many GGCMs and for all countries by at least some. A comparison with gridded yield data and a statistical analysis of the effects of weather variability on yield variability shows that the ensemble of GGCMs can explain more of the yield variability than an ensemble of regression models for maize and soybean, but not for wheat and rice. We identify future research needs in global gridded crop modeling and for all individual crop modeling groups. In the absence of a purely observation-based benchmark for model evaluation, we propose that the best performing crop model per crop and region establishes the benchmark for all others, and modelers are encouraged to investigate how crop model performance can be increased. We make our evaluation system accessible to all crop modelers so that other modeling groups can also test their model performance against the reference data and the GGCMI benchmark.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Crop models are increasingly used to simulate crop yields at the global scale, but so far there is no general framework on how to assess model performance. Here we evaluate the simulation results of 14 global gridded crop modeling groups that have contributed historic crop yield simulations for maize, wheat, rice and soybean to the Global Gridded Crop Model Intercomparison (GGCMI) of the Agricultural Model Intercomparison and Improvement Project (AgMIP). Simulation results are compared to reference data at global, national and grid cell scales and we evaluate model performance with respect to time series correlation, spatial correlation and mean bias. We find that global gridded crop models (GGCMs) show mixed skill in reproducing time series correlations or spatial patterns at the different spatial scales. Generally, maize, wheat and soybean simulations of many GGCMs are capable of reproducing larger parts of observed temporal variability (time series correlation coefficients (r) of up to 0.888 for maize, 0.673 for wheat and 0.643 for soybean at the global scale) but rice yield variability cannot be well reproduced by most models. Yield variability can be well reproduced for most major producing countries by many GGCMs and for all countries by at least some. A comparison with gridded yield data and a statistical analysis of the effects of weather variability on yield variability shows that the ensemble of GGCMs can explain more of the yield variability than an ensemble of regression models for maize and soybean, but not for wheat and rice. We identify future research needs in global gridded crop modeling and for all individual crop modeling groups. In the absence of a purely observation-based benchmark for model evaluation, we propose that the best performing crop model per crop and region establishes the benchmark for all others, and modelers are encouraged to investigate how crop model performance can be increased. We make our evaluation system accessible to all crop modelers so that other modeling groups can also test their model performance against the reference data and the GGCMI benchmark.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -672,12 +668,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -719,7 +713,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:19439</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:56.444324</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:59.992767</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Laser vision: Lidar as a transformative tool to advance critical zone science</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-06-22T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -484,12 +482,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7cz38z6</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -497,12 +494,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/hess-19-2881-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -512,7 +508,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Observation and quantification of the Earth's surface is undergoing a revolutionary change due to the increased spatial resolution and extent afforded by light detection and ranging (lidar) technology. As a consequence, lidar-derived information has led to fundamental discoveries within the individual disciplines of geomorphology, hydrology, and ecology. These disciplines form the cornerstones of critical zone (CZ) science, where researchers study how interactions among the geosphere, hydrosphere, and biosphere shape and maintain the 'zone of life', which extends from the top of unweathered bedrock to the top of the vegetation canopy. Fundamental to CZ science is the development of transdisciplinary theories and tools that transcend disciplines and inform other's work, capture new levels of complexity, and create new intellectual outcomes and spaces. Researchers are just beginning to use lidar data sets to answer synergistic, transdisciplinary questions in CZ science, such as how CZ processes co-evolve over long timescales and interact over shorter timescales to create thresholds, shifts in states and fluxes of water, energy, and carbon. The objective of this review is to elucidate the transformative potential of lidar for CZ science to simultaneously allow for quantification of topographic, vegetative, and hydrological processes. A review of 147 peer-reviewed lidar studies highlights a lack of lidar applications for CZ studies as 38 % of the studies were focused in geomorphology, 18 % in hydrology, 32 % in ecology, and the remaining 12 % had an interdisciplinary focus. A handful of exemplar transdisciplinary studies demonstrate lidar data sets that are well-integrated with other observations can lead to fundamental advances in CZ science, such as identification of feedbacks between hydrological and ecological processes over hillslope scales and the synergistic co-evolution of landscape-scale CZ structure due to interactions amongst carbon, energy, and water cycles. We propose that using lidar to its full potential will require numerous advances, including new and more powerful open-source processing tools, exploiting new lidar acquisition technologies, and improved integration with physically based models and complementary in situ and remote-sensing observations. We provide a 5-year vision that advocates for the expanded use of lidar data sets and highlights subsequent potential to advance the state of CZ science.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Observation and quantification of the Earth's surface is undergoing a revolutionary change due to the increased spatial resolution and extent afforded by light detection and ranging (lidar) technology. As a consequence, lidar-derived information has led to fundamental discoveries within the individual disciplines of geomorphology, hydrology, and ecology. These disciplines form the cornerstones of critical zone (CZ) science, where researchers study how interactions among the geosphere, hydrosphere, and biosphere shape and maintain the 'zone of life', which extends from the top of unweathered bedrock to the top of the vegetation canopy. Fundamental to CZ science is the development of transdisciplinary theories and tools that transcend disciplines and inform other's work, capture new levels of complexity, and create new intellectual outcomes and spaces. Researchers are just beginning to use lidar data sets to answer synergistic, transdisciplinary questions in CZ science, such as how CZ processes co-evolve over long timescales and interact over shorter timescales to create thresholds, shifts in states and fluxes of water, energy, and carbon. The objective of this review is to elucidate the transformative potential of lidar for CZ science to simultaneously allow for quantification of topographic, vegetative, and hydrological processes. A review of 147 peer-reviewed lidar studies highlights a lack of lidar applications for CZ studies as 38 % of the studies were focused in geomorphology, 18 % in hydrology, 32 % in ecology, and the remaining 12 % had an interdisciplinary focus. A handful of exemplar transdisciplinary studies demonstrate lidar data sets that are well-integrated with other observations can lead to fundamental advances in CZ science, such as identification of feedbacks between hydrological and ecological processes over hillslope scales and the synergistic co-evolution of landscape-scale CZ structure due to interactions amongst carbon, energy, and water cycles. We propose that using lidar to its full potential will require numerous advances, including new and more powerful open-source processing tools, exploiting new lidar acquisition technologies, and improved integration with physically based models and complementary in situ and remote-sensing observations. We provide a 5-year vision that advocates for the expanded use of lidar data sets and highlights subsequent potential to advance the state of CZ science.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -567,12 +563,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -614,7 +608,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

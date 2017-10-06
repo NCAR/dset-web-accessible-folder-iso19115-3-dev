@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.362556</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:17.341234</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The Community Climate System Model, version 2</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2004-10-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -176,12 +174,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7n29xh1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -192,7 +189,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Community Climate System Model, version 2 (CCSM2) is briefly described. A 1000-yr control simulation of the present day climate has been completed without flux adjustments. Minor modifications were made at year 350, which included all five components using the same physical constants. There are very small trends in the upper-ocean, sea ice, atmosphere, and land fields after year 150 of the control simulation. The deep ocean has small but significant trends; however, these are not large enough that the control simulation could not be continued much further. The equilibrium climate sensitivity of CCSM2 is 2.2 K, which is slightly larger than the Climate System Model, version 1 (CSM1) value of 2.0 K. Several aspects of the control simulation's mean climate and interannual variability are described, and good and bad properties of the control simulation are documented. In particular, several aspects of the simulation, especially in the Arctic region, are much improved over those obtained in CSM1. Other aspects, such as the tropical Pacific region simulation, have not been improved much compared to those in CSM1. Priorities for further model development are discussed in the conclusions section.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Community Climate System Model, version 2 (CCSM2) is briefly described. A 1000-yr control simulation of the present day climate has been completed without flux adjustments. Minor modifications were made at year 350, which included all five components using the same physical constants. There are very small trends in the upper-ocean, sea ice, atmosphere, and land fields after year 150 of the control simulation. The deep ocean has small but significant trends; however, these are not large enough that the control simulation could not be continued much further. The equilibrium climate sensitivity of CCSM2 is 2.2 K, which is slightly larger than the Climate System Model, version 1 (CSM1) value of 2.0 K. Several aspects of the control simulation's mean climate and interannual variability are described, and good and bad properties of the control simulation are documented. In particular, several aspects of the simulation, especially in the Arctic region, are much improved over those obtained in CSM1. Other aspects, such as the tropical Pacific region simulation, have not been improved much compared to those in CSM1. Priorities for further model development are discussed in the conclusions section.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -251,7 +248,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -293,7 +289,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

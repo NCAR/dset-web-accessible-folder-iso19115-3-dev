@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18836</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:48.092454</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:41.063770</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Simulations of sulfate&#8211;nitrate&#8211;ammonium (SNA) aerosols during the extreme haze events over northern China in October 2014</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-08-30T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7wd4288</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-16-10707-2016</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Extreme haze events have occurred frequently over China in recent years. Although many studies have investigated the formation mechanisms associated with PM2.5 for heavily polluted regions in China based on observational data, adequately predicting peak PM2.5 concentrations is still challenging for regional air quality models. In this study, we evaluate the performance of one configuration of the Weather Research and Forecasting model coupled with chemistry (WRF-Chem) and use the model to investigate the sensitivity of heterogeneous reactions on simulated peak sulfate, nitrate, and ammonium concentrations in the vicinity of Beijing during four extreme haze episodes in October 2014 over the North China Plain. The highest observed PM2.5 concentration of 469 mu g m(-3) occurred in Beijing. Comparisons with observations show that the model reproduced the temporal variability in PM2.5 with the highest PM2.5 values on polluted days (defined as days in which observed PM2.5 is greater than 75 mu g m(-3)), but predictions of sulfate, nitrate, and ammonium were too low on days with the highest observed concentrations. Observational data indicate that the sulfur/nitric oxidation rates are strongly correlated with relative humidity during periods of peak PM2.5; however, the model failed to reproduce the highest PM2.5 concentrations due to missing heterogeneous/aqueous reactions. As the parameterizations of those heterogeneous reactions are not well established yet, estimates of SO2-to-H2SO4 and NO2/NO3- to-HNO3 reaction rates that depend on relative humidity were applied, which improved the simulation of sulfate, nitrate, and ammonium enhancement on polluted days in terms of both concentrations and partitioning among those species. Sensitivity simulations showed that the extremely high heterogeneous reaction rates and also higher emission rates than those reported in the emission inventory were likely important factors contributing to those peak PM2.5 concentrations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Extreme haze events have occurred frequently over China in recent years. Although many studies have investigated the formation mechanisms associated with PM2.5 for heavily polluted regions in China based on observational data, adequately predicting peak PM2.5 concentrations is still challenging for regional air quality models. In this study, we evaluate the performance of one configuration of the Weather Research and Forecasting model coupled with chemistry (WRF-Chem) and use the model to investigate the sensitivity of heterogeneous reactions on simulated peak sulfate, nitrate, and ammonium concentrations in the vicinity of Beijing during four extreme haze episodes in October 2014 over the North China Plain. The highest observed PM2.5 concentration of 469 mu g m(-3) occurred in Beijing. Comparisons with observations show that the model reproduced the temporal variability in PM2.5 with the highest PM2.5 values on polluted days (defined as days in which observed PM2.5 is greater than 75 mu g m(-3)), but predictions of sulfate, nitrate, and ammonium were too low on days with the highest observed concentrations. Observational data indicate that the sulfur/nitric oxidation rates are strongly correlated with relative humidity during periods of peak PM2.5; however, the model failed to reproduce the highest PM2.5 concentrations due to missing heterogeneous/aqueous reactions. As the parameterizations of those heterogeneous reactions are not well established yet, estimates of SO2-to-H2SO4 and NO2/NO3- to-HNO3 reaction rates that depend on relative humidity were applied, which improved the simulation of sulfate, nitrate, and ammonium enhancement on polluted days in terms of both concentrations and partitioning among those species. Sensitivity simulations showed that the extremely high heterogeneous reaction rates and also higher emission rates than those reported in the emission inventory were likely important factors contributing to those peak PM2.5 concentrations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

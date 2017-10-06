@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.224385</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.883742</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Satellite radiance data assimilation for binary tropical cyclone cases over the western North Pacific</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7028v06</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016MS000826</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A total of three binary tropical cyclone (TC) cases over the Western North Pacific are selected to investigate the effects of satellite radiance data assimilation on analyses and forecasts of binary TCs. Two parallel cycling experiments with a 6 h interval are performed for each binary TC case, and the difference between the two experiments is whether satellite radiance observations are assimilated. Satellite radiance observations are assimilated using the Weather Research and Forecasting Data Assimilation (WRFDA)'s three-dimensional variational (3D-Var) system, which includes the observation operator, quality control procedures, and bias correction algorithm for radiance observations. On average, radiance assimilation results in slight improvements of environmental fields and track forecasts of binary TC cases, but the detailed effects vary with the case. When there is no direct interaction between binary TCs, radiance assimilation leads to better depictions of environmental fields, and finally it results in improved track forecasts. However, positive effects of radiance assimilation on track forecasts can be reduced when there exists a direct interaction between binary TCs and intensities/structures of binary TCs are not represented well. An initialization method (e.g., dynamic initialization) combined with radiance assimilation and/or more advanced DA techniques (e.g., hybrid method) can be considered to overcome these limitations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A total of three binary tropical cyclone (TC) cases over the Western North Pacific are selected to investigate the effects of satellite radiance data assimilation on analyses and forecasts of binary TCs. Two parallel cycling experiments with a 6 h interval are performed for each binary TC case, and the difference between the two experiments is whether satellite radiance observations are assimilated. Satellite radiance observations are assimilated using the Weather Research and Forecasting Data Assimilation (WRFDA)'s three-dimensional variational (3D-Var) system, which includes the observation operator, quality control procedures, and bias correction algorithm for radiance observations. On average, radiance assimilation results in slight improvements of environmental fields and track forecasts of binary TC cases, but the detailed effects vary with the case. When there is no direct interaction between binary TCs, radiance assimilation leads to better depictions of environmental fields, and finally it results in improved track forecasts. However, positive effects of radiance assimilation on track forecasts can be reduced when there exists a direct interaction between binary TCs and intensities/structures of binary TCs are not represented well. An initialization method (e.g., dynamic initialization) combined with radiance assimilation and/or more advanced DA techniques (e.g., hybrid method) can be considered to overcome these limitations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -346,7 +342,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -388,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

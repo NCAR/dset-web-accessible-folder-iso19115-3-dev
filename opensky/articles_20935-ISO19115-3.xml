@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.586992</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.320184</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Dual E&#160;&#215;&#160;B flow responses in the dayside ionosphere to a sudden IMF By rotation</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7cr5wtj</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017GL073374</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>We report for the first time a dual transition state in the dayside ionosphere following a sudden rotation of the interplanetary magnetic field (IMF) in the upstream magnetosheath from IMF B-y &lt; 0 to B-y &gt; 0 during B-z &lt; 0. E x B drifts respond with different time delays in the dayside auroral zone and high-latitude polar cap with an initial 11 min transition state of oppositely directed E x B drifts coexisting at these locations. This is followed by a 6-8 min rotation of lower latitude E x B flow from dusk to dawn. We propose that this sequence of events is consistent with two separate X lines coexisting on the subsolar and lobe magnetopause. Time delays are proposed for merged flux of the draped preceding IMF to exit the subsolar region before the new IMF may be processed along a newly reconfigured component reconnection X line. Finally, a strong direct correlation is observed between magnetosheath plasma density and auroral zone E x B speeds.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[We report for the first time a dual transition state in the dayside ionosphere following a sudden rotation of the interplanetary magnetic field (IMF) in the upstream magnetosheath from IMF B-y < 0 to B-y > 0 during B-z < 0. E x B drifts respond with different time delays in the dayside auroral zone and high-latitude polar cap with an initial 11 min transition state of oppositely directed E x B drifts coexisting at these locations. This is followed by a 6-8 min rotation of lower latitude E x B flow from dusk to dawn. We propose that this sequence of events is consistent with two separate X lines coexisting on the subsolar and lobe magnetopause. Time delays are proposed for merged flux of the draped preceding IMF to exit the subsolar region before the new IMF may be processed along a newly reconfigured component reconnection X line. Finally, a strong direct correlation is observed between magnetosheath plasma density and auroral zone E x B speeds.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -331,7 +327,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -373,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

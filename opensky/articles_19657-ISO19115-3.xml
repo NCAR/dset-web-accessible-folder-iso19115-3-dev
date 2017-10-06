@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:00.352867</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:09.312530</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Statistical connection between the Madden&#8211;Julian oscillation and large daily precipitation events in West Africa</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7tx3h6x</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0144.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>This study focuses on the impact of the Madden-Julian oscillation (MJO)-as monitored by a well-known multivariate index-on large daily precipitation events in West Africa for the period 1981-2014. Two seasons are considered: the near-equatorial wet season in March-May (MAM) and the peak of the West African monsoon during July-September (JAS), when the intertropical convergence zone (ITCZ) is at its most northerly position. Although the MJO-related interannual variation of seasonal mean rainfall is large, the focus here is on the impacts of the MJO on daily time scales because variations in the frequency of intense, short-term, flood-causing, rainfall events are more important for West African agriculture than variations in seasonal precipitation, particularly near the Guinean coast, where precipitation is abundant. Using composites based on thresholds of daily precipitation amounts, changes in mean precipitation and frequency of the heaviest daily events associated with the phase of the MJO are investigated. The expected modulation of mean rainfall by the MJO is much stronger during MAM than during JAS; yet the modulation of the largest events (i.e., daily rainfall rates above the 90th percentile) is comparable in both seasons. Conservative statistical tests of local and field significance indicate unambiguous impacts of the MJO of the expected sign during certain phases, but the nature of the impact depends on the local seasonal precipitation regime. For instance, in JAS, the early stages of the MJO increase the risk of flooding in the Sahel monsoon region while providing relief to the dry southern coast.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[This study focuses on the impact of the Madden-Julian oscillation (MJO)-as monitored by a well-known multivariate index-on large daily precipitation events in West Africa for the period 1981-2014. Two seasons are considered: the near-equatorial wet season in March-May (MAM) and the peak of the West African monsoon during July-September (JAS), when the intertropical convergence zone (ITCZ) is at its most northerly position. Although the MJO-related interannual variation of seasonal mean rainfall is large, the focus here is on the impacts of the MJO on daily time scales because variations in the frequency of intense, short-term, flood-causing, rainfall events are more important for West African agriculture than variations in seasonal precipitation, particularly near the Guinean coast, where precipitation is abundant. Using composites based on thresholds of daily precipitation amounts, changes in mean precipitation and frequency of the heaviest daily events associated with the phase of the MJO are investigated. The expected modulation of mean rainfall by the MJO is much stronger during MAM than during JAS; yet the modulation of the largest events (i.e., daily rainfall rates above the 90th percentile) is comparable in both seasons. Conservative statistical tests of local and field significance indicate unambiguous impacts of the MJO of the expected sign during certain phases, but the nature of the impact depends on the local seasonal precipitation regime. For instance, in JAS, the early stages of the MJO increase the risk of flooding in the Sahel monsoon region while providing relief to the dry southern coast.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -346,7 +342,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -388,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17271</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:15.935749</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:52.656088</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Urban modification of thunderstorms - An observational storm climatology and model case study for the Indianapolis urban region</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-05-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7222w2v</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2010JAMC1836.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A radar-based climatology of 91 unique summertime (May 2000 &#8211; August 2009) thunderstorm cases was examined over the Indianapolis urban area. The study hypothesis is that urban regions alter the intensity and composition/structure of approaching thunderstorms due to land-surface heterogeneity. Storm characteristics were studied over the Indianapolis region and four peripheral rural counties approximately 120 km away from the urban center. Using radar imagery, the time of event, as well as the changes in storm structure (splitting, initiation, intensification, dissipation), synoptic setting, orientation and motion were studied. It was found that more than 60% of storms changed structure over the Indianapolis area compared to only 25% over the rural regions. Further, daytime convection was most likely to be impacted with 71% storms changing structure compared to only 42% at night. Analysis of radar imagery indicated that storms split closer to the upwind urban region and again merge downwind. Thus, a larger portion of small storms (50 &#8211; 200 km2) and large storms (&gt; 1500 km&lt;sup&gt;2&lt;/sup&gt;) were found downwind of urban region, while midsized storms (200 &#8211; 1500 km) dominated the upwind region. A case study of a typical storm on 13 June 2005 was examined using available observations and the Penn State / NCAR Mesoscale Model (MM5) V3.7.2. Two simulations were performed with and without the urban land use/ Indianapolis region in the fourth domain (1.33 km resolution). The storm of interest could not be simulated without the urban area. Results indicate that removing the Indianapolis urban region caused distinct differences in the regional convergence and convection as well as simulated base reflectivity, surface energy balance (through sensible heat flux, latent heat flux, virtual potential temperature changes) and the boundary layer structure. Study results indicate that the urban area has a strong climatological influence on regional thunderstorms.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A radar-based climatology of 91 unique summertime (May 2000 &#8211; August 2009) thunderstorm cases was examined over the Indianapolis urban area. The study hypothesis is that urban regions alter the intensity and composition/structure of approaching thunderstorms due to land-surface heterogeneity. Storm characteristics were studied over the Indianapolis region and four peripheral rural counties approximately 120 km away from the urban center. Using radar imagery, the time of event, as well as the changes in storm structure (splitting, initiation, intensification, dissipation), synoptic setting, orientation and motion were studied. It was found that more than 60% of storms changed structure over the Indianapolis area compared to only 25% over the rural regions. Further, daytime convection was most likely to be impacted with 71% storms changing structure compared to only 42% at night. Analysis of radar imagery indicated that storms split closer to the upwind urban region and again merge downwind. Thus, a larger portion of small storms (50 &#8211; 200 km2) and large storms (> 1500 km<sup>2</sup>) were found downwind of urban region, while midsized storms (200 &#8211; 1500 km) dominated the upwind region. A case study of a typical storm on 13 June 2005 was examined using available observations and the Penn State / NCAR Mesoscale Model (MM5) V3.7.2. Two simulations were performed with and without the urban land use/ Indianapolis region in the fourth domain (1.33 km resolution). The storm of interest could not be simulated without the urban area. Results indicate that removing the Indianapolis urban region caused distinct differences in the regional convergence and convection as well as simulated base reflectivity, surface energy balance (through sensible heat flux, latent heat flux, virtual potential temperature changes) and the boundary layer structure. Study results indicate that the urban area has a strong climatological influence on regional thunderstorms.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -357,12 +353,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -404,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

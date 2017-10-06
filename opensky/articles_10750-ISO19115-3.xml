@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10750</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:41.055350</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:36.460665</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Aerosol indirect effects in a multi-scale aerosol-climate model PNNL-MMF</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-06-09T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7571cj6</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-11-5431-2011</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Much of the large uncertainty in estimates of anthropogenic aerosol effects on climate arises from the multi-scale nature of the interactions between aerosols, clouds and dynamics, which are difficult to represent in conventional general circulation models (GCMs). In this study, we use a multi-scale aerosol-climate model that treats aerosols and clouds across multiple scales to study aerosol indirect effects. This multi-scale aerosol-climate model is an extension of a multi-scale modeling framework (MMF) model that embeds a cloud-resolving model (CRM) within each vertical column of a GCM grid. The extension allows a more physically-based treatment of aerosol-cloud interactions in both stratiform and convective clouds on the global scale in a computationally feasible way. Simulated model fields, including liquid water path (LWP), ice water path, cloud fraction, shortwave and longwave cloud forcing, precipitation, water vapor, and cloud droplet number concentration are in reasonable agreement with observations. The new model performs quantitatively similar to the previous version of the MMF model in terms of simulated cloud fraction and precipitation. The simulated change in shortwave cloud forcing from anthropogenic aerosols is &#8722;0.77 W m&#8315;&#178;, which is less than half of that (&#8722;1.79 W m&#8315;&#178;) calculated by the host GCM (NCAR CAM5) with traditional cloud parameterizations and is also at the low end of the estimates of other conventional global aerosol-climate models. The smaller forcing in the MMF model is attributed to a smaller (3.9 %) increase in LWP from preindustrial conditions (PI) to present day (PD) compared with 15.6 % increase in LWP in stratiform clouds in CAM5. The difference is caused by a much smaller response in LWP to a given perturbation in cloud condensation nuclei (CCN) concentrations from PI to PD in the MMF (about one-third of that in CAM5), and, to a lesser extent, by a smaller relative increase in CCN concentrations from PI to PD in the MMF (about 26 % smaller than that in CAM5). The smaller relative increase in CCN concentrations in the MMF is caused in part by a smaller increase in aerosol lifetime from PI to PD in the MMF, a positive feedback in aerosol indirect effects induced by cloud lifetime effects from aerosols. The smaller response in LWP to anthropogenic aerosols in the MMF model is consistent with observations and with high resolution model studies, which may indicate that aerosol indirect effects simulated in conventional global climate models are overestimated and point to the need to use global high resolution models, such as MMF models or global CRMs, to study aerosol indirect effects. The simulated total anthropogenic aerosol effect in the MMF is &#8722;1.05 W m&#8315;&#178;, which is close to the Murphy et al. (2009) inverse estimate of &#8722;1.1&#177;0.4 W m&#8315;&#178; (1&#963;) based on the examination of the Earth's energy balance. Further improvements in the representation of ice nucleation and low clouds in MMF are needed to refine the aerosol indirect effect estimate.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Much of the large uncertainty in estimates of anthropogenic aerosol effects on climate arises from the multi-scale nature of the interactions between aerosols, clouds and dynamics, which are difficult to represent in conventional general circulation models (GCMs). In this study, we use a multi-scale aerosol-climate model that treats aerosols and clouds across multiple scales to study aerosol indirect effects. This multi-scale aerosol-climate model is an extension of a multi-scale modeling framework (MMF) model that embeds a cloud-resolving model (CRM) within each vertical column of a GCM grid. The extension allows a more physically-based treatment of aerosol-cloud interactions in both stratiform and convective clouds on the global scale in a computationally feasible way. Simulated model fields, including liquid water path (LWP), ice water path, cloud fraction, shortwave and longwave cloud forcing, precipitation, water vapor, and cloud droplet number concentration are in reasonable agreement with observations. The new model performs quantitatively similar to the previous version of the MMF model in terms of simulated cloud fraction and precipitation. The simulated change in shortwave cloud forcing from anthropogenic aerosols is &#8722;0.77 W m&#8315;&#178;, which is less than half of that (&#8722;1.79 W m&#8315;&#178;) calculated by the host GCM (NCAR CAM5) with traditional cloud parameterizations and is also at the low end of the estimates of other conventional global aerosol-climate models. The smaller forcing in the MMF model is attributed to a smaller (3.9 %) increase in LWP from preindustrial conditions (PI) to present day (PD) compared with 15.6 % increase in LWP in stratiform clouds in CAM5. The difference is caused by a much smaller response in LWP to a given perturbation in cloud condensation nuclei (CCN) concentrations from PI to PD in the MMF (about one-third of that in CAM5), and, to a lesser extent, by a smaller relative increase in CCN concentrations from PI to PD in the MMF (about 26 % smaller than that in CAM5). The smaller relative increase in CCN concentrations in the MMF is caused in part by a smaller increase in aerosol lifetime from PI to PD in the MMF, a positive feedback in aerosol indirect effects induced by cloud lifetime effects from aerosols. The smaller response in LWP to anthropogenic aerosols in the MMF model is consistent with observations and with high resolution model studies, which may indicate that aerosol indirect effects simulated in conventional global climate models are overestimated and point to the need to use global high resolution models, such as MMF models or global CRMs, to study aerosol indirect effects. The simulated total anthropogenic aerosol effect in the MMF is &#8722;1.05 W m&#8315;&#178;, which is close to the Murphy et al. (2009) inverse estimate of &#8722;1.1&#177;0.4 W m&#8315;&#178; (1&#963;) based on the examination of the Earth's energy balance. Further improvements in the representation of ice nucleation and low clouds in MMF are needed to refine the aerosol indirect effect estimate.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -357,12 +353,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -404,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

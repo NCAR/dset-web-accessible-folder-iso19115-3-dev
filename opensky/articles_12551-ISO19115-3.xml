@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12551</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:08.552374</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:14.713520</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>WRF-Fire: Coupled weather-wildland fire modeling with the weather research and forecasting model</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2013-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7xk8gc4</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JAMC-D-12-023.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A wildland fire-behavior module, named WRF-Fire, was integrated into the Weather Research and Forecasting (WRF) public domain numerical weather prediction model. The fire module is a surface fire-behavior model that is two-way coupled with the atmospheric model. Near-surface winds from the atmospheric model are interpolated to a finer fire grid and are used, with fuel properties and local terrain gradients, to determine the fire&#8217;s spread rate and direction. Fuel consumption releases sensible and latent heat fluxes into the atmospheric model&#8217;s lowest layers, driving boundary layer circulations. The atmospheric model, configured in turbulence-resolving large-eddy-simulation mode, was used to explore the sensitivity of simulated fire characteristics such as perimeter shape, fire intensity, and spread rate to external factors known to influence fires, such as fuel characteristics and wind speed, and to explain how these external parameters affect the overall fire properties. Through the use of theoretical environmental vertical profiles, a suite of experiments using conditions typical of the daytime convective boundary layer was conducted in which these external parameters were varied around a control experiment. Results showed that simulated fires evolved into the expected bowed shape because of fire-atmosphere feedbacks that control airflow in and near fires. The coupled model reproduced expected differences in fire shapes and heading-region fire intensity among grass, shrub, and forest-litter fuel types; reproduced the expected narrow, rapid spread in higher wind speeds; and reproduced the moderate inhibition of fire spread in higher fuel moistures. The effects of fuel load were more complex: higher fuel loads increased the heat flux and fire-plume strength and thus the inferred fire effects but had limited impact on spread rate.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A wildland fire-behavior module, named WRF-Fire, was integrated into the Weather Research and Forecasting (WRF) public domain numerical weather prediction model. The fire module is a surface fire-behavior model that is two-way coupled with the atmospheric model. Near-surface winds from the atmospheric model are interpolated to a finer fire grid and are used, with fuel properties and local terrain gradients, to determine the fire&#8217;s spread rate and direction. Fuel consumption releases sensible and latent heat fluxes into the atmospheric model&#8217;s lowest layers, driving boundary layer circulations. The atmospheric model, configured in turbulence-resolving large-eddy-simulation mode, was used to explore the sensitivity of simulated fire characteristics such as perimeter shape, fire intensity, and spread rate to external factors known to influence fires, such as fuel characteristics and wind speed, and to explain how these external parameters affect the overall fire properties. Through the use of theoretical environmental vertical profiles, a suite of experiments using conditions typical of the daytime convective boundary layer was conducted in which these external parameters were varied around a control experiment. Results showed that simulated fires evolved into the expected bowed shape because of fire-atmosphere feedbacks that control airflow in and near fires. The coupled model reproduced expected differences in fire shapes and heading-region fire intensity among grass, shrub, and forest-litter fuel types; reproduced the expected narrow, rapid spread in higher wind speeds; and reproduced the moderate inhibition of fire spread in higher fuel moistures. The effects of fuel load were more complex: higher fuel loads increased the heat flux and fire-plume strength and thus the inferred fire effects but had limited impact on spread rate.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

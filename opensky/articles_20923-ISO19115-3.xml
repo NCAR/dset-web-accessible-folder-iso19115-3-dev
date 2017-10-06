@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.155740</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.772771</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Improvements to the snow melting process in a partially double moment microphysics parameterization</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7f47rmc</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016MS000892</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Polarimetric upgrades to the U.S. radar network have allowed new insight into the precipitation processes of tropical cyclones. Previous work by the authors compared the reflectivity at horizontal polarization and differential reflectivity observations from two hurricanes to simulated radar observations from the WRF model, and found that the aerosol-aware Thompson-Eidhammer microphysical scheme performed the best of several commonly used bulk microphysical parameterizations. Here we expand our investigation of the Thompson-Eidhammer scheme, and find that though it provided the most accurate forecast in terms of wind speed and simulated radar signatures, the scheme produces areas in which the differential reflectivity was much higher than observed. We conclude that the Thompson-Eidhammer scheme produces drop size distributions that have a larger median drop size than observed in regions of light stratiform precipitation. Examination of the vertical structure of simulated differential reflectivity indicates that the source of the discrepancy between the model and radar observations likely originates within the melting layer. The treatment of number production of rain drops from melting snow in the microphysical scheme is shown to be the ultimate source of the enhancement of differential reflectivity. A modification to the scheme is shown to result in better fidelity of the radar variables with the observations without degrading the short-term intensity forecast. Additional tests with an idealized squall line simulation are consistent with the hurricane results, suggesting the modification is generally applicable. The modifications to the Thompson-Eidhammer scheme shown here have been incorporated into updates of the WRF model starting with version 3.8.1.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Polarimetric upgrades to the U.S. radar network have allowed new insight into the precipitation processes of tropical cyclones. Previous work by the authors compared the reflectivity at horizontal polarization and differential reflectivity observations from two hurricanes to simulated radar observations from the WRF model, and found that the aerosol-aware Thompson-Eidhammer microphysical scheme performed the best of several commonly used bulk microphysical parameterizations. Here we expand our investigation of the Thompson-Eidhammer scheme, and find that though it provided the most accurate forecast in terms of wind speed and simulated radar signatures, the scheme produces areas in which the differential reflectivity was much higher than observed. We conclude that the Thompson-Eidhammer scheme produces drop size distributions that have a larger median drop size than observed in regions of light stratiform precipitation. Examination of the vertical structure of simulated differential reflectivity indicates that the source of the discrepancy between the model and radar observations likely originates within the melting layer. The treatment of number production of rain drops from melting snow in the microphysical scheme is shown to be the ultimate source of the enhancement of differential reflectivity. A modification to the scheme is shown to result in better fidelity of the radar variables with the observations without degrading the short-term intensity forecast. Additional tests with an idealized squall line simulation are consistent with the hurricane results, suggesting the modification is generally applicable. The modifications to the Thompson-Eidhammer scheme shown here have been incorporated into updates of the WRF model starting with version 3.8.1.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

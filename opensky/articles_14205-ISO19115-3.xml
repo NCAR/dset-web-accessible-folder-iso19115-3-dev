@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:14205</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:36.837356</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:57.737155</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Solar radiation management impacts on agriculture in China: A case study in the Geoengineering Model Intercomparison Project (GeoMIP)</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2014-07-27T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -364,12 +362,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7mw2j4v</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -377,12 +374,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2013JD020630</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -392,7 +388,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Geoengineering via solar radiation management could affect agricultural productivity due to changes in temperature, precipitation, and solar radiation. To study rice and maize production changes in China, we used results from 10 climate models participating in the Geoengineering Model Intercomparison Project (GeoMIP) G2 scenario to force the Decision Support System for Agrotechnology Transfer (DSSAT) crop model. G2 prescribes an insolation reduction to balance a 1% a&#8722;1 increase in CO&#8322; concentration (1pctCO&#8322;) for 50 years. We first evaluated the DSSAT model using 30 years (1978&#8211;2007) of daily observed weather records and agriculture practices for 25 major agriculture provinces in China and compared the results to observations of yield. We then created three sets of climate forcing for 42 locations in China for DSSAT from each climate model experiment: (1) 1pctCO&#8322;, (2) G2, and (3) G2 with constant CO&#8322; concentration (409 ppm) and compared the resulting agricultural responses. In the DSSAT simulations: (1) Without changing management practices, the combined effect of simulated climate changes due to geoengineering and CO&#8322; fertilization during the last 15 years of solar reduction would change rice production in China by &#8722;3.0 &#177; 4.0 megaton (Mt) (2.4 &#177; 4.0%) as compared with 1pctCO&#8322; and increase Chinese maize production by 18.1 &#177; 6.0 Mt (13.9 &#177; 5.9%). (2) The termination of geoengineering shows negligible impacts on rice production but a 19.6 Mt (11.9%) reduction of maize production as compared to the last 15 years of geoengineering. (3) The CO&#8322; fertilization effect compensates for the deleterious impacts of changes in temperature, precipitation, and solar radiation due to geoengineering on rice production, increasing rice production by 8.6 Mt. The elevated CO&#8322; concentration enhances maize production in G2, contributing 7.7 Mt (42.4%) to the total increase. Using the DSSAT crop model, virtually all of the climate models agree on the sign of the responses, even though the spread across models is large. This suggests that solar radiation management would have little impact on rice production in China but could increase maize production.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Geoengineering via solar radiation management could affect agricultural productivity due to changes in temperature, precipitation, and solar radiation. To study rice and maize production changes in China, we used results from 10 climate models participating in the Geoengineering Model Intercomparison Project (GeoMIP) G2 scenario to force the Decision Support System for Agrotechnology Transfer (DSSAT) crop model. G2 prescribes an insolation reduction to balance a 1% a&#8722;1 increase in CO&#8322; concentration (1pctCO&#8322;) for 50 years. We first evaluated the DSSAT model using 30 years (1978&#8211;2007) of daily observed weather records and agriculture practices for 25 major agriculture provinces in China and compared the results to observations of yield. We then created three sets of climate forcing for 42 locations in China for DSSAT from each climate model experiment: (1) 1pctCO&#8322;, (2) G2, and (3) G2 with constant CO&#8322; concentration (409 ppm) and compared the resulting agricultural responses. In the DSSAT simulations: (1) Without changing management practices, the combined effect of simulated climate changes due to geoengineering and CO&#8322; fertilization during the last 15 years of solar reduction would change rice production in China by &#8722;3.0 &#177; 4.0 megaton (Mt) (2.4 &#177; 4.0%) as compared with 1pctCO&#8322; and increase Chinese maize production by 18.1 &#177; 6.0 Mt (13.9 &#177; 5.9%). (2) The termination of geoengineering shows negligible impacts on rice production but a 19.6 Mt (11.9%) reduction of maize production as compared to the last 15 years of geoengineering. (3) The CO&#8322; fertilization effect compensates for the deleterious impacts of changes in temperature, precipitation, and solar radiation due to geoengineering on rice production, increasing rice production by 8.6 Mt. The elevated CO&#8322; concentration enhances maize production in G2, contributing 7.7 Mt (42.4%) to the total increase. Using the DSSAT crop model, virtually all of the climate models agree on the sign of the responses, even though the spread across models is large. This suggests that solar radiation management would have little impact on rice production in China but could increase maize production.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -447,12 +443,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -494,7 +488,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

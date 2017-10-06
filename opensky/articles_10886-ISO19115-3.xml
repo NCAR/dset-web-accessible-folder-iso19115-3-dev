@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:10886</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:44.703551</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:40.670432</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Climate impacts of parameterized Nordic Sea overflows</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-11-06T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d78k79pt</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2010JC006243</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A new overflow parameterization (OFP) of density-driven flows through ocean ridges via narrow, unresolved channels has been developed and implemented in the ocean component of the Community Climate System Model version 4. It represents exchanges from the Nordic Seas and the Antarctic shelves, associated entrainment, and subsequent injection of overflow product waters into the abyssal basins. We investigate the effects of the parameterized Denmark Strait (DS) and Faroe Bank Channel (FBC) overflows on the ocean circulation, showing their impacts on the Atlantic Meridional Overturning Circulation and the North Atlantic climate. The OFP is based on the Marginal Sea Boundary Condition scheme of Price and Yang (1998), but there are significant differences that are described in detail. Two uncoupled (ocean-only) and two fully coupled simulations are analyzed. Each pair consists of one case with the OFP and a control case without this parameterization. In both uncoupled and coupled experiments, the parameterized DS and FBC source volume transports are within the range of observed estimates. The entrainment volume transports remain lower than observational estimates, leading to lower than observed product volume transports. Due to low entrainment, the product and source water properties are too similar. The DS and FBC overflow temperature and salinity properties are in better agreement with observations in the uncoupled case than in the coupled simulation, likely reflecting surface flux differences. The most significant impact of the OFP is the improved North Atlantic Deep Water penetration depth, leading to a much better comparison with the observational data and significantly reducing the chronic, shallow penetration depth bias in level coordinate models. This improvement is due to the deeper penetration of the southward flowing Deep Western Boundary Current. In comparison with control experiments without the OFP, the abyssal ventilation rates increase in the North Atlantic. In the uncoupled simulation with the OFP, the warm bias of the control simulation in the deep North Atlantic is substantially reduced along with salinity bias reductions in the northern North Atlantic. There are similar but more modest bias reductions in the deep temperature and salinity distributions especially in the northern North Atlantic in the coupled OFP case. In coupled simulations, there are noticeable impacts of the OFP on climate. The sea surface temperatures (SSTs) are warmer by more than 5 C off the North American coast and by more than 1 C in the Nordic Sea with the OFP. The surface heat fluxes mostly act to diminish these SST changes. There are related changes in the sea level pressure, leading to about 15% weaker westerly wind stress in the northern North Atlantic. In response to the warmer Nordic Sea SSTs, there are reductions in the sea ice extent, improving comparisons with observations. Although the OFP cases improve many aspects of the simulations compared to observations, some significant biases remain, more in coupled than in uncoupled simulations.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A new overflow parameterization (OFP) of density-driven flows through ocean ridges via narrow, unresolved channels has been developed and implemented in the ocean component of the Community Climate System Model version 4. It represents exchanges from the Nordic Seas and the Antarctic shelves, associated entrainment, and subsequent injection of overflow product waters into the abyssal basins. We investigate the effects of the parameterized Denmark Strait (DS) and Faroe Bank Channel (FBC) overflows on the ocean circulation, showing their impacts on the Atlantic Meridional Overturning Circulation and the North Atlantic climate. The OFP is based on the Marginal Sea Boundary Condition scheme of Price and Yang (1998), but there are significant differences that are described in detail. Two uncoupled (ocean-only) and two fully coupled simulations are analyzed. Each pair consists of one case with the OFP and a control case without this parameterization. In both uncoupled and coupled experiments, the parameterized DS and FBC source volume transports are within the range of observed estimates. The entrainment volume transports remain lower than observational estimates, leading to lower than observed product volume transports. Due to low entrainment, the product and source water properties are too similar. The DS and FBC overflow temperature and salinity properties are in better agreement with observations in the uncoupled case than in the coupled simulation, likely reflecting surface flux differences. The most significant impact of the OFP is the improved North Atlantic Deep Water penetration depth, leading to a much better comparison with the observational data and significantly reducing the chronic, shallow penetration depth bias in level coordinate models. This improvement is due to the deeper penetration of the southward flowing Deep Western Boundary Current. In comparison with control experiments without the OFP, the abyssal ventilation rates increase in the North Atlantic. In the uncoupled simulation with the OFP, the warm bias of the control simulation in the deep North Atlantic is substantially reduced along with salinity bias reductions in the northern North Atlantic. There are similar but more modest bias reductions in the deep temperature and salinity distributions especially in the northern North Atlantic in the coupled OFP case. In coupled simulations, there are noticeable impacts of the OFP on climate. The sea surface temperatures (SSTs) are warmer by more than 5 C off the North American coast and by more than 1 C in the Nordic Sea with the OFP. The surface heat fluxes mostly act to diminish these SST changes. There are related changes in the sea level pressure, leading to about 15% weaker westerly wind stress in the northern North Atlantic. In response to the warmer Nordic Sea SSTs, there are reductions in the sea ice extent, improving comparisons with observations. Although the OFP cases improve many aspects of the simulations compared to observations, some significant biases remain, more in coupled than in uncoupled simulations.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -282,12 +278,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -329,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

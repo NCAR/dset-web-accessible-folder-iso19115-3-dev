@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:07.931170</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.452101</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Validation of the CrIS fast physical NH3 retrieval with ground-based FTIR</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-25T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -454,12 +452,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7bc420c</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -467,12 +464,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/amt-10-2645-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -482,7 +478,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Presented here is the validation of the CrIS (Cross-track Infrared Sounder) fast physical NH3 retrieval (CFPR) column and profile measurements using ground-based Fourier transform infrared (FTIR) observations. We use the total columns and profiles from seven FTIR sites in the Network for the Detection of Atmospheric Composition Change (NDACC) to validate the satellite data products. The overall FTIR and CrIS total columns have a positive correlation of r = 0.77 (N = 218) with very little bias (a slope of 1.02). Binning the comparisons by total column amounts, for concentrations larger than 1.0 x 10(16) molecules cm(-2), i.e. ranging from moderate to polluted conditions, the relative difference is on average similar to 0-5% with a standard deviation of 25-50 %, which is comparable to the estimated retrieval uncertainties in both CrIS and the FTIR. For the smallest total column range (&lt; 1.0x x 10(16) molecules cm(-2)) where there are a large number of observations at or near the CrIS noise level (detection limit) the absolute differences between CrIS and the FTIR total columns show a slight positive column bias. The CrIS and FTIR profile comparison differences are mostly within the range of the single-level retrieved profile values from estimated retrieval uncertainties, showing average differences in the range of similar to 20 to 40 %. The CrIS retrievals typically show good vertical sensitivity down into the boundary layer which typically peaks at similar to 850 hPa (similar to 1.5 km). At this level the median absolute difference is 0.87 (std = +/- 0.08) ppb, corresponding to a median relative difference of 39%(std = +/- 2 %). Most of the absolute and relative profile comparison differences are in the range of the estimated retrieval uncertainties. At the surface, where CrIS typically has lower sensitivity, it tends to overestimate in low-concentration conditions and underestimate in higher atmospheric concentration conditions.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Presented here is the validation of the CrIS (Cross-track Infrared Sounder) fast physical NH3 retrieval (CFPR) column and profile measurements using ground-based Fourier transform infrared (FTIR) observations. We use the total columns and profiles from seven FTIR sites in the Network for the Detection of Atmospheric Composition Change (NDACC) to validate the satellite data products. The overall FTIR and CrIS total columns have a positive correlation of r = 0.77 (N = 218) with very little bias (a slope of 1.02). Binning the comparisons by total column amounts, for concentrations larger than 1.0 x 10(16) molecules cm(-2), i.e. ranging from moderate to polluted conditions, the relative difference is on average similar to 0-5% with a standard deviation of 25-50 %, which is comparable to the estimated retrieval uncertainties in both CrIS and the FTIR. For the smallest total column range (< 1.0x x 10(16) molecules cm(-2)) where there are a large number of observations at or near the CrIS noise level (detection limit) the absolute differences between CrIS and the FTIR total columns show a slight positive column bias. The CrIS and FTIR profile comparison differences are mostly within the range of the single-level retrieved profile values from estimated retrieval uncertainties, showing average differences in the range of similar to 20 to 40 %. The CrIS retrievals typically show good vertical sensitivity down into the boundary layer which typically peaks at similar to 850 hPa (similar to 1.5 km). At this level the median absolute difference is 0.87 (std = +/- 0.08) ppb, corresponding to a median relative difference of 39%(std = +/- 2 %). Most of the absolute and relative profile comparison differences are in the range of the estimated retrieval uncertainties. At the surface, where CrIS typically has lower sensitivity, it tends to overestimate in low-concentration conditions and underestimate in higher atmospheric concentration conditions.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -541,7 +537,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -583,7 +578,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

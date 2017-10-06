@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.803632</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:21.626521</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>An intercomparison of approaches for improving operational seasonal streamflow forecasts</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-31T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d76112sv</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/hess-21-3915-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>For much of the last century, forecasting centers around the world have offered seasonal streamflow predictions to support water management. Recent work suggests that the two major avenues to advance seasonal predictability are improvements in the estimation of initial hydrologic conditions (IHCs) and the incorporation of climate information. This study investigates the marginal benefits of a variety of methods using IHCs and/or climate information, focusing on seasonal water supply forecasts (WSFs) in five case study watersheds located in the US Pacific Northwest region. We specify two benchmark methods that mimic standard operational approaches - statistical regression against IHCs and model-based ensemble streamflow prediction (ESP) - and then systematically intercompare WSFs across a range of lead times. Additional methods include (i) statistical techniques using climate information either from standard indices or from climate reanalysis variables and (ii) several hybrid/hierarchical approaches harnessing both land surface and climate predictability. In basins where atmospheric tele-connection signals are strong, and when watershed predictability is low, climate information alone provides considerable improvements. For those basins showing weak tele-connections, custom predictors from reanalysis fields were more effective in forecast skill than standard climate indices. ESP predictions tended to have high correlation skill but greater bias compared to other methods, and climate predictors failed to substantially improve these deficiencies within a trace weighting framework. Lower complexity techniques were competitive with more complex methods, and the hierarchical expert regression approach introduced here (hierarchical ensemble streamflow prediction - HESP) provided a robust alternative for skillful and reliable water supply forecasts at all initialization times. Three key findings from this effort are (1) objective approaches supporting methodologically consistent hindcasts open the door to a broad range of beneficial forecasting strategies; (2) the use of climate predictors can add to the seasonal forecast skill available from IHCs; and (3) sample size limitations must be handled rigorously to avoid over-trained forecast solutions. Overall, the results suggest that despite a rich, long heritage of operational use, there remain a number of compelling opportunities to improve the skill and value of seasonal streamflow predictions.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[For much of the last century, forecasting centers around the world have offered seasonal streamflow predictions to support water management. Recent work suggests that the two major avenues to advance seasonal predictability are improvements in the estimation of initial hydrologic conditions (IHCs) and the incorporation of climate information. This study investigates the marginal benefits of a variety of methods using IHCs and/or climate information, focusing on seasonal water supply forecasts (WSFs) in five case study watersheds located in the US Pacific Northwest region. We specify two benchmark methods that mimic standard operational approaches - statistical regression against IHCs and model-based ensemble streamflow prediction (ESP) - and then systematically intercompare WSFs across a range of lead times. Additional methods include (i) statistical techniques using climate information either from standard indices or from climate reanalysis variables and (ii) several hybrid/hierarchical approaches harnessing both land surface and climate predictability. In basins where atmospheric tele-connection signals are strong, and when watershed predictability is low, climate information alone provides considerable improvements. For those basins showing weak tele-connections, custom predictors from reanalysis fields were more effective in forecast skill than standard climate indices. ESP predictions tended to have high correlation skill but greater bias compared to other methods, and climate predictors failed to substantially improve these deficiencies within a trace weighting framework. Lower complexity techniques were competitive with more complex methods, and the hierarchical expert regression approach introduced here (hierarchical ensemble streamflow prediction - HESP) provided a robust alternative for skillful and reliable water supply forecasts at all initialization times. Three key findings from this effort are (1) objective approaches supporting methodologically consistent hindcasts open the door to a broad range of beneficial forecasting strategies; (2) the use of climate predictors can add to the seasonal forecast skill available from IHCs; and (3) sample size limitations must be handled rigorously to avoid over-trained forecast solutions. Overall, the results suggest that despite a rich, long heritage of operational use, there remain a number of compelling opportunities to improve the skill and value of seasonal streamflow predictions.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -361,7 +357,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -403,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

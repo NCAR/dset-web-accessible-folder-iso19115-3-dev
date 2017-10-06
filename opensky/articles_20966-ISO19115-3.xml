@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:09.066739</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:22.010673</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Effects of solar proton events on dayglow observed by the TIMED/SABER satellite</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-15T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d75x2cdp</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017JA023966</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The effect of solar proton events on the daytime O-2 and OH airglows and ozone and atomic oxygen concentrations in the mesosphere is studied using data from the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER). Five events occurred in September 2005, December 2006, March 2012, May 2013, and June 2015 that satisfy two criteria: the maximum proton fluxes are larger than 1000pfu, and daytime data in the high latitude region are available from SABER. The event in December 2006 is studied in detail, and the effects of all five events are compared in brief. The results indicate that all four parameters in the mesosphere decrease during the events. During the event in 2006, the maximum depletions of O-2 and OH dayglow emission rates and ozone and atomic oxygen volume mixing ratios at 70km are respectively 31.6%, 37.0%, 42.4%, and 38.9%. The effect of the solar proton event changes with latitude, longitude, and altitude. The depletions due to the stronger events are larger on average than those due to the weaker events. The depletions of both dayglow emission rates are weaker than those of ozone and atomic oxygen. The responses of O-2 and OH nightglow emissions around their peak altitudes to the SPEs are not as strong and regular as those for dayglow in the mesosphere.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The effect of solar proton events on the daytime O-2 and OH airglows and ozone and atomic oxygen concentrations in the mesosphere is studied using data from the Sounding of the Atmosphere using Broadband Emission Radiometry (SABER). Five events occurred in September 2005, December 2006, March 2012, May 2013, and June 2015 that satisfy two criteria: the maximum proton fluxes are larger than 1000pfu, and daytime data in the high latitude region are available from SABER. The event in December 2006 is studied in detail, and the effects of all five events are compared in brief. The results indicate that all four parameters in the mesosphere decrease during the events. During the event in 2006, the maximum depletions of O-2 and OH dayglow emission rates and ozone and atomic oxygen volume mixing ratios at 70km are respectively 31.6%, 37.0%, 42.4%, and 38.9%. The effect of the solar proton event changes with latitude, longitude, and altitude. The depletions due to the stronger events are larger on average than those due to the weaker events. The depletions of both dayglow emission rates are weaker than those of ozone and atomic oxygen. The responses of O-2 and OH nightglow emissions around their peak altitudes to the SPEs are not as strong and regular as those for dayglow in the mesosphere.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

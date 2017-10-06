@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12928</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:19.770223</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:27.603096</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Linearity of climate response to increases in black carbon aerosols</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2013-10-15T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d79z95sc</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-12-00715.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The impacts of absorbing aerosols on global climate are not completely understood. This paper presents the results of idealized experiments conducted with the Community Atmosphere Model, version 4 (CAM4), coupled to a slab ocean model (CAM4&#8211;SOM) to simulate the climate response to increases in tropospheric black carbon aerosols (BC) by direct and semidirect effects. CAM4-SOM was forced with 0, 1&#215;, 2&#215;, 5&#215;, and 10&#215; an estimate of the present day concentration of BC while maintaining the estimated present day global spatial and vertical distribution. The top-of-atmosphere (TOA) radiative forcing of BC in these experiments is positive (warming) and increases linearly as the BC burden increases. The total semidirect effect for the 1 &#215; BC experiment is positive but becomes increasingly negative for higher BC concentrations. The global-average surface temperature response is found to be a linear function of the TOA radiative forcing. The climate sensitivity to BC from these experiments is estimated to be 0.42 K W&#8315;&#185; m&#178; when the semidirect effects are accounted for and 0.22 K W&#8315;&#185; m&#178; with only the direct effects considered. Global-average precipitation decreases linearly as BC increases, with a precipitation sensitivity to atmospheric absorption of 0.4% W&#8722;&#185; m&#178;. The hemispheric asymmetry of BC also causes an increase in southward cross-equatorial heat transport and a resulting northward shift of the intertropical convergence zone in the simulations at a rate of 4&#176; PW&#8315;&#185;. Global-average mid- and high-level clouds decrease, whereas the low-level clouds increase linearly with BC. The increase in marine stratocumulus cloud fraction over the southern tropical Atlantic is caused by increased BC-induced diabatic heating of the free troposphere.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The impacts of absorbing aerosols on global climate are not completely understood. This paper presents the results of idealized experiments conducted with the Community Atmosphere Model, version 4 (CAM4), coupled to a slab ocean model (CAM4&#8211;SOM) to simulate the climate response to increases in tropospheric black carbon aerosols (BC) by direct and semidirect effects. CAM4-SOM was forced with 0, 1&#215;, 2&#215;, 5&#215;, and 10&#215; an estimate of the present day concentration of BC while maintaining the estimated present day global spatial and vertical distribution. The top-of-atmosphere (TOA) radiative forcing of BC in these experiments is positive (warming) and increases linearly as the BC burden increases. The total semidirect effect for the 1 &#215; BC experiment is positive but becomes increasingly negative for higher BC concentrations. The global-average surface temperature response is found to be a linear function of the TOA radiative forcing. The climate sensitivity to BC from these experiments is estimated to be 0.42 K W&#8315;&#185; m&#178; when the semidirect effects are accounted for and 0.22 K W&#8315;&#185; m&#178; with only the direct effects considered. Global-average precipitation decreases linearly as BC increases, with a precipitation sensitivity to atmospheric absorption of 0.4% W&#8722;&#185; m&#178;. The hemispheric asymmetry of BC also causes an increase in southward cross-equatorial heat transport and a resulting northward shift of the intertropical convergence zone in the simulations at a rate of 4&#176; PW&#8315;&#185;. Global-average mid- and high-level clouds decrease, whereas the low-level clouds increase linearly with BC. The increase in marine stratocumulus cloud fraction over the southern tropical Atlantic is caused by increased BC-induced diabatic heating of the free troposphere.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

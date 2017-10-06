@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:6081</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:11.055532</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:31:53.775264</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Diurnal variation in water vapor over North America and its implications for sampling errors in radiosonde humidity</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2002-05-22T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7p55nps</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2001JD000642</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Diurnal variations in atmospheric water vapor are studied by analyzing 30-min-averaged data of atmospheric precipitable water (PW) for 1996&#8211;2000 derived from Global Position System (GPS) observations from 54 North America stations. Vertical structures in the diurnal cycle of atmospheric water vapor are examined using 3-hourly radiosonde data from Lamont, Oklahoma, during the 1994 - 2000 period. Significant diurnal variations of PW are found over most of the stations. The diurnal (24 hour) cycle, S1, which explains over 50% of the subdaily variance, has an amplitude of 1.0 - 1.8 mm over most of the central and eastern United States during summer and is weaker in other seasons. The S1 peaks around noon in winter and from midafternoon to midnight in summer. The semidiurnal (12 hour) cycle is generally weak, with an amplitude of a few tenths of 1 mm. At Lamont, specific humidity in the free troposphere is significantly higher in the early morning (0000&#8211;0008 local solar time (LST)) than during the day (0800 - 1800 LST). This diurnal variation changes little from -4 to 16 km above the ground. Near the surface, specific humidity tends to be lower in the morning than in the afternoon and evening in all seasons except summer. This near-surface diurnal cycle propagates upward through the lower troposphere (up to -4 km). Errors in seasonal mean humidity due to undersampling the diurnal cycle with twice-daily synoptic soundings (at 0000 and 1200 UTC) are generally small (within &#177;3% or &#177;0.5 mm for PW), but it can easily reach 5 - 10% if there is only one random sounding per day. Several physical processes are proposed that could contribute to the diurnal variations in atmospheric water vapor.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Diurnal variations in atmospheric water vapor are studied by analyzing 30-min-averaged data of atmospheric precipitable water (PW) for 1996&#8211;2000 derived from Global Position System (GPS) observations from 54 North America stations. Vertical structures in the diurnal cycle of atmospheric water vapor are examined using 3-hourly radiosonde data from Lamont, Oklahoma, during the 1994 - 2000 period. Significant diurnal variations of PW are found over most of the stations. The diurnal (24 hour) cycle, S1, which explains over 50% of the subdaily variance, has an amplitude of 1.0 - 1.8 mm over most of the central and eastern United States during summer and is weaker in other seasons. The S1 peaks around noon in winter and from midafternoon to midnight in summer. The semidiurnal (12 hour) cycle is generally weak, with an amplitude of a few tenths of 1 mm. At Lamont, specific humidity in the free troposphere is significantly higher in the early morning (0000&#8211;0008 local solar time (LST)) than during the day (0800 - 1800 LST). This diurnal variation changes little from -4 to 16 km above the ground. Near the surface, specific humidity tends to be lower in the morning than in the afternoon and evening in all seasons except summer. This near-surface diurnal cycle propagates upward through the lower troposphere (up to -4 km). Errors in seasonal mean humidity due to undersampling the diurnal cycle with twice-daily synoptic soundings (at 0000 and 1200 UTC) are generally small (within &#177;3% or &#177;0.5 mm for PW), but it can easily reach 5 - 10% if there is only one random sounding per day. Several physical processes are proposed that could contribute to the diurnal variations in atmospheric water vapor.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -297,12 +293,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -344,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

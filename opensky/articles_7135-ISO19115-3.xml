@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:7135</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:19.169946</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:06.160665</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Dynamics of track deflection associated with the passage of a tropical cyclone over a mesoscale mountain</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2006-12-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7h13294</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/MWR3263.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>In this study, the fifth-generation Pennsylvania State University-National Center for Atmospheric Research (PSU-NCAR) Mesoscale Model (MM5) was used to simulate Supertyphoon Bilis (in 2000) and Typhoon Toraji (in 2001) in order to investigate the dynamics of track deflection caused by the Central Mountain Range (CMR) of Taiwan. The MM5 predicted the track of each storm reasonably well. Bilis was stronger and had a relatively faster forward motion, which helped make the track continuous as it crossed the CMR. The use of a "bogus" vortex in the initialization process helped produce a storm closer to the observed strength. Bilis is a classic example of a typhoon crossing Taiwan with a continuous track. For comparison, Typhoon Toraji, a typical typhoon having a discontinuous track, was also studied. Toraji was weaker and had a relatively slower forward speed, which prevented the original low center from crossing over the CMR and forced more air parcels to go around the northern tip of the CMR. As a result, it produced a vortex and a secondary low center on the lee. Potential vorticity banners on the north side of the CMR acted to organize the secondary low and the lee vortex. With time, the low-level circulation extended into the upper levels, completing the formation of the secondary center. Remnants of the initial center crossed over the CMR and were entrained into the secondary center. Nondimensional control parameters for track continuity and deflection from idealized studies are calculated for Bilis and Toraji. The results are consistent with the theory proposed in Lin et al. For tropical cyclones (TCs) approaching Taiwan from the southeast, the conceptual model proposed by Lin et al. for continuous and discontinuous tracks was applied. For continuous tracks over the CMR, the blocking effect on the outer circulation of the vortex is weak and the vorticity advection around the northern tip is strong due to an intense TC. Weak TCs tend to be totally blocked by the CMR.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[In this study, the fifth-generation Pennsylvania State University-National Center for Atmospheric Research (PSU-NCAR) Mesoscale Model (MM5) was used to simulate Supertyphoon Bilis (in 2000) and Typhoon Toraji (in 2001) in order to investigate the dynamics of track deflection caused by the Central Mountain Range (CMR) of Taiwan. The MM5 predicted the track of each storm reasonably well. Bilis was stronger and had a relatively faster forward motion, which helped make the track continuous as it crossed the CMR. The use of a "bogus" vortex in the initialization process helped produce a storm closer to the observed strength. Bilis is a classic example of a typhoon crossing Taiwan with a continuous track. For comparison, Typhoon Toraji, a typical typhoon having a discontinuous track, was also studied. Toraji was weaker and had a relatively slower forward speed, which prevented the original low center from crossing over the CMR and forced more air parcels to go around the northern tip of the CMR. As a result, it produced a vortex and a secondary low center on the lee. Potential vorticity banners on the north side of the CMR acted to organize the secondary low and the lee vortex. With time, the low-level circulation extended into the upper levels, completing the formation of the secondary center. Remnants of the initial center crossed over the CMR and were entrained into the secondary center. Nondimensional control parameters for track continuity and deflection from idealized studies are calculated for Bilis and Toraji. The results are consistent with the theory proposed in Lin et al. For tropical cyclones (TCs) approaching Taiwan from the southeast, the conceptual model proposed by Lin et al. for continuous and discontinuous tracks was applied. For continuous tracks over the CMR, the blocking effect on the outer circulation of the vortex is weak and the vorticity advection around the northern tip is strong due to an intense TC. Weak TCs tend to be totally blocked by the CMR.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -282,12 +278,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -329,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

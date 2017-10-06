@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12379</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:05.164093</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:09.725473</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The United States' next generation of atmospheric composition and coastal ecosystem measurements: NASA's geostationary coastal and air pollution events (GEO-CAPE) mission</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2012-10-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -634,12 +632,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7rr201r</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -647,12 +644,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/BAMS-D-11-00201.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -662,7 +658,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Geostationary Coastal and Air Pollution Events (GEO-CAPE) mission was recommended by the National Research Council's (NRC's) Earth Science Decadal Survey to measure tropospheric trace gases and aerosols and coastal ocean phytoplankton, water quality, and biogeochemistry from geostationary orbit, providing continuous observations within the field of view. To fulfill the mandate and address the challenge put forth by the NRC, two GEO-CAPE Science Working Groups (SWGs), representing the atmospheric composition and ocean color disciplines, have developed realistic science objectives using input drawn from several community workshops. The GEO-CAPE mission will take advantage of this revolutionary advance in temporal frequency for both of these disciplines. Multiple observations per day are required to explore the physical, chemical, and dynamical processes that determine tropospheric composition and air quality over spatial scales ranging from urban to continental, and over temporal scales ranging from diurnal to seasonal. Likewise, high-frequency satellite observations are critical to studying and quantifying biological, chemical, and physical processes within the coastal ocean. These observations are to be achieved from a vantage point near 95&#176;&#8211;100&#176;W, providing a complete view of North America as well as the adjacent oceans. The SWGs have also endorsed the concept of phased implementation using commercial satellites to reduce mission risk and cost. GEO-CAPE will join the global constellation of geostationary atmospheric chemistry and coastal ocean color sensors planned to be in orbit in the 2020 time frame.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Geostationary Coastal and Air Pollution Events (GEO-CAPE) mission was recommended by the National Research Council's (NRC's) Earth Science Decadal Survey to measure tropospheric trace gases and aerosols and coastal ocean phytoplankton, water quality, and biogeochemistry from geostationary orbit, providing continuous observations within the field of view. To fulfill the mandate and address the challenge put forth by the NRC, two GEO-CAPE Science Working Groups (SWGs), representing the atmospheric composition and ocean color disciplines, have developed realistic science objectives using input drawn from several community workshops. The GEO-CAPE mission will take advantage of this revolutionary advance in temporal frequency for both of these disciplines. Multiple observations per day are required to explore the physical, chemical, and dynamical processes that determine tropospheric composition and air quality over spatial scales ranging from urban to continental, and over temporal scales ranging from diurnal to seasonal. Likewise, high-frequency satellite observations are critical to studying and quantifying biological, chemical, and physical processes within the coastal ocean. These observations are to be achieved from a vantage point near 95&#176;&#8211;100&#176;W, providing a complete view of North America as well as the adjacent oceans. The SWGs have also endorsed the concept of phased implementation using commercial satellites to reduce mission risk and cost. GEO-CAPE will join the global constellation of geostationary atmospheric chemistry and coastal ocean color sensors planned to be in orbit in the 2020 time frame.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -717,12 +713,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -764,7 +758,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

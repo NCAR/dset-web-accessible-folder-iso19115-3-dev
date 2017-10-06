@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:09.474556</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:22.680453</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Observational evidence of 3-D cloud effects in OCO-2 CO2 retrievals</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-11T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7gt5qp9</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016JD026111</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The standard deviations of the distributions of Orbiting Carbon Observatory (OCO-2) measurements of CO2 (i. e., XCO2) increase in size in the presence of clouds. XCO2 and Moderate Resolution Imaging Spectroradiometer (MODIS) radiance and cloud fields, and OCO-2 A-band radiances, are analyzed in order to determine if this behavior is best described as a radiance-level retrieval artifact or by 3-D radiative transfer effects. Observations in clear-sky and fair weather cumulus scenes are analyzed. Scatter diagrams of XCO2 versus MODIS (and OCO-2) radiances are presented, and averages are calculated for each scene for several radiance bins. The averages vary little in clear skies but decrease markedly for cloudy scenes as radiances increase. These decreases are consistent with an interpretative framework provided by 3-D SHDOM radiative transfer calculations. Two 3-D metrics,.XCO2 and Have, are calculated and applied..XCO2 is the difference in XCO2 for the smallest and largest radiance bins. Have is a measure of the heterogeneity of the cloud radiance field. Lines of XCO2 and MODIS radiance for four target mode scenes have different slopes for clear and cloudy scenes, contrary to the radiance-level retrieval artifact interpretation. In contrast, the graph of.XCO2 and MODIS Have for the various scenes has a linear correlation coefficient of 0.92, consistent with the 3-D interpretation. Since the OCO-2 measurement requirement is 1 ppmv, the cloudy scene XCO2 standard deviations between 1.2 and 2.6 ppmv indicate that 3-D cloud effects add an important component to the XCO2 error budget.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The standard deviations of the distributions of Orbiting Carbon Observatory (OCO-2) measurements of CO2 (i. e., XCO2) increase in size in the presence of clouds. XCO2 and Moderate Resolution Imaging Spectroradiometer (MODIS) radiance and cloud fields, and OCO-2 A-band radiances, are analyzed in order to determine if this behavior is best described as a radiance-level retrieval artifact or by 3-D radiative transfer effects. Observations in clear-sky and fair weather cumulus scenes are analyzed. Scatter diagrams of XCO2 versus MODIS (and OCO-2) radiances are presented, and averages are calculated for each scene for several radiance bins. The averages vary little in clear skies but decrease markedly for cloudy scenes as radiances increase. These decreases are consistent with an interpretative framework provided by 3-D SHDOM radiative transfer calculations. Two 3-D metrics,.XCO2 and Have, are calculated and applied..XCO2 is the difference in XCO2 for the smallest and largest radiance bins. Have is a measure of the heterogeneity of the cloud radiance field. Lines of XCO2 and MODIS radiance for four target mode scenes have different slopes for clear and cloudy scenes, contrary to the radiance-level retrieval artifact interpretation. In contrast, the graph of.XCO2 and MODIS Have for the various scenes has a linear correlation coefficient of 0.92, consistent with the 3-D interpretation. Since the OCO-2 measurement requirement is 1 ppmv, the cloudy scene XCO2 standard deviations between 1.2 and 2.6 ppmv indicate that 3-D cloud effects add an important component to the XCO2 error budget.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

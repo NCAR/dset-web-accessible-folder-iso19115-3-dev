@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18597</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:41.897252</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:31.329158</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>AMSR2 all-sky radiance assimilation and its impact on the analysis and forecast of Hurricane Sandy with a limited-area data assimilation system</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7dj5h82</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.3402/tellusa.v68.30917</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A method to assimilate all-sky radiances from the Advanced Microwave Scanning Radiometer 2 (AMSR2) was developed within the Weather Research and Forecasting (WRF) model&#8217;s data assimilation (WRFDA) system. The four essential elements are: (1) extending the community radiative transform model's (CRTM) interface to include hydrometeor profiles; (2) using total water Qt as the moisture control variable; (3) using a warm-rain physics scheme for partitioning the Qt increment into individual increments of water vapour, cloud liquid water and rain; and (4) adopting a symmetric observation error model for all-sky radiance assimilation. Compared to a benchmark experiment with no AMSR2 data, the impact of assimilating clear-sky or all-sky AMSR2 radiances on the analysis and forecast of Hurricane Sandy (2012) was assessed through analysis/forecast cycling experiments using WRF and WRFDA's three-dimensional variational (3DVAR) data assimilation scheme. With more cloud/precipitation-affected data being assimilated around tropical cyclone (TC) core areas in the all-sky AMSR2 assimilation experiment, better analyses were obtained in terms of the TC's central sea level pressure (CSLP), warm-core structure and cloud distribution. Substantial (&gt;20 %) error reduction in track and CSLP forecasts was achieved from both clear-sky and all-sky AMSR2 assimilation experiments, and this improvement was consistent from the analysis time to 72-h forecasts. Moreover, the all-sky assimilation experiment consistently yielded better track and CSLP forecasts than the clear-sky did for all forecast lead times, due to a better analysis in the TC core areas. Positive forecast impact from assimilating AMSR2 radiances is also seen when verified against the European Center for Medium-Range Weather Forecasts (ECMWF) analysis and the Stage IV precipitation analysis, with an overall larger positive impact from the all-sky assimilation experiment.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A method to assimilate all-sky radiances from the Advanced Microwave Scanning Radiometer 2 (AMSR2) was developed within the Weather Research and Forecasting (WRF) model&#8217;s data assimilation (WRFDA) system. The four essential elements are: (1) extending the community radiative transform model's (CRTM) interface to include hydrometeor profiles; (2) using total water Qt as the moisture control variable; (3) using a warm-rain physics scheme for partitioning the Qt increment into individual increments of water vapour, cloud liquid water and rain; and (4) adopting a symmetric observation error model for all-sky radiance assimilation. Compared to a benchmark experiment with no AMSR2 data, the impact of assimilating clear-sky or all-sky AMSR2 radiances on the analysis and forecast of Hurricane Sandy (2012) was assessed through analysis/forecast cycling experiments using WRF and WRFDA's three-dimensional variational (3DVAR) data assimilation scheme. With more cloud/precipitation-affected data being assimilated around tropical cyclone (TC) core areas in the all-sky AMSR2 assimilation experiment, better analyses were obtained in terms of the TC's central sea level pressure (CSLP), warm-core structure and cloud distribution. Substantial (>20 %) error reduction in track and CSLP forecasts was achieved from both clear-sky and all-sky AMSR2 assimilation experiments, and this improvement was consistent from the analysis time to 72-h forecasts. Moreover, the all-sky assimilation experiment consistently yielded better track and CSLP forecasts than the clear-sky did for all forecast lead times, due to a better analysis in the TC core areas. Positive forecast impact from assimilating AMSR2 radiances is also seen when verified against the European Center for Medium-Range Weather Forecasts (ECMWF) analysis and the Stage IV precipitation analysis, with an overall larger positive impact from the all-sky assimilation experiment.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -327,12 +323,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -374,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

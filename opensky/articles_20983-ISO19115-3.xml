@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:09.353455</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:22.526362</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Projected drought risk in 1.5&#176;C and 2&#176;C warmer climates</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-22T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7w37zt7</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2017GL074117</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The large socioeconomic costs of droughts make them a crucial target for impact assessments of climate change scenarios. Using multiple drought metrics and a set of simulations with the Community Earth System Model targeting 1.5&#176;C and 2&#176;C above preindustrial global mean temperatures, we investigate changes in aridity and the risk of consecutive drought years. If warming is limited to 2&#176;C, these simulations suggest little change in drought risk for the U.S. Southwest and Central Plains compared to present day. In the Mediterranean and central Europe, however, drought risk increases significantly for both 1.5&#176;C and 2&#176;C warming targets, and the additional 0.5&#176;C of the 2&#176;C climate leads to significantly higher drought risk. Our study suggests that limiting anthropogenic warming to 1.5&#176;C rather than 2&#176;C, as aspired to by the Paris Climate Agreement, may have benefits for future drought risk but that such benefits may be regional and in some cases highly uncertain.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The large socioeconomic costs of droughts make them a crucial target for impact assessments of climate change scenarios. Using multiple drought metrics and a set of simulations with the Community Earth System Model targeting 1.5&#176;C and 2&#176;C above preindustrial global mean temperatures, we investigate changes in aridity and the risk of consecutive drought years. If warming is limited to 2&#176;C, these simulations suggest little change in drought risk for the U.S. Southwest and Central Plains compared to present day. In the Mediterranean and central Europe, however, drought risk increases significantly for both 1.5&#176;C and 2&#176;C warming targets, and the additional 0.5&#176;C of the 2&#176;C climate leads to significantly higher drought risk. Our study suggests that limiting anthropogenic warming to 1.5&#176;C rather than 2&#176;C, as aspired to by the Paris Climate Agreement, may have benefits for future drought risk but that such benefits may be regional and in some cases highly uncertain.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -346,7 +342,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -388,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

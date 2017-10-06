@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:7357</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:20.614151</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:08.337260</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>The vertical structure of temperature in the tropics: Different flavors of El Ni&#241;o</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2006-10-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7tb1760</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI3891.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>To explore the vertical coherence of the vertical temperature structure in the atmosphere, an analysis is performed of the full three-dimensional spatial structure of the temperature field monthly mean anomalies from the 40-yr ECMWF Re-Analysis (ERA-40) for a core region of the Tropics from 30&#176;N to 30&#176;S, with results projected globally. The focus is on the first three empirical orthogonal functions (EOFs), two of which have primary relationships to El Ni&#241;o&#8211;Southern Oscillation (ENSO) and feature rather different vertical structures. The second (EOF-2) also has a weak ENSO signature but a very complex vertical structure and reflects mainly nonlinear trends, some real but also some in large part spurious and associated with problems in assimilating satellite data. The dominant pattern (EOF-1) in its positive sign features highly coherent zonal mean warming throughout the tropical troposphere from 30&#176;N to 30&#176;S that increases in magnitude with height to 300 hPa, drops to zero about 100 hPa at the tropopause, and has reverse sign to 30 hPa with peak negative values at 70 hPa. Spatially at low levels it shows warmth throughout most of the Tropics although with weak or slightly opposite sign in the western tropical Pacific and a strong reversed sign in the Pacific subtropics. Coherent wave structures below 700 hPa at higher latitudes cancel out in the zonal mean. However, the structure becomes more zonal above about 700 hPa and features off-equatorial maxima straddling the equator in the eastern Pacific in the upper troposphere with opposite sign at 100 hPa, as a signature of a forced Rossby wave. The corresponding sea level pressure pattern is similar to but more focused in equatorial regions than the Southern Oscillation pattern. The time series highlights the 1997/98 El Ni&#241;o along with those in 1982/83 and 1986/87, and the 1988/89 La Ni&#241;a, and correlates strongly with global mean surface temperatures. Missing, however, is the prolonged sequence of three successive El Ni&#241;o events in the early 1990s, which are highlighted in EOF-3 as part of a mainly lower-frequency decadal variation that features modest zonal mean warming below 700 hPa, cooling from 700 to 300 hPa, and warming above 300 hPa, peaking at 100 hPa and extending from 40&#176;N to 50&#176;S. Spatially at the surface this pattern is dominated by Southern Oscillation wave-1 structures throughout the Tropics and especially the subtropics. The regional temperature structures are coherent throughout the troposphere, with strongest values in the Pacific and extending well into the extratropics, with a sign reversal at and above 100 hPa. Strong Rossby wave signatures are featured in the troposphere with a distinctive quadrupole pattern that reverses at 100 hPa. The vertical coherence of all patterns suggests that they should be apparent in broad-layer satellite temperature records but that stratospheric anomalies are not independent. The quite different three-dimensional structure of these different patterns highlights the need to consider the full structure outside of the Pacific and at all vertical levels in accounting for impacts of ENSO, and how they relate to the global mean.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[To explore the vertical coherence of the vertical temperature structure in the atmosphere, an analysis is performed of the full three-dimensional spatial structure of the temperature field monthly mean anomalies from the 40-yr ECMWF Re-Analysis (ERA-40) for a core region of the Tropics from 30&#176;N to 30&#176;S, with results projected globally. The focus is on the first three empirical orthogonal functions (EOFs), two of which have primary relationships to El Ni&#241;o&#8211;Southern Oscillation (ENSO) and feature rather different vertical structures. The second (EOF-2) also has a weak ENSO signature but a very complex vertical structure and reflects mainly nonlinear trends, some real but also some in large part spurious and associated with problems in assimilating satellite data. The dominant pattern (EOF-1) in its positive sign features highly coherent zonal mean warming throughout the tropical troposphere from 30&#176;N to 30&#176;S that increases in magnitude with height to 300 hPa, drops to zero about 100 hPa at the tropopause, and has reverse sign to 30 hPa with peak negative values at 70 hPa. Spatially at low levels it shows warmth throughout most of the Tropics although with weak or slightly opposite sign in the western tropical Pacific and a strong reversed sign in the Pacific subtropics. Coherent wave structures below 700 hPa at higher latitudes cancel out in the zonal mean. However, the structure becomes more zonal above about 700 hPa and features off-equatorial maxima straddling the equator in the eastern Pacific in the upper troposphere with opposite sign at 100 hPa, as a signature of a forced Rossby wave. The corresponding sea level pressure pattern is similar to but more focused in equatorial regions than the Southern Oscillation pattern. The time series highlights the 1997/98 El Ni&#241;o along with those in 1982/83 and 1986/87, and the 1988/89 La Ni&#241;a, and correlates strongly with global mean surface temperatures. Missing, however, is the prolonged sequence of three successive El Ni&#241;o events in the early 1990s, which are highlighted in EOF-3 as part of a mainly lower-frequency decadal variation that features modest zonal mean warming below 700 hPa, cooling from 700 to 300 hPa, and warming above 300 hPa, peaking at 100 hPa and extending from 40&#176;N to 50&#176;S. Spatially at the surface this pattern is dominated by Southern Oscillation wave-1 structures throughout the Tropics and especially the subtropics. The regional temperature structures are coherent throughout the troposphere, with strongest values in the Pacific and extending well into the extratropics, with a sign reversal at and above 100 hPa. Strong Rossby wave signatures are featured in the troposphere with a distinctive quadrupole pattern that reverses at 100 hPa. The vertical coherence of all patterns suggests that they should be apparent in broad-layer satellite temperature records but that stratospheric anomalies are not independent. The quite different three-dimensional structure of these different patterns highlights the need to consider the full structure outside of the Pacific and at all vertical levels in accounting for impacts of ENSO, and how they relate to the global mean.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -267,12 +263,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -314,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

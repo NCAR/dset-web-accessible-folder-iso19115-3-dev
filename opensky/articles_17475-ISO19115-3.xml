@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17475</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:20.863172</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:00.177259</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Evaluating Enhanced Hydrological Representations in Noah LSM over Transition Zones: Implications for Model Development</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2009-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -229,12 +227,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7g73g18</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -242,12 +239,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/2009JHM1029.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -257,7 +253,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The authors introduce and compare the performance of the unified Noah land surface model (LSM) and its augments with physically based, more conceptually realistic hydrologic parameterizations. Forty-five days of 30-min data collected over nine sites in transition zones are used to evaluate (i) their benchmark, the standard Noah LSM release 2.7 (STD); (ii) a version equipped with a short-term phenology module (DV); and (iii) one that couples a lumped, unconfined aquifer model to the model soil column (GW). Their model intercomparison, enhanced by multiobjective calibration and model sensitivity analysis, shows that, under the evaluation conditions, the current set of enhancements to Noah fails to yield significant improvement in the accuracy of simulated, high-frequency, warm-season turbulent fluxes, and near-surface states across these sites. Qualitatively, the versions of DV and GW implemented degrade model robustness, as defined by the sensitivity of model performance to uncertain parameters. Quantitatively, calibrated DV and GW show only slight improvement in the skill of the model over calibrated STD. Then, multiple model realizations are compared to explicitly account for parameter uncertainty. Model performance, robustness, and fitness are quantified for use across varied sites. The authors show that the least complex benchmark LSM (STD) remains as the most fit version of the model for broad application. Although GW typically performs best when simulating evaporative fraction (EF), 24-h change in soil wetness (&#8710;W30), and soil wetness, it is only about half as robust as STD, which also performs relatively well for all three criteria. GW&#8217;s superior performance results from bias correction, not from improved soil moisture dynamics. DV performs better than STD in simulating EF and &#8710;W30 at the wettest site, because DV tends to enhance transpiration and canopy evaporation at the expense of direct soil evaporation. This same model structure limits performance at the driest site, where STD performs best. This dichotomous performance suggests that the formulations that determine the partitioning of LE flux need to be modified for broader applicability. Thus, this work poses a caveat for simple "plug and play" of functional modules between LSMs and showcases the utility of rigorous testing during model development.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The authors introduce and compare the performance of the unified Noah land surface model (LSM) and its augments with physically based, more conceptually realistic hydrologic parameterizations. Forty-five days of 30-min data collected over nine sites in transition zones are used to evaluate (i) their benchmark, the standard Noah LSM release 2.7 (STD); (ii) a version equipped with a short-term phenology module (DV); and (iii) one that couples a lumped, unconfined aquifer model to the model soil column (GW). Their model intercomparison, enhanced by multiobjective calibration and model sensitivity analysis, shows that, under the evaluation conditions, the current set of enhancements to Noah fails to yield significant improvement in the accuracy of simulated, high-frequency, warm-season turbulent fluxes, and near-surface states across these sites. Qualitatively, the versions of DV and GW implemented degrade model robustness, as defined by the sensitivity of model performance to uncertain parameters. Quantitatively, calibrated DV and GW show only slight improvement in the skill of the model over calibrated STD. Then, multiple model realizations are compared to explicitly account for parameter uncertainty. Model performance, robustness, and fitness are quantified for use across varied sites. The authors show that the least complex benchmark LSM (STD) remains as the most fit version of the model for broad application. Although GW typically performs best when simulating evaporative fraction (EF), 24-h change in soil wetness (&#8710;W30), and soil wetness, it is only about half as robust as STD, which also performs relatively well for all three criteria. GW&#8217;s superior performance results from bias correction, not from improved soil moisture dynamics. DV performs better than STD in simulating EF and &#8710;W30 at the wettest site, because DV tends to enhance transpiration and canopy evaporation at the expense of direct soil evaporation. This same model structure limits performance at the driest site, where STD performs best. This dichotomous performance suggests that the formulations that determine the partitioning of LE flux need to be modified for broader applicability. Thus, this work poses a caveat for simple "plug and play" of functional modules between LSMs and showcases the utility of rigorous testing during model development.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -312,12 +308,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -359,7 +353,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

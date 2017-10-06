@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:14.081327</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:53.442388</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Arctic Landscapes in Transition: Responses to Thawing Permafrost</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-06-29T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -409,12 +407,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7g44rmj</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -422,12 +419,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2010EO260001</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -437,7 +433,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Observations indicate that over the past several decades, geomorphic processes in the Arctic have been changing or intensifying. Coastal erosion, which currently supplies most of the sediment and carbon to the Arctic Ocean [Rachold et al., 2000], may have doubled since 1955 [Mars and Houseknecht, 2007]. Further inland, expansion of channel networks [Toniolo et al., 2009] and increased river bank erosion [Costard et al., 2007] have been attributed to warming. Lakes, ponds, and wetlands appear to be more dynamic, growing in some areas, shrinking in others, and changing distribution across lowland regions [e.g., Smith et al., 2005]. On the Arctic coastal plain, recent degradation of frozen ground previously stable for thousands of years suggests 10&#226;&#128;&#147;30% of lowland and tundra landscapes may be affected by even modest warming [Jorgenson et al., 2006]. In headwater regions, hillslope soil erosion and landslides are increasing [e.g., Gooseff et al., 2009].</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Observations indicate that over the past several decades, geomorphic processes in the Arctic have been changing or intensifying. Coastal erosion, which currently supplies most of the sediment and carbon to the Arctic Ocean [Rachold et al., 2000], may have doubled since 1955 [Mars and Houseknecht, 2007]. Further inland, expansion of channel networks [Toniolo et al., 2009] and increased river bank erosion [Costard et al., 2007] have been attributed to warming. Lakes, ponds, and wetlands appear to be more dynamic, growing in some areas, shrinking in others, and changing distribution across lowland regions [e.g., Smith et al., 2005]. On the Arctic coastal plain, recent degradation of frozen ground previously stable for thousands of years suggests 10&#226;&#128;&#147;30% of lowland and tundra landscapes may be affected by even modest warming [Jorgenson et al., 2006]. In headwater regions, hillslope soil erosion and landslides are increasing [e.g., Gooseff et al., 2009].]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -496,7 +492,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -538,7 +533,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

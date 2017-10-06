@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:00.018312</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:08.907464</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Dynamical conditions of ice supersaturation and ice nucleation in convective systems: A comparative analysis between in situ aircraft observations and WRF simulations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-03-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -319,12 +317,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d74b3340</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -332,12 +329,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016JD025994</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -347,7 +343,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Occurrence frequency and dynamical conditions of ice supersaturation (ISS, where relative humidity with respect to ice (RHi) &gt; 100%) are examined in the upper troposphere around convective activity. Comparisons are conducted between in situ airborne observations and the Weather Research and Forecasting model simulations using four double-moment microphysical schemes at temperatures &lt;= -40 degrees C. All four schemes capture both clear-sky and in-cloud ISS conditions. However, the clear-sky (in-cloud) ISS conditions are completely (significantly) limited to the RHi thresholds of the Cooper parameterization. In all of the simulations, ISS occurrence frequencies are higher by similar to 3-4 orders of magnitude at higher updraft speeds (&gt; 1 m s(-1)) than those at the lower updraft speeds when ice water content (IWC)&gt; 0.01 g m(-3), while observations show smaller differences up to similar to 1-2 orders of magnitude. The simulated ISS also occurs less frequently at weaker updrafts and downdrafts than observed. These results indicate that the simulations have a greater dependence on stronger updrafts to maintain/generate ISS at higher IWC. At lower IWC (&lt;= 0.01 g m(-3)), simulations unexpectedly show lower ISS frequencies at stronger updrafts. Overall, the Thompson aerosol-aware scheme has the closest magnitudes and frequencies of ISS &gt;20% to the observations, and the modified Morrison has the closest correlations between ISS frequencies and vertical velocity at higher IWC and number density. The Cooper parameterization often generates excessive ice crystals and therefore suppresses the frequency and magnitude of ISS, indicating that it should be initiated at higher ISS (e.g., &gt;= 25%).</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Occurrence frequency and dynamical conditions of ice supersaturation (ISS, where relative humidity with respect to ice (RHi) > 100%) are examined in the upper troposphere around convective activity. Comparisons are conducted between in situ airborne observations and the Weather Research and Forecasting model simulations using four double-moment microphysical schemes at temperatures <= -40 degrees C. All four schemes capture both clear-sky and in-cloud ISS conditions. However, the clear-sky (in-cloud) ISS conditions are completely (significantly) limited to the RHi thresholds of the Cooper parameterization. In all of the simulations, ISS occurrence frequencies are higher by similar to 3-4 orders of magnitude at higher updraft speeds (> 1 m s(-1)) than those at the lower updraft speeds when ice water content (IWC)> 0.01 g m(-3), while observations show smaller differences up to similar to 1-2 orders of magnitude. The simulated ISS also occurs less frequently at weaker updrafts and downdrafts than observed. These results indicate that the simulations have a greater dependence on stronger updrafts to maintain/generate ISS at higher IWC. At lower IWC (<= 0.01 g m(-3)), simulations unexpectedly show lower ISS frequencies at stronger updrafts. Overall, the Thompson aerosol-aware scheme has the closest magnitudes and frequencies of ISS >20% to the observations, and the modified Morrison has the closest correlations between ISS frequencies and vertical velocity at higher IWC and number density. The Cooper parameterization often generates excessive ice crystals and therefore suppresses the frequency and magnitude of ISS, indicating that it should be initiated at higher ISS (e.g., >= 25%).]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -406,7 +402,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -448,7 +443,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

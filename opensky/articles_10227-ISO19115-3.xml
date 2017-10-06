@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.213508</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:16.985712</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Combinations of natural and anthropogenic forcings and 20th century climate</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2004-10-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -236,12 +234,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7xg9rpt</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -252,7 +249,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Ensemble simulations are run with a global coupled climate model employing five forcing agents that influence the time evolution of globally averaged surface air temperature during the twentieth century. Two are natural (volcanoes and solar) and the others are anthropogenic [e.g., greenhouse gases (GHGs), ozone (stratospheric and tropospheric), and direct effect of sulfate aerosols]. In addition to the five individual forcing experiments, an additional eight sets are performed with the forcings in various combinations. The late-twentieth-century warming can only be reproduced in the model with anthropogenic forcing (mainly GHGs), while the early twentieth-century warming is mainly caused by natural forcing in the model (mainly solar). However, the signature of globally averaged temperature at any time in the twentieth century is a direct consequence of the sum of the forcings. The similarity of the response to the forcings on decadal and interannual time scales is tested by performing a principal component analysis of the 13 ensemble mean globally averaged temperature time series. A significant portion of the variance of the reconstructed time series can be retained in residual calculations compared to the original single and combined forcing runs. This demonstrates that the statistics of the variances for decadal and interannual time-scale variability in the forced simulations are similar to the response from a residual calculation. That is, the variance statistics of the response of globally averaged temperatures in the forced runs are additive since they can be reproduced in the responses calculated as a residual from other combined forcing runs.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Ensemble simulations are run with a global coupled climate model employing five forcing agents that influence the time evolution of globally averaged surface air temperature during the twentieth century. Two are natural (volcanoes and solar) and the others are anthropogenic [e.g., greenhouse gases (GHGs), ozone (stratospheric and tropospheric), and direct effect of sulfate aerosols]. In addition to the five individual forcing experiments, an additional eight sets are performed with the forcings in various combinations. The late-twentieth-century warming can only be reproduced in the model with anthropogenic forcing (mainly GHGs), while the early twentieth-century warming is mainly caused by natural forcing in the model (mainly solar). However, the signature of globally averaged temperature at any time in the twentieth century is a direct consequence of the sum of the forcings. The similarity of the response to the forcings on decadal and interannual time scales is tested by performing a principal component analysis of the 13 ensemble mean globally averaged temperature time series. A significant portion of the variance of the reconstructed time series can be retained in residual calculations compared to the original single and combined forcing runs. This demonstrates that the statistics of the variances for decadal and interannual time-scale variability in the forced simulations are similar to the response from a residual calculation. That is, the variance statistics of the response of globally averaged temperatures in the forced runs are additive since they can be reproduced in the responses calculated as a residual from other combined forcing runs.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -311,7 +308,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -353,7 +349,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

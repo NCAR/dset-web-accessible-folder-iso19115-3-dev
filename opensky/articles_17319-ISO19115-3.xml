@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:17319</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:17.180834</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:54.515438</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Global ionospheric response observed by COSMIC satellites during the January 2009 stratospheric sudden warming event</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-11-20T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d70003dr</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1029/2010JA015466</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>This paper investigates the global ionospheric response during the January 2009 Stratospheric Sudden Warming (SSW) event by using electron density profiles derived from GPS radio occultation measurements of the COSMIC satellites. The peak density (NmF2), peak height (hmF2), and ionospheric total electron content (ITEC) increase in the morning hours and decrease in the afternoon globally for 75% of the cases, in which electron density profiles during SSW and no-SSW days are available around the same location and local time bins. NmF2, hmF2, and ITEC during SSW days, on average, increase 19%, 12 km, and 17% in the morning and decrease 23%, 19 km, and 25% in the afternoon, respectively, in comparison with those during non-SSW days from global COSMIC observations. These results agree well with previous results from total electron content (TEC) observations in low latitude and equatorial regions. Interestingly, the unique COSMIC observations also revealed that during this SSW event the ionosphere responds globally, not only in the equatorial regions but also at the high and middle latitudes. The high latitude ionosphere shows increased NmF2 and ITEC and decreased hmF2 in either the morning or afternoon sector. Thus, these results indicate that the ionospheric response in low-middle latitude and equatorial regions during SSW can be explained by either the modulated vertical drift resulting from the interaction between the planetary waves and tides through E-region dynamo or the possible direct propagation of tides from the lower atmosphere, whereas the ionospheric variations at the middle and high latitude during the SSW might be attributed to the neutral background changes due to the direct propagation of tides from the lower atmosphere to the ionospheric F2 region. The competitive effects of different physical processes such as the electric field, neutral wind and composition, might cause the complex features of ionospheric variations during this SSW event.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[This paper investigates the global ionospheric response during the January 2009 Stratospheric Sudden Warming (SSW) event by using electron density profiles derived from GPS radio occultation measurements of the COSMIC satellites. The peak density (NmF2), peak height (hmF2), and ionospheric total electron content (ITEC) increase in the morning hours and decrease in the afternoon globally for 75% of the cases, in which electron density profiles during SSW and no-SSW days are available around the same location and local time bins. NmF2, hmF2, and ITEC during SSW days, on average, increase 19%, 12 km, and 17% in the morning and decrease 23%, 19 km, and 25% in the afternoon, respectively, in comparison with those during non-SSW days from global COSMIC observations. These results agree well with previous results from total electron content (TEC) observations in low latitude and equatorial regions. Interestingly, the unique COSMIC observations also revealed that during this SSW event the ionosphere responds globally, not only in the equatorial regions but also at the high and middle latitudes. The high latitude ionosphere shows increased NmF2 and ITEC and decreased hmF2 in either the morning or afternoon sector. Thus, these results indicate that the ionospheric response in low-middle latitude and equatorial regions during SSW can be explained by either the modulated vertical drift resulting from the interaction between the planetary waves and tides through E-region dynamo or the possible direct propagation of tides from the lower atmosphere, whereas the ionospheric variations at the middle and high latitude during the SSW might be attributed to the neutral background changes due to the direct propagation of tides from the lower atmosphere to the ionospheric F2 region. The competitive effects of different physical processes such as the electric field, neutral wind and composition, might cause the complex features of ionospheric variations during this SSW event.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -342,12 +338,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -389,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

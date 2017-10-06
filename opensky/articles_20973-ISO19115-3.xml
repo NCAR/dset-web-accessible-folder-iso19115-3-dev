@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:09.171446</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:22.199796</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Are glacials dry? Consequences for paleoclimatology and for greenhouse warming</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-09-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7pk0jmw</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JCLI-D-16-0854.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Past cold climates are often thought to have been drier than today on land, which appears to conflict with certain recent studies projecting widespread terrestrial drying with near-future warming. However, other work has found that, over large portions of the continents, the conclusion of future drying versus wetting strongly depends on the physical property of interest. Here, it is shown that this also holds in simulations of the Last Glacial Maximum (LGM): the continents have generally wetter topsoils and higher values of common climate wetness metrics than in the preindustrial, as well as generally lower precipitation and ubiquitously lower photosynthesis (likely driven by the low CO2), with streamflow responses falling in between. Using a large existing global pollen and plant fossil compilation, it is also confirmed that LGM grasslands and open woodlands grew at many sites of present-day forest, seasonal forests at many sites of present-day rain forest, and so forth (116-144 sites out of 302), while changes in the opposite sense were very few (9-17 sites out of 302) and spatially confined. These vegetation changes resemble the model photosynthesis responses but not the hydroclimate responses, while published lake-level changes resemble the latter but not the former. Thus, confidence in both the model hydrologic and photosynthesis projections is increased, and there is no significant conflict. Instead, paleo- and modern climate researchers must carefully define &#8220;wetting&#8221; and &#8220;drying&#8221; and, in particular, should not assume hydrologic drying on the basis of vegetation decline alone or assume vegetation stress on the basis of declines in hydroclimatic indicators.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Past cold climates are often thought to have been drier than today on land, which appears to conflict with certain recent studies projecting widespread terrestrial drying with near-future warming. However, other work has found that, over large portions of the continents, the conclusion of future drying versus wetting strongly depends on the physical property of interest. Here, it is shown that this also holds in simulations of the Last Glacial Maximum (LGM): the continents have generally wetter topsoils and higher values of common climate wetness metrics than in the preindustrial, as well as generally lower precipitation and ubiquitously lower photosynthesis (likely driven by the low CO2), with streamflow responses falling in between. Using a large existing global pollen and plant fossil compilation, it is also confirmed that LGM grasslands and open woodlands grew at many sites of present-day forest, seasonal forests at many sites of present-day rain forest, and so forth (116-144 sites out of 302), while changes in the opposite sense were very few (9-17 sites out of 302) and spatially confined. These vegetation changes resemble the model photosynthesis responses but not the hydroclimate responses, while published lake-level changes resemble the latter but not the former. Thus, confidence in both the model hydrologic and photosynthesis projections is increased, and there is no significant conflict. Instead, paleo- and modern climate researchers must carefully define &#8220;wetting&#8221; and &#8220;drying&#8221; and, in particular, should not assume hydrologic drying on the basis of vegetation decline alone or assume vegetation stress on the basis of declines in hydroclimatic indicators.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

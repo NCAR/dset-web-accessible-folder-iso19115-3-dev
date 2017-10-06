@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:16569</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:58.752467</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:27.764733</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Measurements of CH&#8323;O&#8322;NO&#8322; in the upper troposphere</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-02-27T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7pn96s3</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/amt-8-987-2015</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Methyl peroxy nitrate (CH&#8323;O&#8322;NO&#8322;) is a non-acyl peroxy nitrate that is important for photochemistry at low temperatures characteristic of the upper troposphere. We report the first measurements of CH&#8323;O&#8322;NO&#8322;, which we achieved through a new aircraft inlet configuration, combined with thermal-dissociation laser-induced fluorescence (TD-LIF) detection of NO&#8322;, and describe the accuracy, specificity, and interferences to CH&#8323;O&#8322;NO&#8322; measurements. CH&#8323;O&#8322;NO&#8322; is predicted to be a ubiquitous interference to upper-tropospheric NO&#8322; measurements. We describe an experimental strategy for obtaining NO&#8322; observations free of the CH&#8323;O&#8322;NO&#8322; interference. Using these new methods, we made observations during two recent aircraft campaigns: the Deep Convective Clouds and Chemistry (DC-3) and the Studies of Emissions and Atmospheric Composition, Clouds, and Climate Coupling by Regional Surveys (SEAC4RS) experiments. The CH&#8323;O&#8322;NO&#8322; measurements we report have a detection limit (S/N = 2) of 15 pptv at 1 min averaging on a background of 200 pptv NO&#8322; and an accuracy of &#177;40%. Observations are used to constrain the interference of pernitric acid (HO&#8322;NO&#8322;) to the CH&#8323;O&#8322;NO&#8322; measurements, as HO&#8322;NO&#8322; partially decomposes (~11%) along with CH&#8323;O&#8322;NO&#8322; in the heated CH&#8323;O&#8322;NO&#8322; channel used to detect CH&#8323;O&#8322;NO&#8322;.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Methyl peroxy nitrate (CH&#8323;O&#8322;NO&#8322;) is a non-acyl peroxy nitrate that is important for photochemistry at low temperatures characteristic of the upper troposphere. We report the first measurements of CH&#8323;O&#8322;NO&#8322;, which we achieved through a new aircraft inlet configuration, combined with thermal-dissociation laser-induced fluorescence (TD-LIF) detection of NO&#8322;, and describe the accuracy, specificity, and interferences to CH&#8323;O&#8322;NO&#8322; measurements. CH&#8323;O&#8322;NO&#8322; is predicted to be a ubiquitous interference to upper-tropospheric NO&#8322; measurements. We describe an experimental strategy for obtaining NO&#8322; observations free of the CH&#8323;O&#8322;NO&#8322; interference. Using these new methods, we made observations during two recent aircraft campaigns: the Deep Convective Clouds and Chemistry (DC-3) and the Studies of Emissions and Atmospheric Composition, Clouds, and Climate Coupling by Regional Surveys (SEAC4RS) experiments. The CH&#8323;O&#8322;NO&#8322; measurements we report have a detection limit (S/N = 2) of 15 pptv at 1 min averaging on a background of 200 pptv NO&#8322; and an accuracy of &#177;40%. Observations are used to constrain the interference of pernitric acid (HO&#8322;NO&#8322;) to the CH&#8323;O&#8322;NO&#8322; measurements, as HO&#8322;NO&#8322; partially decomposes (~11%) along with CH&#8323;O&#8322;NO&#8322; in the heated CH&#8323;O&#8322;NO&#8322; channel used to detect CH&#8323;O&#8322;NO&#8322;.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -342,12 +338,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -389,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

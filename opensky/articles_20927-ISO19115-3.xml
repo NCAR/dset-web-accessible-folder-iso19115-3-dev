@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:08.295716</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:20.980217</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Evaluating hydrological processes in the Community Atmosphere Model Version 5 (CAM5) using stable isotope ratios of water</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-06-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -214,12 +212,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7g44srr</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -227,12 +224,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016MS000839</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -242,7 +238,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Water isotope-enabled climate and earth system models are able to directly simulate paleoclimate proxy records to aid in climate reconstruction. A less used major advantage is that water isotopologues provide an independent constraint on many atmospheric and hydrologic processes, allowing the model to be developed and tuned in a more physically accurate way. This paper describes the new isotopeenabled CAM5 model, including its isotopic physics routines, and its ability to simulate the modern distribution of water isotopologues in vapor and precipitation. It is found that the model has a negative isotopic bias in precipitation. This bias is partially attributed to model overestimates of deep convection, particularly over the midlatitude oceans during winter. This was determined by examining isotope ratios both in precipitation and vapor, instead of precipitation alone. This enhanced convective activity depletes the isotopic water vapor in the lower troposphere, where the majority of poleward moisture transport occurs, resulting in the insufficient transport of water isotopologue mass poleward and landward. This analysis also demonstrates that large-scale dynamical or moisture source changes can impact isotopologue values as much as local shifts in temperature or precipitation amount. The diagnosis of limitations in the large-scale transport characteristics has major implications if one is using isotope-enabled climate models to examine paleoclimate proxy records, as well as the modern global hydroclimate.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Water isotope-enabled climate and earth system models are able to directly simulate paleoclimate proxy records to aid in climate reconstruction. A less used major advantage is that water isotopologues provide an independent constraint on many atmospheric and hydrologic processes, allowing the model to be developed and tuned in a more physically accurate way. This paper describes the new isotopeenabled CAM5 model, including its isotopic physics routines, and its ability to simulate the modern distribution of water isotopologues in vapor and precipitation. It is found that the model has a negative isotopic bias in precipitation. This bias is partially attributed to model overestimates of deep convection, particularly over the midlatitude oceans during winter. This was determined by examining isotope ratios both in precipitation and vapor, instead of precipitation alone. This enhanced convective activity depletes the isotopic water vapor in the lower troposphere, where the majority of poleward moisture transport occurs, resulting in the insufficient transport of water isotopologue mass poleward and landward. This analysis also demonstrates that large-scale dynamical or moisture source changes can impact isotopologue values as much as local shifts in temperature or precipitation amount. The diagnosis of limitations in the large-scale transport characteristics has major implications if one is using isotope-enabled climate models to examine paleoclimate proxy records, as well as the modern global hydroclimate.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -301,7 +297,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -343,7 +338,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:11611</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:46.756087</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:43.323132</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Effect of atmospheric aerosol on surface ozone variation over the Pearl River Delta region</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-05-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -289,12 +287,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7g73f9f</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -302,12 +299,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1007/s11430-011-4172-7</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -317,7 +313,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Our analysis of the surface aerosol and ultraviolet (UV) measurements in Pearl River Delta (PRD) region shows that the surface UV radiation is reduced by more than 50% due to high aerosol concentrations. This has important impacts on urban ecosystem and photochemistry, especially on ozone photochemical production over the region. The quantitative effect of aerosols on surface ozone is evaluated by analyzing surface observations (including ozone, ultraviolet radiation, aerosol radiative parameters) and by using radiative and chemical models. A case study shows that the aerosol concentrations and UV radiation are significantly correlated with ozone concentrations. The correlation coefficient between the aerosol optical depth (AOD) and the PM10 mass concentration is very high, with a maximum of 0.98, and the AOD and UV radiation/ozone is anticorrelated, with a correlation coefficient of -0.90. The analysis suggests that ozone productivity is significantly decreased due to the reduction of UV radiation. The noon-time ozone maximum is considerably depressed when AOD is 0.6, and is further decreased when AOD is up to 1.2 due to the reduction of ozone photochemical productivity. Because the occurring probability of aerosol optical depth for AOD550nm&gt;/0.6 and AOD340nm&gt;/1.0 is 47, and 55% respectively during the dry season (October, November, December, January), this heavy aerosol condition explains the low ozone maximum that often occurs in the dry season over the Guangzhou region. The analysis also suggests that the value of single scattering albedo (SSA) is very sensitive to the aerosol radiative effect when the radiative and chemical models are applied, implying that the value of SSA needs to be carefully studied when the models are used in calculating ozone production.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Our analysis of the surface aerosol and ultraviolet (UV) measurements in Pearl River Delta (PRD) region shows that the surface UV radiation is reduced by more than 50% due to high aerosol concentrations. This has important impacts on urban ecosystem and photochemistry, especially on ozone photochemical production over the region. The quantitative effect of aerosols on surface ozone is evaluated by analyzing surface observations (including ozone, ultraviolet radiation, aerosol radiative parameters) and by using radiative and chemical models. A case study shows that the aerosol concentrations and UV radiation are significantly correlated with ozone concentrations. The correlation coefficient between the aerosol optical depth (AOD) and the PM10 mass concentration is very high, with a maximum of 0.98, and the AOD and UV radiation/ozone is anticorrelated, with a correlation coefficient of -0.90. The analysis suggests that ozone productivity is significantly decreased due to the reduction of UV radiation. The noon-time ozone maximum is considerably depressed when AOD is 0.6, and is further decreased when AOD is up to 1.2 due to the reduction of ozone photochemical productivity. Because the occurring probability of aerosol optical depth for AOD550nm>/0.6 and AOD340nm>/1.0 is 47, and 55% respectively during the dry season (October, November, December, January), this heavy aerosol condition explains the low ozone maximum that often occurs in the dry season over the Guangzhou region. The analysis also suggests that the value of single scattering albedo (SSA) is very sensitive to the aerosol radiative effect when the radiative and chemical models are applied, implying that the value of SSA needs to be carefully studied when the models are used in calculating ozone production.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -372,12 +368,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -419,7 +413,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

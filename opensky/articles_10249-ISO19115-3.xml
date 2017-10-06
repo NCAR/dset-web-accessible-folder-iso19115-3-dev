@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T19:58:41.901094</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:18.139780</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Mechanisms of intense alpine rainfall</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2001-07-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -132,7 +131,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -176,12 +174,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d73x8760</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -192,7 +189,7 @@
                     </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Numerical studies by the authors and others of the 1994 Piedmont flood show that the orographically modified flow was a critical element for the production of extraordinary rainfall. To uncover the precise mechanism of orographic rainfall occurring in full-physics MM5 simulations of the 1994 Piedmont flood, the authors carried out simulations with the same real-data initial and boundary conditions, but with the real orography replaced by an idealized one. With excellent agreement between real and idealized orography on the rainfall rate versus time in the Piedmont area, analysis of the idealized-orography simulation provides a clear picture of the model's mechanism of orographically induced rainfall. As noted in previous studies of the 1994 Piedmont case, a moist saturated airflow has a reduced effective static stability and tends to flow over the mountains, while an unsaturated airstream is stable and tries to flow around (toward the left in the Northern Hemisphere). In the 1994 Piedmont case, there was a strong horizontal gradient of moisture; thus the western moist part of the airstream flows over, while the eastern drier part is deflected westward around the obstacle, and so a convergence is produced between the airstreams. This effect is explored using a simple version of MM5 wherein the flow, moisture distribution, and idealized orography are varied within the observed range. Quantitative as well as qualitative rainfall rates and flow features of the full-physics MM5 simulations are captured with the simple model.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Numerical studies by the authors and others of the 1994 Piedmont flood show that the orographically modified flow was a critical element for the production of extraordinary rainfall. To uncover the precise mechanism of orographic rainfall occurring in full-physics MM5 simulations of the 1994 Piedmont flood, the authors carried out simulations with the same real-data initial and boundary conditions, but with the real orography replaced by an idealized one. With excellent agreement between real and idealized orography on the rainfall rate versus time in the Piedmont area, analysis of the idealized-orography simulation provides a clear picture of the model's mechanism of orographically induced rainfall. As noted in previous studies of the 1994 Piedmont case, a moist saturated airflow has a reduced effective static stability and tends to flow over the mountains, while an unsaturated airstream is stable and tries to flow around (toward the left in the Northern Hemisphere). In the 1994 Piedmont case, there was a strong horizontal gradient of moisture; thus the western moist part of the airstream flows over, while the eastern drier part is deflected westward around the obstacle, and so a convergence is produced between the airstreams. This effect is explored using a simple version of MM5 wherein the flow, moisture distribution, and idealized orography are varied within the observed range. Quantitative as well as qualitative rainfall rates and flow features of the full-physics MM5 simulations are captured with the simple model.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -251,7 +248,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -293,7 +289,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

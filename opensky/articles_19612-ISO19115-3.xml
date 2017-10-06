@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:59.037263</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:07.431985</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Present-day irrigation mitigates heat extremes</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-02-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -244,12 +242,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d74j0gxs</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -257,12 +254,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016JD025740</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -272,7 +268,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Irrigation is an essential practice for sustaining global food production and many regional economies. Emerging scientific evidence indicates that irrigation substantially affects mean climate conditions in different regions of the world. Yet how this practice influences climate extremes is currently unknown. Here we use ensemble simulations with the Community Earth System Model to assess the impacts of irrigation on climate extremes. An evaluation of the model performance reveals that irrigation has a small yet overall beneficial effect on the representation of present-day near-surface climate. While the influence of irrigation on annual mean temperatures is limited, we find a large impact on temperature extremes, with a particularly strong cooling during the hottest day of the year (-0.78 K averaged over irrigated land). The strong influence on extremes stems from the timing of irrigation and its influence on land-atmosphere coupling strength. Together these effects result in asymmetric temperature responses, with a more pronounced cooling during hot and/or dry periods. The influence of irrigation is even more pronounced when considering subgrid-scale model output, suggesting that local effects of land management are far more important than previously thought. Our results underline that irrigation has substantially reduced our exposure to hot temperature extremes in the past and highlight the need to account for irrigation in future climate projections.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Irrigation is an essential practice for sustaining global food production and many regional economies. Emerging scientific evidence indicates that irrigation substantially affects mean climate conditions in different regions of the world. Yet how this practice influences climate extremes is currently unknown. Here we use ensemble simulations with the Community Earth System Model to assess the impacts of irrigation on climate extremes. An evaluation of the model performance reveals that irrigation has a small yet overall beneficial effect on the representation of present-day near-surface climate. While the influence of irrigation on annual mean temperatures is limited, we find a large impact on temperature extremes, with a particularly strong cooling during the hottest day of the year (-0.78 K averaged over irrigated land). The strong influence on extremes stems from the timing of irrigation and its influence on land-atmosphere coupling strength. Together these effects result in asymmetric temperature responses, with a more pronounced cooling during hot and/or dry periods. The influence of irrigation is even more pronounced when considering subgrid-scale model output, suggesting that local effects of land management are far more important than previously thought. Our results underline that irrigation has substantially reduced our exposure to hot temperature extremes in the past and highlight the need to account for irrigation in future climate projections.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -331,7 +327,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -373,7 +368,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

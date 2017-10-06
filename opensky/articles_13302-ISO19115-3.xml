@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:13302</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:28.865273</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:40.405179</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Snow temperature changes within a seasonal snowpack and their relationship to turbulent fluxes of sensible and latent heat</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2014-02-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -274,12 +272,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d70p10zz</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -287,12 +284,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1175/JHM-D-13-026.1</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -302,7 +298,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Snowpack temperatures from a subalpine forest below Niwot Ridge, Colorado, are examined with respect to atmospheric conditions and the 30-min above-canopy and subcanopy eddy covariance fluxes of sensible Qh and latent Qe heat. In the lower snowpack, daily snow temperature changes greater than 1&#176;C day&#8315;&#185; occurred about 1-2 times in late winter and early spring, which resulted in transitions to and from an isothermal snowpack. Though air temperature was a primary control on snowpack temperature, rapid snowpack warm-up events were sometimes preceded by strong downslope winds that kept the nighttime air (and canopy) temperature above freezing, thus increasing sensible heat and longwave radiative transfer from the canopy to the snowpack. There was an indication that water vapor condensation on the snow surface intensified the snowpack warm-up. In late winter, subcanopy Qh was typically between &#8722;10 and 10 W m&#8315;&#178; and rarely had a magnitude larger than 20 W m&#8315;&#178;. The direction of subcanopy Qh was closely related to the canopy temperature and only weakly dependent on the time of day. The daytime subcanopy Qh monthly frequency distribution was near normal, whereas the nighttime distribution was more peaked near zero with a large positive skewness. In contrast, above-canopy Qh was larger in magnitude (100&#8211;400 W m&#8315;&#178;) and primarily warmed the forest&#8211;surface at night and cooled it during the day. Around midday, decoupling of subcanopy and above-canopy air led to an apparent cooling of the snow surface by sensible heat. Sources of uncertainty in the subcanopy eddy covariance flux measurements are suggested. Implications of the observed snowpack temperature changes for future climates are discussed.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Snowpack temperatures from a subalpine forest below Niwot Ridge, Colorado, are examined with respect to atmospheric conditions and the 30-min above-canopy and subcanopy eddy covariance fluxes of sensible Qh and latent Qe heat. In the lower snowpack, daily snow temperature changes greater than 1&#176;C day&#8315;&#185; occurred about 1-2 times in late winter and early spring, which resulted in transitions to and from an isothermal snowpack. Though air temperature was a primary control on snowpack temperature, rapid snowpack warm-up events were sometimes preceded by strong downslope winds that kept the nighttime air (and canopy) temperature above freezing, thus increasing sensible heat and longwave radiative transfer from the canopy to the snowpack. There was an indication that water vapor condensation on the snow surface intensified the snowpack warm-up. In late winter, subcanopy Qh was typically between &#8722;10 and 10 W m&#8315;&#178; and rarely had a magnitude larger than 20 W m&#8315;&#178;. The direction of subcanopy Qh was closely related to the canopy temperature and only weakly dependent on the time of day. The daytime subcanopy Qh monthly frequency distribution was near normal, whereas the nighttime distribution was more peaked near zero with a large positive skewness. In contrast, above-canopy Qh was larger in magnitude (100&#8211;400 W m&#8315;&#178;) and primarily warmed the forest&#8211;surface at night and cooled it during the day. Around midday, decoupling of subcanopy and above-canopy air led to an apparent cooling of the snow surface by sensible heat. Sources of uncertainty in the subcanopy eddy covariance flux measurements are suggested. Implications of the observed snowpack temperature changes for future climates are discussed.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -357,12 +353,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -404,7 +398,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

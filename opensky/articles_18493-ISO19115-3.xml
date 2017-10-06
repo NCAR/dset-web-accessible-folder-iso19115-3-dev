@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18493</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:39.466966</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:25.998460</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Addressing numerical challenges in introducing a reactive transport code into a land surface model: a biogeochemical modeling proof-of-concept with CLM&#8211;PFLOTRAN 1.0</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-03-04T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -334,12 +332,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7dz09xb</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -347,12 +344,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/gmd-9-927-2016</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -362,7 +358,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>We explore coupling to a configurable subsurface reactive transport code as a flexible and extensible approach to biogeochemistry in land surface models. A reaction network with the Community Land Model carbon&#8211;nitrogen (CLM-CN) decomposition, nitrification, denitrification, and plant uptake is used as an example. We implement the reactions in the open-source PFLOTRAN (massively parallel subsurface flow and reactive transport) code and couple it with the CLM. To make the rate formulae designed for use in explicit time stepping in CLMs compatible with the implicit time stepping used in PFLOTRAN, the Monod substrate rate-limiting function with a residual concentration is used to represent the limitation of nitrogen availability on plant uptake and immobilization. We demonstrate that CLM-PFLOTRAN predictions (without invoking PFLOTRAN transport) are consistent with CLM4.5 for Arctic, temperate, and tropical sites. Switching from explicit to implicit method increases rigor but introduces numerical challenges. Care needs to be taken to use scaling, clipping, or log transformation to avoid negative concentrations during the Newton iterations. With a tight relative update tolerance (STOL) to avoid false convergence, an accurate solution can be achieved with about 50&#8239;% more computing time than CLM in point mode site simulations using either the scaling or clipping methods. The log transformation method takes 60-100&#8239;% more computing time than CLM. The computing time increases slightly for clipping and scaling; it increases substantially for log transformation for half saturation decrease from 10&#8315;&#179; to 10&#8315;&#8313;&#8239;mol m&#8315;&#179;, which normally results in decreasing nitrogen concentrations. The frequent occurrence of very low concentrations (e.g. below nanomolar) can increase the computing time for clipping or scaling by about 20&#8239;%, double for log transformation. Overall, the log transformation method is accurate and robust, and the clipping and scaling methods are efficient. When the reaction network is highly nonlinear or the half saturation or residual concentration is very low, the allowable time-step cuts may need to be increased for robustness for the log transformation method, or STOL may need to be tightened for the clipping and scaling methods to avoid false convergence. As some biogeochemical processes (e.g., methane and nitrous oxide reactions) involve very low half saturation and thresholds, this work provides insights for addressing nonphysical negativity issues and facilitates the representation of a mechanistic biogeochemical description in Earth system models to reduce climate prediction uncertainty.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[We explore coupling to a configurable subsurface reactive transport code as a flexible and extensible approach to biogeochemistry in land surface models. A reaction network with the Community Land Model carbon&#8211;nitrogen (CLM-CN) decomposition, nitrification, denitrification, and plant uptake is used as an example. We implement the reactions in the open-source PFLOTRAN (massively parallel subsurface flow and reactive transport) code and couple it with the CLM. To make the rate formulae designed for use in explicit time stepping in CLMs compatible with the implicit time stepping used in PFLOTRAN, the Monod substrate rate-limiting function with a residual concentration is used to represent the limitation of nitrogen availability on plant uptake and immobilization. We demonstrate that CLM-PFLOTRAN predictions (without invoking PFLOTRAN transport) are consistent with CLM4.5 for Arctic, temperate, and tropical sites. Switching from explicit to implicit method increases rigor but introduces numerical challenges. Care needs to be taken to use scaling, clipping, or log transformation to avoid negative concentrations during the Newton iterations. With a tight relative update tolerance (STOL) to avoid false convergence, an accurate solution can be achieved with about 50&#8239;% more computing time than CLM in point mode site simulations using either the scaling or clipping methods. The log transformation method takes 60-100&#8239;% more computing time than CLM. The computing time increases slightly for clipping and scaling; it increases substantially for log transformation for half saturation decrease from 10&#8315;&#179; to 10&#8315;&#8313;&#8239;mol m&#8315;&#179;, which normally results in decreasing nitrogen concentrations. The frequent occurrence of very low concentrations (e.g. below nanomolar) can increase the computing time for clipping or scaling by about 20&#8239;%, double for log transformation. Overall, the log transformation method is accurate and robust, and the clipping and scaling methods are efficient. When the reaction network is highly nonlinear or the half saturation or residual concentration is very low, the allowable time-step cuts may need to be increased for robustness for the log transformation method, or STOL may need to be tightened for the clipping and scaling methods to avoid false convergence. As some biogeochemical processes (e.g., methane and nitrous oxide reactions) involve very low half saturation and thresholds, this work provides insights for addressing nonphysical negativity issues and facilitates the representation of a mechanistic biogeochemical description in Earth system models to reduce climate prediction uncertainty.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -417,12 +413,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -464,7 +458,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

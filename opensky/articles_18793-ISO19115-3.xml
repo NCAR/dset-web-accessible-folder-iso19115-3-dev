@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:45.755250</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:39.205783</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Assessing uncertainties in the Noah-MP ensemble simulations of a cropland site during the Tibet Joint International Cooperation program field campaign</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-08-27T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7d79d30</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2016JD024928</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Despite the widespread use of the latest community Noah with multiparameterization (Noah-MP) land surface model, it has not been rigorously evaluated over the complex Tibetan Plateau. This study assessed uncertainties in Noah-MP simulations of a cropland site using observations from the 2008 Joint International Cooperation program field campaign. Such an assessment was conducted in the context of performing a total number of 4608 Noah-MP physics ensemble simulations using two analysis methods: the natural selection approach and Tukey's test, where the impacts of uncertainties in atmospheric forcing conditions, vegetation parameters, and subprocesses on model simulations were identified. Uncertainty in precipitation data exerts greater influence on the general behavior of Noah-MP ensemble simulations than that in the leaf area index (LAI). However, using a more realistic seasonal LAI improves the seasonal variations of surface heat fluxes. Combining a better precipitation forcing data set and Moderate Resolution Imaging Spectroradiometer monthly LAI significantly reduces the uncertainty range of the ensemble mean of surface heat fluxes. The uncertainty analysis results using the natural selection method are largely similar to that from Tukey's test but show some subtle differences. Both methods reveal greater uncertainties in the following subprocess schemes: canopy resistance, soil moisture threshold for evaporation, runoff and groundwater, and surface-layer parameterization for this cropland site. The uncertainty analysis identifies the parameterization schemes that demonstrably degrade model performance. The uncertainties in ensemble simulations were significantly reduced when those schemes were excluded, and it was possible to configure an optimal combination of parameterization schemes to obtain similar performance to the ensemble mean of the &#8220;best&#8221; ensemble experiment.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Despite the widespread use of the latest community Noah with multiparameterization (Noah-MP) land surface model, it has not been rigorously evaluated over the complex Tibetan Plateau. This study assessed uncertainties in Noah-MP simulations of a cropland site using observations from the 2008 Joint International Cooperation program field campaign. Such an assessment was conducted in the context of performing a total number of 4608 Noah-MP physics ensemble simulations using two analysis methods: the natural selection approach and Tukey's test, where the impacts of uncertainties in atmospheric forcing conditions, vegetation parameters, and subprocesses on model simulations were identified. Uncertainty in precipitation data exerts greater influence on the general behavior of Noah-MP ensemble simulations than that in the leaf area index (LAI). However, using a more realistic seasonal LAI improves the seasonal variations of surface heat fluxes. Combining a better precipitation forcing data set and Moderate Resolution Imaging Spectroradiometer monthly LAI significantly reduces the uncertainty range of the ensemble mean of surface heat fluxes. The uncertainty analysis results using the natural selection method are largely similar to that from Tukey's test but show some subtle differences. Both methods reveal greater uncertainties in the following subprocess schemes: canopy resistance, soil moisture threshold for evaporation, runoff and groundwater, and surface-layer parameterization for this cropland site. The uncertainty analysis identifies the parameterization schemes that demonstrably degrade model performance. The uncertainties in ensemble simulations were significantly reduced when those schemes were excluded, and it was possible to configure an optimal combination of parameterization schemes to obtain similar performance to the ensemble mean of the &#8220;best&#8221; ensemble experiment.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -286,7 +282,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -328,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

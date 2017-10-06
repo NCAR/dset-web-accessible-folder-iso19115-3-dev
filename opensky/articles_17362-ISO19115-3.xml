@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:15.891441</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:34:55.994775</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>A scaling theory for the size distribution of emitted dust aerosols suggests climate models underestimate the size of the global dust cycle [supplement]</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2010-12-28T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -169,12 +167,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d75d8t9t</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -182,12 +179,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1073/pnas.1014798108</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -197,7 +193,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Mineral dust aerosols impact Earth&#8217;s radiation budget through interactions with clouds, ecosystems, and radiation, which constitutes a substantial uncertainty in understanding past and predicting future climate changes. One of the causes of this large uncertainty is that the size distribution of emitted dust aerosols is poorly understood. The present study shows that regional and global circulation models (GCMs) overestimate the emitted fraction of clay aerosols (&lt; 2 &#181;m diameter) by a factor of ~2-8 relative to measurements. This discrepancy is resolved by deriving a simple theoretical expression of the emitted dust size distribution that is in excellent agreement with measurements. This expression is based on the physics of the scale-invariant fragmentation of brittle materials, which is shown to be applicable to dust emission. Because clay aerosols produce a strong radiative cooling, the overestimation of the clay fraction causes GCMs to also overestimate the radiative cooling of a given quantity of emitted dust. On local and regional scales, this affects the magnitude and possibly the sign of the dust radiative forcing, with implications for numerical weather forecasting and regional climate predictions in dusty regions. On a global scale, the dust cycle in most GCMs is tuned to match radiative measurements, such that the overestimation of the radiative cooling of a given quantity of emitted dust has likely caused GCMs to underestimate the global dust emission rate. This implies that the deposition flux of dust and its fertilizing effects on ecosystems may be substantially larger than thought.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Mineral dust aerosols impact Earth&#8217;s radiation budget through interactions with clouds, ecosystems, and radiation, which constitutes a substantial uncertainty in understanding past and predicting future climate changes. One of the causes of this large uncertainty is that the size distribution of emitted dust aerosols is poorly understood. The present study shows that regional and global circulation models (GCMs) overestimate the emitted fraction of clay aerosols (< 2 &#181;m diameter) by a factor of ~2-8 relative to measurements. This discrepancy is resolved by deriving a simple theoretical expression of the emitted dust size distribution that is in excellent agreement with measurements. This expression is based on the physics of the scale-invariant fragmentation of brittle materials, which is shown to be applicable to dust emission. Because clay aerosols produce a strong radiative cooling, the overestimation of the clay fraction causes GCMs to also overestimate the radiative cooling of a given quantity of emitted dust. On local and regional scales, this affects the magnitude and possibly the sign of the dust radiative forcing, with implications for numerical weather forecasting and regional climate predictions in dusty regions. On a global scale, the dust cycle in most GCMs is tuned to match radiative measurements, such that the overestimation of the radiative cooling of a given quantity of emitted dust has likely caused GCMs to underestimate the global dust emission rate. This implies that the deposition flux of dust and its fertilizing effects on ecosystems may be substantially larger than thought.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -256,7 +252,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -298,7 +293,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12057</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:57.404338</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:58.067583</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Characterization and nonparametric regression of rural and urban coarse particulate matter mass concentrations in northeastern Colorado</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2012-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -259,12 +257,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7zk5hcq</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -272,12 +269,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1080/02786826.2011.607478</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -287,7 +283,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>The Colorado Coarse Rural Urban Sources and Health study (CCRUSH) is an ongoing study of the relationship between coarse particulate mass concentrations (PM&#8321;&#8320;&#8331;&#8322;.&#8325;, particulate matter with diameter between 2.5 and 10 &#956;m) and selected health effects. For two urban monitoring sites in Denver, CO, and two comparatively rural sites in Greeley, CO, hourly mass concentrations of PM&#8321;&#8320;&#8331;&#8322;.&#8325; and fine particulate matter (PM&#8322;.&#8325;, diameter less than 2.5 &#956;m) have been measured by using dichotomous tapered element oscillating microbalances (TEOMs) with Filter Dynamics Measurement Systems (FDMS). This paper presents air quality results from just over a year of PM&#8322;.&#8325; and PM&#8321;&#8320;&#8331;&#8322;.&#8325; measurements. Average PM&#8322;.&#8325; concentrations ranged from 7.7 to 9.2 &#956;g m&#8315;&#179; across the four sites with higher concentrations in Denver than Greeley. Average PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations ranged from 9.0 to 15.5 &#956;g m&#8315;&#179; with the highest values at the site in northeast Denver. Temporal variability in PM&#8321;&#8320;&#8331;&#8322;.&#8325; was higher than that in PM&#8322;.&#8325; concentrations at all four sites. The two Greeley sites displayed moderate spatial correlation for PM&#8322;.&#8325; and high correlation for PM&#8321;&#8320;&#8331;&#8322;.&#8325;, whereas the two Denver sites showed lower spatial correlation for both PM sizes. PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations in Denver were highest with winds from the direction of the city's urban core. PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations in Greeley were moderately elevated with winds from the southwest to the northwest, coming from Denver and other large Front Range communities. Wind speed regressions for PM&#8321;&#8320;&#8331;&#8322;.&#8325; at the Denver sites primarily exhibited resuspension effects, while PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations in Greeley showed relatively complex wind speed dependence.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[The Colorado Coarse Rural Urban Sources and Health study (CCRUSH) is an ongoing study of the relationship between coarse particulate mass concentrations (PM&#8321;&#8320;&#8331;&#8322;.&#8325;, particulate matter with diameter between 2.5 and 10 &#956;m) and selected health effects. For two urban monitoring sites in Denver, CO, and two comparatively rural sites in Greeley, CO, hourly mass concentrations of PM&#8321;&#8320;&#8331;&#8322;.&#8325; and fine particulate matter (PM&#8322;.&#8325;, diameter less than 2.5 &#956;m) have been measured by using dichotomous tapered element oscillating microbalances (TEOMs) with Filter Dynamics Measurement Systems (FDMS). This paper presents air quality results from just over a year of PM&#8322;.&#8325; and PM&#8321;&#8320;&#8331;&#8322;.&#8325; measurements. Average PM&#8322;.&#8325; concentrations ranged from 7.7 to 9.2 &#956;g m&#8315;&#179; across the four sites with higher concentrations in Denver than Greeley. Average PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations ranged from 9.0 to 15.5 &#956;g m&#8315;&#179; with the highest values at the site in northeast Denver. Temporal variability in PM&#8321;&#8320;&#8331;&#8322;.&#8325; was higher than that in PM&#8322;.&#8325; concentrations at all four sites. The two Greeley sites displayed moderate spatial correlation for PM&#8322;.&#8325; and high correlation for PM&#8321;&#8320;&#8331;&#8322;.&#8325;, whereas the two Denver sites showed lower spatial correlation for both PM sizes. PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations in Denver were highest with winds from the direction of the city's urban core. PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations in Greeley were moderately elevated with winds from the southwest to the northwest, coming from Denver and other large Front Range communities. Wind speed regressions for PM&#8321;&#8320;&#8331;&#8322;.&#8325; at the Denver sites primarily exhibited resuspension effects, while PM&#8321;&#8320;&#8331;&#8322;.&#8325; concentrations in Greeley showed relatively complex wind speed dependence.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -342,12 +338,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -389,7 +383,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

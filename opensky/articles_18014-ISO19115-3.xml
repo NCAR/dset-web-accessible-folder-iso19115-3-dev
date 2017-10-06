@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18014</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:30.957592</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:13.842194</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Assessing the performance of community-available global MHD models using key system parameters and empirical relationships</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2015-12-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -304,12 +302,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7q81fm7</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -317,12 +314,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2015SW001307</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -332,7 +328,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Global magnetohydrodynamic (MHD) modeling is a powerful tool in space weather research and predictions. There are several advanced and still developing global MHD (GMHD) models that are publicly available via Community Coordinated Modeling Center's (CCMC) Run on Request system, which allows the users to simulate the magnetospheric response to different solar wind conditions including extraordinary events, like geomagnetic storms. Systematic validation of GMHD models against observations still continues to be a challenge, as well as comparative benchmarking of different models against each other. In this paper we describe and test a new approach in which (i) a set of critical large-scale system parameters is explored/tested, which are produced by (ii) specially designed set of computer runs to simulate realistic statistical distributions of critical solar wind parameters and are compared to (iii) observation-based empirical relationships for these parameters. Being tested in approximately similar conditions (similar inputs, comparable grid resolution, etc.), the four models publicly available at the CCMC predict rather well the absolute values and variations of those key parameters (magnetospheric size, magnetic field, and pressure) which are directly related to the large-scale magnetospheric equilibrium in the outer magnetosphere, for which the MHD is supposed to be a valid approach. At the same time, the models have systematic differences in other parameters, being especially different in predicting the global convection rate, total field-aligned current, and magnetic flux loading into the magnetotail after the north-south interplanetary magnetic field turning. According to validation results, none of the models emerges as an absolute leader. The new approach suggested for the evaluation of the models performance against reality may be used by model users while planning their investigations, as well as by model developers and those interesting to quantitatively evaluate progress in magnetospheric modeling.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Global magnetohydrodynamic (MHD) modeling is a powerful tool in space weather research and predictions. There are several advanced and still developing global MHD (GMHD) models that are publicly available via Community Coordinated Modeling Center's (CCMC) Run on Request system, which allows the users to simulate the magnetospheric response to different solar wind conditions including extraordinary events, like geomagnetic storms. Systematic validation of GMHD models against observations still continues to be a challenge, as well as comparative benchmarking of different models against each other. In this paper we describe and test a new approach in which (i) a set of critical large-scale system parameters is explored/tested, which are produced by (ii) specially designed set of computer runs to simulate realistic statistical distributions of critical solar wind parameters and are compared to (iii) observation-based empirical relationships for these parameters. Being tested in approximately similar conditions (similar inputs, comparable grid resolution, etc.), the four models publicly available at the CCMC predict rather well the absolute values and variations of those key parameters (magnetospheric size, magnetic field, and pressure) which are directly related to the large-scale magnetospheric equilibrium in the outer magnetosphere, for which the MHD is supposed to be a valid approach. At the same time, the models have systematic differences in other parameters, being especially different in predicting the global convection rate, total field-aligned current, and magnetic flux loading into the magnetotail after the north-south interplanetary magnetic field turning. According to validation results, none of the models emerges as an absolute leader. The new approach suggested for the evaluation of the models performance against reality may be used by model users while planning their investigations, as well as by model developers and those interesting to quantitatively evaluate progress in magnetospheric modeling.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -387,12 +383,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -434,7 +428,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:01:07.446747</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:36:19.798463</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Validation of 10-year SAO OMI Ozone Profile (PROFOZ) product using ozonesonde observations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2017-07-13T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -949,12 +947,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d73b62k7</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -962,12 +959,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/amt-10-2455-2017</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -977,7 +973,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>We validate the Ozone Monitoring Instrument (OMI) Ozone Profile (PROFOZ) product from October 2004 through December 2014 retrieved by the Smithsonian Astrophysical Observatory (SAO) algorithm against ozonesonde observations. We also evaluate the effects of OMI row anomaly (RA) on the retrieval by dividing the dataset into before and after the occurrence of serious OMI RA, i.e., pre-RA (2004-2008) and post-RA (2009-2014). The retrieval shows good agreement with ozonesondes in the tropics and midlatitudes and for pressure &lt; similar to 50 hPa in the high latitudes. It demonstrates clear improvement over the a priori down to the lower troposphere in the tropics and down to an average of similar to 550 (300) hPa at middle (high) latitudes. In the tropics and midlatitudes, the profile mean biases (MBs) are less than 6 %, and the standard deviations (SDs) range from 5 to 10% for pressure &lt; similar to 50 hPa to less than 18% (27 %) in the tropics (midlatitudes) for pressure &gt; similar to 50 hPa after applying OMI averaging kernels to ozonesonde data. The MBs of the stratospheric ozone column (SOC, the ozone column from the tropopause pressure to the ozonesonde burst pressure) are within 2% with SDs of &lt; 5% and the MBs of the tropospheric ozone column (TOC) are within 6% with SDs of 15 %. In the high latitudes, the profile MBs are within 10% with SDs of 5-15% for pressure &lt; similar to 50 hPa but increase to 30% with SDs as great as 40% for pressure &gt; similar to 50 hPa. The SOC MBs increase up to 3% with SDs as great as 6% and the TOC SDs increase up to 30 %. The comparison generally degrades at larger solar zenith angles (SZA) due to weaker signals and additional sources of error, leading to worse performance at high latitudes and during the midlatitude winter. Agreement also degrades with increasing cloudiness for pressure &gt; similar to 100 hPa and varies with cross-track position, especially with large MBs and SDs at extreme off-nadir positions. In the tropics and midlatitudes, the post-RA comparison is considerably worse with larger SDs reaching 2% in the stratosphere and 8% in the troposphere and up to 6% in TOC. There are systematic differences that vary with latitude compared to the pre-RA comparison. The retrieval comparison demonstrates good long-term stability during the pre-RA period but exhibits a statistically significant trend of 0.14-0.7% year 1 for pressure &lt; similar to 80 hPa, 0.7DUyear(-1) in SOC, and 0 : 33DUyear(-1) in TOC during the post-RA period. The spatiotemporal variation of retrieval performance suggests the need to improve OMI's radiometric calibration especially during the post-RA period to maintain the long-term stability and reduce the latitude/season/SZA and cross-track dependency of retrieval quality.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[We validate the Ozone Monitoring Instrument (OMI) Ozone Profile (PROFOZ) product from October 2004 through December 2014 retrieved by the Smithsonian Astrophysical Observatory (SAO) algorithm against ozonesonde observations. We also evaluate the effects of OMI row anomaly (RA) on the retrieval by dividing the dataset into before and after the occurrence of serious OMI RA, i.e., pre-RA (2004-2008) and post-RA (2009-2014). The retrieval shows good agreement with ozonesondes in the tropics and midlatitudes and for pressure < similar to 50 hPa in the high latitudes. It demonstrates clear improvement over the a priori down to the lower troposphere in the tropics and down to an average of similar to 550 (300) hPa at middle (high) latitudes. In the tropics and midlatitudes, the profile mean biases (MBs) are less than 6 %, and the standard deviations (SDs) range from 5 to 10% for pressure < similar to 50 hPa to less than 18% (27 %) in the tropics (midlatitudes) for pressure > similar to 50 hPa after applying OMI averaging kernels to ozonesonde data. The MBs of the stratospheric ozone column (SOC, the ozone column from the tropopause pressure to the ozonesonde burst pressure) are within 2% with SDs of < 5% and the MBs of the tropospheric ozone column (TOC) are within 6% with SDs of 15 %. In the high latitudes, the profile MBs are within 10% with SDs of 5-15% for pressure < similar to 50 hPa but increase to 30% with SDs as great as 40% for pressure > similar to 50 hPa. The SOC MBs increase up to 3% with SDs as great as 6% and the TOC SDs increase up to 30 %. The comparison generally degrades at larger solar zenith angles (SZA) due to weaker signals and additional sources of error, leading to worse performance at high latitudes and during the midlatitude winter. Agreement also degrades with increasing cloudiness for pressure > similar to 100 hPa and varies with cross-track position, especially with large MBs and SDs at extreme off-nadir positions. In the tropics and midlatitudes, the post-RA comparison is considerably worse with larger SDs reaching 2% in the stratosphere and 8% in the troposphere and up to 6% in TOC. There are systematic differences that vary with latitude compared to the pre-RA comparison. The retrieval comparison demonstrates good long-term stability during the pre-RA period but exhibits a statistically significant trend of 0.14-0.7% year 1 for pressure < similar to 80 hPa, 0.7DUyear(-1) in SOC, and 0 : 33DUyear(-1) in TOC during the post-RA period. The spatiotemporal variation of retrieval performance suggests the need to improve OMI's radiometric calibration especially during the post-RA period to maintain the long-term stability and reduce the latitude/season/SZA and cross-track dependency of retrieval quality.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -1036,7 +1032,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -1078,7 +1073,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

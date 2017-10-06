@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:11664</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:05:47.965227</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:32:44.840929</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Effects of aging on organic aerosol from open biomass burning smoke in aircraft and laboratory studies</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2011-12-05T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -469,12 +467,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7n87bch</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -482,12 +479,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-11-12049-2011</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -497,7 +493,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Biomass burning (BB) is a large source of primary and secondary organic aerosols (POA and SOA). This study addresses the physical and chemical evolution of BB organic aerosols. Firstly, the evolution and lifetime of BB POA and SOA signatures observed with the Aerodyne Aerosol Mass Spectrometer are investigated, focusing on measurements at high-latitudes acquired during the 2008 NASA ARCTAS mission, in comparison to data from other field studies and from laboratory aging experiments. The parameter f60, the ratio of the integrated signal at m/z 60 to the total signal in the organic component mass spectrum, is used as a marker to study the rate of oxidation and fate of the BB POA. A background level of f&#8326;&#8320;~0.3% &#177; 0.06% for SOA-dominated ambient OA is shown to be an appropriate background level for this tracer. Using also f&#8324;&#8324; as a tracer for SOA and aged POA and a surrogate of organic O:C, a novel graphical method is presented to characterise the aging of BB plumes. Similar trends of decreasing f60 and increasing f&#8324;&#8324; with aging are observed in most field and lab studies. At least some very aged BB plumes retain a clear f&#8326;&#8320; signature. A statistically significant difference in f&#8326;&#8320; between highly-oxygenated OA of BB and non-BB origin is observed using this tracer, consistent with a substantial contribution of BBOA to the springtime Arctic aerosol burden in 2008. Secondly, a summary is presented of results on the net enhancement of OA with aging of BB plumes, which shows large variability. The estimates of net OA gain range from &#916;OA/&#916;CO(mass) = -0.01 to ~0.05, with a mean &#916;OA/POA ~19%. With these ratios and global inventories of BB CO and POA a global net OA source due to aging of BB plumes of ~8 &#177; 7 Tg OA yr&#8315;&#185; is estimated, of the order of 5 % of recent total OA source estimates. Further field data following BB plume advection should be a focus of future research in order to better constrain this potentially important contribution to the OA burden.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Biomass burning (BB) is a large source of primary and secondary organic aerosols (POA and SOA). This study addresses the physical and chemical evolution of BB organic aerosols. Firstly, the evolution and lifetime of BB POA and SOA signatures observed with the Aerodyne Aerosol Mass Spectrometer are investigated, focusing on measurements at high-latitudes acquired during the 2008 NASA ARCTAS mission, in comparison to data from other field studies and from laboratory aging experiments. The parameter f60, the ratio of the integrated signal at m/z 60 to the total signal in the organic component mass spectrum, is used as a marker to study the rate of oxidation and fate of the BB POA. A background level of f&#8326;&#8320;~0.3% &#177; 0.06% for SOA-dominated ambient OA is shown to be an appropriate background level for this tracer. Using also f&#8324;&#8324; as a tracer for SOA and aged POA and a surrogate of organic O:C, a novel graphical method is presented to characterise the aging of BB plumes. Similar trends of decreasing f60 and increasing f&#8324;&#8324; with aging are observed in most field and lab studies. At least some very aged BB plumes retain a clear f&#8326;&#8320; signature. A statistically significant difference in f&#8326;&#8320; between highly-oxygenated OA of BB and non-BB origin is observed using this tracer, consistent with a substantial contribution of BBOA to the springtime Arctic aerosol burden in 2008. Secondly, a summary is presented of results on the net enhancement of OA with aging of BB plumes, which shows large variability. The estimates of net OA gain range from &#916;OA/&#916;CO(mass) = -0.01 to ~0.05, with a mean &#916;OA/POA ~19%. With these ratios and global inventories of BB CO and POA a global net OA source due to aging of BB plumes of ~8 &#177; 7 Tg OA yr&#8315;&#185; is estimated, of the order of 5 % of recent total OA source estimates. Further field data following BB plume advection should be a focus of future research in order to better constrain this potentially important contribution to the OA burden.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -552,12 +548,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -599,7 +593,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

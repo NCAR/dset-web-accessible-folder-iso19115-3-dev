@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-11T20:00:44.611960</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:37.641877</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -101,10 +101,10 @@
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Air quality impact of diffuse and inefficient combustion emissions in Africa (DICE-Africa)</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-10-04T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -184,12 +182,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7bv7j95</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -197,12 +194,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1021/acs.est.6b02602</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -212,7 +208,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Anthropogenic pollution in Africa is dominated by diffuse and inefficient combustion sources, as electricity access is low and motorcycles and outdated cars proliferate. These sources are missing, out-of-date, or misrepresented in state-of-the-science emission inventories. We address these deficiencies with a detailed inventory of Diffuse and Inefficient Combustion Emissions in Africa (DICE-Africa) for 2006 and 2013. Fuelwood for energy is the largest emission source in DICE-Africa, but grows from 2006 to 2013 at a slower rate than charcoal production and use, and gasoline and diesel for motorcycles, cars, and generators. Only kerosene use and gas flaring decline. Increase in emissions from 2006 to 2013 in this work is consistent with trends in satellite observations of formaldehyde and NO2, but much slower than the explosive growth projected with a fuel consumption model. Seasonal biomass burning is considered a large pollution source in Africa, but we estimate comparable emissions of black carbon and higher emissions of nonmethane volatile organic compounds from DICE-Africa. Nitrogen oxide (NOx &#8801; NO + NO2) emissions are much lower than from biomass burning. We use GEOS-Chem to estimate that the largest contribution of DICE-Africa to annual mean surface fine particulate matter (PM2.5) is &gt;5 &#956;g m&#8211;3 in populous Nigeria.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Anthropogenic pollution in Africa is dominated by diffuse and inefficient combustion sources, as electricity access is low and motorcycles and outdated cars proliferate. These sources are missing, out-of-date, or misrepresented in state-of-the-science emission inventories. We address these deficiencies with a detailed inventory of Diffuse and Inefficient Combustion Emissions in Africa (DICE-Africa) for 2006 and 2013. Fuelwood for energy is the largest emission source in DICE-Africa, but grows from 2006 to 2013 at a slower rate than charcoal production and use, and gasoline and diesel for motorcycles, cars, and generators. Only kerosene use and gas flaring decline. Increase in emissions from 2006 to 2013 in this work is consistent with trends in satellite observations of formaldehyde and NO2, but much slower than the explosive growth projected with a fuel consumption model. Seasonal biomass burning is considered a large pollution source in Africa, but we estimate comparable emissions of black carbon and higher emissions of nonmethane volatile organic compounds from DICE-Africa. Nitrogen oxide (NOx &#8801; NO + NO2) emissions are much lower than from biomass burning. We use GEOS-Chem to estimate that the largest contribution of DICE-Africa to annual mean surface fine particulate matter (PM2.5) is >5 &#956;g m&#8211;3 in populous Nigeria.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -271,7 +267,6 @@
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -313,7 +308,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

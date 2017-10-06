@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:12606</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:10.371046</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:16.732159</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Analysis of present day and future OH and methane lifetime in the ACCMIP simulations</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2013-03-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -589,12 +587,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7v69kds</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -602,12 +599,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.5194/acp-13-2563-2013</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -617,7 +613,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>Results from simulations performed for the Atmospheric Chemistry and Climate Modeling Intercomparison Project (ACCMIP) are analysed to examine how OH and methane lifetime may change from present day to the future, under different climate and emissions scenarios. Present day (2000) mean tropospheric chemical lifetime derived from the ACCMIP multi-model mean is 9.8 &#177; 1.6 yr (9.3 &#177; 0.9 yr when only including selected models), lower than a recent observationally-based estimate, but with a similar range to previous multi-model estimates. Future model projections are based on the four Representative Concentration Pathways (RCPs), and the results also exhibit a large range. Decreases in global methane lifetime of 4.5 &#177; 9.1% are simulated for the scenario with lowest radiative forcing by 2100 (RCP 2.6), while increases of 8.5 &#177; 10.4% are simulated for the scenario with highest radiative forcing (RCP 8.5). In this scenario, the key driver of the evolution of OH and methane lifetime is methane itself, since its concentration more than doubles by 2100 and it consumes much of the OH that exists in the troposphere. Stratospheric ozone recovery, which drives tropospheric OH decreases through photolysis modifications, also plays a partial role. In the other scenarios, where methane changes are less drastic, the interplay between various competing drivers leads to smaller and more diverse OH and methane lifetime responses, which are difficult to attribute. For all scenarios, regional OH changes are even more variable, with the most robust feature being the large decreases over the remote oceans in RCP8.5. Through a regression analysis, we suggest that differences in emissions of non-methane volatile organic compounds and in the simulation of photolysis rates may be the main factors causing the differences in simulated present day OH and methane lifetime. Diversity in predicted changes between present day and future OH was found to be associated more strongly with differences in modelled temperature and stratospheric ozone changes. Finally, through perturbation experiments we calculated an OH feedback factor (F) of 1.24 from present day conditions (1.50 from 2100 RCP8.5 conditions) and a climate feedback on methane lifetime of 0.33 &#177; 0.13 yr K&#8315;&#185;, on average. Models that did not include interactive stratospheric ozone effects on photolysis showed a stronger sensitivity to climate, as they did not account for negative effects of climate-driven stratospheric ozone recovery on tropospheric OH, which would have partly offset the overall OH/methane lifetime response to climate change.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[Results from simulations performed for the Atmospheric Chemistry and Climate Modeling Intercomparison Project (ACCMIP) are analysed to examine how OH and methane lifetime may change from present day to the future, under different climate and emissions scenarios. Present day (2000) mean tropospheric chemical lifetime derived from the ACCMIP multi-model mean is 9.8 &#177; 1.6 yr (9.3 &#177; 0.9 yr when only including selected models), lower than a recent observationally-based estimate, but with a similar range to previous multi-model estimates. Future model projections are based on the four Representative Concentration Pathways (RCPs), and the results also exhibit a large range. Decreases in global methane lifetime of 4.5 &#177; 9.1% are simulated for the scenario with lowest radiative forcing by 2100 (RCP 2.6), while increases of 8.5 &#177; 10.4% are simulated for the scenario with highest radiative forcing (RCP 8.5). In this scenario, the key driver of the evolution of OH and methane lifetime is methane itself, since its concentration more than doubles by 2100 and it consumes much of the OH that exists in the troposphere. Stratospheric ozone recovery, which drives tropospheric OH decreases through photolysis modifications, also plays a partial role. In the other scenarios, where methane changes are less drastic, the interplay between various competing drivers leads to smaller and more diverse OH and methane lifetime responses, which are difficult to attribute. For all scenarios, regional OH changes are even more variable, with the most robust feature being the large decreases over the remote oceans in RCP8.5. Through a regression analysis, we suggest that differences in emissions of non-methane volatile organic compounds and in the simulation of photolysis rates may be the main factors causing the differences in simulated present day OH and methane lifetime. Diversity in predicted changes between present day and future OH was found to be associated more strongly with differences in modelled temperature and stratospheric ozone changes. Finally, through perturbation experiments we calculated an OH feedback factor (F) of 1.24 from present day conditions (1.50 from 2100 RCP8.5 conditions) and a climate feedback on methane lifetime of 0.33 &#177; 0.13 yr K&#8315;&#185;, on average. Models that did not include interactive stratospheric ozone effects on photolysis showed a stronger sensitivity to climate, as they did not account for negative effects of climate-driven stratospheric ozone recovery on tropospheric OH, which would have partly offset the overall OH/methane lifetime response to climate change.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -672,12 +668,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -719,7 +713,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

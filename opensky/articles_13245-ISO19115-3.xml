@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:13245</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:06:27.505894</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:33:38.684055</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>SPARC Data Initiative: A comparison of ozone climatologies from international satellite limb sounders</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2013-11-16T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -559,12 +557,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7c82b6w</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -572,12 +569,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/2013JD019877</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -587,7 +583,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A comprehensive quality assessment of the ozone products from 18 limb-viewing satellite instruments is provided by means of a detailed intercomparison. The ozone climatologies in form of monthly zonal mean time series covering the upper troposphere to lower mesosphere are obtained from LIMS, SAGE I/II/III, UARS-MLS, HALOE, POAM II/III, SMR, OSIRIS, MIPAS, GOMOS, SCIAMACHY, ACE-FTS, ACE-MAESTRO, Aura-MLS, HIRDLS, and SMILES within 1978&#8211;2010. The intercomparisons focus on mean biases of annual zonal mean fields, interannual variability, and seasonal cycles. Additionally, the physical consistency of the data is tested through diagnostics of the quasi-biennial oscillation and Antarctic ozone hole. The comprehensive evaluations reveal that the uncertainty in our knowledge of the atmospheric ozone mean state is smallest in the tropical and midlatitude middle stratosphere with a 1&#963; multi-instrument spread of less than &#177;5%. While the overall agreement among the climatological data sets is very good for large parts of the stratosphere, individual discrepancies have been identified, including unrealistic month-to-month fluctuations, large biases in particular atmospheric regions, or inconsistencies in the seasonal cycle. Notable differences between the data sets exist in the tropical lower stratosphere (with a spread of &#177;30%) and at high latitudes (&#177;15%). In particular, large relative differences are identified in the Antarctic during the time of the ozone hole, with a spread between the monthly zonal mean fields of &#177;50%. The evaluations provide guidance on what data sets are the most reliable for applications such as studies of ozone variability, model-measurement comparisons, detection of long-term trends, and data-merging activities.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A comprehensive quality assessment of the ozone products from 18 limb-viewing satellite instruments is provided by means of a detailed intercomparison. The ozone climatologies in form of monthly zonal mean time series covering the upper troposphere to lower mesosphere are obtained from LIMS, SAGE I/II/III, UARS-MLS, HALOE, POAM II/III, SMR, OSIRIS, MIPAS, GOMOS, SCIAMACHY, ACE-FTS, ACE-MAESTRO, Aura-MLS, HIRDLS, and SMILES within 1978&#8211;2010. The intercomparisons focus on mean biases of annual zonal mean fields, interannual variability, and seasonal cycles. Additionally, the physical consistency of the data is tested through diagnostics of the quasi-biennial oscillation and Antarctic ozone hole. The comprehensive evaluations reveal that the uncertainty in our knowledge of the atmospheric ozone mean state is smallest in the tropical and midlatitude middle stratosphere with a 1&#963; multi-instrument spread of less than &#177;5%. While the overall agreement among the climatological data sets is very good for large parts of the stratosphere, individual discrepancies have been identified, including unrealistic month-to-month fluctuations, large biases in particular atmospheric regions, or inconsistencies in the seasonal cycle. Notable differences between the data sets exist in the tropical lower stratosphere (with a spread of &#177;30%) and at high latitudes (&#177;15%). In particular, large relative differences are identified in the Antarctic during the time of the ozone hole, with a spread between the monthly zonal mean fields of &#177;50%. The evaluations provide guidance on what data sets are the most reliable for applications such as studies of ozone variability, model-measurement comparisons, detection of long-term trends, and data-merging activities.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -642,12 +638,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -689,7 +683,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>

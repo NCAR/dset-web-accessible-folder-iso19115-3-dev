@@ -1,12 +1,12 @@
 <mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier> <!-- ARK_ID skip authority for now -->
+    <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:18061</gco:CharacterString>
             </mcc:code>
         </mcc:MD_Identifier>
     </mdb:metadataIdentifier>
-    <mdb:defaultLocale> <!-- HARD CODED -->
+    <mdb:defaultLocale>
         <lan:PT_Locale>
             <lan:language>
                 <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
@@ -16,7 +16,7 @@
             </lan:characterEncoding>
         </lan:PT_Locale>
     </mdb:defaultLocale>
-    <mdb:metadataScope> <!-- HARD CODED -->
+    <mdb:metadataScope>
         <mdb:MD_MetadataScope>
             <mdb:resourceScope>
                 <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
@@ -76,17 +76,17 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mdb:contact>
-    <mdb:dateInfo> <!-- timestamp for this record -->
+    <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2017-09-07T18:07:32.150287</gco:DateTime>
+                <gco:DateTime>2017-10-06T18:35:15.386376</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
             </cit:dateType>
         </cit:CI_Date>
     </mdb:dateInfo>
-    <mdb:metadataStandard> <!-- HARD CODED -->
+    <mdb:metadataStandard>
         <cit:CI_Citation>
             <cit:title>
                 <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
@@ -97,14 +97,14 @@
             </cit:edition>
         </cit:CI_Citation>
     </mdb:metadataStandard>
-    <mdb:identificationInfo> <!-- Populate with OpenSky Metadata -->
+    <mdb:identificationInfo>
         <mri:MD_DataIdentification>
             <mri:citation>
                 <cit:CI_Citation>
-                    <cit:title> <!-- resource TITLE -->
+                    <cit:title>
                         <gco:CharacterString>Predictability of tropical cyclone intensity: scale-dependent forecast error growth in high-resolution stochastic kinetic-energy backscatter ensembles</gco:CharacterString>
                     </cit:title>
-                    <cit:date> <!-- date Published -->
+                    <cit:date>
                         <cit:CI_Date>
                             <cit:date>
                                 <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
@@ -115,7 +115,6 @@
                         </cit:CI_Date>
                     </cit:date>
 
-                    <!-- ARK goes here along with other identifiers (doi, url)  -->
                     <cit:identifier>
                         <mcc:MD_Identifier>
                             <mcc:code>
@@ -140,7 +139,6 @@
                         </mcc:MD_Identifier>
                     </cit:identifier>
 
-                    <!-- authors as citedResponsibleParty elements -->
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -199,12 +197,11 @@
             </cit:CI_Organisation>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>  <!-- ARK_URL as onlineResource -->
+</cit:citedResponsibleParty><cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7t72jzx</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Landing Page</gco:CharacterString>
                             </cit:name>
@@ -212,12 +209,11 @@
                     </cit:onlineResource>
 
 
-                    <cit:onlineResource>  <!-- DOI_URL if we have one -->
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>https://doi.org/10.1002/qj.2626</gco:CharacterString>
                             </cit:linkage>
-                            <!-- name is schema OPTIONAL -->
                             <cit:name>
                                 <gco:CharacterString>Resource Full Text</gco:CharacterString>
                             </cit:name>
@@ -227,7 +223,7 @@
                 </cit:CI_Citation>
             </mri:citation>
             <mri:abstract>
-                <gco:CharacterString>A systematic study of the intrinsic predictability of tropical cyclone (TC) intensity is conducted using a set of cloud-resolving model ensembles of Hurricane Earl (2010). The ensembles are perturbed with a stochastic kinetic-energy backscatter scheme (SKEBS) and started from identical initial conditions. Scale-dependent error growth is investigated by imposing stochastic perturbations with various spatial scales on the TC and its environment. Predictability limits (upper bound) are determined by computing the error magnitude associated with each component of the Fourier-decomposed TC wind fields at forecast times up to 7 days. Three SKEBS ensembles with different perturbation scales are used to investigate the effects of small-scale, mesoscale and large-scale uncertainties on the predictability of TC intensity. In addition, the influence of the environmental flow is investigated by perturbing the lateral boundary conditions. It is found that forecast errors grow rapidly on small scales (azimuthal wave numbers &gt; 20), which saturate within 6-12 h in all four ensembles, regardless of perturbation scale. Errors grow relatively slower on scales corresponding to rain bands (wave numbers 2-5), limiting the predictability of these features to 1-5 days. Earl's mean vortex and the wave number-1 asymmetry are comparatively resistant to error growth and remain predictable for at least 7 days. Forecast uncertainty of the mean vortex and wave number-1 asymmetry is greater in the large-scale perturbation and perturbed lateral boundary condition ensembles. The results from this case indicate that the predictability of the mean vortex and wave number-1 asymmetry is predominately associated with the predictability of the large-scale environment, which is generally much longer than that of convective-scale processes within the TC.</gco:CharacterString>
+                <gco:CharacterString><![CDATA[A systematic study of the intrinsic predictability of tropical cyclone (TC) intensity is conducted using a set of cloud-resolving model ensembles of Hurricane Earl (2010). The ensembles are perturbed with a stochastic kinetic-energy backscatter scheme (SKEBS) and started from identical initial conditions. Scale-dependent error growth is investigated by imposing stochastic perturbations with various spatial scales on the TC and its environment. Predictability limits (upper bound) are determined by computing the error magnitude associated with each component of the Fourier-decomposed TC wind fields at forecast times up to 7 days. Three SKEBS ensembles with different perturbation scales are used to investigate the effects of small-scale, mesoscale and large-scale uncertainties on the predictability of TC intensity. In addition, the influence of the environmental flow is investigated by perturbing the lateral boundary conditions. It is found that forecast errors grow rapidly on small scales (azimuthal wave numbers > 20), which saturate within 6-12 h in all four ensembles, regardless of perturbation scale. Errors grow relatively slower on scales corresponding to rain bands (wave numbers 2-5), limiting the predictability of these features to 1-5 days. Earl's mean vortex and the wave number-1 asymmetry are comparatively resistant to error growth and remain predictable for at least 7 days. Forecast uncertainty of the mean vortex and wave number-1 asymmetry is greater in the large-scale perturbation and perturbed lateral boundary condition ensembles. The results from this case indicate that the predictability of the mean vortex and wave number-1 asymmetry is predominately associated with the predictability of the large-scale environment, which is generally much longer than that of convective-scale processes within the TC.]]></gco:CharacterString>
             </mri:abstract>
             <mri:pointOfContact><cit:CI_Responsibility>
     <cit:role>
@@ -282,12 +278,10 @@
         </cit:CI_Organisation>
     </cit:party>
 </cit:CI_Responsibility></mri:pointOfContact>
-            <!-- topicCategory is Hardcoded as geoscientificInformation -->
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
 
-            <!-- resourceType using DataCite vocabs hardwired - this may need improvement!-->
             <mri:descriptiveKeywords>
                 <mri:MD_Keywords>
                     <mri:keyword>
@@ -329,7 +323,6 @@
                 </mco:MD_LegalConstraints>
             </mri:resourceConstraints>
 
-           <!-- defaultLocale is HARDCODED -->
             <mri:defaultLocale>
                 <lan:PT_Locale>
                     <lan:language>
