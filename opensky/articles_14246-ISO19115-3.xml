@@ -1,4 +1,4 @@
-<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
     <mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
@@ -79,7 +79,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2018-01-24T17:54:04.419118</gco:DateTime>
+                <gco:DateTime>2018-01-24T19:44:17.801581</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -378,5 +378,25 @@
             </mri:defaultLocale>
         </mri:MD_DataIdentification>
     </mdb:identificationInfo>
-
+    <mdb:metadataExtensionInfo>
+        <mex:MD_MetadataExtensionInformation>
+            <cit:extensionOnLineResource>
+                <cit:CI_OnlineResource>
+                    <cit:linkage>
+                        <gco:CharacterString>http://data.eol.ucar.edu/codiac/dss/id=45.202</gco:CharacterString>
+                    </cit:linkage>
+                    <cit:protocol>
+                        <gco:CharacterString>http</gco:CharacterString>
+                    </cit:protocol>
+                    <cit:name>
+                        <cit:CharacterString>Aircraft Data Wyoming King Air 25Hz</cit:CharacterString>
+                    </cit:name>
+                    <cit:description>
+                        <gco:CharacterString>This is a related Dataset</gco:CharacterString>
+                    </cit:description>
+                </cit:CI_OnlineResource>
+            </cit:extensionOnLineResource>
+        </mex:MD_MetadataExtensionInformation>
+    </mdb:metadataExtensionInfo>
+    
 </mdb:MD_Metadata>
