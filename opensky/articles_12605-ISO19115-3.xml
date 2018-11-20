@@ -1,0 +1,449 @@
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
+    <mdb:metadataIdentifier>
+        <mcc:MD_Identifier> 
+            <mcc:code>
+                <gco:CharacterString>edu.ucar.opensky::articles:12605</gco:CharacterString>
+            </mcc:code>
+        </mcc:MD_Identifier>
+    </mdb:metadataIdentifier>
+    <mdb:defaultLocale>
+        <lan:PT_Locale>
+            <lan:language>
+                <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+            </lan:language>
+            <lan:characterEncoding>
+                <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+            </lan:characterEncoding>
+        </lan:PT_Locale>
+    </mdb:defaultLocale>
+    <mdb:metadataScope>
+        <mdb:MD_MetadataScope>
+            <mdb:resourceScope>
+                <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
+            </mdb:resourceScope>
+        </mdb:MD_MetadataScope>
+    </mdb:metadataScope>
+    <mdb:contact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mdb:contact>
+    <mdb:dateInfo>
+        <cit:CI_Date>
+            <cit:date>
+                <gco:DateTime>2018-11-20T23:33:03.355076</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+            </cit:dateType>
+        </cit:CI_Date>
+    </mdb:dateInfo>
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title>
+                <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
+                    Extensions for Imagery and Gridded Data</gco:CharacterString>
+            </cit:title>
+            <cit:edition>
+                <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+            </cit:edition>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+    <mdb:identificationInfo>
+        <mri:MD_DataIdentification>
+            <mri:citation>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>Interactive ozone and methane chemistry in GISS-E2 historical and future climate simulations</gco:CharacterString>
+                    </cit:title>
+                    <cit:date>
+                        <cit:CI_Date>
+                            <cit:date>
+                                <gco:DateTime>2013-03-01T00:00:00Z</gco:DateTime>
+                            </cit:date>
+                            <cit:dateType>
+                                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                            </cit:dateType>
+                        </cit:CI_Date>
+                    </cit:date>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d73r0tpj</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>https://doi.org/10.5194/acp-13-2653-2013</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Shindell, D.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Pechony, Olga</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Voulgarakis, A.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Faluvegi, Greg</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Nazarenko, Larissa</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Lamarque, Jean-Francois</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Bowman, K.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Milly, G.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Kovari, B.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Ruedy, R.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Schmidt, G.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Organisation>
+                <cit:name>
+                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Organisation>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d73r0tpj</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>https://doi.org/10.5194/acp-13-2653-2013</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Full Text</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+                </cit:CI_Citation>
+            </mri:citation>
+            <mri:abstract>
+                <gco:CharacterString>The new generation GISS climate model includes fully interactive chemistry related to ozone in historical and future simulations, and interactive methane in future simulations. Evaluation of ozone, its tropospheric precursors, and methane shows that the model captures much of the large-scale spatial structure seen in recent observations. While the model is much improved compared with the previous chemistry-climate model, especially for ozone seasonality in the stratosphere, there is still slightly too rapid stratospheric circulation, too little stratosphere-to-troposphere ozone flux in the Southern Hemisphere and an Antarctic ozone hole that is too large and persists too long. Quantitative metrics of spatial and temporal correlations with satellite datasets as well as spatial autocorrelation to examine transport and mixing are presented to document improvements in model skill and provide a benchmark for future evaluations. The difference in radiative forcing (RF) calculated using modeled tropospheric ozone versus tropospheric ozone observed by TES is only 0.016 W m&#8315;&#178;. Historical 20th Century simulations show a steady increase in whole atmosphere ozone RF through 1970 after which there is a decrease through 2000 due to stratospheric ozone depletion. Ozone forcing increases throughout the 21st century under RCP8.5 owing to a projected recovery of stratospheric ozone depletion and increases in methane, but decreases under RCP4.5 and 2.6 due to reductions in emissions of other ozone precursors. RF from methane is 0.05 to 0.18 W m&#8315;&#178; higher in our model calculations than in the RCP RF estimates. The surface temperature response to ozone through 1970 follows the increase in forcing due to tropospheric ozone. After that time, surface temperatures decrease as ozone RF declines due to stratospheric depletion. The stratospheric ozone depletion also induces substantial changes in surface winds and the Southern Ocean circulation, which may play a role in a slightly stronger response per unit forcing during later decades. Tropical precipitation shifts south during boreal summer from 1850 to 1970, but then shifts northward from 1970 to 2000, following upper tropospheric temperature gradients more strongly than those at the surface.</gco:CharacterString>
+            </mri:abstract>
+            <mri:pointOfContact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mri:pointOfContact>
+            <mri:topicCategory>
+                <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+            </mri:topicCategory>
+
+            <mri:descriptiveKeywords>
+                <mri:MD_Keywords>
+                    <mri:keyword>
+                        <gco:CharacterString>Text</gco:CharacterString>
+                    </mri:keyword>
+                    <mri:type>
+                        <mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                    </mri:type>
+                    <mri:thesaurusName>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </cit:title>
+
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <!--<gco:Date>2016</gco:Date>-->
+                                        <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                        </cit:CI_Citation>
+                    </mri:thesaurusName>
+                </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
+
+            <mri:resourceConstraints>
+                <mco:MD_LegalConstraints>
+                    <mco:useLimitation>
+                        <gco:CharacterString>Copyright Author(s) 2013. This work is distributed under the Creative Commons Attribution 3.0 License.</gco:CharacterString>
+                    </mco:useLimitation>
+                    <mco:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </mco:otherConstraints>
+                </mco:MD_LegalConstraints>
+            </mri:resourceConstraints>
+
+            <mri:defaultLocale>
+                <lan:PT_Locale>
+                    <lan:language>
+                        <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</lan:LanguageCode>
+                    </lan:language>
+                    <lan:characterEncoding gco:nilReason="unknown"/>
+                </lan:PT_Locale>
+            </mri:defaultLocale>
+        </mri:MD_DataIdentification>
+    </mdb:identificationInfo>
+
+</mdb:MD_Metadata>

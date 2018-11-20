@@ -1,0 +1,434 @@
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
+    <mdb:metadataIdentifier>
+        <mcc:MD_Identifier> 
+            <mcc:code>
+                <gco:CharacterString>edu.ucar.opensky::articles:21937</gco:CharacterString>
+            </mcc:code>
+        </mcc:MD_Identifier>
+    </mdb:metadataIdentifier>
+    <mdb:defaultLocale>
+        <lan:PT_Locale>
+            <lan:language>
+                <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+            </lan:language>
+            <lan:characterEncoding>
+                <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+            </lan:characterEncoding>
+        </lan:PT_Locale>
+    </mdb:defaultLocale>
+    <mdb:metadataScope>
+        <mdb:MD_MetadataScope>
+            <mdb:resourceScope>
+                <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
+            </mdb:resourceScope>
+        </mdb:MD_MetadataScope>
+    </mdb:metadataScope>
+    <mdb:contact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mdb:contact>
+    <mdb:dateInfo>
+        <cit:CI_Date>
+            <cit:date>
+                <gco:DateTime>2018-11-20T23:36:31.237328</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+            </cit:dateType>
+        </cit:CI_Date>
+    </mdb:dateInfo>
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title>
+                <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
+                    Extensions for Imagery and Gridded Data</gco:CharacterString>
+            </cit:title>
+            <cit:edition>
+                <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+            </cit:edition>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+    <mdb:identificationInfo>
+        <mri:MD_DataIdentification>
+            <mri:citation>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>Space&#8211;time variability in UTLS chemical distribution in the Asian summer monsoon viewed by limb and nadir satellite sensors</gco:CharacterString>
+                    </cit:title>
+                    <cit:date>
+                        <cit:CI_Date>
+                            <cit:date>
+                                <gco:DateTime>2018-08-29T00:00:00Z</gco:DateTime>
+                            </cit:date>
+                            <cit:dateType>
+                                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                            </cit:dateType>
+                        </cit:CI_Date>
+                    </cit:date>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d7154kwc</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>https://doi.org/10.5194/acp-18-12511-2018</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Luo, Jiali</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Pan, Laura L.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Honomichl, Shawn B.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Bergman, John W.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Randel, William J.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Francis, Gene</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Clerbaux, Cathy</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>George, Maya</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Liu, Xiong</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Tian, Wenshou</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Organisation>
+                <cit:name>
+                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Organisation>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d7154kwc</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>https://doi.org/10.5194/acp-18-12511-2018</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Full Text</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+                </cit:CI_Citation>
+            </mri:citation>
+            <mri:abstract>
+                <gco:CharacterString>The Asian summer monsoon (ASM) creates a hemispheric-scale signature in trace-gas distributions in the upper troposphere and lower stratosphere (UTLS). Data from satellite retrievals are the best source of information for characterizing these large-scale signatures. Measurements from the Microwave Limb Sounder (MLS), a limb-viewing satellite sensor, have been the most widely used retrieval products for these types of studies. This work explores the information for the ASM influence on UTLS chemical distribution from two nadir-viewing sensors, the Infrared Atmospheric Sounding Interferometer (IASI) and the Ozone Monitoring Instrument (OMI), together with the MLS. Day-to-day changes in carbon monoxide (CO) and ozone (O-3) tracer distributions in response to dynamical variability are examined to assess how well the data from different sensors provide useful information for studying the impact of sub-seasonal-scale dynamics on chemical fields. Our results, using June-August 2008 data, show that although the MLS provides relatively sparse horizontal sampling on daily timescales, interpolated daily CO distributions show a high degree of dynamical consistency with the synoptic-scale structure of and variability in the anticyclone. Our analysis also shows that the IASI CO retrieval has sufficient sensitivity to produce upper tropospheric (UT) CO with variabilities independent from the lower to middle tropospheric CO. The consistency of IASI CO field with the synoptic-scale anticyclone dynamical variability demonstrates that the IASI UT CO product is a physically meaningful dataset. Furthermore, IASI CO vertical cross sections combined with the daily maps provide the first observational evidence for a model analyses-based hypothesis on the preferred ASM vertical transport location and the subsequent horizontal redistribution via east-west eddy shedding. Similarly, the OMI O-3 profile product is shown to be capable of distinguishing the tropospheric-dominated air mass in the anticyclone from the stratospheric-dominated background on a daily timescale, providing consistent and complementary information to the MLS. These results not only highlight the complementary information between nadir and limb sensors but also demonstrate the value of "process-based" retrieval evaluation for characterizing satellite data information content.</gco:CharacterString>
+            </mri:abstract>
+            <mri:pointOfContact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mri:pointOfContact>
+            <mri:topicCategory>
+                <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+            </mri:topicCategory>
+
+            <mri:descriptiveKeywords>
+                <mri:MD_Keywords>
+                    <mri:keyword>
+                        <gco:CharacterString>Text</gco:CharacterString>
+                    </mri:keyword>
+                    <mri:type>
+                        <mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                    </mri:type>
+                    <mri:thesaurusName>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </cit:title>
+
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <!--<gco:Date>2016</gco:Date>-->
+                                        <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                        </cit:CI_Citation>
+                    </mri:thesaurusName>
+                </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
+
+            <mri:resourceConstraints>
+                <mco:MD_LegalConstraints>
+                    <mco:useLimitation>
+                        <gco:CharacterString>Copyright 2018 Author(s). This work is licensed under a Creative Commons Attribution 3.0  license.</gco:CharacterString>
+                    </mco:useLimitation>
+                    <mco:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </mco:otherConstraints>
+                </mco:MD_LegalConstraints>
+            </mri:resourceConstraints>
+
+            <mri:defaultLocale>
+                <lan:PT_Locale>
+                    <lan:language>
+                        <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</lan:LanguageCode>
+                    </lan:language>
+                    <lan:characterEncoding gco:nilReason="unknown"/>
+                </lan:PT_Locale>
+            </mri:defaultLocale>
+        </mri:MD_DataIdentification>
+    </mdb:identificationInfo>
+
+</mdb:MD_Metadata>

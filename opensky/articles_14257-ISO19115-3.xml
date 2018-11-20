@@ -1,0 +1,644 @@
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
+    <mdb:metadataIdentifier>
+        <mcc:MD_Identifier> 
+            <mcc:code>
+                <gco:CharacterString>edu.ucar.opensky::articles:14257</gco:CharacterString>
+            </mcc:code>
+        </mcc:MD_Identifier>
+    </mdb:metadataIdentifier>
+    <mdb:defaultLocale>
+        <lan:PT_Locale>
+            <lan:language>
+                <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+            </lan:language>
+            <lan:characterEncoding>
+                <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+            </lan:characterEncoding>
+        </lan:PT_Locale>
+    </mdb:defaultLocale>
+    <mdb:metadataScope>
+        <mdb:MD_MetadataScope>
+            <mdb:resourceScope>
+                <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
+            </mdb:resourceScope>
+        </mdb:MD_MetadataScope>
+    </mdb:metadataScope>
+    <mdb:contact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mdb:contact>
+    <mdb:dateInfo>
+        <cit:CI_Date>
+            <cit:date>
+                <gco:DateTime>2018-11-20T23:32:45.092403</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+            </cit:dateType>
+        </cit:CI_Date>
+    </mdb:dateInfo>
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title>
+                <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
+                    Extensions for Imagery and Gridded Data</gco:CharacterString>
+            </cit:title>
+            <cit:edition>
+                <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+            </cit:edition>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+    <mdb:identificationInfo>
+        <mri:MD_DataIdentification>
+            <mri:citation>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>Solar filament impact on 21 January 2005: Geospace consequences</gco:CharacterString>
+                    </cit:title>
+                    <cit:date>
+                        <cit:CI_Date>
+                            <cit:date>
+                                <gco:DateTime>2014-07-01T00:00:00Z</gco:DateTime>
+                            </cit:date>
+                            <cit:dateType>
+                                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                            </cit:dateType>
+                        </cit:CI_Date>
+                    </cit:date>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d7x34zd1</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>https://doi.org/10.1002/2013JA019748</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Kozyra, J.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Liemohn, M.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Cattell, C.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>De Zeeuw, D.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Escoubet, C.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Evans, D.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Fang, X.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Fok, M.-C.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Frey, H.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Gonzalez, W.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Hairston, M.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Heelis, R.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Lu, Gang</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Manchester, W.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Mende, S.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Paxton, L.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Rastaetter, L.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Ridley, A.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Sandanger, M.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Soraas, F.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Sotirelis, T.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Thomsen, M.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Tsurutani, B.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Verkhoglyadova, O.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Organisation>
+                <cit:name>
+                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Organisation>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d7x34zd1</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>https://doi.org/10.1002/2013JA019748</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Full Text</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+                </cit:CI_Citation>
+            </mri:citation>
+            <mri:abstract>
+                <gco:CharacterString>On 21 January 2005, a moderate magnetic storm produced a number of anomalous features, some seen more typically during superstorms. The aim of this study is to establish the differences in the space environment from what we expect (and normally observe) for a storm of this intensity, which make it behave in some ways like a superstorm. The storm was driven by one of the fastest interplanetary coronal mass ejections in solar cycle 23, containing a piece of the dense erupting solar filament material. The momentum of the massive solar filament caused it to push its way through the flux rope as the interplanetary coronal mass ejection decelerated moving toward 1&#8201;AU creating the appearance of an eroded flux rope (see companion paper by Manchester et al. (2014)) and, in this case, limiting the intensity of the resulting geomagnetic storm. On impact, the solar filament further disrupted the partial ring current shielding in existence at the time, creating a brief superfountain in the equatorial ionosphere&#8212;an unusual occurrence for a moderate storm. Within 1 h after impact, a cold dense plasma sheet (CDPS) formed out of the filament material. As the interplanetary magnetic field (IMF) rotated from obliquely to more purely northward, the magnetotail transformed from an open to a closed configuration and the CDPS evolved from warmer to cooler temperatures. Plasma sheet densities reached tens per cubic centimeter along the flanks-high enough to inflate the magnetotail in the simulation under northward IMF conditions despite the cool temperatures. Observational evidence for this stretching was provided by a corresponding expansion and intensification of both the auroral oval and ring current precipitation zones linked to magnetotail stretching by field line curvature scattering. Strong Joule heating in the cusps, a by-product of the CDPS formation process, contributed to an equatorward neutral wind surge that reached low latitudes within 1&#8211;2 h and intensified the equatorial ionization anomaly. Understanding the geospace consequences of extremes in density and pressure is important because some of the largest and most damaging space weather events ever observed contained similar intervals of dense solar material.</gco:CharacterString>
+            </mri:abstract>
+            <mri:pointOfContact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mri:pointOfContact>
+            <mri:topicCategory>
+                <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+            </mri:topicCategory>
+
+            <mri:descriptiveKeywords>
+                <mri:MD_Keywords>
+                    <mri:keyword>
+                        <gco:CharacterString>Text</gco:CharacterString>
+                    </mri:keyword>
+                    <mri:type>
+                        <mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                    </mri:type>
+                    <mri:thesaurusName>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </cit:title>
+
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <!--<gco:Date>2016</gco:Date>-->
+                                        <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                        </cit:CI_Citation>
+                    </mri:thesaurusName>
+                </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
+
+            <mri:resourceConstraints>
+                <mco:MD_LegalConstraints>
+                    <mco:useLimitation>
+                        <gco:CharacterString>Copyright 2014 American Geophysical Union.</gco:CharacterString>
+                    </mco:useLimitation>
+                    <mco:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </mco:otherConstraints>
+                </mco:MD_LegalConstraints>
+            </mri:resourceConstraints>
+
+            <mri:defaultLocale>
+                <lan:PT_Locale>
+                    <lan:language>
+                        <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</lan:LanguageCode>
+                    </lan:language>
+                    <lan:characterEncoding gco:nilReason="unknown"/>
+                </lan:PT_Locale>
+            </mri:defaultLocale>
+        </mri:MD_DataIdentification>
+    </mdb:identificationInfo>
+
+</mdb:MD_Metadata>
