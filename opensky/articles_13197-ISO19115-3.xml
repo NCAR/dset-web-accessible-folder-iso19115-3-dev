@@ -1,6 +1,19 @@
-<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0"
+    xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0"
+    xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0"
+    xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0"
+    xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0"
+    xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0"
+    xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0"
+    xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0"
+    xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
     <mdb:metadataIdentifier>
-        <mcc:MD_Identifier> 
+        <mcc:MD_Identifier>
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:13197</gco:CharacterString>
             </mcc:code>
@@ -23,63 +36,65 @@
             </mdb:resourceScope>
         </mdb:MD_MetadataScope>
     </mdb:metadataScope>
-    <mdb:contact><cit:CI_Responsibility>
-    <cit:role>
-        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+    <mdb:contact>
+        <cit:CI_Responsibility>
+            <cit:role>
+                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
         </cit:CI_RoleCode>
-    </cit:role>
-    <cit:party>
-        <cit:CI_Organisation>
-            <cit:name>
-                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
-            </cit:name>
-            <cit:contactInfo>
-                <cit:CI_Contact>
-                    <cit:address>
-                        <cit:CI_Address>
-                            <cit:deliveryPoint>
-                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
-                            </cit:deliveryPoint>
-                            <cit:city>
-                                <gco:CharacterString>Boulder</gco:CharacterString>
-                            </cit:city>
-                            <cit:administrativeArea>
-                                <gco:CharacterString>CO</gco:CharacterString>
-                            </cit:administrativeArea>
-                            <cit:postalCode>
-                                <gco:CharacterString>80307-3000</gco:CharacterString>
-                            </cit:postalCode>
-                            <cit:electronicMailAddress>
-                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
-                            </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                    </cit:address>
-                    <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                            <cit:linkage>
-                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
-                            </cit:linkage>
-                            <cit:name>
-                                <gco:CharacterString>homepage</gco:CharacterString>
-                            </cit:name>
-                        </cit:CI_OnlineResource>
-                    </cit:onlineResource>
-                </cit:CI_Contact>
-            </cit:contactInfo>
-            <cit:individual>
-                <cit:CI_Individual>
-                    <cit:positionName>
-                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
-                    </cit:positionName>
-                </cit:CI_Individual>
-            </cit:individual>
-        </cit:CI_Organisation>
-    </cit:party>
-</cit:CI_Responsibility></mdb:contact>
+            </cit:role>
+            <cit:party>
+                <cit:CI_Organisation>
+                    <cit:name>
+                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                    </cit:name>
+                    <cit:contactInfo>
+                        <cit:CI_Contact>
+                            <cit:address>
+                                <cit:CI_Address>
+                                    <cit:deliveryPoint>
+                                        <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                                    </cit:deliveryPoint>
+                                    <cit:city>
+                                        <gco:CharacterString>Boulder</gco:CharacterString>
+                                    </cit:city>
+                                    <cit:administrativeArea>
+                                        <gco:CharacterString>CO</gco:CharacterString>
+                                    </cit:administrativeArea>
+                                    <cit:postalCode>
+                                        <gco:CharacterString>80307-3000</gco:CharacterString>
+                                    </cit:postalCode>
+                                    <cit:electronicMailAddress>
+                                        <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                                    </cit:electronicMailAddress>
+                                </cit:CI_Address>
+                            </cit:address>
+                            <cit:onlineResource>
+                                <cit:CI_OnlineResource>
+                                    <cit:linkage>
+                                        <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                                    </cit:linkage>
+                                    <cit:name>
+                                        <gco:CharacterString>homepage</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_OnlineResource>
+                            </cit:onlineResource>
+                        </cit:CI_Contact>
+                    </cit:contactInfo>
+                    <cit:individual>
+                        <cit:CI_Individual>
+                            <cit:positionName>
+                                <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                            </cit:positionName>
+                        </cit:CI_Individual>
+                    </cit:individual>
+                </cit:CI_Organisation>
+            </cit:party>
+        </cit:CI_Responsibility>
+    </mdb:contact>
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2020-02-06T23:38:16.974398</gco:DateTime>
+                <gco:DateTime>2020-02-07T23:38:16.974398</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -145,7 +160,7 @@
                             </cit:party>
                         </cit:CI_Responsibility>
                     </cit:citedResponsibleParty>
-                    
+
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -160,7 +175,7 @@
                             </cit:party>
                         </cit:CI_Responsibility>
                     </cit:citedResponsibleParty>
-                    
+
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -175,7 +190,7 @@
                             </cit:party>
                         </cit:CI_Responsibility>
                     </cit:citedResponsibleParty>
-                    
+
                     <cit:citedResponsibleParty>
                         <cit:CI_Responsibility>
                             <cit:role>
@@ -190,21 +205,22 @@
                             </cit:party>
                         </cit:CI_Responsibility>
                     </cit:citedResponsibleParty>
-                    
+
                     <cit:citedResponsibleParty>
-    <cit:CI_Responsibility>
-        <cit:role>
-            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
-        </cit:role>
-        <cit:party>
-            <cit:CI_Organisation>
-                <cit:name>
-                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
-                </cit:name>
-            </cit:CI_Organisation>
-        </cit:party>
-    </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:onlineResource>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Organisation>
+                                    <cit:name>
+                                        <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Organisation>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    <cit:onlineResource>
                         <cit:CI_OnlineResource>
                             <cit:linkage>
                                 <gco:CharacterString>http://n2t.net/ark:/85065/d7k35vk9</gco:CharacterString>
@@ -232,59 +248,61 @@
             <mri:abstract>
                 <gco:CharacterString>This article does not have an abstract or article summary. This article does not have an abstract or article summary. This article does not have an abstract or article summary. </gco:CharacterString>
             </mri:abstract>
-            <mri:pointOfContact><cit:CI_Responsibility>
-    <cit:role>
-        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+            <mri:pointOfContact>
+                <cit:CI_Responsibility>
+                    <cit:role>
+                        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
         </cit:CI_RoleCode>
-    </cit:role>
-    <cit:party>
-        <cit:CI_Organisation>
-            <cit:name>
-                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
-            </cit:name>
-            <cit:contactInfo>
-                <cit:CI_Contact>
-                    <cit:address>
-                        <cit:CI_Address>
-                            <cit:deliveryPoint>
-                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
-                            </cit:deliveryPoint>
-                            <cit:city>
-                                <gco:CharacterString>Boulder</gco:CharacterString>
-                            </cit:city>
-                            <cit:administrativeArea>
-                                <gco:CharacterString>CO</gco:CharacterString>
-                            </cit:administrativeArea>
-                            <cit:postalCode>
-                                <gco:CharacterString>80307-3000</gco:CharacterString>
-                            </cit:postalCode>
-                            <cit:electronicMailAddress>
-                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
-                            </cit:electronicMailAddress>
-                        </cit:CI_Address>
-                    </cit:address>
-                    <cit:onlineResource>
-                        <cit:CI_OnlineResource>
-                            <cit:linkage>
-                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
-                            </cit:linkage>
+                    </cit:role>
+                    <cit:party>
+                        <cit:CI_Organisation>
                             <cit:name>
-                                <gco:CharacterString>homepage</gco:CharacterString>
+                                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
                             </cit:name>
-                        </cit:CI_OnlineResource>
-                    </cit:onlineResource>
-                </cit:CI_Contact>
-            </cit:contactInfo>
-            <cit:individual>
-                <cit:CI_Individual>
-                    <cit:positionName>
-                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
-                    </cit:positionName>
-                </cit:CI_Individual>
-            </cit:individual>
-        </cit:CI_Organisation>
-    </cit:party>
-</cit:CI_Responsibility></mri:pointOfContact>
+                            <cit:contactInfo>
+                                <cit:CI_Contact>
+                                    <cit:address>
+                                        <cit:CI_Address>
+                                            <cit:deliveryPoint>
+                                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                                            </cit:deliveryPoint>
+                                            <cit:city>
+                                                <gco:CharacterString>Boulder</gco:CharacterString>
+                                            </cit:city>
+                                            <cit:administrativeArea>
+                                                <gco:CharacterString>CO</gco:CharacterString>
+                                            </cit:administrativeArea>
+                                            <cit:postalCode>
+                                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                                            </cit:postalCode>
+                                            <cit:electronicMailAddress>
+                                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                                            </cit:electronicMailAddress>
+                                        </cit:CI_Address>
+                                    </cit:address>
+                                    <cit:onlineResource>
+                                        <cit:CI_OnlineResource>
+                                            <cit:linkage>
+                                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                                            </cit:linkage>
+                                            <cit:name>
+                                                <gco:CharacterString>homepage</gco:CharacterString>
+                                            </cit:name>
+                                        </cit:CI_OnlineResource>
+                                    </cit:onlineResource>
+                                </cit:CI_Contact>
+                            </cit:contactInfo>
+                            <cit:individual>
+                                <cit:CI_Individual>
+                                    <cit:positionName>
+                                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                                    </cit:positionName>
+                                </cit:CI_Individual>
+                            </cit:individual>
+                        </cit:CI_Organisation>
+                    </cit:party>
+                </cit:CI_Responsibility>
+            </mri:pointOfContact>
             <mri:topicCategory>
                 <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
             </mri:topicCategory>
