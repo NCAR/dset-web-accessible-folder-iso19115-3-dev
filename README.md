@@ -15,7 +15,7 @@ A newly created record will be translated successfully if the following conditio
 * The identifier used in `<mdb:metadataIdentifier>` is unique, that is, not already present in a different record harvested by CKAN.
 * The file contents meet the requirements of the ISO 19115-3 schema.
 
-It also helps if the first 50 characters in the record's `<CI_Citation>` title are unique among the records in this WAF, as a unique Landing Page URL will be created for this record in CKAN.
+It also helps if the first 50 characters in the record's `<CI_Citation>` title are unique among the records in this WAF, as a unique Landing Page URL will be created for this record in CKAN based on the Citation Title.
 
 ### Update
 
