@@ -34,3 +34,8 @@ The last two conditions will be tested by the CKAN harvester, rather than by the
 One way of deleting a record from CKAN is to rename the file so that it no longer ends in `.xml`.   For example, the file `record.xml` could be renamed to `record.xml.IGNORE`.   In this case, the translation service will still translate the record, but the translated record's filename change will cause CKAN to delete the file and not harvest it until the file name is changed again.
 
 Another way to delete the record from CKAN is, of course, to simply delete the file from this WAF. 
+
+
+## Special Cases
+
+The translator service will currently attempt to translate every file in the WAF, including this README.md file.   Translating a non-XML file results in a translation error.   In this case, for this or any file with a translation error of any kind, no resulting file is pushed to the target "old ISO" WAF.
