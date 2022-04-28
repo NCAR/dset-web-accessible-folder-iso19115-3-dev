@@ -1,7 +1,7 @@
 # dset-web-accessible-folder-iso19115-3
 Repository for "new ISO" records
 
-Using an NCAR-based automated service, newly created and updated records are automatically converted to "old ISO" and pushed to a sibling WAF for harvesting by CKAN.
+Using an NCAR-based automated service, newly created and updated ISO XML records in this GitHub repository are automatically converted to "old ISO" and pushed to a sibling WAF for harvesting by CKAN.
 
 ## Performing Create, Update, Delete Operations for Records
 
