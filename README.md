@@ -15,7 +15,7 @@ A newly created record will be translated successfully if the following conditio
 * The identifier used in `<mdb:metadataIdentifier>` is unique, that is, not already present in a different record harvested by CKAN.
 * The file contents meet the requirements of the ISO 19115-3 schema.
 
-It also helps if the first 50 characters in the record's `<CI_Citation>` title are unique, as a unique URL will be created for this record in CKAN.
+It also helps if the first 50 characters in the record's `<CI_Citation>` title are unique, as a unique Landing Page URL will be created for this record in CKAN.
 
 ### Update
 
@@ -25,7 +25,9 @@ A newly updated record will be translated and updated in CKAN successfully if th
 * The Date/time in `<mdb:dateInfo>` is set to a value further ahead in time than its previous value.
 * The Date/time in `<mdb:dateInfo>` is set to a value that is not more than 24 hours ahead of today's date.
 
-The last two conditions will be tested by the CKAN harvester, rather than by the translation service.
+The last two conditions will be tested by the CKAN harvester, rather than by the translation service.   In other words, the translation will still occur and the translated record will be pushed to CKAN, but the harvester will either:
+* not harvest the record if the `<mdb:dateInfo>` is unchanged or set to a value further in the past than its previous value.
+* raise a validation error if the new date is more than 24 hours ahead of today's date.
 
 ### Delete
 
