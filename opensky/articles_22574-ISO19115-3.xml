@@ -1,0 +1,2387 @@
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
+    <mdb:metadataIdentifier>
+        <mcc:MD_Identifier> 
+            <mcc:code>
+                <gco:CharacterString>edu.ucar.opensky::articles:22574</gco:CharacterString>
+            </mcc:code>
+        </mcc:MD_Identifier>
+    </mdb:metadataIdentifier>
+    <mdb:defaultLocale>
+        <lan:PT_Locale>
+            <lan:language>
+                <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+            </lan:language>
+            <lan:characterEncoding>
+                <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+            </lan:characterEncoding>
+        </lan:PT_Locale>
+    </mdb:defaultLocale>
+    <mdb:metadataScope>
+        <mdb:MD_MetadataScope>
+            <mdb:resourceScope>
+                <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
+            </mdb:resourceScope>
+        </mdb:MD_MetadataScope>
+    </mdb:metadataScope>
+    <mdb:contact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mdb:contact>
+    <mdb:dateInfo>
+        <cit:CI_Date>
+            <cit:date>
+                <gco:DateTime>2023-04-05T01:23:30.315005</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+            </cit:dateType>
+        </cit:CI_Date>
+    </mdb:dateInfo>
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title>
+                <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
+                    Extensions for Imagery and Gridded Data</gco:CharacterString>
+            </cit:title>
+            <cit:edition>
+                <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+            </cit:edition>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+    <mdb:identificationInfo>
+        <mri:MD_DataIdentification>
+            <mri:citation>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>The Global Gridded Crop Model Intercomparison phase 1 simulation dataset</gco:CharacterString>
+                    </cit:title>
+                    <cit:date>
+                        <cit:CI_Date>
+                            <cit:date>
+                                <gco:DateTime>2019-05-08T00:00:00Z</gco:DateTime>
+                            </cit:date>
+                            <cit:dateType>
+                                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                            </cit:dateType>
+                        </cit:CI_Date>
+                    </cit:date>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d75t3pjj</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>https://doi.org/10.1038/s41597-019-0023-8</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>M&#252;ller, Christoph</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Elliott, Joshua</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Kelly, David</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Arneth, Almut</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Balkovic, Juraj</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Ciais, Philippe</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Deryng, Delphine</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Folberth, Christian</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Hoek, Steven</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Izaurralde, Roberto C.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Jones, Curtis D.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Khabarov, Nikolay</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Lawrence, Peter</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Liu, Wenfeng</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Olin, Stefan</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Pugh, Thomas A. M.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Reddy, Ashwan</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Rosenzweig, Cynthia</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Ruane, Alex C.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Sakurai, Gen</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Schmid, Erwin</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Skalsky, Rastislav</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Wang, Xuhui</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>de Wit, Allard</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Yang, Hong</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Organisation>
+                <cit:name>
+                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Organisation>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d75t3pjj</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>https://doi.org/10.1038/s41597-019-0023-8</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Full Text</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+                </cit:CI_Citation>
+            </mri:citation>
+            <mri:abstract>
+                <gco:CharacterString>The Global Gridded Crop Model Intercomparison (GGCMI) phase 1 dataset of the Agricultural Model Intercomparison and Improvement Project (AgMIP) provides an unprecedentedly large dataset of crop model simulations covering the global ice-free land surface. The dataset consists of annual data fields at a spatial resolution of 0.5 arc-degree longitude and latitude. Fourteen crop modeling groups provided output for up to 11 historical input datasets spanning 1901 to 2012, and for up to three different management harmonization levels. Each group submitted data for up to 15 different crops and for up to 14 output variables. All simulations were conducted for purely rainfed and near-perfectly irrigated conditions on all land areas irrespective of whether the crop or irrigation system is currently used there. With the publication of the GGCMI phase 1 dataset we aim to promote further analyses and understanding of crop model performance, potential relationships between productivity and environmental impacts, and insights on how to further improve global gridded crop model frameworks. We describe dataset characteristics and individual model setup narratives.</gco:CharacterString>
+            </mri:abstract>
+            <mri:pointOfContact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mri:pointOfContact>
+            <mri:topicCategory>
+                <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+            </mri:topicCategory>
+            <mri:resourceFormat>
+                <mrd:MD_Format>
+                    <mrd:formatSpecificationCitation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>PDF</gco:CharacterString>
+                            </cit:title>
+                        </cit:CI_Citation>
+                    </mrd:formatSpecificationCitation>
+                </mrd:MD_Format>
+            </mri:resourceFormat>
+            <mri:descriptiveKeywords>
+                <mri:MD_Keywords>
+                    <mri:keyword>
+                        <gco:CharacterString>Text</gco:CharacterString>
+                    </mri:keyword>
+                    <mri:type>
+                        <mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                    </mri:type>
+                    <mri:thesaurusName>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </cit:title>
+
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <!--<gco:Date>2016</gco:Date>-->
+                                        <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                        </cit:CI_Citation>
+                    </mri:thesaurusName>
+                </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
+            <mri:resourceConstraints>
+                <mco:MD_LegalConstraints>
+                    <mco:useLimitation>
+                        <gco:CharacterString>Copyright 2019 Author(s). This work is licensed under a Creative Commons Attribution 4.0 International license.</gco:CharacterString>
+                    </mco:useLimitation>
+                    <mco:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </mco:otherConstraints>
+                </mco:MD_LegalConstraints>
+            </mri:resourceConstraints>
+            <mri:defaultLocale>
+                <lan:PT_Locale>
+                    <lan:language>
+                        <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</lan:LanguageCode>
+                    </lan:language>
+                    <lan:characterEncoding gco:nilReason="unknown"/>
+                </lan:PT_Locale>
+            </mri:defaultLocale>
+        </mri:MD_DataIdentification>
+    </mdb:identificationInfo>
+
+<mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408575</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: GEPIC rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408519</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST sunflower</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408525</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #3</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST rye</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404828</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #4</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PRYSBI2 wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409960</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #5</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CLM-Crop wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408633</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #6</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS sugar beet</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408193</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #7</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: ORCHIDEE-crop soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409966</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #8</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CLM-Crop soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409974</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #9</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CLM-Crop cotton</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408537</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #10</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408571</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #11</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: GEPIC wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408577</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #12</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: GEPIC maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403181</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #13</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pDSSAT maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409548</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #14</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PEGASUS soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408543</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #15</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST barley</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408651</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #16</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS drybean</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404838</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #17</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PRYSBI2 rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408573</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #18</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: GEPIC soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403195</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #19</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-IIASA wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409550</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #20</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PEGASUS maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408535</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #21</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST millet</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408533</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #22</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST potato</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403064</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #23</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL rapeseed</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408529</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #24</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403203</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #25</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-IIASA maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409546</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #26</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PEGASUS wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409013</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #27</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-TAMU maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408643</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #28</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS potato</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408531</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #29</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST rapeseed</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404765</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #30</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-Boku rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408625</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #31</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS sunflower</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404761</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #32</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-Boku wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409009</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #33</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-TAMU wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403189</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #34</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pAPSIM maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408191</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #35</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: ORCHIDEE-crop wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403197</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #36</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-IIASA soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404832</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #37</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PRYSBI2 soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403050</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #38</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL sugar cane</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409970</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #39</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CLM-Crop maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403175</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #40</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pDSSAT sorghum</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403207</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #41</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PEPIC soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408655</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #42</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS barley</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409964</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #43</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CLM-Crop sugar cane</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1409968</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #44</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CLM-Crop rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403211</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #45</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PEPIC maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404763</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #46</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-Boku soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408639</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #47</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408195</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #48</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: ORCHIDEE-crop rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408645</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #49</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS millet</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403209</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #50</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PEPIC rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403068</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #51</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL managed grass</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408623</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #52</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404767</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #53</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-Boku maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408653</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #54</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS cassava</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408629</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #55</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403173</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #56</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pDSSAT soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403054</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #57</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403171</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #58</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pDSSAT wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408539</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #59</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST groundnut</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403187</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #60</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pAPSIM sorghum</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408517</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #61</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408541</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #62</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST drybean</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403013</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #63</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403060</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #64</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408199</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #65</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: ORCHIDEE-crop maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403199</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #66</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: EPIC-IIASA rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408647</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #67</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403048</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #68</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL sunflower</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403052</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #69</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL sugar beet</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408637</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #70</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS rye</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408635</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #71</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS sorghum</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408649</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #72</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS groundnut</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403085</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #73</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL cassava</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403183</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #74</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pAPSIM wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408523</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #75</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST sorghum</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403177</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #76</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pDSSAT rice</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403083</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #77</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL field pea</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1404836</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #78</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PRYSBI2 maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408521</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #79</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: CGMS-WOFOST soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403179</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #80</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pDSSAT millet</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1408641</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #81</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJ-GUESS rapeseed</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403066</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #82</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL millet</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403185</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #83</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: pAPSIM soy</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403078</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #84</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL groundnut</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403073</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #85</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: LPJmL maize</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.1403205</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #86</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AgMIP's Global Gridded Crop Model Intercomparison (GGCMI) phase 1 output data set: PEPIC wheat</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo></mdb:MD_Metadata>

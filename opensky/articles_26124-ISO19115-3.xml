@@ -1,0 +1,862 @@
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
+    <mdb:metadataIdentifier>
+        <mcc:MD_Identifier> 
+            <mcc:code>
+                <gco:CharacterString>edu.ucar.opensky::articles:26124</gco:CharacterString>
+            </mcc:code>
+        </mcc:MD_Identifier>
+    </mdb:metadataIdentifier>
+    <mdb:defaultLocale>
+        <lan:PT_Locale>
+            <lan:language>
+                <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+            </lan:language>
+            <lan:characterEncoding>
+                <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+            </lan:characterEncoding>
+        </lan:PT_Locale>
+    </mdb:defaultLocale>
+    <mdb:metadataScope>
+        <mdb:MD_MetadataScope>
+            <mdb:resourceScope>
+                <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
+            </mdb:resourceScope>
+        </mdb:MD_MetadataScope>
+    </mdb:metadataScope>
+    <mdb:contact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mdb:contact>
+    <mdb:dateInfo>
+        <cit:CI_Date>
+            <cit:date>
+                <gco:DateTime>2023-04-04T02:39:24.951001</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+            </cit:dateType>
+        </cit:CI_Date>
+    </mdb:dateInfo>
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title>
+                <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
+                    Extensions for Imagery and Gridded Data</gco:CharacterString>
+            </cit:title>
+            <cit:edition>
+                <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+            </cit:edition>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+    <mdb:identificationInfo>
+        <mri:MD_DataIdentification>
+            <mri:citation>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>Biogeophysical effects of land-use and land-cover change not detectable in warmest month</gco:CharacterString>
+                    </cit:title>
+                    <cit:date>
+                        <cit:CI_Date>
+                            <cit:date>
+                                <gco:DateTime>2023-03-15T00:00:00Z</gco:DateTime>
+                            </cit:date>
+                            <cit:dateType>
+                                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                            </cit:dateType>
+                        </cit:CI_Date>
+                    </cit:date>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d7k93cgg</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>https://doi.org/10.1175/JCLI-D-22-0391.1</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Grant, Luke</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Gudmundsson, Lukas</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Davin, Edouard L.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Lawrence, David M.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Vuichard, Nicolas</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Robertson, Eddy</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>S&#233;f&#233;rian, Roland</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Ribes, Aur&#233;lien</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Hirsch, Annette L.</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+                        <cit:CI_Responsibility>
+                            <cit:role>
+                                <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+                            </cit:role>
+                            <cit:party>
+                                <cit:CI_Individual>
+                                    <cit:name>
+                                        <gco:CharacterString>Thiery, Wim</gco:CharacterString>
+                                    </cit:name>
+                                </cit:CI_Individual>
+                            </cit:party>
+                        </cit:CI_Responsibility>
+                    </cit:citedResponsibleParty>
+                    
+                    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Organisation>
+                <cit:name>
+                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Organisation>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://n2t.net/ark:/85065/d7k93cgg</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>https://doi.org/10.1175/JCLI-D-22-0391.1</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Full Text</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+                </cit:CI_Citation>
+            </mri:citation>
+            <mri:abstract>
+                <gco:CharacterString>Land-use and land-cover changes (hereafter simply "land use") alter climates biogeophysically by affecting surface fluxes of energy and water. Yet, near-surface temperature responses to land use across observational versus model -based studies and spatial-temporal scales can be inconsistent. Here we assess the prevalence of the historical land use signal of daily maximum temperatures averaged over the warmest month of the year (tLU) using regularized optimal fingerprint-ing for detection and attribution. We use observations from the Climatic Research Unit and Berkeley Earth alongside his-torical simulations with and without land use from phase 6 of the Coupled Model Intercomparison Project to reconstruct an experiment representing the effects of land use on climate. To assess the signal of land use at spatially resolved conti-nental and global scales, we aggregate all input data across reference regions and continents, respectively. At both scales, land use does not comprise a significantly detectable set of forcings for two of four Earth system models and their multimo-del mean. Furthermore, using a principal component analysis, we find that tLU is mostly composed of the nonlocal effects of land use rather than its local effects. These findings show that, at scales relevant for climate attribution, uncertainties in Earth system model representations of land use are too high relative to the effects of internal variability to confidently assess land use.</gco:CharacterString>
+            </mri:abstract>
+            <mri:pointOfContact><cit:CI_Responsibility>
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mri:pointOfContact>
+            <mri:topicCategory>
+                <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+            </mri:topicCategory>
+            <mri:resourceFormat>
+                <mrd:MD_Format>
+                    <mrd:formatSpecificationCitation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>PDF</gco:CharacterString>
+                            </cit:title>
+                        </cit:CI_Citation>
+                    </mrd:formatSpecificationCitation>
+                </mrd:MD_Format>
+            </mri:resourceFormat>
+            <mri:descriptiveKeywords>
+                <mri:MD_Keywords>
+                    <mri:keyword>
+                        <gco:CharacterString>Text</gco:CharacterString>
+                    </mri:keyword>
+                    <mri:type>
+                        <mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                    </mri:type>
+                    <mri:thesaurusName>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </cit:title>
+
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <!--<gco:Date>2016</gco:Date>-->
+                                        <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                        </cit:CI_Citation>
+                    </mri:thesaurusName>
+                </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
+            <mri:resourceConstraints>
+                <mco:MD_LegalConstraints>
+                    <mco:useLimitation>
+                        <gco:CharacterString>Copyright author(s). This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</gco:CharacterString>
+                    </mco:useLimitation>
+                    <mco:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </mco:otherConstraints>
+                </mco:MD_LegalConstraints>
+            </mri:resourceConstraints>
+            <mri:defaultLocale>
+                <lan:PT_Locale>
+                    <lan:language>
+                        <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</lan:LanguageCode>
+                    </lan:language>
+                    <lan:characterEncoding gco:nilReason="unknown"/>
+                </lan:PT_Locale>
+            </mri:defaultLocale>
+        </mri:MD_DataIdentification>
+    </mdb:identificationInfo>
+
+<mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.15138/yaf1-bk21</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #1</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NOAA Global Monitoring Laboratory Carbon Cycle and Greenhouse Gases Group Continuous Insitu Measurements of CO2 at Global Background Sites, 1973-Present</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.10071</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #2</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NCAR CESM2-WACCM model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.10894</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #3</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NCC NorCPM1 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.11297</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #4</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NCAR CESM2-FV2 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.11298</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #5</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NCAR CESM2-WACCM-FV2 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.13195</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #6</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>CMCC CMCC-ESM2 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.3610</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #7</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>CCCma CanESM5 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.3825</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #8</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>CMCC CMCC-CM2-SR5 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.4272</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #9</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>CSIRO ACCESS-ESM1.5 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.5016</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #10</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>HAMMOZ-Consortium MPI-ESM1.2-HAM model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.5195</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #11</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>IPSL IPSL-CM6A-LR model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.6595</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #12</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>MPI-M MPI-ESM1.2-LR model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.7127</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #13</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NASA-GISS GISS-E2.1G model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.7128</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #14</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NASA-GISS GISS-E2.1H model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.7627</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #15</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NCAR CESM2 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.8036</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #16</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NCC NorESM2-LM model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.8040</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #17</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>NCC NorESM2-MM model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.22033/ESGF/CMIP6.9755</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #18</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>AS-RCEC TaiESM1.0 model output prepared for CMIP6 CMIP historical</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.3334/ORNLDAAC/1925</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #19</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>ATom: Merged Atmospheric Chemistry, Trace Gases, and Aerosols, Version 2</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.5281/zenodo.5776197</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Dataset #20</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>MIROC4-ACTM CO2 Inversion flux (2001-2020; case s050_ux4_gc3t)</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo><mdb:metadataExtensionInfo>
+    <mex:MD_MetadataExtensionInformation>
+        <cit:extensionOnLineResource>
+            <cit:CI_OnlineResource>
+                <cit:linkage>
+                    <gco:CharacterString>https://dx.doi.org/10.25925/20201008</gco:CharacterString>
+                </cit:linkage>
+                <cit:protocol>
+                    <gco:CharacterString>https</gco:CharacterString>
+                </cit:protocol>
+                <cit:name>
+                    <gco:CharacterString>Related Software #1</gco:CharacterString>
+                </cit:name>
+                <cit:description>
+                    <gco:CharacterString>CarbonTracker CT2019B</gco:CharacterString>
+                </cit:description>
+
+            </cit:CI_OnlineResource>
+        </cit:extensionOnLineResource>
+    </mex:MD_MetadataExtensionInformation>
+</mdb:metadataExtensionInfo></mdb:MD_Metadata>
