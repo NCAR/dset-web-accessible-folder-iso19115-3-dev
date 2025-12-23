@@ -1,5 +1,19 @@
-<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/1.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/1.0 http://standards.iso.org/iso/19115/-3/mdb/1.0/mdb.xsd">
-    <mdb:metadataIdentifier>
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gmd="http://www.isotc211.org/2005/gmd"
+                 xmlns:srv="http://www.isotc211.org/2005/srv"
+                 xmlns:gmx="http://www.isotc211.org/2005/gmx"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:gmi="http://www.isotc211.org/2005/gmi"
+                 xmlns:gml="http://www.opengis.net/gml"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmx/gmx.xsd"/>
+=======
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/2.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/2.0 http://standards.iso.org/iso/19115/-3/mdt/2.0/mdt.xsd">
+<mdb:metadataIdentifier>
         <mcc:MD_Identifier> 
             <mcc:code>
                 <gco:CharacterString>edu.ucar.opensky::articles:43266</gco:CharacterString>
@@ -23,7 +37,7 @@
             </mdb:resourceScope>
         </mdb:MD_MetadataScope>
     </mdb:metadataScope>
-    <mdb:contact><cit:CI_Responsibility>
+    <mdb:contact><cit:CI_Responsibility xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0">
     <cit:role>
         <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
         </cit:CI_RoleCode>
@@ -79,7 +93,7 @@
     <mdb:dateInfo>
         <cit:CI_Date>
             <cit:date>
-                <gco:DateTime>2025-12-23T20:26:14.979132</gco:DateTime>
+                <gco:DateTime>2025-12-23T22:26:15.500914</gco:DateTime>
             </cit:date>
             <cit:dateType>
                 <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
@@ -248,7 +262,7 @@
             </cit:CI_Individual>
         </cit:party>
     </cit:CI_Responsibility>
-</cit:citedResponsibleParty><cit:citedResponsibleParty>
+</cit:citedResponsibleParty><cit:citedResponsibleParty xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0">
     <cit:CI_Responsibility>
         <cit:role>
             <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
@@ -289,7 +303,7 @@
             <mri:abstract>
                 <gco:CharacterString>Frozen cloud particles are an important component of the hydrological cycle and significantly influence the Earth's energy budget. Despite their important role, observational records constraining concentrations of atmospheric ice remain severely limited. Although combined radar and lidar estimates from the CloudSat and CALIPSO missions offer over a decade of high&amp;#8208;quality data on ice hydrometeor concentrations, these estimates remain sparse. In contrast, products derived from passive satellite sensors typically provide better spatiotemporal coverage but disagree with CloudSat&amp;#8208;based measurements. To address these limitations, we present a novel climate data record of total ice water path (TIWP), the Chalmers Cloud Ice Climatology (CCIC). It spans 40&amp;#160;years, from 1983 to the present, covering latitudes from  S to  N. CCIC offers TIWP estimates at three&amp;#8208;hourly resolution from 1983 and half&amp;#8208;hourly resolution from 2000 onwards. We demonstrate the long&amp;#8208;term stability of CCIC by directly comparing it with CloudSat/CALIPSO&amp;#8208;based estimates over the entire mission lifetime. Additionally, we assess CCIC against other long&amp;#8208;term TIWP records, revealing that CCIC yields the most accurate TIWP estimates compared to CloudSat/CALIPSO&amp;#8208;based reference estimates. Analysis of regional 40&amp;#160;year trends across four long&amp;#8208;term TIWP data sets indicates an increase of TIWP over the Southern Ocean and the east Bering Sea in two observational data sets and ERA5. The CCIC climate record closes the gap between existing long&amp;#8208;term TIWP records and CloudSat/CALIPSO&amp;#8208;based reference measurements. The estimates' continuous coverage and demonstrated accuracy make it a valuable resource for lifecycle studies of storms and the analysis of fine&amp;#8208;scale cloud features in a changing climate.</gco:CharacterString>
             </mri:abstract>
-            <mri:pointOfContact><cit:CI_Responsibility>
+            <mri:pointOfContact><cit:CI_Responsibility xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0">
     <cit:role>
         <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
         </cit:CI_RoleCode>
@@ -527,3 +541,4 @@
         </cit:extensionOnLineResource>
     </mex:MD_MetadataExtensionInformation>
 </mdb:metadataExtensionInfo></mdb:MD_Metadata>
+>>>>>>> 4215469a63 (updated test examples)
