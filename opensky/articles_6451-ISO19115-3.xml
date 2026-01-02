@@ -1,0 +1,670 @@
+<mdb:MD_Metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:cat="http://standards.iso.org/iso/19115/-3/cat/1.0" xmlns:gco="http://standards.iso.org/iso/19115/-3/gco/1.0" xmlns:gcx="http://standards.iso.org/iso/19115/-3/gcx/1.0" xmlns:gex="http://standards.iso.org/iso/19115/-3/gex/1.0" xmlns:lan="http://standards.iso.org/iso/19115/-3/lan/1.0" xmlns:mas="http://standards.iso.org/iso/19115/-3/mas/1.0" xmlns:mcc="http://standards.iso.org/iso/19115/-3/mcc/1.0" xmlns:mco="http://standards.iso.org/iso/19115/-3/mco/1.0" xmlns:mda="http://standards.iso.org/iso/19115/-3/mda/1.0" xmlns:mdq="http://standards.iso.org/iso/19157/-2/mdq/1.0" xmlns:mex="http://standards.iso.org/iso/19115/-3/mex/1.0" xmlns:mmi="http://standards.iso.org/iso/19115/-3/mmi/1.0" xmlns:mpc="http://standards.iso.org/iso/19115/-3/mpc/1.0" xmlns:mrd="http://standards.iso.org/iso/19115/-3/mrd/1.0" xmlns:mri="http://standards.iso.org/iso/19115/-3/mri/1.0" xmlns:mrs="http://standards.iso.org/iso/19115/-3/mrs/1.0" xmlns:cit="http://standards.iso.org/iso/19115/-3/cit/2.0" xmlns:mac="http://standards.iso.org/iso/19115/-3/mac/2.0" xmlns:mdb="http://standards.iso.org/iso/19115/-3/mdb/2.0" xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/2.0" xmlns:mdt="http://standards.iso.org/iso/19115/-3/mdt/2.0" xmlns:mrl="http://standards.iso.org/iso/19115/-3/mrl/2.0" xmlns:mrc="http://standards.iso.org/iso/19115/-3/mrc/2.0" xmlns:msr="http://standards.iso.org/iso/19115/-3/msr/2.0" xmlns:srv="http://standards.iso.org/iso/19115/-3/srv/2.0" xsi:schemaLocation="http://standards.iso.org/iso/19115/-3/mdb/2.0 http://standards.iso.org/iso/19115/-3/mdt/2.0/mdt.xsd">
+<mdb:metadataIdentifier>
+        <mcc:MD_Identifier> 
+            <mcc:code>
+                <gco:CharacterString>edu.ucar.opensky::articles:6451</gco:CharacterString>
+            </mcc:code>
+        </mcc:MD_Identifier>
+    </mdb:metadataIdentifier>
+    <mdb:defaultLocale>
+        <lan:PT_Locale>
+            <lan:language>
+                <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng; USA">eng; USA</lan:LanguageCode>
+            </lan:language>
+            <lan:characterEncoding>
+                <lan:MD_CharacterSetCode codeList="codeListLocation#MD_CharacterSetCode" codeListValue="utf8">utf8</lan:MD_CharacterSetCode>
+            </lan:characterEncoding>
+        </lan:PT_Locale>
+    </mdb:defaultLocale>
+    <mdb:metadataScope>
+        <mdb:MD_MetadataScope>
+            <mdb:resourceScope>
+                <mcc:MD_ScopeCode codeList="codeListLocation#MD_ScopeCode" codeListValue="document">document</mcc:MD_ScopeCode>
+            </mdb:resourceScope>
+        </mdb:MD_MetadataScope>
+    </mdb:metadataScope>
+    <mdb:contact><cit:CI_Responsibility xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0">
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mdb:contact>
+    <mdb:dateInfo>
+        <cit:CI_Date>
+            <cit:date>
+                <gco:DateTime>2025-12-26T15:21:40.419481</gco:DateTime>
+            </cit:date>
+            <cit:dateType>
+                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="creation">creation</cit:CI_DateTypeCode>
+            </cit:dateType>
+        </cit:CI_Date>
+    </mdb:dateInfo>
+    <mdb:metadataStandard>
+        <cit:CI_Citation>
+            <cit:title>
+                <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2:
+                    Extensions for Imagery and Gridded Data</gco:CharacterString>
+            </cit:title>
+            <cit:edition>
+                <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+            </cit:edition>
+        </cit:CI_Citation>
+    </mdb:metadataStandard>
+    <mdb:identificationInfo>
+        <mri:MD_DataIdentification>
+            <mri:citation>
+                <cit:CI_Citation>
+                    <cit:title>
+                        <gco:CharacterString>Comparison of Tropospheric Emission Spectrometer nadir water vapor retrievals with in situ measurements</gco:CharacterString>
+                    </cit:title>
+                    <cit:date>
+                        <cit:CI_Date>
+                            <cit:date>
+                                <gco:DateTime>2008-05-16T00:00:00Z</gco:DateTime>
+                            </cit:date>
+                            <cit:dateType>
+                                <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                            </cit:dateType>
+                        </cit:CI_Date>
+                    </cit:date>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>https://n2t.org/ark:/85065/d7vt1s93</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:identifier>
+                        <mcc:MD_Identifier>
+                            <mcc:code>
+                                <gco:CharacterString>https://doi.org/10.1029/2007JD008822</gco:CharacterString>
+                            </mcc:code>
+                        </mcc:MD_Identifier>
+                    </cit:identifier>
+
+                    <cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Shephard, M.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Herman, R.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Fisher, B.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Cady-Pereira, K.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Clough, S.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Payne, V.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Whiteman, D.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Comer, J.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>V&#246;emel, H.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Miloshevich, Larry M.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Forno, R.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Adam, M.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Osterman, G.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Eldering, A.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Worden, J.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Brown, L.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Worden, H.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Kulawik, S.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Rider, D.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Goldman, A.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Beer, R.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Bowman, Kenneth</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Rodgers, C.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Luo, M.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Rinsland, C.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Lampel, M.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty>
+    <cit:CI_Responsibility>
+
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="author">author</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Individual>
+                <cit:name>
+                    <gco:CharacterString>Gunson, M.</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Individual>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:citedResponsibleParty xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0">
+    <cit:CI_Responsibility>
+        <cit:role>
+            <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="publisher">publisher</cit:CI_RoleCode>
+        </cit:role>
+        <cit:party>
+            <cit:CI_Organisation>
+                <cit:name>
+                    <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+                </cit:name>
+            </cit:CI_Organisation>
+        </cit:party>
+    </cit:CI_Responsibility>
+</cit:citedResponsibleParty><cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>https://n2t.org/ark:/85065/d7vt1s93</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>https://doi.org/10.1029/2007JD008822</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>Resource Full Text</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+
+                </cit:CI_Citation>
+            </mri:citation>
+            <mri:abstract>
+                <gco:CharacterString>Comparisons of Tropospheric Emission Spectrometer (TES) water vapor retrievals with in situ measurements are presented. Global comparisons of TES water vapor retrievals with nighttime National Centers for Environmental Prediction RS90/RS92 radiosondes show a small (&lt;5%) moist bias in TES retrievals in the lower troposphere (standard deviation of &#8764;20%), increasing to a maximum of &#8764;15% bias (with standard deviation reaching &#8764;40%) in the upper troposphere. This moist bias with respect to the sonde bias increases to a maximum of &#8764;15% in the upper troposphere between &#8764;300-200 hPa. The standard deviation in this region reaches values of &#8764;40%. It is important to note that the TES reported water vapor comparison statistics are not weighted by the water vapor layer amounts. Global TES/radiosonde results are comparable with the Atmospheric Infrared Sounder reported unweighted mean of 25% and root-mean-square of &#8764;55%. While such global comparisons help to identify general issues, inherent sampling errors and radiosonde measurement accuracy can limit the degree to which the radiosonde profiles alone can be used to validate satellite retrievals. In order to characterize the agreement of TES with in situ measurements in detail, radiance closure studies were performed using data from the Water Vapor Validation Experiment - Satellites/Sondes campaign from July 2006. Results indicate that estimated systematic errors from the forward model, TES measurements, in situ observations, retrieved temperature profiles, and clouds are likely not large enough to account for radiance differences between TES observations and forward model calculations using in situ profiles as input. Therefore, accurate validation of TES water vapor retrievals requires further campaigns with a larger variety of water vapor measurements that better characterize the atmospheric state within the TES field of view.</gco:CharacterString>
+            </mri:abstract>
+            <mri:pointOfContact><cit:CI_Responsibility xmlns:mds="http://standards.iso.org/iso/19115/-3/mds/1.0">
+    <cit:role>
+        <cit:CI_RoleCode codeList="codeListLocation#CI_RoleCode" codeListValue="pointOfContact">pointOfContact
+        </cit:CI_RoleCode>
+    </cit:role>
+    <cit:party>
+        <cit:CI_Organisation>
+            <cit:name>
+                <gco:CharacterString>UCAR/NCAR - Library</gco:CharacterString>
+            </cit:name>
+            <cit:contactInfo>
+                <cit:CI_Contact>
+                    <cit:address>
+                        <cit:CI_Address>
+                            <cit:deliveryPoint>
+                                <gco:CharacterString>PO Box 3000</gco:CharacterString>
+                            </cit:deliveryPoint>
+                            <cit:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </cit:city>
+                            <cit:administrativeArea>
+                                <gco:CharacterString>CO</gco:CharacterString>
+                            </cit:administrativeArea>
+                            <cit:postalCode>
+                                <gco:CharacterString>80307-3000</gco:CharacterString>
+                            </cit:postalCode>
+                            <cit:electronicMailAddress>
+                                <gco:CharacterString>opensky@ucar.edu</gco:CharacterString>
+                            </cit:electronicMailAddress>
+                        </cit:CI_Address>
+                    </cit:address>
+                    <cit:onlineResource>
+                        <cit:CI_OnlineResource>
+                            <cit:linkage>
+                                <gco:CharacterString>http://opensky.ucar.edu/</gco:CharacterString>
+                            </cit:linkage>
+                            <cit:name>
+                                <gco:CharacterString>homepage</gco:CharacterString>
+                            </cit:name>
+                        </cit:CI_OnlineResource>
+                    </cit:onlineResource>
+                </cit:CI_Contact>
+            </cit:contactInfo>
+            <cit:individual>
+                <cit:CI_Individual>
+                    <cit:positionName>
+                        <gco:CharacterString>OpenSky Support</gco:CharacterString>
+                    </cit:positionName>
+                </cit:CI_Individual>
+            </cit:individual>
+        </cit:CI_Organisation>
+    </cit:party>
+</cit:CI_Responsibility></mri:pointOfContact>
+            <mri:topicCategory>
+                <mri:MD_TopicCategoryCode>geoscientificInformation</mri:MD_TopicCategoryCode>
+            </mri:topicCategory>
+            <mri:resourceFormat>
+                <mrd:MD_Format>
+                    <mrd:formatSpecificationCitation>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>PDF</gco:CharacterString>
+                            </cit:title>
+                        </cit:CI_Citation>
+                    </mrd:formatSpecificationCitation>
+                </mrd:MD_Format>
+            </mri:resourceFormat>
+            <mri:descriptiveKeywords>
+                <mri:MD_Keywords>
+                    <mri:keyword>
+                        <gco:CharacterString>Text</gco:CharacterString>
+                    </mri:keyword>
+                    <mri:type>
+                        <mri:MD_KeywordTypeCode codeList="codeListLocation#MD_KeywordTypeCode" codeListValue="theme">theme</mri:MD_KeywordTypeCode>
+                    </mri:type>
+                    <mri:thesaurusName>
+                        <cit:CI_Citation>
+                            <cit:title>
+                                <gco:CharacterString>Resource Type</gco:CharacterString>
+                            </cit:title>
+
+                            <cit:date>
+                                <cit:CI_Date>
+                                    <cit:date>
+                                        <!--<gco:Date>2016</gco:Date>-->
+                                        <gco:DateTime>2016-01-01T00:00:00Z</gco:DateTime>
+                                    </cit:date>
+                                    <cit:dateType>
+                                        <cit:CI_DateTypeCode codeList="codeListLocation#CI_DateTypeCode" codeListValue="publication">publication</cit:CI_DateTypeCode>
+                                    </cit:dateType>
+                                </cit:CI_Date>
+                            </cit:date>
+                        </cit:CI_Citation>
+                    </mri:thesaurusName>
+                </mri:MD_Keywords>
+            </mri:descriptiveKeywords>
+            <mri:resourceConstraints>
+                <mco:MD_LegalConstraints>
+                    <mco:useLimitation>
+                        <gco:CharacterString>An edited version of this paper was published by AGU. Copyright 2008 American Geophysical Union.</gco:CharacterString>
+                    </mco:useLimitation>
+                    <mco:otherConstraints>
+                        <gco:CharacterString>None</gco:CharacterString>
+                    </mco:otherConstraints>
+                </mco:MD_LegalConstraints>
+            </mri:resourceConstraints>
+            <mri:defaultLocale>
+                <lan:PT_Locale>
+                    <lan:language>
+                        <lan:LanguageCode codeList="codeListLocation#LanguageCode" codeListValue="eng">eng</lan:LanguageCode>
+                    </lan:language>
+                    <lan:characterEncoding gco:nilReason="unknown"/>
+                </lan:PT_Locale>
+            </mri:defaultLocale>
+        </mri:MD_DataIdentification>
+    </mdb:identificationInfo>
+
+</mdb:MD_Metadata>
